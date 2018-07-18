@@ -4,6 +4,46 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.2_2_10096:10098" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Charter</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180718T083427Z" creationid="hfukuchi" creationdate="20180718T083252Z">
+        <seg>趣意書</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Definition</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180718T084640Z" creationid="hfukuchi" creationdate="20180718T084640Z">
+        <seg>定義</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rationale</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180718T083045Z" creationid="hfukuchi" creationdate="20180718T082603Z">
+        <seg>論理的根拠</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Software Package Data Exchange (SPDX&lt;t0/&gt;®&lt;t1/&gt;)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180718T082217Z" creationid="hfukuchi" creationdate="20180718T082217Z">
+        <seg>ソフトウェア パッケージ データ交換（SPDX&lt;t0/&gt;®&lt;t1/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To&lt;t0/&gt; &lt;t1/&gt;create&lt;t2/&gt; &lt;t3/&gt;a&lt;t4/&gt; &lt;t5/&gt;set&lt;t6/&gt; &lt;t7/&gt;of&lt;t8/&gt; &lt;t9/&gt;data&lt;t10/&gt; &lt;t11/&gt;exchange&lt;t12/&gt; &lt;t13/&gt;standards&lt;t14/&gt; &lt;t15/&gt;that&lt;t16/&gt; &lt;t17/&gt;enable&lt;t18/&gt; &lt;t19/&gt;companies&lt;t20/&gt; &lt;t21/&gt;and&lt;t22/&gt; &lt;t23/&gt;organizations&lt;t24/&gt; &lt;t25/&gt;to&lt;t26/&gt; &lt;t27/&gt;share&lt;t28/&gt; &lt;t29/&gt;license&lt;t30/&gt; &lt;t31/&gt;and component information (metadata) for software packages and related content with the aim of facilitating license&lt;t32/&gt; &lt;t33/&gt;and&lt;t34/&gt; &lt;t35/&gt;other&lt;t36/&gt; &lt;t37/&gt;policy&lt;t38/&gt; &lt;t39/&gt;compliance.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180718T091704Z" creationid="hfukuchi" creationdate="20180718T091704Z">
+        <seg>ソフトウェアや関連物に対するライセンスやコンポーネント情報（メタデータ）を、ライセンスや他のポリシー コンプライアンスの促進を目指して、企業や組織が共有するためのデータ交換規格を作成することを目的とする</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
