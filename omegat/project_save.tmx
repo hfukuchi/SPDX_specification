@@ -8,8 +8,16 @@
       <tuv lang="EN-US">
         <seg>Charter</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180718T083427Z" creationid="hfukuchi" creationdate="20180718T083252Z">
-        <seg>趣意書</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T043953Z" creationid="hfukuchi" creationdate="20180718T083252Z">
+        <seg>趣意</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Companies&lt;t0/&gt; &lt;t1/&gt;and&lt;t2/&gt; &lt;t3/&gt;organizations&lt;t4/&gt; &lt;t5/&gt;(collectively&lt;t6/&gt; &lt;t7/&gt;“Organizations”)&lt;t8/&gt; &lt;t9/&gt;are&lt;t10/&gt; &lt;t11/&gt;widely&lt;t12/&gt; &lt;t13/&gt;using&lt;t14/&gt; &lt;t15/&gt;and&lt;t16/&gt; &lt;t17/&gt;reusing&lt;t18/&gt; &lt;t19/&gt;open&lt;t20/&gt; &lt;t21/&gt;source&lt;t22/&gt; &lt;t23/&gt;and other&lt;t24/&gt; &lt;t25/&gt;software&lt;t26/&gt; &lt;t27/&gt;packages.&lt;t28/&gt; &lt;t29/&gt;Compliance&lt;t30/&gt; &lt;t31/&gt;with&lt;t32/&gt; &lt;t33/&gt;the&lt;t34/&gt; &lt;t35/&gt;associated&lt;t36/&gt; &lt;t37/&gt;licenses&lt;t38/&gt; &lt;t39/&gt;requires&lt;t40/&gt; &lt;t41/&gt;a&lt;t42/&gt; &lt;t43/&gt;set&lt;t44/&gt; &lt;t45/&gt;of&lt;t46/&gt; &lt;t47/&gt;analysis&lt;t48/&gt; &lt;t49/&gt;activities&lt;t50/&gt; &lt;t51/&gt;and due diligence that each Organization performs independently, which may include a manual and/or automated&lt;t52/&gt; &lt;t53/&gt;scan&lt;t54/&gt; &lt;t55/&gt;of&lt;t56/&gt; &lt;t57/&gt;software&lt;t58/&gt; &lt;t59/&gt;and&lt;t60/&gt; &lt;t61/&gt;identification&lt;t62/&gt; &lt;t63/&gt;of&lt;t64/&gt; &lt;t65/&gt;associated&lt;t66/&gt; &lt;t67/&gt;licenses&lt;t68/&gt; &lt;t69/&gt;followed&lt;t70/&gt; &lt;t71/&gt;by&lt;t72/&gt; &lt;t73/&gt;manual&lt;t74/&gt; &lt;t75/&gt;verification.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T055816Z" creationid="hfukuchi" creationdate="20180719T051950Z">
+        <seg>企業や組織（合わせて「組織」）は、オープン ソースや他のソフトウェア パッケージを広く利用や再利用しています。関連するライセンスのコンプライアンス達成には、各「組織」で独立して実施される解析活動や精査（due diligence）が必要となります。それらの活動には、人手または自動で実施されるソフトウェアのスキャンと関連ライセンスの特定、および人手によるそれらの結果確認が含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24,8 +32,16 @@
       <tuv lang="EN-US">
         <seg>Rationale</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180718T083045Z" creationid="hfukuchi" creationdate="20180718T082603Z">
-        <seg>論理的根拠</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T043949Z" creationid="hfukuchi" creationdate="20180718T082603Z">
+        <seg>理論的根拠</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SPDX Document Creation Information: Meta data to associate analysis results with a specific&lt;t0/&gt; &lt;t1/&gt;version&lt;t2/&gt; &lt;t3/&gt;of&lt;t4/&gt; &lt;t5/&gt;the&lt;t6/&gt; &lt;t7/&gt;SPDX&lt;t8/&gt; &lt;t9/&gt;file&lt;t10/&gt; &lt;t11/&gt;and&lt;t12/&gt; &lt;t13/&gt;license&lt;t14/&gt; &lt;t15/&gt;for&lt;t16/&gt; &lt;t17/&gt;use,&lt;t18/&gt; &lt;t19/&gt;and&lt;t20/&gt; &lt;t21/&gt;provide&lt;t22/&gt; &lt;t23/&gt;information&lt;t24/&gt; &lt;t25/&gt;on&lt;t26/&gt; &lt;t27/&gt;how,&lt;t28/&gt; &lt;t29/&gt;when,&lt;t30/&gt; &lt;t31/&gt;and&lt;t32/&gt; &lt;t33/&gt;by whom&lt;t34/&gt; &lt;t35/&gt;the&lt;t36/&gt; &lt;t37/&gt;SPDX&lt;t38/&gt; &lt;t39/&gt;file&lt;t40/&gt; &lt;t41/&gt;was&lt;t42/&gt; &lt;t43/&gt;created.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T062002Z" creationid="hfukuchi" creationdate="20180719T062002Z">
+        <seg>SPDXドキュメント生成情報（SPDX Document Creation Information）： 解析結果に関連する　Meta data to associate analysis results with a specific&lt;t0/&gt; &lt;t1/&gt;version&lt;t2/&gt; &lt;t3/&gt;of&lt;t4/&gt; &lt;t5/&gt;the&lt;t6/&gt; &lt;t7/&gt;SPDX&lt;t8/&gt; &lt;t9/&gt;file&lt;t10/&gt; &lt;t11/&gt;and&lt;t12/&gt; &lt;t13/&gt;license&lt;t14/&gt; &lt;t15/&gt;for&lt;t16/&gt; &lt;t17/&gt;use,&lt;t18/&gt; &lt;t19/&gt;and&lt;t20/&gt; &lt;t21/&gt;provide&lt;t22/&gt; &lt;t23/&gt;information&lt;t24/&gt; &lt;t25/&gt;on&lt;t26/&gt; &lt;t27/&gt;how,&lt;t28/&gt; &lt;t29/&gt;when,&lt;t30/&gt; &lt;t31/&gt;and&lt;t32/&gt; &lt;t33/&gt;by whom&lt;t34/&gt; &lt;t35/&gt;the&lt;t36/&gt; &lt;t37/&gt;SPDX&lt;t38/&gt; &lt;t39/&gt;file&lt;t40/&gt; &lt;t41/&gt;was&lt;t42/&gt; &lt;t43/&gt;created.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38,10 +54,74 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Software&lt;t0/&gt; &lt;t1/&gt;development&lt;t2/&gt; &lt;t3/&gt;teams&lt;t4/&gt; &lt;t5/&gt;across&lt;t6/&gt; &lt;t7/&gt;the&lt;t8/&gt; &lt;t9/&gt;globe&lt;t10/&gt; &lt;t11/&gt;use&lt;t12/&gt; &lt;t13/&gt;the&lt;t14/&gt; &lt;t15/&gt;same&lt;t16/&gt; &lt;t17/&gt;open&lt;t18/&gt; &lt;t19/&gt;source&lt;t20/&gt; &lt;t21/&gt;packages,&lt;t22/&gt; &lt;t23/&gt;but&lt;t24/&gt; &lt;t25/&gt;little&lt;t26/&gt; &lt;t27/&gt;infrastructure exists&lt;t28/&gt; &lt;t29/&gt;to&lt;t30/&gt; &lt;t31/&gt;facilitate&lt;t32/&gt; &lt;t33/&gt;collaboration&lt;t34/&gt; &lt;t35/&gt;on&lt;t36/&gt; &lt;t37/&gt;the&lt;t38/&gt; &lt;t39/&gt;analysis&lt;t40/&gt; &lt;t41/&gt;or&lt;t42/&gt; &lt;t43/&gt;share&lt;t44/&gt; &lt;t45/&gt;the&lt;t46/&gt; &lt;t47/&gt;results&lt;t48/&gt; &lt;t49/&gt;of&lt;t50/&gt; &lt;t51/&gt;these&lt;t52/&gt; &lt;t53/&gt;analysis&lt;t54/&gt; &lt;t55/&gt;activities.&lt;t56/&gt; &lt;t57/&gt;As&lt;t58/&gt; &lt;t59/&gt;a&lt;t60/&gt; &lt;t61/&gt;result, many groups are performing the same work leading to duplicated efforts and redundant information.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T055834Z" creationid="hfukuchi" creationdate="20180719T055834Z">
+        <seg>世界中のソフトウェア開発チームが同一のオープン ソース パッケージを利用しますが、解析の共同作業や解析結果の共有を促進するインフラはほとんどありません。その結果、多くのグループが、重複する努力と余分な情報を生み出す同じ作業を行っていることになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The SPDX&lt;t62/&gt; &lt;t63/&gt;working&lt;t64/&gt; &lt;t65/&gt;group&lt;t66/&gt; &lt;t67/&gt;seeks&lt;t68/&gt; &lt;t69/&gt;to&lt;t70/&gt; &lt;t71/&gt;create&lt;t72/&gt; &lt;t73/&gt;a&lt;t74/&gt; &lt;t75/&gt;data&lt;t76/&gt; &lt;t77/&gt;exchange&lt;t78/&gt; &lt;t79/&gt;format&lt;t80/&gt; &lt;t81/&gt;so&lt;t82/&gt; &lt;t83/&gt;that&lt;t84/&gt; &lt;t85/&gt;information&lt;t86/&gt; &lt;t87/&gt;about&lt;t88/&gt; &lt;t89/&gt;software&lt;t90/&gt; &lt;t91/&gt;packages and related content may be collected and shared in a common format with the goal of saving time and improving&lt;t92/&gt; &lt;t93/&gt;data&lt;t94/&gt; &lt;t95/&gt;accuracy.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T055912Z" creationid="hfukuchi" creationdate="20180719T055844Z">
+        <seg>SPDX作業グループは、データ交換フォーマットを作り出そうと務めています。その結果、時間の節約とデータの正確さ向上を目指して、ソフトウェア パッケージと関連物の情報が共通フォーマットで収集、共有されることでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Software Package Data Exchange (SPDX&lt;t0/&gt;®&lt;t1/&gt;) specification is a standard format for communicating the components,&lt;t2/&gt; &lt;t3/&gt;licenses,&lt;t4/&gt; &lt;t5/&gt;and&lt;t6/&gt; &lt;t7/&gt;copyrights&lt;t8/&gt; &lt;t9/&gt;associated&lt;t10/&gt; &lt;t11/&gt;with&lt;t12/&gt; &lt;t13/&gt;software&lt;t14/&gt; &lt;t15/&gt;packages.&lt;t16/&gt; &lt;t17/&gt;An&lt;t18/&gt; &lt;t19/&gt;SPDX&lt;t20/&gt; &lt;t21/&gt;file&lt;t22/&gt; &lt;t23/&gt;is&lt;t24/&gt; &lt;t25/&gt;associated&lt;t26/&gt; &lt;t27/&gt;with&lt;t28/&gt; &lt;t29/&gt;a particular&lt;t30/&gt; &lt;t31/&gt;software&lt;t32/&gt; &lt;t33/&gt;package&lt;t34/&gt; &lt;t35/&gt;or&lt;t36/&gt; &lt;t37/&gt;set&lt;t38/&gt; &lt;t39/&gt;of&lt;t40/&gt; &lt;t41/&gt;packages&lt;t42/&gt; &lt;t43/&gt;and&lt;t44/&gt; &lt;t45/&gt;contains&lt;t46/&gt; &lt;t47/&gt;information&lt;t48/&gt; &lt;t49/&gt;about&lt;t50/&gt; &lt;t51/&gt;it&lt;t52/&gt; &lt;t53/&gt;in&lt;t54/&gt; &lt;t55/&gt;the&lt;t56/&gt; &lt;t57/&gt;SPDX&lt;t58/&gt; &lt;t59/&gt;format.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T050409Z" creationid="hfukuchi" creationdate="20180719T050409Z">
+        <seg>ソフトウェア パッケージ データ交換（SPDX&lt;t0/&gt;®&lt;t1/&gt;）仕様書は、ソフトウェア パッケージに関連するコンポーネント、ライセンスや著作権 を伝えるためのフォーマットです。SPDXファイルは、特定のソフトウェア パッケージやパッケージ セットに関連付けられており、SPDXフォーマットになった情報を保持しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To&lt;t0/&gt; &lt;t1/&gt;create&lt;t2/&gt; &lt;t3/&gt;a&lt;t4/&gt; &lt;t5/&gt;set&lt;t6/&gt; &lt;t7/&gt;of&lt;t8/&gt; &lt;t9/&gt;data&lt;t10/&gt; &lt;t11/&gt;exchange&lt;t12/&gt; &lt;t13/&gt;standards&lt;t14/&gt; &lt;t15/&gt;that&lt;t16/&gt; &lt;t17/&gt;enable&lt;t18/&gt; &lt;t19/&gt;companies&lt;t20/&gt; &lt;t21/&gt;and&lt;t22/&gt; &lt;t23/&gt;organizations&lt;t24/&gt; &lt;t25/&gt;to&lt;t26/&gt; &lt;t27/&gt;share&lt;t28/&gt; &lt;t29/&gt;license&lt;t30/&gt; &lt;t31/&gt;and component information (metadata) for software packages and related content with the aim of facilitating license&lt;t32/&gt; &lt;t33/&gt;and&lt;t34/&gt; &lt;t35/&gt;other&lt;t36/&gt; &lt;t37/&gt;policy&lt;t38/&gt; &lt;t39/&gt;compliance.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180718T091704Z" creationid="hfukuchi" creationdate="20180718T091704Z">
         <seg>ソフトウェアや関連物に対するライセンスやコンポーネント情報（メタデータ）を、ライセンスや他のポリシー コンプライアンスの促進を目指して、企業や組織が共有するためのデータ交換規格を作成することを目的とする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What does this specification cover?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T044501Z" creationid="hfukuchi" creationdate="20180719T044501Z">
+        <seg>この仕様書は何をカバーしていますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What&lt;t0/&gt; &lt;t1/&gt;does&lt;t2/&gt; &lt;t3/&gt;this&lt;t4/&gt; &lt;t5/&gt;specification&lt;t6/&gt; &lt;t7/&gt;cover?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T044245Z" creationid="hfukuchi" creationdate="20180719T044245Z">
+        <seg>この仕様書は何をカバーしていますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Why is a common format for data exchange needed?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T050453Z" creationid="hfukuchi" creationdate="20180719T044312Z">
+        <seg>データ交換用の共通フォーマットが何故必要なのですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Why&lt;t0/&gt; &lt;t1/&gt;is&lt;t2/&gt; &lt;t3/&gt;a&lt;t4/&gt; &lt;t5/&gt;common&lt;t6/&gt; &lt;t7/&gt;format&lt;t8/&gt; &lt;t9/&gt;for&lt;t10/&gt; &lt;t11/&gt;data&lt;t12/&gt; &lt;t13/&gt;exchange&lt;t14/&gt; &lt;t15/&gt;needed?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T044333Z" creationid="hfukuchi" creationdate="20180719T044053Z">
+        <seg>何故データ交換の共通フォーマットが必要なのですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With thanks to Adam Cohn, Andrew Back, Ann Thornton, Bill Schineller, Bruno Cornec, Ciaran Farrell, Daniel German,&lt;t0/&gt; &lt;t1/&gt;David&lt;t2/&gt; &lt;t3/&gt;Wheeler,&lt;t4/&gt; &lt;t5/&gt;Debra&lt;t6/&gt; &lt;t7/&gt;McGlade,&lt;t8/&gt; &lt;t9/&gt;Dennis&lt;t10/&gt; &lt;t11/&gt;Clark,&lt;t12/&gt; &lt;t13/&gt;Ed&lt;t14/&gt; &lt;t15/&gt;Warnicke,&lt;t16/&gt; &lt;t17/&gt;Eran&lt;t18/&gt; &lt;t19/&gt;Strod,&lt;t20/&gt; &lt;t21/&gt;Eric&lt;t22/&gt; &lt;t23/&gt;Thomas,&lt;t24/&gt; &lt;t25/&gt;Esteban&lt;t26/&gt; &lt;t27/&gt;Rockett, Gary&lt;t28/&gt; &lt;t29/&gt;O'Neall,&lt;t30/&gt; &lt;t31/&gt;Guillaume&lt;t32/&gt; &lt;t33/&gt;Rousseau,&lt;t34/&gt; &lt;t35/&gt;Hassib&lt;t36/&gt; &lt;t37/&gt;Khanafer,&lt;t38/&gt; &lt;t39/&gt;Jack&lt;t40/&gt; &lt;t41/&gt;Manbeck,&lt;t42/&gt; &lt;t43/&gt;Jaime&lt;t44/&gt; &lt;t45/&gt;Garcia,&lt;t46/&gt; &lt;t47/&gt;Jeff&lt;t48/&gt; &lt;t49/&gt;Luszcz,&lt;t50/&gt; &lt;t51/&gt;Jilayne&lt;t52/&gt; &lt;t53/&gt;Lovejoy, John&lt;t54/&gt; &lt;t55/&gt;Ellis,&lt;t56/&gt; &lt;t57/&gt;Karen&lt;t58/&gt; &lt;t59/&gt;Copenhaver,&lt;t60/&gt; &lt;t61/&gt;Kate&lt;t62/&gt; &lt;t63/&gt;Stewart,&lt;t64/&gt; &lt;t65/&gt;Kevin&lt;t66/&gt; &lt;t67/&gt;Mitchell,&lt;t68/&gt; &lt;t69/&gt;Kim&lt;t70/&gt; &lt;t71/&gt;Weins,&lt;t72/&gt; &lt;t73/&gt;Kirsten&lt;t74/&gt; &lt;t75/&gt;Newcomer,&lt;t76/&gt; &lt;t77/&gt;Kris&lt;t78/&gt; &lt;t79/&gt;Reeves,&lt;t80/&gt; &lt;t81/&gt;Liang&lt;t82/&gt; &lt;t83/&gt;Cao, Marc­Etienne Vargenau, Mark Gisi, Marshall Clow, Martin Michlmayr, Martin von Willebrand, Matt Germonprez, Michael&lt;t84/&gt; &lt;t85/&gt;J.&lt;t86/&gt; &lt;t87/&gt;Herzog,&lt;t88/&gt; &lt;t89/&gt;Michel&lt;t90/&gt; &lt;t91/&gt;Ruffin,&lt;t92/&gt; &lt;t93/&gt;Nuno&lt;t94/&gt; &lt;t95/&gt;Brito,&lt;t96/&gt; &lt;t97/&gt;Oliver&lt;t98/&gt; &lt;t99/&gt;Fendt,&lt;t100/&gt; &lt;t101/&gt;Paul&lt;t102/&gt; &lt;t103/&gt;Madick,&lt;t104/&gt; &lt;t105/&gt;Peter&lt;t106/&gt; &lt;t107/&gt;Williams,&lt;t108/&gt; &lt;t109/&gt;Phil&lt;t110/&gt; &lt;t111/&gt;Robb,&lt;t112/&gt; &lt;t113/&gt;Philip&lt;t114/&gt; &lt;t115/&gt;Odence, Philip&lt;t116/&gt; &lt;t117/&gt;Koltun,&lt;t118/&gt; &lt;t119/&gt;Phillippe&lt;t120/&gt; &lt;t121/&gt;Ombredanne,&lt;t122/&gt; &lt;t123/&gt;Pierre&lt;t124/&gt; &lt;t125/&gt;Lapointe,&lt;t126/&gt; &lt;t127/&gt;Rana&lt;t128/&gt; &lt;t129/&gt;Rahal,&lt;t130/&gt; &lt;t131/&gt;Robin&lt;t132/&gt; &lt;t133/&gt;Gandhi,&lt;t134/&gt; &lt;t135/&gt;Sam&lt;t136/&gt; &lt;t137/&gt;Ellis,&lt;t138/&gt; &lt;t139/&gt;Sameer&lt;t140/&gt; &lt;t141/&gt;Ahmed,&lt;t142/&gt; &lt;t143/&gt;Scott K Peterson, Scott Lamons, Scott Sterling, Shane Coughlan, Steve Cropper, Stuart Hughes, Tom Callaway, Tom Vidal, Thomas F. Incorvia, Venkata Krishna, Yev Bronshteyn, and Zachary McFarland for their contributions and assistance.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T044100Z" creationid="hfukuchi" creationdate="20180719T043859Z">
+        <seg>次の方々の貢献と援助に謝辞を贈ります　Adam Cohn, Andrew Back, Ann Thornton, Bill Schineller, Bruno Cornec, Ciaran Farrell, Daniel German,&lt;t0/&gt; &lt;t1/&gt;David&lt;t2/&gt; &lt;t3/&gt;Wheeler,&lt;t4/&gt; &lt;t5/&gt;Debra&lt;t6/&gt; &lt;t7/&gt;McGlade,&lt;t8/&gt; &lt;t9/&gt;Dennis&lt;t10/&gt; &lt;t11/&gt;Clark,&lt;t12/&gt; &lt;t13/&gt;Ed&lt;t14/&gt; &lt;t15/&gt;Warnicke,&lt;t16/&gt; &lt;t17/&gt;Eran&lt;t18/&gt; &lt;t19/&gt;Strod,&lt;t20/&gt; &lt;t21/&gt;Eric&lt;t22/&gt; &lt;t23/&gt;Thomas,&lt;t24/&gt; &lt;t25/&gt;Esteban&lt;t26/&gt; &lt;t27/&gt;Rockett, Gary&lt;t28/&gt; &lt;t29/&gt;O'Neall,&lt;t30/&gt; &lt;t31/&gt;Guillaume&lt;t32/&gt; &lt;t33/&gt;Rousseau,&lt;t34/&gt; &lt;t35/&gt;Hassib&lt;t36/&gt; &lt;t37/&gt;Khanafer,&lt;t38/&gt; &lt;t39/&gt;Jack&lt;t40/&gt; &lt;t41/&gt;Manbeck,&lt;t42/&gt; &lt;t43/&gt;Jaime&lt;t44/&gt; &lt;t45/&gt;Garcia,&lt;t46/&gt; &lt;t47/&gt;Jeff&lt;t48/&gt; &lt;t49/&gt;Luszcz,&lt;t50/&gt; &lt;t51/&gt;Jilayne&lt;t52/&gt; &lt;t53/&gt;Lovejoy, John&lt;t54/&gt; &lt;t55/&gt;Ellis,&lt;t56/&gt; &lt;t57/&gt;Karen&lt;t58/&gt; &lt;t59/&gt;Copenhaver,&lt;t60/&gt; &lt;t61/&gt;Kate&lt;t62/&gt; &lt;t63/&gt;Stewart,&lt;t64/&gt; &lt;t65/&gt;Kevin&lt;t66/&gt; &lt;t67/&gt;Mitchell,&lt;t68/&gt; &lt;t69/&gt;Kim&lt;t70/&gt; &lt;t71/&gt;Weins,&lt;t72/&gt; &lt;t73/&gt;Kirsten&lt;t74/&gt; &lt;t75/&gt;Newcomer,&lt;t76/&gt; &lt;t77/&gt;Kris&lt;t78/&gt; &lt;t79/&gt;Reeves,&lt;t80/&gt; &lt;t81/&gt;Liang&lt;t82/&gt; &lt;t83/&gt;Cao, Marc­Etienne Vargenau, Mark Gisi, Marshall Clow, Martin Michlmayr, Martin von Willebrand, Matt Germonprez, Michael&lt;t84/&gt; &lt;t85/&gt;J.&lt;t86/&gt; &lt;t87/&gt;Herzog,&lt;t88/&gt; &lt;t89/&gt;Michel&lt;t90/&gt; &lt;t91/&gt;Ruffin,&lt;t92/&gt; &lt;t93/&gt;Nuno&lt;t94/&gt; &lt;t95/&gt;Brito,&lt;t96/&gt; &lt;t97/&gt;Oliver&lt;t98/&gt; &lt;t99/&gt;Fendt,&lt;t100/&gt; &lt;t101/&gt;Paul&lt;t102/&gt; &lt;t103/&gt;Madick,&lt;t104/&gt; &lt;t105/&gt;Peter&lt;t106/&gt; &lt;t107/&gt;Williams,&lt;t108/&gt; &lt;t109/&gt;Phil&lt;t110/&gt; &lt;t111/&gt;Robb,&lt;t112/&gt; &lt;t113/&gt;Philip&lt;t114/&gt; &lt;t115/&gt;Odence, Philip&lt;t116/&gt; &lt;t117/&gt;Koltun,&lt;t118/&gt; &lt;t119/&gt;Phillippe&lt;t120/&gt; &lt;t121/&gt;Ombredanne,&lt;t122/&gt; &lt;t123/&gt;Pierre&lt;t124/&gt; &lt;t125/&gt;Lapointe,&lt;t126/&gt; &lt;t127/&gt;Rana&lt;t128/&gt; &lt;t129/&gt;Rahal,&lt;t130/&gt; &lt;t131/&gt;Robin&lt;t132/&gt; &lt;t133/&gt;Gandhi,&lt;t134/&gt; &lt;t135/&gt;Sam&lt;t136/&gt; &lt;t137/&gt;Ellis,&lt;t138/&gt; &lt;t139/&gt;Sameer&lt;t140/&gt; &lt;t141/&gt;Ahmed,&lt;t142/&gt; &lt;t143/&gt;Scott K Peterson, Scott Lamons, Scott Sterling, Shane Coughlan, Steve Cropper, Stuart Hughes, Tom Callaway, Tom Vidal, Thomas F. Incorvia, Venkata Krishna, Yev Bronshteyn, and Zachary McFarland </seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
