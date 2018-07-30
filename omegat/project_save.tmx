@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By&lt;t0/&gt; &lt;t1/&gt;using&lt;t2/&gt; &lt;t3/&gt;the&lt;t4/&gt; &lt;t5/&gt;SPDX&lt;t6/&gt; &lt;t7/&gt;specification,&lt;t8/&gt; &lt;t9/&gt;or&lt;t10/&gt; &lt;t11/&gt;any&lt;t12/&gt; &lt;t13/&gt;portion&lt;t14/&gt; &lt;t15/&gt;hereof,&lt;t16/&gt; &lt;t17/&gt;you&lt;t18/&gt; &lt;t19/&gt;hereby&lt;t20/&gt; &lt;t21/&gt;agree&lt;t22/&gt; &lt;t23/&gt;that&lt;t24/&gt; &lt;t25/&gt;any&lt;t26/&gt; &lt;t27/&gt;copyright&lt;t28/&gt; &lt;t29/&gt;rights&lt;t30/&gt; &lt;t31/&gt;(as determined by your jurisdiction) in any SPDX­Metadata, including without limitation explanatory text, shall be subject to the terms of the Creative Commons CC0 1.0 Universal license.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T052534Z" creationid="hfukuchi" creationdate="20180730T050633Z">
+        <seg>SPDX仕様あるいはその一部を利用することで、あなたは、説明文（これに限らない）を含むSPDXメタデータにおけるすべての著作権（あなたの裁判権で決められた）はクリエイティブ コモンズ CC0 1.0ユニバーサルライセンスの条項に従うべきであることを認めたことになる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cardinality: Mandatory, one.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180726T021220Z" creationid="hfukuchi" creationdate="20180726T021220Z">
@@ -120,8 +128,8 @@
       <tuv lang="EN-US">
         <seg>Differences from</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T064108Z" creationid="hfukuchi" creationdate="20180724T064108Z">
-        <seg>SPDX仕様書2.0からの</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180724T064108Z">
+        <seg>SPDX仕様2.0からの</seg>
       </tuv>
     </tu>
     <tu>
@@ -190,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For SPDX­Metadata not containing any copyright rights, you hereby agree and acknowledge that the SPDX­Metadata is provided to you "as­is" and without any representations or warranties of any kind concerning the SPDX­Metadata, express, implied, statutory or otherwise, including without limitation warranties&lt;t32/&gt; &lt;t33/&gt;of&lt;t34/&gt; &lt;t35/&gt;title,&lt;t36/&gt; &lt;t37/&gt;merchantability,&lt;t38/&gt; &lt;t39/&gt;fitness&lt;t40/&gt; &lt;t41/&gt;for&lt;t42/&gt; &lt;t43/&gt;a&lt;t44/&gt; &lt;t45/&gt;particular&lt;t46/&gt; &lt;t47/&gt;purpose,&lt;t48/&gt; &lt;t49/&gt;non­infringement,&lt;t50/&gt; &lt;t51/&gt;or&lt;t52/&gt; &lt;t53/&gt;the&lt;t54/&gt; &lt;t55/&gt;absence&lt;t56/&gt; &lt;t57/&gt;of latent&lt;t58/&gt; &lt;t59/&gt;or&lt;t60/&gt; &lt;t61/&gt;other&lt;t62/&gt; &lt;t63/&gt;defects,&lt;t64/&gt; &lt;t65/&gt;accuracy,&lt;t66/&gt; &lt;t67/&gt;or&lt;t68/&gt; &lt;t69/&gt;the&lt;t70/&gt; &lt;t71/&gt;presence&lt;t72/&gt; &lt;t73/&gt;or&lt;t74/&gt; &lt;t75/&gt;absence&lt;t76/&gt; &lt;t77/&gt;of&lt;t78/&gt; &lt;t79/&gt;errors,&lt;t80/&gt; &lt;t81/&gt;whether&lt;t82/&gt; &lt;t83/&gt;or&lt;t84/&gt; &lt;t85/&gt;not&lt;t86/&gt; &lt;t87/&gt;discoverable,&lt;t88/&gt; &lt;t89/&gt;all to&lt;t90/&gt; &lt;t91/&gt;the&lt;t92/&gt; &lt;t93/&gt;greatest&lt;t94/&gt; &lt;t95/&gt;extent&lt;t96/&gt; &lt;t97/&gt;permissible&lt;t98/&gt; &lt;t99/&gt;under&lt;t100/&gt; &lt;t101/&gt;applicable&lt;t102/&gt; &lt;t103/&gt;law.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T053805Z" creationid="hfukuchi" creationdate="20180730T053805Z">
+        <seg>いかなる著作権も含まないSDPXメタデータについては、あなたは、SPDXメタデータがそのままで、説明や保証なしに提供され、For SPDX­Metadata not containing any copyright rights, you hereby agree and acknowledge that the SPDX­Metadata is provided to you "as­is" and without any representations or warranties of any kind concerning the SPDX­Metadata, express, implied, statutory or otherwise, including without limitation warranties&lt;t32/&gt; &lt;t33/&gt;of&lt;t34/&gt; &lt;t35/&gt;title,&lt;t36/&gt; &lt;t37/&gt;merchantability,&lt;t38/&gt; &lt;t39/&gt;fitness&lt;t40/&gt; &lt;t41/&gt;for&lt;t42/&gt; &lt;t43/&gt;a&lt;t44/&gt; &lt;t45/&gt;particular&lt;t46/&gt; &lt;t47/&gt;purpose,&lt;t48/&gt; &lt;t49/&gt;non­infringement,&lt;t50/&gt; &lt;t51/&gt;or&lt;t52/&gt; &lt;t53/&gt;the&lt;t54/&gt; &lt;t55/&gt;absence&lt;t56/&gt; &lt;t57/&gt;of latent&lt;t58/&gt; &lt;t59/&gt;or&lt;t60/&gt; &lt;t61/&gt;other&lt;t62/&gt; &lt;t63/&gt;defects,&lt;t64/&gt; &lt;t65/&gt;accuracy,&lt;t66/&gt; &lt;t67/&gt;or&lt;t68/&gt; &lt;t69/&gt;the&lt;t70/&gt; &lt;t71/&gt;presence&lt;t72/&gt; &lt;t73/&gt;or&lt;t74/&gt; &lt;t75/&gt;absence&lt;t76/&gt; &lt;t77/&gt;of&lt;t78/&gt; &lt;t79/&gt;errors,&lt;t80/&gt; &lt;t81/&gt;whether&lt;t82/&gt; &lt;t83/&gt;or&lt;t84/&gt; &lt;t85/&gt;not&lt;t86/&gt; &lt;t87/&gt;discoverable,&lt;t88/&gt; &lt;t89/&gt;all to&lt;t90/&gt; &lt;t91/&gt;the&lt;t92/&gt; &lt;t93/&gt;greatest&lt;t94/&gt; &lt;t95/&gt;extent&lt;t96/&gt; &lt;t97/&gt;permissible&lt;t98/&gt; &lt;t99/&gt;under&lt;t100/&gt; &lt;t101/&gt;applicable&lt;t102/&gt; &lt;t103/&gt;law.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Format Requirements</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180724T045013Z" creationid="hfukuchi" creationdate="20180724T044508Z">
@@ -224,8 +240,16 @@
       <tuv lang="EN-US">
         <seg>Intent:&lt;t0/&gt; &lt;t1/&gt;Here,&lt;t2/&gt; &lt;t3/&gt;parties&lt;t4/&gt; &lt;t5/&gt;exchanging&lt;t6/&gt; &lt;t7/&gt;information&lt;t8/&gt; &lt;t9/&gt;in&lt;t10/&gt; &lt;t11/&gt;accordance&lt;t12/&gt; &lt;t13/&gt;with&lt;t14/&gt; &lt;t15/&gt;SPDX&lt;t16/&gt; &lt;t17/&gt;specification&lt;t18/&gt; &lt;t19/&gt;need to&lt;t20/&gt; &lt;t21/&gt;provide&lt;t22/&gt; &lt;t23/&gt;100%&lt;t24/&gt; &lt;t25/&gt;transparency&lt;t26/&gt; &lt;t27/&gt;as&lt;t28/&gt; &lt;t29/&gt;to&lt;t30/&gt; &lt;t31/&gt;which&lt;t32/&gt; &lt;t33/&gt;SPDX&lt;t34/&gt; &lt;t35/&gt;specification&lt;t36/&gt; &lt;t37/&gt;such&lt;t38/&gt; &lt;t39/&gt;information&lt;t40/&gt; &lt;t41/&gt;is&lt;t42/&gt; &lt;t43/&gt;conforming&lt;t44/&gt; &lt;t45/&gt;to.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180726T023731Z" creationid="hfukuchi" creationdate="20180726T023731Z">
-        <seg>意図：SPDX仕様書に従って情報交換するパーティは、情報がどのSPDX仕様書に従っているかを100%透明にする必要がある。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180726T023731Z">
+        <seg>意図：SPDX仕様に従って情報交換するパーティは、情報がどのSPDX仕様に従っているかを100%透明にする必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent:&lt;t0/&gt; &lt;t1/&gt;This&lt;t2/&gt; &lt;t3/&gt;is&lt;t4/&gt; &lt;t5/&gt;to&lt;t6/&gt; &lt;t7/&gt;alleviate&lt;t8/&gt; &lt;t9/&gt;any&lt;t10/&gt; &lt;t11/&gt;concern&lt;t12/&gt; &lt;t13/&gt;that&lt;t14/&gt; &lt;t15/&gt;content&lt;t16/&gt; &lt;t17/&gt;(the&lt;t18/&gt; &lt;t19/&gt;data&lt;t20/&gt; &lt;t21/&gt;or&lt;t22/&gt; &lt;t23/&gt;database)&lt;t24/&gt; &lt;t25/&gt;in&lt;t26/&gt; &lt;t27/&gt;an&lt;t28/&gt; &lt;t29/&gt;SPDX&lt;t30/&gt; &lt;t31/&gt;file is&lt;t32/&gt; &lt;t33/&gt;subject&lt;t34/&gt; &lt;t35/&gt;to&lt;t36/&gt; &lt;t37/&gt;any&lt;t38/&gt; &lt;t39/&gt;form&lt;t40/&gt; &lt;t41/&gt;of&lt;t42/&gt; &lt;t43/&gt;intellectual&lt;t44/&gt; &lt;t45/&gt;property&lt;t46/&gt; &lt;t47/&gt;right&lt;t48/&gt; &lt;t49/&gt;that&lt;t50/&gt; &lt;t51/&gt;could&lt;t52/&gt; &lt;t53/&gt;restrict&lt;t54/&gt; &lt;t55/&gt;the&lt;t56/&gt; &lt;t57/&gt;re­use&lt;t58/&gt; &lt;t59/&gt;of&lt;t60/&gt; &lt;t61/&gt;the&lt;t62/&gt; &lt;t63/&gt;information&lt;t64/&gt; &lt;t65/&gt;or&lt;t66/&gt; &lt;t67/&gt;the creation of another SPDX file for the same project(s).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T054654Z" creationid="hfukuchi" creationdate="20180730T054654Z">
+        <seg>意図：SPDXに含まれる内容物（データやデータベース）がいかなる形の知的財産権の影響下にあり、情報の再利用や同じプロジェクトに対して別のSPDXファイルを生成することを制限する、ことを軽減する。Intent:&lt;t0/&gt; &lt;t1/&gt;This&lt;t2/&gt; &lt;t3/&gt;is&lt;t4/&gt; &lt;t5/&gt;to&lt;t6/&gt; &lt;t7/&gt;alleviate&lt;t8/&gt; &lt;t9/&gt;any&lt;t10/&gt; &lt;t11/&gt;concern&lt;t12/&gt; &lt;t13/&gt;that&lt;t14/&gt; &lt;t15/&gt;content&lt;t16/&gt; &lt;t17/&gt;(the&lt;t18/&gt; &lt;t19/&gt;data&lt;t20/&gt; &lt;t21/&gt;or&lt;t22/&gt; &lt;t23/&gt;database)&lt;t24/&gt; &lt;t25/&gt;in&lt;t26/&gt; &lt;t27/&gt;an&lt;t28/&gt; &lt;t29/&gt;SPDX&lt;t30/&gt; &lt;t31/&gt;file is&lt;t32/&gt; &lt;t33/&gt;subject&lt;t34/&gt; &lt;t35/&gt;to&lt;t36/&gt; &lt;t37/&gt;any&lt;t38/&gt; &lt;t39/&gt;form&lt;t40/&gt; &lt;t41/&gt;of&lt;t42/&gt; &lt;t43/&gt;intellectual&lt;t44/&gt; &lt;t45/&gt;property&lt;t46/&gt; &lt;t47/&gt;right&lt;t48/&gt; &lt;t49/&gt;that&lt;t50/&gt; &lt;t51/&gt;could&lt;t52/&gt; &lt;t53/&gt;restrict&lt;t54/&gt; &lt;t55/&gt;the&lt;t56/&gt; &lt;t57/&gt;re­use&lt;t58/&gt; &lt;t59/&gt;of&lt;t60/&gt; &lt;t61/&gt;the&lt;t62/&gt; &lt;t63/&gt;information&lt;t64/&gt; &lt;t65/&gt;or&lt;t66/&gt; &lt;t67/&gt;the creation of another SPDX file for the same project(s).</seg>
       </tuv>
     </tu>
     <tu>
@@ -240,8 +264,8 @@
       <tuv lang="EN-US">
         <seg>It will enable both future changes to the specification and to support backward compatibility.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180726T022735Z" creationid="hfukuchi" creationdate="20180726T022735Z">
-        <seg>仕様書の将来の変更と後方互換性を可能にする。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180726T022735Z">
+        <seg>仕様の将来の変更と後方互換性を可能にする。</seg>
       </tuv>
     </tu>
     <tu>
@@ -264,8 +288,8 @@
       <tuv lang="EN-US">
         <seg>Miscellaneous&lt;t0/&gt; &lt;t1/&gt;bug&lt;t2/&gt; &lt;t3/&gt;fixes&lt;t4/&gt; &lt;t5/&gt;as&lt;t6/&gt; &lt;t7/&gt;reported&lt;t8/&gt; &lt;t9/&gt;on&lt;t10/&gt; &lt;t11/&gt;the&lt;t12/&gt; &lt;t13/&gt;mailing&lt;t14/&gt; &lt;t15/&gt;list&lt;t16/&gt; &lt;t17/&gt;and&lt;t18/&gt; &lt;t19/&gt;reported&lt;t20/&gt; &lt;t21/&gt;in bugs.linuxfoundation.org&lt;t22/&gt; &lt;t23/&gt;(search&lt;t24/&gt; &lt;t25/&gt;for&lt;t26/&gt; &lt;t27/&gt;SPDX&lt;t28/&gt; &lt;t29/&gt;specification).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180726T020327Z" creationid="hfukuchi" creationdate="20180726T020327Z">
-        <seg>メーリングリストやbugs.linuxfoundation.org（SPDX仕様書を検索）にて報告された雑多の不具合修正</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180726T020327Z">
+        <seg>メーリングリストやbugs.linuxfoundation.org（SPDX仕様を検索）にて報告された雑多の不具合修正</seg>
       </tuv>
     </tu>
     <tu>
@@ -344,8 +368,8 @@
       <tuv lang="EN-US">
         <seg>Purpose:&lt;t0/&gt; &lt;t1/&gt;Compliance&lt;t2/&gt; &lt;t3/&gt;with&lt;t4/&gt; &lt;t5/&gt;the&lt;t6/&gt; &lt;t7/&gt;SPDX&lt;t8/&gt; &lt;t9/&gt;specification&lt;t10/&gt; &lt;t11/&gt;includes&lt;t12/&gt; &lt;t13/&gt;populating&lt;t14/&gt; &lt;t15/&gt;the&lt;t16/&gt; &lt;t17/&gt;SPDX&lt;t18/&gt; &lt;t19/&gt;fields therein with data related to such fields ("SPDX­Metadata").</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180726T033550Z" creationid="hfukuchi" creationdate="20180726T033550Z">
-        <seg>目的：Purpose:&lt;t0/&gt; &lt;t1/&gt;Compliance&lt;t2/&gt; &lt;t3/&gt;with&lt;t4/&gt; &lt;t5/&gt;the&lt;t6/&gt; &lt;t7/&gt;SPDX&lt;t8/&gt; &lt;t9/&gt;specification&lt;t10/&gt; &lt;t11/&gt;includes&lt;t12/&gt; &lt;t13/&gt;populating&lt;t14/&gt; &lt;t15/&gt;the&lt;t16/&gt; &lt;t17/&gt;SPDX&lt;t18/&gt; &lt;t19/&gt;fields therein with data related to such fields ("SPDX­Metadata").</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T045335Z" creationid="hfukuchi" creationdate="20180726T033550Z">
+        <seg>目的：SPDX仕様に適合するには、SPDXフィールドに適当なデータ（"SPDX­Metadata"）を記入しなければならない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -470,6 +494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The SPDX specification contains numerous fields where an SPDX document creator may provide relevant explanatory text in SPDX­Metadata.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T045717Z" creationid="hfukuchi" creationdate="20180730T045717Z">
+        <seg>SPDX仕様は、SPDX作成者がSPDXメタデータに関連する説明文を記入する多数のフィールドを含んでいる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The SPDX&lt;t62/&gt; &lt;t63/&gt;working&lt;t64/&gt; &lt;t65/&gt;group&lt;t66/&gt; &lt;t67/&gt;seeks&lt;t68/&gt; &lt;t69/&gt;to&lt;t70/&gt; &lt;t71/&gt;create&lt;t72/&gt; &lt;t73/&gt;a&lt;t74/&gt; &lt;t75/&gt;data&lt;t76/&gt; &lt;t77/&gt;exchange&lt;t78/&gt; &lt;t79/&gt;format&lt;t80/&gt; &lt;t81/&gt;so&lt;t82/&gt; &lt;t83/&gt;that&lt;t84/&gt; &lt;t85/&gt;information&lt;t86/&gt; &lt;t87/&gt;about&lt;t88/&gt; &lt;t89/&gt;software&lt;t90/&gt; &lt;t91/&gt;packages and related content may be collected and shared in a common format with the goal of saving time and improving&lt;t92/&gt; &lt;t93/&gt;data&lt;t94/&gt; &lt;t95/&gt;accuracy.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180719T055912Z" creationid="hfukuchi" creationdate="20180719T055844Z">
@@ -480,8 +512,8 @@
       <tuv lang="EN-US">
         <seg>The Software Package Data Exchange (SPDX&lt;t0/&gt;®&lt;t1/&gt;) specification is a standard format for communicating the components,&lt;t2/&gt; &lt;t3/&gt;licenses,&lt;t4/&gt; &lt;t5/&gt;and&lt;t6/&gt; &lt;t7/&gt;copyrights&lt;t8/&gt; &lt;t9/&gt;associated&lt;t10/&gt; &lt;t11/&gt;with&lt;t12/&gt; &lt;t13/&gt;software&lt;t14/&gt; &lt;t15/&gt;packages.&lt;t16/&gt; &lt;t17/&gt;An&lt;t18/&gt; &lt;t19/&gt;SPDX&lt;t20/&gt; &lt;t21/&gt;file&lt;t22/&gt; &lt;t23/&gt;is&lt;t24/&gt; &lt;t25/&gt;associated&lt;t26/&gt; &lt;t27/&gt;with&lt;t28/&gt; &lt;t29/&gt;a particular&lt;t30/&gt; &lt;t31/&gt;software&lt;t32/&gt; &lt;t33/&gt;package&lt;t34/&gt; &lt;t35/&gt;or&lt;t36/&gt; &lt;t37/&gt;set&lt;t38/&gt; &lt;t39/&gt;of&lt;t40/&gt; &lt;t41/&gt;packages&lt;t42/&gt; &lt;t43/&gt;and&lt;t44/&gt; &lt;t45/&gt;contains&lt;t46/&gt; &lt;t47/&gt;information&lt;t48/&gt; &lt;t49/&gt;about&lt;t50/&gt; &lt;t51/&gt;it&lt;t52/&gt; &lt;t53/&gt;in&lt;t54/&gt; &lt;t55/&gt;the&lt;t56/&gt; &lt;t57/&gt;SPDX&lt;t58/&gt; &lt;t59/&gt;format.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T050409Z" creationid="hfukuchi" creationdate="20180719T050409Z">
-        <seg>ソフトウェア パッケージ データ交換（SPDX&lt;t0/&gt;®&lt;t1/&gt;）仕様書は、ソフトウェア パッケージに関連するコンポーネント、ライセンスや著作権 を伝えるためのフォーマットです。SPDXファイルは、特定のソフトウェア パッケージやパッケージ セットに関連付けられており、SPDXフォーマットになった情報を保持しています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180719T050409Z">
+        <seg>ソフトウェア パッケージ データ交換（SPDX&lt;t0/&gt;®&lt;t1/&gt;）仕様は、ソフトウェア パッケージに関連するコンポーネント、ライセンスや著作権 を伝えるためのフォーマットです。SPDXファイルは、特定のソフトウェア パッケージやパッケージ セットに関連付けられており、SPDXフォーマットになった情報を保持しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -504,8 +536,8 @@
       <tuv lang="EN-US">
         <seg>The official copyright notice to be used with any non­verbatim reproduction and/or distribution&lt;t0/&gt; &lt;t1/&gt;of&lt;t2/&gt; &lt;t3/&gt;this&lt;t4/&gt; &lt;t5/&gt;SPDX&lt;t6/&gt; &lt;t7/&gt;Specification,&lt;t8/&gt; &lt;t9/&gt;including&lt;t10/&gt; &lt;t11/&gt;without&lt;t12/&gt; &lt;t13/&gt;limitation&lt;t14/&gt; &lt;t15/&gt;any&lt;t16/&gt; &lt;t17/&gt;partial&lt;t18/&gt; &lt;t19/&gt;use&lt;t20/&gt; &lt;t21/&gt;or&lt;t22/&gt; &lt;t23/&gt;combining&lt;t24/&gt; &lt;t25/&gt;this SPDX&lt;t26/&gt; &lt;t27/&gt;Specification&lt;t28/&gt; &lt;t29/&gt;with&lt;t30/&gt; &lt;t31/&gt;another&lt;t32/&gt; &lt;t33/&gt;work,&lt;t34/&gt; &lt;t35/&gt;is:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T063959Z" creationid="hfukuchi" creationdate="20180724T063959Z">
-        <seg>このSPDX仕様書の非逐語的な複製または頒布に使う公式な著作権表記は以下である。制限なしの部分的な利用やこのSPDX仕様書を他の作品と結合する場合を含む：</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180724T063959Z">
+        <seg>このSPDX仕様の非逐語的な複製または頒布に使う公式な著作権表記は以下である。制限なしの部分的な利用やこのSPDX仕様を他の作品と結合する場合を含む：</seg>
       </tuv>
     </tu>
     <tu>
@@ -528,16 +560,16 @@
       <tuv lang="EN-US">
         <seg>The&lt;t0/&gt; &lt;t1/&gt;convention&lt;t2/&gt; &lt;t3/&gt;in&lt;t4/&gt; &lt;t5/&gt;this&lt;t6/&gt; &lt;t7/&gt;specification&lt;t8/&gt; &lt;t9/&gt;is&lt;t10/&gt; &lt;t11/&gt;for&lt;t12/&gt; &lt;t13/&gt;the&lt;t14/&gt; &lt;t15/&gt;RDF&lt;t16/&gt; &lt;t17/&gt;examples&lt;t18/&gt; &lt;t19/&gt;to&lt;t20/&gt; &lt;t21/&gt;use&lt;t22/&gt; &lt;t23/&gt;rdf:about="..."&lt;t24/&gt; &lt;t25/&gt;to represent&lt;t26/&gt; &lt;t27/&gt;that&lt;t28/&gt; &lt;t29/&gt;a&lt;t30/&gt; &lt;t31/&gt;proper&lt;t32/&gt; &lt;t33/&gt;Universal&lt;t34/&gt; &lt;t35/&gt;Resource&lt;t36/&gt; &lt;t37/&gt;Indicator&lt;t38/&gt; &lt;t39/&gt;(URI)&lt;t40/&gt; &lt;t41/&gt;should&lt;t42/&gt; &lt;t43/&gt;be&lt;t44/&gt; &lt;t45/&gt;present.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T054007Z" creationid="hfukuchi" creationdate="20180724T052705Z">
-        <seg>この仕様書での慣例としてRDFの例　rdf:about="..."　は、適切なユニバーサル リソース インジケーター（URI）が提示されるべきであることを示す</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180724T052705Z">
+        <seg>この仕様での慣例としてRDFの例　rdf:about="..."　は、適切なユニバーサル リソース インジケーター（URI）が提示されるべきであることを示す</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The&lt;t0/&gt; &lt;t1/&gt;official&lt;t2/&gt; &lt;t3/&gt;copyright&lt;t4/&gt; &lt;t5/&gt;notice&lt;t6/&gt; &lt;t7/&gt;to&lt;t8/&gt; &lt;t9/&gt;be&lt;t10/&gt; &lt;t11/&gt;used&lt;t12/&gt; &lt;t13/&gt;with&lt;t14/&gt; &lt;t15/&gt;any&lt;t16/&gt; &lt;t17/&gt;verbatim&lt;t18/&gt; &lt;t19/&gt;reproduction&lt;t20/&gt; &lt;t21/&gt;and/or&lt;t22/&gt; &lt;t23/&gt;distribution&lt;t24/&gt; &lt;t25/&gt;of this&lt;t26/&gt; &lt;t27/&gt;SPDX&lt;t28/&gt; &lt;t29/&gt;Specification&lt;t30/&gt; &lt;t31/&gt;2.1&lt;t32/&gt; &lt;t33/&gt;is:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T064017Z" creationid="hfukuchi" creationdate="20180724T060054Z">
-        <seg>このSPDX仕様書2.1の逐語的な複製または頒布に使う公式な著作権表記は以下である：</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180724T060054Z">
+        <seg>このSPDX仕様2.1の逐語的な複製または頒布に使う公式な著作権表記は以下である：</seg>
       </tuv>
     </tu>
     <tu>
@@ -560,24 +592,24 @@
       <tuv lang="EN-US">
         <seg>What does this specification cover?</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T035249Z" creationid="hfukuchi" creationdate="20180719T044501Z">
-        <seg>仕様書でカバーしている項目は？</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180719T044501Z">
+        <seg>仕様でカバーしている項目は？</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>What is not covered in the specification?</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T035236Z" creationid="hfukuchi" creationdate="20180724T035130Z">
-        <seg>仕様書でカバーされない項目は？</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180724T035130Z">
+        <seg>仕様でカバーされない項目は？</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>What&lt;t0/&gt; &lt;t1/&gt;does&lt;t2/&gt; &lt;t3/&gt;this&lt;t4/&gt; &lt;t5/&gt;specification&lt;t6/&gt; &lt;t7/&gt;cover?</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180719T044245Z" creationid="hfukuchi" creationdate="20180719T044245Z">
-        <seg>この仕様書は何をカバーしていますか？</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180719T044245Z">
+        <seg>この仕様は何をカバーしていますか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -602,6 +634,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180719T044100Z" creationid="hfukuchi" creationdate="20180719T043859Z">
         <seg>次の方々の貢献と援助に謝辞を贈ります　Adam Cohn, Andrew Back, Ann Thornton, Bill Schineller, Bruno Cornec, Ciaran Farrell, Daniel German,&lt;t0/&gt; &lt;t1/&gt;David&lt;t2/&gt; &lt;t3/&gt;Wheeler,&lt;t4/&gt; &lt;t5/&gt;Debra&lt;t6/&gt; &lt;t7/&gt;McGlade,&lt;t8/&gt; &lt;t9/&gt;Dennis&lt;t10/&gt; &lt;t11/&gt;Clark,&lt;t12/&gt; &lt;t13/&gt;Ed&lt;t14/&gt; &lt;t15/&gt;Warnicke,&lt;t16/&gt; &lt;t17/&gt;Eran&lt;t18/&gt; &lt;t19/&gt;Strod,&lt;t20/&gt; &lt;t21/&gt;Eric&lt;t22/&gt; &lt;t23/&gt;Thomas,&lt;t24/&gt; &lt;t25/&gt;Esteban&lt;t26/&gt; &lt;t27/&gt;Rockett, Gary&lt;t28/&gt; &lt;t29/&gt;O'Neall,&lt;t30/&gt; &lt;t31/&gt;Guillaume&lt;t32/&gt; &lt;t33/&gt;Rousseau,&lt;t34/&gt; &lt;t35/&gt;Hassib&lt;t36/&gt; &lt;t37/&gt;Khanafer,&lt;t38/&gt; &lt;t39/&gt;Jack&lt;t40/&gt; &lt;t41/&gt;Manbeck,&lt;t42/&gt; &lt;t43/&gt;Jaime&lt;t44/&gt; &lt;t45/&gt;Garcia,&lt;t46/&gt; &lt;t47/&gt;Jeff&lt;t48/&gt; &lt;t49/&gt;Luszcz,&lt;t50/&gt; &lt;t51/&gt;Jilayne&lt;t52/&gt; &lt;t53/&gt;Lovejoy, John&lt;t54/&gt; &lt;t55/&gt;Ellis,&lt;t56/&gt; &lt;t57/&gt;Karen&lt;t58/&gt; &lt;t59/&gt;Copenhaver,&lt;t60/&gt; &lt;t61/&gt;Kate&lt;t62/&gt; &lt;t63/&gt;Stewart,&lt;t64/&gt; &lt;t65/&gt;Kevin&lt;t66/&gt; &lt;t67/&gt;Mitchell,&lt;t68/&gt; &lt;t69/&gt;Kim&lt;t70/&gt; &lt;t71/&gt;Weins,&lt;t72/&gt; &lt;t73/&gt;Kirsten&lt;t74/&gt; &lt;t75/&gt;Newcomer,&lt;t76/&gt; &lt;t77/&gt;Kris&lt;t78/&gt; &lt;t79/&gt;Reeves,&lt;t80/&gt; &lt;t81/&gt;Liang&lt;t82/&gt; &lt;t83/&gt;Cao, Marc­Etienne Vargenau, Mark Gisi, Marshall Clow, Martin Michlmayr, Martin von Willebrand, Matt Germonprez, Michael&lt;t84/&gt; &lt;t85/&gt;J.&lt;t86/&gt; &lt;t87/&gt;Herzog,&lt;t88/&gt; &lt;t89/&gt;Michel&lt;t90/&gt; &lt;t91/&gt;Ruffin,&lt;t92/&gt; &lt;t93/&gt;Nuno&lt;t94/&gt; &lt;t95/&gt;Brito,&lt;t96/&gt; &lt;t97/&gt;Oliver&lt;t98/&gt; &lt;t99/&gt;Fendt,&lt;t100/&gt; &lt;t101/&gt;Paul&lt;t102/&gt; &lt;t103/&gt;Madick,&lt;t104/&gt; &lt;t105/&gt;Peter&lt;t106/&gt; &lt;t107/&gt;Williams,&lt;t108/&gt; &lt;t109/&gt;Phil&lt;t110/&gt; &lt;t111/&gt;Robb,&lt;t112/&gt; &lt;t113/&gt;Philip&lt;t114/&gt; &lt;t115/&gt;Odence, Philip&lt;t116/&gt; &lt;t117/&gt;Koltun,&lt;t118/&gt; &lt;t119/&gt;Phillippe&lt;t120/&gt; &lt;t121/&gt;Ombredanne,&lt;t122/&gt; &lt;t123/&gt;Pierre&lt;t124/&gt; &lt;t125/&gt;Lapointe,&lt;t126/&gt; &lt;t127/&gt;Rana&lt;t128/&gt; &lt;t129/&gt;Rahal,&lt;t130/&gt; &lt;t131/&gt;Robin&lt;t132/&gt; &lt;t133/&gt;Gandhi,&lt;t134/&gt; &lt;t135/&gt;Sam&lt;t136/&gt; &lt;t137/&gt;Ellis,&lt;t138/&gt; &lt;t139/&gt;Sameer&lt;t140/&gt; &lt;t141/&gt;Ahmed,&lt;t142/&gt; &lt;t143/&gt;Scott K Peterson, Scott Lamons, Scott Sterling, Shane Coughlan, Steve Cropper, Stuart Hughes, Tom Callaway, Tom Vidal, Thomas F. Incorvia, Venkata Krishna, Yev Bronshteyn, and Zachary McFarland </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Without&lt;t0/&gt; &lt;t1/&gt;opining&lt;t2/&gt; &lt;t3/&gt;on&lt;t4/&gt; &lt;t5/&gt;the&lt;t6/&gt; &lt;t7/&gt;lawfulness&lt;t8/&gt; &lt;t9/&gt;of&lt;t10/&gt; &lt;t11/&gt;"database&lt;t12/&gt; &lt;t13/&gt;rights"&lt;t14/&gt; &lt;t15/&gt;(in&lt;t16/&gt; &lt;t17/&gt;jurisdictions&lt;t18/&gt; &lt;t19/&gt;where&lt;t20/&gt; &lt;t21/&gt;applicable),&lt;t22/&gt; &lt;t23/&gt;such explanatory&lt;t24/&gt; &lt;t25/&gt;text&lt;t26/&gt; &lt;t27/&gt;is&lt;t28/&gt; &lt;t29/&gt;copyrightable&lt;t30/&gt; &lt;t31/&gt;subject&lt;t32/&gt; &lt;t33/&gt;matter&lt;t34/&gt; &lt;t35/&gt;in&lt;t36/&gt; &lt;t37/&gt;most&lt;t38/&gt; &lt;t39/&gt;Berne&lt;t40/&gt; &lt;t41/&gt;Convention&lt;t42/&gt; &lt;t43/&gt;countries.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T051027Z" creationid="hfukuchi" creationdate="20180730T050413Z">
+        <seg>データベース権（適応可能な裁判権の中で）の適法性に言及しなくても、そのような説明文はほとんどのベルヌ条約国において著作権対象になる。</seg>
       </tuv>
     </tu>
     <tu>
