@@ -16,8 +16,8 @@
       <tuv lang="EN-US">
         <seg>&lt;t0/&gt;Mandatory,&lt;t1/&gt; &lt;t2/&gt;one.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180802T084844Z" creationid="hfukuchi" creationdate="20180802T084844Z">
-        <seg>必須　1</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072233Z" creationid="hfukuchi" creationdate="20180802T084844Z">
+        <seg>必須、1</seg>
       </tuv>
     </tu>
     <tu>
@@ -26,6 +26,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T062018Z" creationid="hfukuchi" creationdate="20180802T062010Z">
         <seg>。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;t1/&gt; &lt;t2/&gt;document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T074659Z" creationid="hfukuchi" creationdate="20180803T074659Z">
+        <seg>。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;t1/&gt; &lt;t2/&gt;properties:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T081948Z" creationid="hfukuchi" creationdate="20180803T081948Z">
+        <seg>属性を持つ：</seg>
       </tuv>
     </tu>
     <tu>
@@ -56,16 +72,16 @@
       <tuv lang="EN-US">
         <seg>A new appendix “Using SPDX short identifiers in Source Files” has been added to document&lt;t0/&gt; &lt;t1/&gt;the&lt;t2/&gt; &lt;t3/&gt;best&lt;t4/&gt; &lt;t5/&gt;practices&lt;t6/&gt; &lt;t7/&gt;to&lt;t8/&gt; &lt;t9/&gt;refer&lt;t10/&gt; &lt;t11/&gt;to&lt;t12/&gt; &lt;t13/&gt;the&lt;t14/&gt; &lt;t15/&gt;licenses&lt;t16/&gt; &lt;t17/&gt;in&lt;t18/&gt; &lt;t19/&gt;the&lt;t20/&gt; &lt;t21/&gt;SPDX&lt;t22/&gt; &lt;t23/&gt;license&lt;t24/&gt; &lt;t25/&gt;list&lt;t26/&gt; &lt;t27/&gt;that&lt;t28/&gt; &lt;t29/&gt;have&lt;t30/&gt; &lt;t31/&gt;emerged&lt;t32/&gt; &lt;t33/&gt;from the&lt;t34/&gt; &lt;t35/&gt;development&lt;t36/&gt; &lt;t37/&gt;community.&lt;t38/&gt; &lt;t39/&gt;See&lt;t40/&gt; &lt;t41/&gt;Appendix&lt;t42/&gt; &lt;t43/&gt;V:&lt;t44/&gt; &lt;t45/&gt;Using&lt;t46/&gt; &lt;t47/&gt;SPDX&lt;t48/&gt; &lt;t49/&gt;short&lt;t50/&gt; &lt;t51/&gt;identifiers&lt;t52/&gt; &lt;t53/&gt;in&lt;t54/&gt; &lt;t55/&gt;Source&lt;t56/&gt; &lt;t57/&gt;Files&lt;t58/&gt; &lt;t59/&gt;for&lt;t60/&gt; &lt;t61/&gt;more information.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180726T015631Z" creationid="hfukuchi" creationdate="20180726T015631Z">
-        <seg>新しいAppendix「ソース ファイルでのSPDX簡易識別子の利用」がドキュメントに追加された。これは開発コミュニティから生まれたもので、SPDXライセンス リスト中のライセンスを参照するベスト プラクティスである。詳細は、Appendix V：ソース ファイルでのSPDX簡易識別子の利用を参照</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072720Z" creationid="hfukuchi" creationdate="20180726T015631Z">
+        <seg>新しいAppendix「ソース ファイルでのSPDX簡易識別子の利用」が文書に追加された。これは開発コミュニティから生まれたもので、SPDXライセンス リスト中のライセンスを参照するベスト プラクティスである。詳細は、Appendix V：ソース ファイルでのSPDX簡易識別子の利用を参照</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>A&lt;t0/&gt; &lt;t1/&gt;file&lt;t2/&gt; &lt;t3/&gt;can&lt;t4/&gt; &lt;t5/&gt;be&lt;t6/&gt; &lt;t7/&gt;designated&lt;t8/&gt; &lt;t9/&gt;an&lt;t10/&gt; &lt;t11/&gt;SPDX&lt;t12/&gt; &lt;t13/&gt;document,&lt;t14/&gt; &lt;t15/&gt;if&lt;t16/&gt; &lt;t17/&gt;it&lt;t18/&gt; &lt;t19/&gt;is&lt;t20/&gt; &lt;t21/&gt;compliant&lt;t22/&gt; &lt;t23/&gt;with&lt;t24/&gt; &lt;t25/&gt;the&lt;t26/&gt; &lt;t27/&gt;requirements&lt;t28/&gt; &lt;t29/&gt;of&lt;t30/&gt; &lt;t31/&gt;the SPDX&lt;t32/&gt; &lt;t33/&gt;Trademark&lt;t34/&gt; &lt;t35/&gt;License&lt;t36/&gt; &lt;t37/&gt;(&lt;t38/&gt;See&lt;t39/&gt; &lt;t40/&gt;the&lt;t41/&gt; &lt;t42/&gt;SPDX&lt;t43/&gt; &lt;t44/&gt;Trademark&lt;t45/&gt; &lt;t46/&gt;Page&lt;t47/&gt;).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180802T045829Z" creationid="hfukuchi" creationdate="20180724T054933Z">
-        <seg>SPDX商標ライセンスの要求を全て満足すれば、ファイルをSPDXドキュメントと呼ぶことができる</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072658Z" creationid="hfukuchi" creationdate="20180724T054933Z">
+        <seg>SPDX商標ライセンスの要求を全て満足すれば、ファイルをSPDX文書と呼ぶことができる</seg>
       </tuv>
     </tu>
     <tu>
@@ -110,6 +126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cardinality: &lt;t0/&gt;Optional, one or&lt;t1/&gt; &lt;t2/&gt;many.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T080059Z" creationid="hfukuchi" creationdate="20180803T080059Z">
+        <seg>基数：任意、1以上</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cardinality: Mandatory, one.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180726T021220Z" creationid="hfukuchi" creationdate="20180726T021220Z">
@@ -122,6 +146,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180726T023742Z" creationid="hfukuchi" creationdate="20180726T023742Z">
         <seg>基数：必須、1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cardinality&lt;t0/&gt;: Optional,&lt;t1/&gt; &lt;t2/&gt;one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T084930Z" creationid="hfukuchi" creationdate="20180803T084930Z">
+        <seg>基数：任意、1</seg>
       </tuv>
     </tu>
     <tu>
@@ -150,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creator</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T085055Z" creationid="hfukuchi" creationdate="20180803T085055Z">
+        <seg>作成者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CreatorWebsite&lt;t0/&gt; &lt;t1/&gt;is&lt;t2/&gt; &lt;t3/&gt;a&lt;t4/&gt; &lt;t5/&gt;website&lt;t6/&gt; &lt;t7/&gt;hosted&lt;t8/&gt; &lt;t9/&gt;by&lt;t10/&gt; &lt;t11/&gt;the&lt;t12/&gt; &lt;t13/&gt;creator&lt;t14/&gt; &lt;t15/&gt;of&lt;t16/&gt; &lt;t17/&gt;the&lt;t18/&gt; &lt;t19/&gt;document.&lt;t20/&gt; &lt;t21/&gt;(e.g.&lt;t22/&gt; &lt;t23/&gt;an&lt;t24/&gt; &lt;t25/&gt;SPDX document&lt;t26/&gt; &lt;t27/&gt;provided&lt;t28/&gt; &lt;t29/&gt;by&lt;t30/&gt; &lt;t31/&gt;SPDX&lt;t32/&gt; &lt;t33/&gt;would&lt;t34/&gt; &lt;t35/&gt;be&lt;t36/&gt; &lt;t37/&gt;spdx.org)</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T081143Z" creationid="hfukuchi" creationdate="20180802T081143Z">
@@ -158,10 +198,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Data Format: &lt;t0/&gt; &lt;t1/&gt;“M.N”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T084945Z" creationid="hfukuchi" creationdate="20180803T084945Z">
+        <seg>データ フォーマット：“M.N”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Data Format: &lt;t0/&gt;unique absolute &lt;t1/&gt;Uniform Resource Identifier &lt;t2/&gt;(URI) as specified in &lt;t3/&gt;RFC­&lt;t4/&gt;3986&lt;t5/&gt;, with the following &lt;t6/&gt; &lt;t7/&gt;exceptions:</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T085212Z" creationid="hfukuchi" creationdate="20180802T085212Z">
         <seg>データ フォーマット：RFC-3986で規定された一意の絶対統一資源識別子（URI）、ただし以下の例外を含む：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data Format: &lt;t0/&gt;“DocumentRef­”[idstring] [SPDX Document URI] [Checksum] where</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T080127Z" creationid="hfukuchi" creationdate="20180803T080127Z">
+        <seg>データ フォーマット：“DocumentRef­”[idstring] [SPDX Document URI] [Checksum] ここで</seg>
       </tuv>
     </tu>
     <tu>
@@ -192,8 +248,8 @@
       <tuv lang="EN-US">
         <seg>DataFormat: &lt;t0/&gt;single line of&lt;t1/&gt; &lt;t2/&gt;text.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180802T073239Z" creationid="hfukuchi" creationdate="20180802T073239Z">
-        <seg>データ フォーマット：single line of text.</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T073533Z" creationid="hfukuchi" creationdate="20180802T073239Z">
+        <seg>データ フォーマット：一文のテキスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -232,8 +288,8 @@
       <tuv lang="EN-US">
         <seg>Document Creation&lt;t0/&gt; &lt;t1/&gt;Information</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180802T090558Z" creationid="hfukuchi" creationdate="20180726T020337Z">
-        <seg>ドキュメント作成情報</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072811Z" creationid="hfukuchi" creationdate="20180726T020337Z">
+        <seg>文書作成情報</seg>
       </tuv>
     </tu>
     <tu>
@@ -262,10 +318,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example: &lt;t0/&gt;LicenseListVersion:&lt;t1/&gt; &lt;t2/&gt;2.0</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T085039Z" creationid="hfukuchi" creationdate="20180803T085039Z">
+        <seg>例：LicenseListVersion: 2.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example&lt;t0/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T081607Z" creationid="hfukuchi" creationdate="20180803T081607Z">
+        <seg>例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Examples&lt;t0/&gt; &lt;t1/&gt;may&lt;t2/&gt; &lt;t3/&gt;contain&lt;t4/&gt; &lt;t5/&gt;“...”&lt;t6/&gt; &lt;t7/&gt;which&lt;t8/&gt; &lt;t9/&gt;indicate&lt;t10/&gt; &lt;t11/&gt;detailed&lt;t12/&gt; &lt;t13/&gt;text&lt;t14/&gt; &lt;t15/&gt;specific&lt;t16/&gt; &lt;t17/&gt;to&lt;t18/&gt; &lt;t19/&gt;the&lt;t20/&gt; &lt;t21/&gt;SPDX&lt;t22/&gt; &lt;t23/&gt;Document</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180802T044709Z" creationid="hfukuchi" creationdate="20180724T043916Z">
-        <seg>例は“...”を含むが、これはSPDXドキュメントに特有の詳細テキストを示す</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072642Z" creationid="hfukuchi" creationdate="20180724T043916Z">
+        <seg>例は“...”を含むが、これはSPDX文書に特有の詳細テキストを示す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>External Document References</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T073125Z" creationid="hfukuchi" creationdate="20180803T073125Z">
+        <seg>外部文書参照</seg>
       </tuv>
     </tu>
     <tu>
@@ -280,8 +360,8 @@
       <tuv lang="EN-US">
         <seg>External&lt;t0/&gt; &lt;t1/&gt;Packages&lt;t2/&gt; &lt;t3/&gt;can&lt;t4/&gt; &lt;t5/&gt;now&lt;t6/&gt; &lt;t7/&gt;be&lt;t8/&gt; &lt;t9/&gt;refered&lt;t10/&gt; &lt;t11/&gt;to&lt;t12/&gt; &lt;t13/&gt;in&lt;t14/&gt; &lt;t15/&gt;SPDX&lt;t16/&gt; &lt;t17/&gt;documents.&lt;t18/&gt; &lt;t19/&gt;When&lt;t20/&gt; &lt;t21/&gt;there&lt;t22/&gt; &lt;t23/&gt;is&lt;t24/&gt; &lt;t25/&gt;no&lt;t26/&gt; &lt;t27/&gt;SPDX&lt;t28/&gt; &lt;t29/&gt;file information available to document the content of these external packages, then the filesAnnalyzed attribute&lt;t30/&gt; &lt;t31/&gt;on&lt;t32/&gt; &lt;t33/&gt;a&lt;t34/&gt; &lt;t35/&gt;package&lt;t36/&gt; &lt;t37/&gt;should&lt;t38/&gt; &lt;t39/&gt;be&lt;t40/&gt; &lt;t41/&gt;set&lt;t42/&gt; &lt;t43/&gt;to&lt;t44/&gt; &lt;t45/&gt;false.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T072407Z" creationid="hfukuchi" creationdate="20180724T071323Z">
-        <seg>外部パッケージが、SPDXドキュメント中で参照可能となった。これらの外部パッケージを示すSPDXファイル情報が無い場合には、パッケージのfilesAnnalyzed属性はFalseにするべきである。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072708Z" creationid="hfukuchi" creationdate="20180724T071323Z">
+        <seg>外部パッケージが、SPDX文書中で参照可能となった。これらの外部パッケージを示すSPDXファイル情報が無い場合には、パッケージのfilesAnnalyzed属性はFalseにするべきである。</seg>
       </tuv>
     </tu>
     <tu>
@@ -360,8 +440,8 @@
       <tuv lang="EN-US">
         <seg>If the creator does not own their own website, a default SPDX CreatorWebsite and PathToSpdx can be used 'spdx.org/spdxdocs'.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180802T083628Z" creationid="hfukuchi" creationdate="20180802T083628Z">
-        <seg>作成者が自分のウェブサイトを保有していない場合には、デフォルトのCreatorWebsiteとPathToSpdx（'spdx.org/spdxdocs'）が利用可能である。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T073031Z" creationid="hfukuchi" creationdate="20180802T083628Z">
+        <seg>作成者が自分のウェブサイトを保有していない場合には、CreatorWebsiteとPathToSpdxのデフォルト値（'spdx.org/spdxdocs'）が利用可能である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -394,6 +474,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T062150Z" creationid="hfukuchi" creationdate="20180802T062150Z">
         <seg>意図：文書名は重要な慣例であり、URIより簡単な参照方法である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: &lt;t0/&gt;Recognizing that licenses are added to the SPDX License List with each subsequent&lt;t1/&gt; &lt;t2/&gt;version,&lt;t3/&gt; &lt;t4/&gt;the&lt;t5/&gt; &lt;t6/&gt;intent&lt;t7/&gt; &lt;t8/&gt;is&lt;t9/&gt; &lt;t10/&gt;to&lt;t11/&gt; &lt;t12/&gt;provide&lt;t13/&gt; &lt;t14/&gt;recipients&lt;t15/&gt; &lt;t16/&gt;of&lt;t17/&gt; &lt;t18/&gt;the&lt;t19/&gt; &lt;t20/&gt;SPDX&lt;t21/&gt; &lt;t22/&gt;file&lt;t23/&gt; &lt;t24/&gt;with&lt;t25/&gt; &lt;t26/&gt;the&lt;t27/&gt; &lt;t28/&gt;version&lt;t29/&gt; &lt;t30/&gt;of&lt;t31/&gt; &lt;t32/&gt;the&lt;t33/&gt; &lt;t34/&gt;SPDX License&lt;t35/&gt; &lt;t36/&gt;List&lt;t37/&gt; &lt;t38/&gt;used.&lt;t39/&gt; &lt;t40/&gt;This&lt;t41/&gt; &lt;t42/&gt;anticipates&lt;t43/&gt; &lt;t44/&gt;that&lt;t45/&gt; &lt;t46/&gt;in&lt;t47/&gt; &lt;t48/&gt;the&lt;t49/&gt; &lt;t50/&gt;future,&lt;t51/&gt; &lt;t52/&gt;an&lt;t53/&gt; &lt;t54/&gt;SPDX&lt;t55/&gt; &lt;t56/&gt;file&lt;t57/&gt; &lt;t58/&gt;may&lt;t59/&gt; &lt;t60/&gt;have&lt;t61/&gt; &lt;t62/&gt;used&lt;t63/&gt; &lt;t64/&gt;a&lt;t65/&gt; &lt;t66/&gt;version&lt;t67/&gt; &lt;t68/&gt;of&lt;t69/&gt; &lt;t70/&gt;the SPDX&lt;t71/&gt; &lt;t72/&gt;License&lt;t73/&gt; &lt;t74/&gt;List&lt;t75/&gt; &lt;t76/&gt;that&lt;t77/&gt; &lt;t78/&gt;is&lt;t79/&gt; &lt;t80/&gt;older&lt;t81/&gt; &lt;t82/&gt;than&lt;t83/&gt; &lt;t84/&gt;the&lt;t85/&gt; &lt;t86/&gt;then&lt;t87/&gt; &lt;t88/&gt;current&lt;t89/&gt; &lt;t90/&gt;one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T084916Z" creationid="hfukuchi" creationdate="20180803T084916Z">
+        <seg>意図：バージョン更新時にSPDXライセンス リストにライセンスが加えられることを認識した上で、SPDXファイルの受領者に使用されたSPDXライセンス ファイルのバージョンを提供することを意図している。このことは、将来、現行のものより古いバージョンのSPDXライセンス リストがSPDXで使用されることを見越している。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: &lt;t0/&gt;SPDX elements within this document may be related to other SPDX elements referenced&lt;t1/&gt; &lt;t2/&gt;from&lt;t3/&gt; &lt;t4/&gt;external&lt;t5/&gt; &lt;t6/&gt;SPDX&lt;t7/&gt; &lt;t8/&gt;documents.&lt;t9/&gt; &lt;t10/&gt;An&lt;t11/&gt; &lt;t12/&gt;SPDX&lt;t13/&gt; &lt;t14/&gt;element&lt;t15/&gt; &lt;t16/&gt;could&lt;t17/&gt; &lt;t18/&gt;be&lt;t19/&gt; &lt;t20/&gt;a&lt;t21/&gt; &lt;t22/&gt;snippet,&lt;t23/&gt; &lt;t24/&gt;file,&lt;t25/&gt; &lt;t26/&gt;package, license&lt;t27/&gt; &lt;t28/&gt;reference&lt;t29/&gt; &lt;t30/&gt;or&lt;t31/&gt; &lt;t32/&gt;SPDX&lt;t33/&gt; &lt;t34/&gt;document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T075936Z" creationid="hfukuchi" creationdate="20180803T074420Z">
+        <seg>意図：この文書内で参照されるSPDX要素は、外部SPDX文書から参照される他のSPDX要素に関連しているかもしれない。SPDX要素としては、コード断片、ファイル、パッケージ、ライセンス参照、SPDX文書がありうる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -450,6 +546,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180724T043641Z" creationid="hfukuchi" creationdate="20180724T043641Z">
         <seg>ライセンスの法的解釈や、実施済みや実施すべきコンプライアンス活動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>License List Version</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T082845Z" creationid="hfukuchi" creationdate="20180803T082845Z">
+        <seg>ライセンス リスト バージョン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M is major version number N is minor version number.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T085016Z" creationid="hfukuchi" creationdate="20180803T085016Z">
+        <seg>Mはメジャー バージョン番号　Nはマイナー バージョン番号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -518,6 +630,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notes:&lt;t0/&gt; &lt;t1/&gt;in&lt;t2/&gt; &lt;t3/&gt;RDF,&lt;t4/&gt; &lt;t5/&gt;a&lt;t6/&gt; &lt;t7/&gt;namespace&lt;t8/&gt; &lt;t9/&gt;can&lt;t10/&gt; &lt;t11/&gt;be&lt;t12/&gt; &lt;t13/&gt;created&lt;t14/&gt; &lt;t15/&gt;for&lt;t16/&gt; &lt;t17/&gt;the&lt;t18/&gt; &lt;t19/&gt;external&lt;t20/&gt; &lt;t21/&gt;document&lt;t22/&gt; &lt;t23/&gt;reference&lt;t24/&gt; &lt;t25/&gt;if&lt;t26/&gt; &lt;t27/&gt;a&lt;t28/&gt; &lt;t29/&gt;short form&lt;t30/&gt; &lt;t31/&gt;name&lt;t32/&gt; &lt;t33/&gt;for&lt;t34/&gt; &lt;t35/&gt;the&lt;t36/&gt; &lt;t37/&gt;external&lt;t38/&gt; &lt;t39/&gt;reference&lt;t40/&gt; &lt;t41/&gt;is&lt;t42/&gt; &lt;t43/&gt;desired.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T082835Z" creationid="hfukuchi" creationdate="20180803T082835Z">
+        <seg>注：RDFでは、外部参照に短形式の名前が必要な場合は、外部文書参照のために名前空間を作成できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One&lt;t0/&gt; &lt;t1/&gt;instance&lt;t2/&gt; &lt;t3/&gt;is&lt;t4/&gt; &lt;t5/&gt;required&lt;t6/&gt; &lt;t7/&gt;for&lt;t8/&gt; &lt;t9/&gt;each&lt;t10/&gt; &lt;t11/&gt;SPDX&lt;t12/&gt; &lt;t13/&gt;file&lt;t14/&gt; &lt;t15/&gt;produced.&lt;t16/&gt; &lt;t17/&gt;It&lt;t18/&gt; &lt;t19/&gt;provides&lt;t20/&gt; &lt;t21/&gt;the&lt;t22/&gt; &lt;t23/&gt;necessary&lt;t24/&gt; &lt;t25/&gt;information&lt;t26/&gt; &lt;t27/&gt;for&lt;t28/&gt; &lt;t29/&gt;forward&lt;t30/&gt; &lt;t31/&gt;and backward&lt;t32/&gt; &lt;t33/&gt;compatibility&lt;t34/&gt; &lt;t35/&gt;for&lt;t36/&gt; &lt;t37/&gt;processing&lt;t38/&gt; &lt;t39/&gt;tools.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180726T021150Z" creationid="hfukuchi" creationdate="20180726T021150Z">
@@ -536,8 +656,8 @@
       <tuv lang="EN-US">
         <seg>Overview of SPDX 2.1 document contents&lt;t0/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T034011Z" creationid="hfukuchi" creationdate="20180724T034011Z">
-        <seg>SPDXドキュメント コンテンツの概要</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072629Z" creationid="hfukuchi" creationdate="20180724T034011Z">
+        <seg>SPDX文書コンテンツの概要</seg>
       </tuv>
     </tu>
     <tu>
@@ -566,10 +686,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Purpose: &lt;t0/&gt;Identify any external SPDX documents referenced within this SPDX</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T074656Z" creationid="hfukuchi" creationdate="20180803T073146Z">
+        <seg>目的：このSPDX文書内で参照されている外部SPDX文書を特定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Purpose: &lt;t0/&gt;Identify name of this document as designated by</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T062024Z" creationid="hfukuchi" creationdate="20180802T061953Z">
         <seg>目的：作成者によって付けられた文書名を特定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose: &lt;t0/&gt;Identify who (or what, in the case of a tool) created the SPDX file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T085127Z" creationid="hfukuchi" creationdate="20180803T085127Z">
+        <seg>目的：&lt;t0/&gt;Identify who (or what, in the case of a tool) created the SPDX file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose:&lt;t0/&gt; &lt;t1/&gt;An&lt;t2/&gt; &lt;t3/&gt;optional&lt;t4/&gt; &lt;t5/&gt;field&lt;t6/&gt; &lt;t7/&gt;for&lt;t8/&gt; &lt;t9/&gt;creators&lt;t10/&gt; &lt;t11/&gt;of&lt;t12/&gt; &lt;t13/&gt;the&lt;t14/&gt; &lt;t15/&gt;SPDX&lt;t16/&gt; &lt;t17/&gt;file&lt;t18/&gt; &lt;t19/&gt;to&lt;t20/&gt; &lt;t21/&gt;provide&lt;t22/&gt; &lt;t23/&gt;the&lt;t24/&gt; &lt;t25/&gt;version&lt;t26/&gt; &lt;t27/&gt;of&lt;t28/&gt; &lt;t29/&gt;the&lt;t30/&gt; &lt;t31/&gt;SPDX License&lt;t32/&gt; &lt;t33/&gt;List&lt;t34/&gt; &lt;t35/&gt;used&lt;t36/&gt; &lt;t37/&gt;when&lt;t38/&gt; &lt;t39/&gt;the&lt;t40/&gt; &lt;t41/&gt;SPDX&lt;t42/&gt; &lt;t43/&gt;file&lt;t44/&gt; &lt;t45/&gt;was&lt;t46/&gt; &lt;t47/&gt;created.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T083420Z" creationid="hfukuchi" creationdate="20180803T083420Z">
+        <seg>目的：SPDXファイルの作成者がSPDXファイルを作成する際に使用したSPDXライセンス リストのバージョンを任意で記載するフィールド。</seg>
       </tuv>
     </tu>
     <tu>
@@ -592,8 +736,8 @@
       <tuv lang="EN-US">
         <seg>Purpose:&lt;t0/&gt; &lt;t1/&gt;Provide&lt;t2/&gt; &lt;t3/&gt;a&lt;t4/&gt; &lt;t5/&gt;reference&lt;t6/&gt; &lt;t7/&gt;number&lt;t8/&gt; &lt;t9/&gt;that&lt;t10/&gt; &lt;t11/&gt;can&lt;t12/&gt; &lt;t13/&gt;be&lt;t14/&gt; &lt;t15/&gt;used&lt;t16/&gt; &lt;t17/&gt;to&lt;t18/&gt; &lt;t19/&gt;understand&lt;t20/&gt; &lt;t21/&gt;how&lt;t22/&gt; &lt;t23/&gt;to&lt;t24/&gt; &lt;t25/&gt;parse&lt;t26/&gt; &lt;t27/&gt;and interpret the rest of the file.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180726T022723Z" creationid="hfukuchi" creationdate="20180726T022642Z">
-        <seg>目的：ファイルををパースして解釈する方法を理解するのに使用される参照番号を提供する。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T071417Z" creationid="hfukuchi" creationdate="20180726T022642Z">
+        <seg>目的：ファイルをパースして解釈する方法を理解するのに使用される参照番号を提供する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -632,8 +776,8 @@
       <tuv lang="EN-US">
         <seg>Relationships&lt;t0/&gt; &lt;t1/&gt;Between&lt;t2/&gt; &lt;t3/&gt;SPDX&lt;t4/&gt; &lt;t5/&gt;Elements:&lt;t6/&gt; &lt;t7/&gt;Information&lt;t8/&gt; &lt;t9/&gt;on&lt;t10/&gt; &lt;t11/&gt;how&lt;t12/&gt; &lt;t13/&gt;Documents,&lt;t14/&gt; &lt;t15/&gt;Packages&lt;t16/&gt; &lt;t17/&gt;&amp;&lt;t18/&gt; &lt;t19/&gt;Files relate to each&lt;t20/&gt; &lt;t21/&gt;other.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T033708Z" creationid="hfukuchi" creationdate="20180724T033708Z">
-        <seg>SPDX要素間関連情報：ドキュメント、パッケージおよびファイルの相互関連の情報</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072615Z" creationid="hfukuchi" creationdate="20180724T033708Z">
+        <seg>SPDX要素間関連情報：文書、パッケージおよびファイルの相互関連の情報</seg>
       </tuv>
     </tu>
     <tu>
@@ -648,8 +792,8 @@
       <tuv lang="EN-US">
         <seg>SPDX Document Creation Information: Meta data to associate analysis results with a specific&lt;t0/&gt; &lt;t1/&gt;version&lt;t2/&gt; &lt;t3/&gt;of&lt;t4/&gt; &lt;t5/&gt;the&lt;t6/&gt; &lt;t7/&gt;SPDX&lt;t8/&gt; &lt;t9/&gt;file&lt;t10/&gt; &lt;t11/&gt;and&lt;t12/&gt; &lt;t13/&gt;license&lt;t14/&gt; &lt;t15/&gt;for&lt;t16/&gt; &lt;t17/&gt;use,&lt;t18/&gt; &lt;t19/&gt;and&lt;t20/&gt; &lt;t21/&gt;provide&lt;t22/&gt; &lt;t23/&gt;information&lt;t24/&gt; &lt;t25/&gt;on&lt;t26/&gt; &lt;t27/&gt;how,&lt;t28/&gt; &lt;t29/&gt;when,&lt;t30/&gt; &lt;t31/&gt;and&lt;t32/&gt; &lt;t33/&gt;by whom&lt;t34/&gt; &lt;t35/&gt;the&lt;t36/&gt; &lt;t37/&gt;SPDX&lt;t38/&gt; &lt;t39/&gt;file&lt;t40/&gt; &lt;t41/&gt;was&lt;t42/&gt; &lt;t43/&gt;created.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T032127Z" creationid="hfukuchi" creationdate="20180719T062002Z">
-        <seg>SPDXドキュメント生成情報（SPDX Document Creation Information）：解析結果の表記に使われるSPDXファイルとライセンスリストの特定のバージョンおよび、誰が、いつ、どのようにSPDXファイルを作成したかに関するメタデータ</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072604Z" creationid="hfukuchi" creationdate="20180719T062002Z">
+        <seg>SPDX文書生成情報（SPDX Document Creation Information）：解析結果の表記に使われるSPDXファイルとライセンスリストの特定のバージョンおよび、誰が、いつ、どのようにSPDXファイルを作成したかに関するメタデータ</seg>
       </tuv>
     </tu>
     <tu>
@@ -704,8 +848,8 @@
       <tuv lang="EN-US">
         <seg>Should&lt;t0/&gt; &lt;t1/&gt;be&lt;t2/&gt; &lt;t3/&gt;easy&lt;t4/&gt; &lt;t5/&gt;to&lt;t6/&gt; &lt;t7/&gt;recognize&lt;t8/&gt; &lt;t9/&gt;in&lt;t10/&gt; &lt;t11/&gt;a&lt;t12/&gt; &lt;t13/&gt;file&lt;t14/&gt; &lt;t15/&gt;system&lt;t16/&gt; &lt;t17/&gt;without&lt;t18/&gt; &lt;t19/&gt;opening&lt;t20/&gt; &lt;t21/&gt;the&lt;t22/&gt; &lt;t23/&gt;file.&lt;t24/&gt; &lt;t25/&gt;A&lt;t26/&gt; &lt;t27/&gt;suggested&lt;t28/&gt; &lt;t29/&gt;naming convention&lt;t30/&gt; &lt;t31/&gt;is&lt;t32/&gt; &lt;t33/&gt;to&lt;t34/&gt; &lt;t35/&gt;use&lt;t36/&gt; &lt;t37/&gt;*.spdx&lt;t38/&gt; &lt;t39/&gt;(for&lt;t40/&gt; &lt;t41/&gt;tag­value&lt;t42/&gt; &lt;t43/&gt;format)&lt;t44/&gt; &lt;t45/&gt;and&lt;t46/&gt; &lt;t47/&gt;*­spdx.rdf&lt;t48/&gt; &lt;t49/&gt;for&lt;t50/&gt; &lt;t51/&gt;RDF&lt;t52/&gt; &lt;t53/&gt;format.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180724T052247Z" creationid="hfukuchi" creationdate="20180724T052216Z">
-        <seg>ファイルシステム上でファイルを開くことなく認識しやすくするべき。推奨されるネーミング慣例は、*.spdx（タグ値フォーマット）と*­spdx.rdf（RDFフォーマット）である</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T071509Z" creationid="hfukuchi" creationdate="20180724T052216Z">
+        <seg>ファイル システム上でファイルを開くことなく認識しやすくするべきである。推奨されるネーミング慣例は、*.spdx（タグ値フォーマット）と*­spdx.rdf（RDFフォーマット）である</seg>
       </tuv>
     </tu>
     <tu>
@@ -766,6 +910,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tag:&lt;t0/&gt; &lt;t1/&gt;“ExternalDocumentRef:”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T081557Z" creationid="hfukuchi" creationdate="20180803T081557Z">
+        <seg>タグ：“ExternalDocumentRef:”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tag:&lt;t0/&gt; &lt;t1/&gt;“LicenseListVersion:”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T085024Z" creationid="hfukuchi" creationdate="20180803T085024Z">
+        <seg>タグ：“LicenseListVersion:”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tag:&lt;t0/&gt; &lt;t1/&gt;“SPDXID:”</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T073311Z" creationid="hfukuchi" creationdate="20180802T073311Z">
@@ -790,10 +950,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The ExternalDocumentRef contains two</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T081737Z" creationid="hfukuchi" creationdate="20180803T081737Z">
+        <seg>ExternalDocumentRefは2つの</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The SPDX Document URI cannot contain a URI "part" (e.g. the "#" character), since the ‘#’ is used in SPDX&lt;t27/&gt; &lt;t28/&gt;element&lt;t29/&gt; &lt;t30/&gt;URIs&lt;t31/&gt; &lt;t32/&gt;(packages,&lt;t33/&gt; &lt;t34/&gt;files,&lt;t35/&gt; &lt;t36/&gt;snippets,&lt;t37/&gt; &lt;t38/&gt;etc)&lt;t39/&gt; &lt;t40/&gt;to&lt;t41/&gt; &lt;t42/&gt;separate&lt;t43/&gt; &lt;t44/&gt;the&lt;t45/&gt; &lt;t46/&gt;document&lt;t47/&gt; &lt;t48/&gt;namespace&lt;t49/&gt; &lt;t50/&gt;from&lt;t51/&gt; &lt;t52/&gt;the element’s&lt;t53/&gt; &lt;t54/&gt;SPDX&lt;t55/&gt; &lt;t56/&gt;identifier..&lt;t57/&gt; &lt;t58/&gt;Additionally,&lt;t59/&gt; &lt;t60/&gt;a&lt;t61/&gt; &lt;t62/&gt;scheme&lt;t63/&gt; &lt;t64/&gt;(e.g.&lt;t65/&gt; &lt;t66/&gt;“https:”)&lt;t67/&gt; &lt;t68/&gt;is&lt;t69/&gt; &lt;t70/&gt;required.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180802T085546Z" creationid="hfukuchi" creationdate="20180802T071719Z">
-        <seg>SPDX文書URIはURI "part"（例えば ‘#’）を持てない。というのも‘#’は、SPDX要素URI（パッケージ、ファイル、コード断片等）の中で文書名名前空間をSPDX識別子から分離するために使われるからである。さらに、スキーム（例えば“https:”）が必要である。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T073840Z" creationid="hfukuchi" creationdate="20180802T071719Z">
+        <seg>SPDX文書URIはURI "part"（例えば ‘#’）を持てない。というのも‘#’は、SPDX要素URI（パッケージ、ファイル、コード断片等）の中で文書名前空間をSPDX識別子から分離するために使われるからである。さらに、スキーム（例えば“https:”）が必要である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -864,8 +1032,8 @@
       <tuv lang="EN-US">
         <seg>The&lt;t0/&gt; &lt;t1/&gt;SPDX&lt;t2/&gt; &lt;t3/&gt;Document&lt;t4/&gt; &lt;t5/&gt;URI&lt;t6/&gt; &lt;t7/&gt;cannot&lt;t8/&gt; &lt;t9/&gt;contain&lt;t10/&gt; &lt;t11/&gt;a&lt;t12/&gt; &lt;t13/&gt;URI&lt;t14/&gt; &lt;t15/&gt;"part"&lt;t16/&gt; &lt;t17/&gt;(e.g.&lt;t18/&gt; &lt;t19/&gt;the&lt;t20/&gt; &lt;t21/&gt;"#"&lt;t22/&gt; &lt;t23/&gt;delimiter),&lt;t24/&gt; &lt;t25/&gt;since&lt;t26/&gt; &lt;t27/&gt;the&lt;t28/&gt; &lt;t29/&gt;"#" is&lt;t30/&gt; &lt;t31/&gt;used&lt;t32/&gt; &lt;t33/&gt;to&lt;t34/&gt; &lt;t35/&gt;uniquely&lt;t36/&gt; &lt;t37/&gt;identify&lt;t38/&gt; &lt;t39/&gt;SPDX&lt;t40/&gt; &lt;t41/&gt;element&lt;t42/&gt; &lt;t43/&gt;identifiers.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180802T085915Z" creationid="hfukuchi" creationdate="20180802T085630Z">
-        <seg>SPDX文書URIはURI "part"（例えば ‘#’）を持てない。というのも‘#’は、SPDX要素識別子特定するために使われるからである。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T073849Z" creationid="hfukuchi" creationdate="20180802T085630Z">
+        <seg>SPDX文書URIはURI "part"（例えば ‘#’）を持てない。というのも‘#’は、SPDX要素識別子を特定するために使われるからである。</seg>
       </tuv>
     </tu>
     <tu>
@@ -896,8 +1064,8 @@
       <tuv lang="EN-US">
         <seg>The&lt;t0/&gt; &lt;t1/&gt;convention&lt;t2/&gt; &lt;t3/&gt;in&lt;t4/&gt; &lt;t5/&gt;this&lt;t6/&gt; &lt;t7/&gt;specification&lt;t8/&gt; &lt;t9/&gt;is&lt;t10/&gt; &lt;t11/&gt;for&lt;t12/&gt; &lt;t13/&gt;the&lt;t14/&gt; &lt;t15/&gt;RDF&lt;t16/&gt; &lt;t17/&gt;examples&lt;t18/&gt; &lt;t19/&gt;to&lt;t20/&gt; &lt;t21/&gt;use&lt;t22/&gt; &lt;t23/&gt;rdf:about="..."&lt;t24/&gt; &lt;t25/&gt;to represent&lt;t26/&gt; &lt;t27/&gt;that&lt;t28/&gt; &lt;t29/&gt;a&lt;t30/&gt; &lt;t31/&gt;proper&lt;t32/&gt; &lt;t33/&gt;Universal&lt;t34/&gt; &lt;t35/&gt;Resource&lt;t36/&gt; &lt;t37/&gt;Indicator&lt;t38/&gt; &lt;t39/&gt;(URI)&lt;t40/&gt; &lt;t41/&gt;should&lt;t42/&gt; &lt;t43/&gt;be&lt;t44/&gt; &lt;t45/&gt;present.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180724T052705Z">
-        <seg>この仕様での慣例としてRDFの例　rdf:about="..."　は、適切なユニバーサル リソース インジケーター（URI）が提示されるべきであることを示す</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072205Z" creationid="hfukuchi" creationdate="20180724T052705Z">
+        <seg>この仕様での慣例としてRDFの例　rdf:about="..."　は、適切な統一資源指示子（URI）が提示されるべきであることを示す</seg>
       </tuv>
     </tu>
     <tu>
@@ -928,8 +1096,8 @@
       <tuv lang="EN-US">
         <seg>This document was created using SPDX 2.0 using licenses from the web site.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180802T090453Z" creationid="hfukuchi" creationdate="20180802T090453Z">
-        <seg>この文書は、ウェブサイトからのライセンスと使い、SPDXに従って作成された。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072531Z" creationid="hfukuchi" creationdate="20180802T090453Z">
+        <seg>この文書は、ウェブサイトからのライセンスを使い、SPDX2.0に従って作成された。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1002,6 +1170,54 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180730T051027Z" creationid="hfukuchi" creationdate="20180730T050413Z">
         <seg>データベース権（適応可能な裁判権の中で）の適法性に言及しなくても、そのような説明文はほとんどのベルヌ条約国において著作権対象になる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[Checksum]&lt;t0/&gt; &lt;t1/&gt;is&lt;t2/&gt; &lt;t3/&gt;a&lt;t4/&gt; &lt;t5/&gt;checksum&lt;t6/&gt; &lt;t7/&gt;of&lt;t8/&gt; &lt;t9/&gt;the&lt;t10/&gt; &lt;t11/&gt;external&lt;t12/&gt; &lt;t13/&gt;document&lt;t14/&gt; &lt;t15/&gt;following&lt;t16/&gt; &lt;t17/&gt;the&lt;t18/&gt; &lt;t19/&gt;checksum format&lt;t20/&gt; &lt;t21/&gt;defined&lt;t22/&gt; &lt;t23/&gt;in&lt;t24/&gt; &lt;t25/&gt;section&lt;t26/&gt; &lt;t27/&gt;3.9.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T081545Z" creationid="hfukuchi" creationdate="20180803T081545Z">
+        <seg>[Checksum]は、3.9節で定義されているチェックサム フォーマットに従って記載される外部文書のチェックサムである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[SPDX&lt;t22/&gt; &lt;t23/&gt;Document&lt;t24/&gt; &lt;t25/&gt;URI]&lt;t26/&gt; &lt;t27/&gt;is&lt;t28/&gt; &lt;t29/&gt;the&lt;t30/&gt; &lt;t31/&gt;unique&lt;t32/&gt; &lt;t33/&gt;ID&lt;t34/&gt; &lt;t35/&gt;for&lt;t36/&gt; &lt;t37/&gt;the&lt;t38/&gt; &lt;t39/&gt;external&lt;t40/&gt; &lt;t41/&gt;document</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T081225Z" creationid="hfukuchi" creationdate="20180803T081225Z">
+        <seg>[SPDX Document URI]は、2.5節で定義されているように、対象文書を参照している外部文書の一意のIDである</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[idstring]&lt;t0/&gt; &lt;t1/&gt;is&lt;t2/&gt; &lt;t3/&gt;a&lt;t4/&gt; &lt;t5/&gt;unique&lt;t6/&gt; &lt;t7/&gt;string&lt;t8/&gt; &lt;t9/&gt;containing&lt;t10/&gt; &lt;t11/&gt;letters,&lt;t12/&gt; &lt;t13/&gt;numbers,&lt;t14/&gt; &lt;t15/&gt;“.”,&lt;t16/&gt; &lt;t17/&gt;“­”&lt;t18/&gt; &lt;t19/&gt;or&lt;t20/&gt; &lt;t21/&gt;“+”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T080425Z" creationid="hfukuchi" creationdate="20180803T080425Z">
+        <seg>[idstring]は、文字、数字、“.”、“­”または“+”を含む一意の文字列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>as defined in section 2.5 of that referenced document,</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T081230Z" creationid="hfukuchi" creationdate="20180803T081230Z">
+        <seg>。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>checksum&lt;t0/&gt; &lt;t1/&gt;­&lt;t2/&gt; &lt;t3/&gt;the&lt;t4/&gt; &lt;t5/&gt;checksum&lt;t6/&gt; &lt;t7/&gt;of&lt;t8/&gt; &lt;t9/&gt;the&lt;t10/&gt; &lt;t11/&gt;referenced&lt;t12/&gt; &lt;t13/&gt;SPDX&lt;t14/&gt; &lt;t15/&gt;document</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T082100Z" creationid="hfukuchi" creationdate="20180803T082100Z">
+        <seg>checksum ­ 参照されるSPDX文書のチェックサム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>spdxDocument&lt;t0/&gt; &lt;t1/&gt;­&lt;t2/&gt; &lt;t3/&gt;the&lt;t4/&gt; &lt;t5/&gt;SpdxDocument&lt;t6/&gt; &lt;t7/&gt;being&lt;t8/&gt; &lt;t9/&gt;referenced</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180803T082024Z" creationid="hfukuchi" creationdate="20180803T082024Z">
+        <seg>spdxDocument ­ 参照されるSDPX文書</seg>
       </tuv>
     </tu>
     <tu>
