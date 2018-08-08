@@ -15,4 +15,5 @@ Japanese translation of SPDX specification
 ## 参考資料
 SDPX仕様を読む際に、参考になる資料です
 * URI(Uniform Resource Identifier)
-  * https://tools.ietf.org/html/rfc3986
+  * http://ietf.org/rfc/rfc3986.txt
+
