@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>"&lt;t0/&gt;Organization:" organization name and optional "("email")"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T050613Z" creationid="hfukuchi" creationdate="20180808T050613Z">
+        <seg>"Organization:" 組織名および任意で"("email")"を付加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"Organization:" organization name and optional "("email")"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T064630Z" creationid="hfukuchi" creationdate="20180808T064630Z">
+        <seg>"Organization:" 組織名および任意で"("email")"を付加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/text&gt;,</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T073400Z" creationid="hfukuchi" creationdate="20180807T073400Z">
@@ -96,8 +112,8 @@
       <tuv lang="EN-US">
         <seg>&lt;t46/&gt; &lt;t47/&gt;See&lt;t48/&gt; &lt;t49/&gt;section&lt;t50/&gt; &lt;t51/&gt;3.8&lt;t52/&gt; &lt;t53/&gt;Files&lt;t54/&gt; &lt;t55/&gt;Analyzed&lt;t56/&gt; &lt;t57/&gt;for&lt;t58/&gt; &lt;t59/&gt;more&lt;t60/&gt; &lt;t61/&gt;information.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180802T044826Z" creationid="hfukuchi" creationdate="20180724T072420Z">
-        <seg>詳細は、3.8 解析ファイルを参照</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T081933Z" creationid="hfukuchi" creationdate="20180724T072420Z">
+        <seg>詳細は、3.8 Files Analyzed（解析したファイル）を参照</seg>
       </tuv>
     </tu>
     <tu>
@@ -414,6 +430,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Data Format&lt;t0/&gt;: single line of text with the following keywords | “NOASSERTION” "Person:" person name and optional &lt;t1/&gt; &lt;t2/&gt;"("email")"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T064034Z" creationid="hfukuchi" creationdate="20180808T064034Z">
+        <seg>データ フォーマット：キーワード| “NOASSERTION”が後続する1行の文  "Person:" 人名および任意で "("email")"を付加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data Format&lt;t0/&gt;: single line of text with the following keywords | “NOASSERTION” &lt;t1/&gt;"Person:" person name and optional &lt;t2/&gt; &lt;t3/&gt;"("email")"</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T064051Z" creationid="hfukuchi" creationdate="20180808T050543Z">
+        <seg>データ フォーマット：キーワード| “NOASSERTION”が後続する1行の文  "Person:" 人名および任意で "("email")"を付加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data Format&lt;t0/&gt;: uniform resource locator | VCS location | “NONE” | “NOASSERTION” For&lt;t1/&gt; &lt;t2/&gt;version­controlled&lt;t3/&gt; &lt;t4/&gt;files,&lt;t5/&gt; &lt;t6/&gt;the&lt;t7/&gt; &lt;t8/&gt;VCS&lt;t9/&gt; &lt;t10/&gt;location&lt;t11/&gt; &lt;t12/&gt;syntax&lt;t13/&gt; &lt;t14/&gt;is&lt;t15/&gt; &lt;t16/&gt;similar&lt;t17/&gt; &lt;t18/&gt;to&lt;t19/&gt; &lt;t20/&gt;a&lt;t21/&gt; &lt;t22/&gt;URL&lt;t23/&gt; &lt;t24/&gt;and&lt;t25/&gt; &lt;t26/&gt;has&lt;t27/&gt; &lt;t28/&gt;the:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T070600Z" creationid="hfukuchi" creationdate="20180808T070600Z">
+        <seg>データ フォーマット：uniform resource locator | VCS location | “NONE” | “NOASSERTION”　バージョン コントロールされたファイルに対して、VCS位置構文は、URLと似ている：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Data License</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T065406Z" creationid="hfukuchi" creationdate="20180726T030532Z">
@@ -558,6 +598,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example (subdirectory being treated as a package):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T045901Z" creationid="hfukuchi" creationdate="20180808T045901Z">
+        <seg>例（サブディレクトリをパッケージとして扱う）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example for Bazaar:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T081235Z" creationid="hfukuchi" creationdate="20180808T081235Z">
+        <seg>Bazaarの例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example for Git:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T074644Z" creationid="hfukuchi" creationdate="20180808T074644Z">
+        <seg>Gitの例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example for Mercurial:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T075412Z" creationid="hfukuchi" creationdate="20180808T075412Z">
+        <seg>Mercurialの例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example for Subversion:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T080607Z" creationid="hfukuchi" creationdate="20180808T080607Z">
+        <seg>Subversionの例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example for a plain URL:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T074656Z" creationid="hfukuchi" creationdate="20180808T074656Z">
+        <seg>URLの例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example using document URI:</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T065542Z" creationid="hfukuchi" creationdate="20180807T065542Z">
@@ -670,6 +758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Files Analyzed</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T082002Z" creationid="hfukuchi" creationdate="20180808T081745Z">
+        <seg>Files Analyzed（解析したファイル）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, Sourceforge is a host website, not a supplier, the supplier for &lt;t89/&gt;http://sourceforge.net/projects/bridge/&lt;t90/&gt; &lt;t91/&gt;is&lt;t92/&gt; &lt;t93/&gt;"The&lt;t94/&gt; &lt;t95/&gt;Linux&lt;t96/&gt; &lt;t97/&gt;Foundation."</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T083514Z" creationid="hfukuchi" creationdate="20180807T083514Z">
@@ -698,6 +794,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T053237Z" creationid="hfukuchi" creationdate="20180806T053237Z">
         <seg>フォーマットに対する要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are the supported forms:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T074905Z" creationid="hfukuchi" creationdate="20180808T074905Z">
+        <seg>サポートする形式は以下である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -782,6 +886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In&lt;t0/&gt; &lt;t1/&gt;VCS&lt;t2/&gt; &lt;t3/&gt;location&lt;t4/&gt; &lt;t5/&gt;compact&lt;t6/&gt; &lt;t7/&gt;notations,&lt;t8/&gt; &lt;t9/&gt;the&lt;t10/&gt; &lt;t11/&gt;trailing&lt;t12/&gt; &lt;t13/&gt;slashes&lt;t14/&gt; &lt;t15/&gt;in&lt;t16/&gt; &lt;t17/&gt;&lt;host_name&gt;,&lt;t18/&gt; &lt;t19/&gt;&lt;path_to_repository&gt;&lt;t20/&gt; &lt;t21/&gt;are not&lt;t22/&gt; &lt;t23/&gt;significant.&lt;t24/&gt; &lt;t25/&gt;Leading&lt;t26/&gt; &lt;t27/&gt;and&lt;t28/&gt; &lt;t29/&gt;trailing&lt;t30/&gt; &lt;t31/&gt;slashes&lt;t32/&gt; &lt;t33/&gt;in&lt;t34/&gt; &lt;t35/&gt;&lt;sub_path&gt;&lt;t36/&gt; &lt;t37/&gt;are&lt;t38/&gt; &lt;t39/&gt;not&lt;t40/&gt; &lt;t41/&gt;significant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T074616Z" creationid="hfukuchi" creationdate="20180808T074406Z">
+        <seg>VCS位置簡潔表記では、&lt;host_name&gt;や&lt;path_to_repository&gt;の中の最後のスラッシュや、&lt;sub_path&gt;の中の最初と最後のスラッシュは重要でない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Information&lt;t0/&gt; &lt;t1/&gt;that&lt;t2/&gt; &lt;t3/&gt;cannot&lt;t4/&gt; &lt;t5/&gt;be&lt;t6/&gt; &lt;t7/&gt;derived&lt;t8/&gt; &lt;t9/&gt;from&lt;t10/&gt; &lt;t11/&gt;an&lt;t12/&gt; &lt;t13/&gt;inspection&lt;t14/&gt; &lt;t15/&gt;(whether&lt;t16/&gt; &lt;t17/&gt;manual&lt;t18/&gt; &lt;t19/&gt;or&lt;t20/&gt; &lt;t21/&gt;using&lt;t22/&gt; &lt;t23/&gt;automated tools)&lt;t24/&gt; &lt;t25/&gt;of&lt;t26/&gt; &lt;t27/&gt;the&lt;t28/&gt; &lt;t29/&gt;package&lt;t30/&gt; &lt;t31/&gt;to&lt;t32/&gt; &lt;t33/&gt;be&lt;t34/&gt; &lt;t35/&gt;analyzed.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180724T040038Z" creationid="hfukuchi" creationdate="20180724T040038Z">
@@ -818,6 +930,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T065831Z" creationid="hfukuchi" creationdate="20180806T065041Z">
         <seg>意図：タイムスタンプは、解析の更新が必要かどうかの基準になりうる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: &lt;t0/&gt;Here, where and how to download the exact package being referenced is critical verification and tracking &lt;t1/&gt; &lt;t2/&gt;data.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T070327Z" creationid="hfukuchi" creationdate="20180808T070327Z">
+        <seg>意図：参照されているパッケージとまさに同じものをどこからどのようにダウンロードするかは、検証と追跡のための重要なデータである。</seg>
       </tuv>
     </tu>
     <tu>
@@ -898,6 +1018,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T071033Z" creationid="hfukuchi" creationdate="20180807T071033Z">
         <seg>意図：パッケージへのバージョン付けは、パッケージの特定とパッケージバージョンの後での変更を示すのに役立つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent:&lt;t0/&gt; &lt;t1/&gt;This&lt;t2/&gt; &lt;t3/&gt;field&lt;t4/&gt; &lt;t5/&gt;assists&lt;t6/&gt; &lt;t7/&gt;with&lt;t8/&gt; &lt;t9/&gt;understanding&lt;t10/&gt; &lt;t11/&gt;the&lt;t12/&gt; &lt;t13/&gt;point&lt;t14/&gt; &lt;t15/&gt;of&lt;t16/&gt; &lt;t17/&gt;origin&lt;t18/&gt; &lt;t19/&gt;of&lt;t20/&gt; &lt;t21/&gt;the&lt;t22/&gt; &lt;t23/&gt;code&lt;t24/&gt; &lt;t25/&gt;in&lt;t26/&gt; &lt;t27/&gt;the&lt;t28/&gt; &lt;t29/&gt;package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T064233Z" creationid="hfukuchi" creationdate="20180808T064005Z">
+        <seg>意図：このフィールドは、パッケージ中のコードの頒布点を理解するのを助ける。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1094,6 +1222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Package Download Location</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T064702Z" creationid="hfukuchi" creationdate="20180808T064702Z">
+        <seg>Package Download Location（パッケージ ダウンロード位置）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Package File Name</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T071211Z" creationid="hfukuchi" creationdate="20180807T071211Z">
@@ -1114,6 +1250,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T061247Z" creationid="hfukuchi" creationdate="20180807T061247Z">
         <seg>Package Name（パッケージ名）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Package Originator</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T050641Z" creationid="hfukuchi" creationdate="20180808T050641Z">
+        <seg>Package Originator（パッケージ原作者）</seg>
       </tuv>
     </tu>
     <tu>
@@ -1266,6 +1410,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T052902Z" creationid="hfukuchi" creationdate="20180803T085127Z">
         <seg>目的：誰が（ツールの場合は、何が）SPDXファイルを作成したかを特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose: &lt;t0/&gt;If the package identified in the SPDX file originated from a different person or organization than identified as Package Supplier (see section 3.5 above), this field identifies from where&lt;t1/&gt; &lt;t2/&gt;or&lt;t3/&gt; &lt;t4/&gt;whom&lt;t5/&gt; &lt;t6/&gt;the&lt;t7/&gt; &lt;t8/&gt;package&lt;t9/&gt; &lt;t10/&gt;originally&lt;t11/&gt; &lt;t12/&gt;came.&lt;t13/&gt; &lt;t14/&gt;In&lt;t15/&gt; &lt;t16/&gt;some&lt;t17/&gt; &lt;t18/&gt;cases&lt;t19/&gt; &lt;t20/&gt;a&lt;t21/&gt; &lt;t22/&gt;package&lt;t23/&gt; &lt;t24/&gt;may&lt;t25/&gt; &lt;t26/&gt;be&lt;t27/&gt; &lt;t28/&gt;created&lt;t29/&gt; &lt;t30/&gt;and&lt;t31/&gt; &lt;t32/&gt;originally distributed&lt;t33/&gt; &lt;t34/&gt;by&lt;t35/&gt; &lt;t36/&gt;a&lt;t37/&gt; &lt;t38/&gt;different&lt;t39/&gt; &lt;t40/&gt;third&lt;t41/&gt; &lt;t42/&gt;party&lt;t43/&gt; &lt;t44/&gt;than&lt;t45/&gt; &lt;t46/&gt;the&lt;t47/&gt; &lt;t48/&gt;Package&lt;t49/&gt; &lt;t50/&gt;Supplier&lt;t51/&gt; &lt;t52/&gt;of&lt;t53/&gt; &lt;t54/&gt;the&lt;t55/&gt; &lt;t56/&gt;package.&lt;t57/&gt; &lt;t58/&gt;For&lt;t59/&gt; &lt;t60/&gt;example,&lt;t61/&gt; &lt;t62/&gt;the&lt;t63/&gt; &lt;t64/&gt;SPDX file&lt;t65/&gt; &lt;t66/&gt;identifies&lt;t67/&gt; &lt;t68/&gt;the&lt;t69/&gt; &lt;t70/&gt;package&lt;t71/&gt; &lt;t72/&gt;glibc&lt;t73/&gt; &lt;t74/&gt;and&lt;t75/&gt; &lt;t76/&gt;Red&lt;t77/&gt; &lt;t78/&gt;Hat&lt;t79/&gt; &lt;t80/&gt;as&lt;t81/&gt; &lt;t82/&gt;the&lt;t83/&gt; &lt;t84/&gt;Package&lt;t85/&gt; &lt;t86/&gt;Supplier,&lt;t87/&gt; &lt;t88/&gt;but&lt;t89/&gt; &lt;t90/&gt;Free&lt;t91/&gt; &lt;t92/&gt;Software&lt;t93/&gt; &lt;t94/&gt;Foundation&lt;t95/&gt; &lt;t96/&gt;is the&lt;t97/&gt; &lt;t98/&gt;Package&lt;t99/&gt; &lt;t100/&gt;Originator.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T052444Z" creationid="hfukuchi" creationdate="20180808T051741Z">
+        <seg>目的：SPDXファイルで特定されるパッケージがPackage Supplier（パッケージ供給者）（3.5節参照）で記述されたのとは別の人や組織が原作者である場合、このフィールドはパッケージが誰があるいはどこで最初に作られたかを特定する。ある場合には、パッケージ供給者とは別の第3者が、パッケージを作成し最初に頒布していることがある。たとえば、SPDXファイルはglibcパッケージとそのパッケージ供給者Red Hatを特定するが、パッケージ原作者はFree Software Foundationである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose: &lt;t0/&gt;This section identifies the download Universal Resource Locator (URL), or a specific&lt;t1/&gt; &lt;t2/&gt;location&lt;t3/&gt; &lt;t4/&gt;within&lt;t5/&gt; &lt;t6/&gt;a&lt;t7/&gt; &lt;t8/&gt;version&lt;t9/&gt; &lt;t10/&gt;control&lt;t11/&gt; &lt;t12/&gt;system&lt;t13/&gt; &lt;t14/&gt;(VCS)&lt;t15/&gt; &lt;t16/&gt;for&lt;t17/&gt; &lt;t18/&gt;the&lt;t19/&gt; &lt;t20/&gt;package&lt;t21/&gt; &lt;t22/&gt;at&lt;t23/&gt; &lt;t24/&gt;the&lt;t25/&gt; &lt;t26/&gt;time&lt;t27/&gt; &lt;t28/&gt;that&lt;t29/&gt; &lt;t30/&gt;the&lt;t31/&gt; &lt;t32/&gt;SPDX&lt;t33/&gt; &lt;t34/&gt;file was&lt;t35/&gt; &lt;t36/&gt;created.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T065621Z" creationid="hfukuchi" creationdate="20180808T065621Z">
+        <seg>目的：このセクションは、SPDXファイル作成時にパッケージが置かれていたダウンロードUniversal Resource Locator (URL)またはバージョン コントロール システム（VCS）内の位置を特定する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1438,6 +1598,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>SPDX supported schemes are: hg+http, hg+https, hg+static­http and hg+ssh.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T075555Z" creationid="hfukuchi" creationdate="20180808T075555Z">
+        <seg>SPDXサポート スキーム：hg+http, hg+https, hg+static­http および hg+ssh.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SPDX supports Bazaar using the bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp and bzr+lp schemes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T081349Z" creationid="hfukuchi" creationdate="20180808T081349Z">
+        <seg>SPDXは、bzr+http、bzr+https、bzr+ssh、bzr+sftp、bzr+ftpおよびbzr+lpスキームを使ってBazaarをサポートする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SPDX supports git, git+git, git+https git+http and git+ssh transports.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T074810Z" creationid="hfukuchi" creationdate="20180808T074810Z">
+        <seg>SPDXは、git、git+git、git+https git+httpおよびgit+ssh transportsをサポートする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SPDX supports the URL schemes svn, svn+svn, svn+http, svn+https, svn+ssh.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T080644Z" creationid="hfukuchi" creationdate="20180808T080644Z">
+        <seg>SPDXは、svn, svn+svn, svn+http, svn+https, svn+sshのURLスキームをサポートする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>SPDX&lt;t0/&gt; &lt;t1/&gt;Document&lt;t2/&gt; &lt;t3/&gt;Namespace</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T071917Z" creationid="hfukuchi" creationdate="20180806T053350Z">
@@ -1534,6 +1726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specifying sub­paths, branch names, a commit hash, a revision or a tag name is recommended, and supported using the "@"delimiter for commits and the "#" delimiter for sub­paths.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T073223Z" creationid="hfukuchi" creationdate="20180808T073223Z">
+        <seg>サブパス、ブランチ名、コミット ハッシュ、リビジョン、タグ名を指定することが推奨される。コミットには"@"デリミター、サブパスには"#" デリミターを使ってサポートしている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Subdirectory name is preceeded with a “./”, see &lt;t92/&gt;http://www.ietf.org/rfc/rfc3986.txt &lt;t93/&gt;for&lt;t94/&gt; &lt;t95/&gt;syntax.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T081848Z" creationid="hfukuchi" creationdate="20180807T081848Z">
@@ -1546,6 +1746,30 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T084246Z" creationid="hfukuchi" creationdate="20180806T084009Z">
         <seg>サブパッケージをパッケージ情報セクション中で入れ子にするべきではない。分離するべきである。明確にするためにRelationshipを使うべきである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sub­paths and branch names or commit hash can be combined too:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T075342Z" creationid="hfukuchi" creationdate="20180808T075342Z">
+        <seg>サブパス、ブランチ名、コミット ハッシュは結合できる：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sub­paths and branch names or commit hash can be combined too: PackageDownloadLocation: hg+https://hg.myproject.org/MyProject@master#/src/MyClass.cpp</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T080032Z" creationid="hfukuchi" creationdate="20180808T080032Z">
+        <seg>サブパス、ブランチ名、コミット ハッシュは結合できる：PackageDownloadLocation: hg+https://hg.myproject.org/MyProject@master#/src/MyClass.cpp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sub­paths and revisions can be combined too:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T081653Z" creationid="hfukuchi" creationdate="20180808T081653Z">
+        <seg>サブパスとリビジョンは結合できる：</seg>
       </tuv>
     </tu>
     <tu>
@@ -1726,6 +1950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The supported forms are:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T075521Z" creationid="hfukuchi" creationdate="20180808T075521Z">
+        <seg>サポートしている形式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The version number consists of a major and minor version indicator.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180726T022748Z" creationid="hfukuchi" creationdate="20180726T022748Z">
@@ -1798,6 +2030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This VCS location compact notation (inspired and mostly adopted from</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T071255Z" creationid="hfukuchi" creationdate="20180808T071111Z">
+        <seg>このVCS位置簡潔表記（以下から影響を受け採用された　</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This approach avoids intellectual property and related&lt;t68/&gt; &lt;t69/&gt;restrictions&lt;t70/&gt; &lt;t71/&gt;over&lt;t72/&gt; &lt;t73/&gt;the&lt;t74/&gt; &lt;t75/&gt;SPDX&lt;t76/&gt; &lt;t77/&gt;file,&lt;t78/&gt; &lt;t79/&gt;however&lt;t80/&gt; &lt;t81/&gt;individuals&lt;t82/&gt; &lt;t83/&gt;can&lt;t84/&gt; &lt;t85/&gt;still&lt;t86/&gt; &lt;t87/&gt;contract&lt;t88/&gt; &lt;t89/&gt;with&lt;t90/&gt; &lt;t91/&gt;each&lt;t92/&gt; &lt;t93/&gt;other&lt;t94/&gt; &lt;t95/&gt;to&lt;t96/&gt; &lt;t97/&gt;restrict release of specific collections of SPDX files (which map to software bill of materials) and the identification&lt;t98/&gt; &lt;t99/&gt;of&lt;t100/&gt; &lt;t101/&gt;the&lt;t102/&gt; &lt;t103/&gt;supplier&lt;t104/&gt; &lt;t105/&gt;of&lt;t106/&gt; &lt;t107/&gt;SPDX&lt;t108/&gt; &lt;t109/&gt;files.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T053116Z" creationid="hfukuchi" creationdate="20180802T053116Z">
@@ -1816,8 +2056,8 @@
       <tuv lang="EN-US">
         <seg>This field is vital for ensuring that downstream package recipients can address any ambiguity&lt;t29/&gt; &lt;t30/&gt;or&lt;t31/&gt; &lt;t32/&gt;concerns&lt;t33/&gt; &lt;t34/&gt;that&lt;t35/&gt; &lt;t36/&gt;might&lt;t37/&gt; &lt;t38/&gt;arise&lt;t39/&gt; &lt;t40/&gt;with&lt;t41/&gt; &lt;t42/&gt;the&lt;t43/&gt; &lt;t44/&gt;information&lt;t45/&gt; &lt;t46/&gt;in&lt;t47/&gt; &lt;t48/&gt;the&lt;t49/&gt; &lt;t50/&gt;SPDX&lt;t51/&gt; &lt;t52/&gt;file&lt;t53/&gt; &lt;t54/&gt;or&lt;t55/&gt; &lt;t56/&gt;the&lt;t57/&gt; &lt;t58/&gt;contents&lt;t59/&gt; &lt;t60/&gt;of&lt;t61/&gt; &lt;t62/&gt;the package&lt;t63/&gt; &lt;t64/&gt;it&lt;t65/&gt; &lt;t66/&gt;documents.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180807T094240Z" creationid="hfukuchi" creationdate="20180807T094240Z">
-        <seg>このフィールドは、ダウンストリーム パッケージ受領者が、SPDXファイルの情報や、パッケージの内容について曖昧さや懸念を表明するのをThis field is vital for ensuring that downstream package recipients can address any ambiguity&lt;t29/&gt; &lt;t30/&gt;or&lt;t31/&gt; &lt;t32/&gt;concerns&lt;t33/&gt; &lt;t34/&gt;that&lt;t35/&gt; &lt;t36/&gt;might&lt;t37/&gt; &lt;t38/&gt;arise&lt;t39/&gt; &lt;t40/&gt;with&lt;t41/&gt; &lt;t42/&gt;the&lt;t43/&gt; &lt;t44/&gt;information&lt;t45/&gt; &lt;t46/&gt;in&lt;t47/&gt; &lt;t48/&gt;the&lt;t49/&gt; &lt;t50/&gt;SPDX&lt;t51/&gt; &lt;t52/&gt;file&lt;t53/&gt; &lt;t54/&gt;or&lt;t55/&gt; &lt;t56/&gt;the&lt;t57/&gt; &lt;t58/&gt;contents&lt;t59/&gt; &lt;t60/&gt;of&lt;t61/&gt; &lt;t62/&gt;the package&lt;t63/&gt; &lt;t64/&gt;it&lt;t65/&gt; &lt;t66/&gt;documents.</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T064543Z" creationid="hfukuchi" creationdate="20180807T094240Z">
+        <seg>このフィールドは、ダウンストリーム パッケージ受領者がSPDXファイルの情報やパッケージの内容についての曖昧さや懸念を直接伝えるのを確実にする。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1826,6 +2066,46 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T074434Z" creationid="hfukuchi" creationdate="20180807T074434Z">
         <seg>適用可能な場合、これには、ファイル名の一部として使われるパッケージング手法や圧縮手法も含まれる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This support is less important for SVN since the URL path can also contain sub­paths; this two forms are equivalent:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T081128Z" creationid="hfukuchi" creationdate="20180808T080911Z">
+        <seg>ｋこのサポートは、URLパスはサブパスを含むことができるので、SVNにとってはそれほど重要でない。この二つの形式は同じである：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This&lt;t30/&gt; &lt;t31/&gt;field&lt;t32/&gt; &lt;t33/&gt;is&lt;t34/&gt; &lt;t35/&gt;vital&lt;t36/&gt; &lt;t37/&gt;for&lt;t38/&gt; &lt;t39/&gt;understanding&lt;t40/&gt; &lt;t41/&gt;who&lt;t42/&gt; &lt;t43/&gt;originally&lt;t44/&gt; &lt;t45/&gt;distributed&lt;t46/&gt; &lt;t47/&gt;a&lt;t48/&gt; &lt;t49/&gt;package&lt;t50/&gt; &lt;t51/&gt;and&lt;t52/&gt; &lt;t53/&gt;should&lt;t54/&gt; &lt;t55/&gt;help&lt;t56/&gt; &lt;t57/&gt;in&lt;t58/&gt; &lt;t59/&gt;addressing any&lt;t60/&gt; &lt;t61/&gt;ambiguity&lt;t62/&gt; &lt;t63/&gt;or&lt;t64/&gt; &lt;t65/&gt;concerns&lt;t66/&gt; &lt;t67/&gt;that&lt;t68/&gt; &lt;t69/&gt;might&lt;t70/&gt; &lt;t71/&gt;arise&lt;t72/&gt; &lt;t73/&gt;with&lt;t74/&gt; &lt;t75/&gt;the&lt;t76/&gt; &lt;t77/&gt;information&lt;t78/&gt; &lt;t79/&gt;in&lt;t80/&gt; &lt;t81/&gt;the&lt;t82/&gt; &lt;t83/&gt;SPDX&lt;t84/&gt; &lt;t85/&gt;file&lt;t86/&gt; &lt;t87/&gt;or&lt;t88/&gt; &lt;t89/&gt;the&lt;t90/&gt; &lt;t91/&gt;contents&lt;t92/&gt; &lt;t93/&gt;of&lt;t94/&gt; &lt;t95/&gt;the Package&lt;t96/&gt; &lt;t97/&gt;it&lt;t98/&gt; &lt;t99/&gt;documents.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T064519Z" creationid="hfukuchi" creationdate="20180808T064519Z">
+        <seg>このフィールドは、このフィールドは、ダウンストリーム パッケージ受領者がSPDXファイルの情報やパッケージの内容についての曖昧さや懸念を直接伝えるのを確実にする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To pass branch names, a commit hash, a tag name or a local branch name use the "@" delimiter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T075739Z" creationid="hfukuchi" creationdate="20180808T075739Z">
+        <seg>ブランチ名、コミット ハッシュ、タグ名を渡すために、"@"デリミターを使用する：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To specify a sub­path to a file or directory inside a repository use the "#" delimiter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T075149Z" creationid="hfukuchi" creationdate="20180808T075149Z">
+        <seg>リポジトリ内のファイルやディレクトリへのサブパスを指定するために、"#"デリミターを使用する：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To specify branch names, a commit hash or a tag name, use the "@" delimiter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T075307Z" creationid="hfukuchi" creationdate="20180808T075307Z">
+        <seg>ブランチ名、コミット ハッシュおよびタグ名を指定するために、"@"デリミターを使用する：</seg>
       </tuv>
     </tu>
     <tu>
@@ -1850,6 +2130,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T083535Z" creationid="hfukuchi" creationdate="20180807T083535Z">
         <seg>以下の場合にはNOASSERTIONを使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use&lt;t0/&gt; &lt;t1/&gt;NONE&lt;t2/&gt; &lt;t3/&gt;if&lt;t4/&gt; &lt;t5/&gt;there&lt;t6/&gt; &lt;t7/&gt;is&lt;t8/&gt; &lt;t9/&gt;no&lt;t10/&gt; &lt;t11/&gt;download&lt;t12/&gt; &lt;t13/&gt;location&lt;t14/&gt; &lt;t15/&gt;whatsoever.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T065948Z" creationid="hfukuchi" creationdate="20180808T065948Z">
+        <seg>ダウンロード位置が一切ない場合にはNONEを使う。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using&lt;t0/&gt; &lt;t1/&gt;user&lt;t2/&gt; &lt;t3/&gt;names&lt;t4/&gt; &lt;t5/&gt;and&lt;t6/&gt; &lt;t7/&gt;password&lt;t8/&gt; &lt;t9/&gt;in&lt;t10/&gt; &lt;t11/&gt;the&lt;t12/&gt; &lt;t13/&gt;host_name&lt;t14/&gt; &lt;t15/&gt;is&lt;t16/&gt; &lt;t17/&gt;not&lt;t18/&gt; &lt;t19/&gt;supported&lt;t20/&gt; &lt;t21/&gt;and&lt;t22/&gt; &lt;t23/&gt;should&lt;t24/&gt; &lt;t25/&gt;be&lt;t26/&gt; &lt;t27/&gt;considered&lt;t28/&gt; &lt;t29/&gt;as an&lt;t30/&gt; &lt;t31/&gt;error.&lt;t32/&gt; &lt;t33/&gt;User&lt;t34/&gt; &lt;t35/&gt;access&lt;t36/&gt; &lt;t37/&gt;control&lt;t38/&gt; &lt;t39/&gt;to&lt;t40/&gt; &lt;t41/&gt;URLs&lt;t42/&gt; &lt;t43/&gt;or&lt;t44/&gt; &lt;t45/&gt;VCS&lt;t46/&gt; &lt;t47/&gt;repositories&lt;t48/&gt; &lt;t49/&gt;must&lt;t50/&gt; &lt;t51/&gt;be&lt;t52/&gt; &lt;t53/&gt;handled&lt;t54/&gt; &lt;t55/&gt;outside&lt;t56/&gt; &lt;t57/&gt;of&lt;t58/&gt; &lt;t59/&gt;an&lt;t60/&gt; &lt;t61/&gt;SPDX document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T074414Z" creationid="hfukuchi" creationdate="20180808T073952Z">
+        <seg>やhost_nameにユーザー名やパスワードを使用するのはサポートされていないし、エラーと認識するべきである。URLやVCSリポジトリへのユーザー アクセス制御は、SPDX文書の外部で処理しなければならない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1926,6 +2222,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can specify a revision or tag using the "@" delimiter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T081538Z" creationid="hfukuchi" creationdate="20180808T081538Z">
+        <seg>"@"デリミターを使ってリビジョンを指定できる：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can specify a revision using the "@" delimiter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T081224Z" creationid="hfukuchi" creationdate="20180808T081224Z">
+        <seg>"@"デリミターを使ってリビジョンを指定できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[Checksum]&lt;t0/&gt; &lt;t1/&gt;is&lt;t2/&gt; &lt;t3/&gt;a&lt;t4/&gt; &lt;t5/&gt;checksum&lt;t6/&gt; &lt;t7/&gt;of&lt;t8/&gt; &lt;t9/&gt;the&lt;t10/&gt; &lt;t11/&gt;external&lt;t12/&gt; &lt;t13/&gt;document&lt;t14/&gt; &lt;t15/&gt;following&lt;t16/&gt; &lt;t17/&gt;the&lt;t18/&gt; &lt;t19/&gt;checksum format&lt;t20/&gt; &lt;t21/&gt;defined&lt;t22/&gt; &lt;t23/&gt;in&lt;t24/&gt; &lt;t25/&gt;section&lt;t26/&gt; &lt;t27/&gt;3.9.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180803T081545Z" creationid="hfukuchi" creationdate="20180803T081545Z">
@@ -1966,10 +2278,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>git and git+git are equivalent.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T074821Z" creationid="hfukuchi" creationdate="20180808T074821Z">
+        <seg>gitとgit+gitは同じである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>hh&lt;t0/&gt; &lt;t1/&gt;is&lt;t2/&gt; &lt;t3/&gt;hours&lt;t4/&gt; &lt;t5/&gt;with&lt;t6/&gt; &lt;t7/&gt;leading&lt;t8/&gt; &lt;t9/&gt;zero&lt;t10/&gt; &lt;t11/&gt;in&lt;t12/&gt; &lt;t13/&gt;24&lt;t14/&gt; &lt;t15/&gt;hour&lt;t16/&gt; &lt;t17/&gt;time mm&lt;t18/&gt; &lt;t19/&gt;is&lt;t20/&gt; &lt;t21/&gt;minutes&lt;t22/&gt; &lt;t23/&gt;with&lt;t24/&gt; &lt;t25/&gt;leading&lt;t26/&gt; &lt;t27/&gt;zero</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T070903Z" creationid="hfukuchi" creationdate="20180806T070903Z">
         <seg>hhは時間（左0詰め、24時間表記） mmは分（左0詰め）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://pip.pypa.io/en/latest/reference/pip_install.html#vcs­support &lt;t0/&gt;as of 20150220) supports referencing&lt;t1/&gt; &lt;t2/&gt;locations&lt;t3/&gt; &lt;t4/&gt;in&lt;t5/&gt; &lt;t6/&gt;version&lt;t7/&gt; &lt;t8/&gt;control&lt;t9/&gt; &lt;t10/&gt;systems&lt;t11/&gt; &lt;t12/&gt;such&lt;t13/&gt; &lt;t14/&gt;as&lt;t15/&gt; &lt;t16/&gt;Git,&lt;t17/&gt; &lt;t18/&gt;Mercurial,&lt;t19/&gt; &lt;t20/&gt;Subversion&lt;t21/&gt; &lt;t22/&gt;and&lt;t23/&gt; &lt;t24/&gt;Bazaar,&lt;t25/&gt; &lt;t26/&gt;and specifies the type of VCS tool using url prefixes: “git+”, “hg+”, “bzr+”, “svn+” and specific transport schemes&lt;t27/&gt; &lt;t28/&gt;such&lt;t29/&gt; &lt;t30/&gt;as&lt;t31/&gt; &lt;t32/&gt;SSH&lt;t33/&gt; &lt;t34/&gt;or&lt;t35/&gt; &lt;t36/&gt;HTTPS.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T072130Z" creationid="hfukuchi" creationdate="20180808T071136Z">
+        <seg>https://pip.pypa.io/en/latest/reference/pip_install.html#vcs­support  20150220時点) は、Git、Mercurial、Subversion、Bazaarなどのバージョン コントロール システム内の位置参照をサポートする。URL接頭子：: “git+”, “hg+”, “bzr+”, “svn+”とSSHやHTTPのようなトランスポート スキーム を使ってVCSツール タイプを特定する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2014,6 +2342,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>svn and svn+svn are equivalent.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T080702Z" creationid="hfukuchi" creationdate="20180808T080702Z">
+        <seg>svnとsvn+svnは同じである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>the&lt;t0/&gt; &lt;t1/&gt;SPDX&lt;t2/&gt; &lt;t3/&gt;file&lt;t4/&gt; &lt;t5/&gt;creator&lt;t6/&gt; &lt;t7/&gt;has&lt;t8/&gt; &lt;t9/&gt;attempted&lt;t10/&gt; &lt;t11/&gt;to&lt;t12/&gt; &lt;t13/&gt;but&lt;t14/&gt; &lt;t15/&gt;cannot&lt;t16/&gt; &lt;t17/&gt;reach&lt;t18/&gt; &lt;t19/&gt;a&lt;t20/&gt; &lt;t21/&gt;reasonable&lt;t22/&gt; &lt;t23/&gt;objective&lt;t24/&gt; &lt;t25/&gt;determination;</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T084112Z" creationid="hfukuchi" creationdate="20180807T084112Z">
@@ -2024,8 +2360,8 @@
       <tuv lang="EN-US">
         <seg>the&lt;t0/&gt; &lt;t1/&gt;SPDX&lt;t2/&gt; &lt;t3/&gt;file&lt;t4/&gt; &lt;t5/&gt;creator&lt;t6/&gt; &lt;t7/&gt;has&lt;t8/&gt; &lt;t9/&gt;intentionally&lt;t10/&gt; &lt;t11/&gt;provided&lt;t12/&gt; &lt;t13/&gt;no&lt;t14/&gt; &lt;t15/&gt;information&lt;t16/&gt; &lt;t17/&gt;(no&lt;t18/&gt; &lt;t19/&gt;meaning&lt;t20/&gt; &lt;t21/&gt;should&lt;t22/&gt; &lt;t23/&gt;be&lt;t24/&gt; &lt;t25/&gt;implied by doing&lt;t26/&gt; &lt;t27/&gt;so).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180807T084733Z" creationid="hfukuchi" creationdate="20180807T084733Z">
-        <seg>SPDXファイル作成者が、意図的に、情報を提供しなかった（そうすることで、暗示するべきである）</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180808T063827Z" creationid="hfukuchi" creationdate="20180807T084733Z">
+        <seg>SPDXファイル作成者が、意図的に情報を提供しなかった（意味がないことを、そうすることで暗示するべきである）</seg>
       </tuv>
     </tu>
     <tu>
