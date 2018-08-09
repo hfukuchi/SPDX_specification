@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(If omitted, the default value of “true” is</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T070244Z" creationid="hfukuchi" creationdate="20180809T070244Z">
+        <seg>（省略した場合、デフォルト値“true”が</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/text&gt;,</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T073400Z" creationid="hfukuchi" creationdate="20180807T073400Z">
@@ -86,6 +94,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;t1/&gt; &lt;t2/&gt;SPDX</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T060249Z" creationid="hfukuchi" creationdate="20180809T060249Z">
+        <seg> </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;t1/&gt; &lt;t2/&gt;assumed).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T070248Z" creationid="hfukuchi" creationdate="20180809T070248Z">
+        <seg>仮定される）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;t1/&gt; &lt;t2/&gt;creator.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T062018Z" creationid="hfukuchi" creationdate="20180802T062010Z">
@@ -134,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A bundle of external products&lt;t0/&gt;: Package A can be metadata about Packages and their dependencies.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T053701Z" creationid="hfukuchi" creationdate="20180809T053701Z">
+        <seg>外部製品のバンドル：パッケージAは、パッケージとその依存物に関するメタデータであってもよい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A new appendix “Using SPDX short identifiers in Source Files” has been added to document&lt;t0/&gt; &lt;t1/&gt;the&lt;t2/&gt; &lt;t3/&gt;best&lt;t4/&gt; &lt;t5/&gt;practices&lt;t6/&gt; &lt;t7/&gt;to&lt;t8/&gt; &lt;t9/&gt;refer&lt;t10/&gt; &lt;t11/&gt;to&lt;t12/&gt; &lt;t13/&gt;the&lt;t14/&gt; &lt;t15/&gt;licenses&lt;t16/&gt; &lt;t17/&gt;in&lt;t18/&gt; &lt;t19/&gt;the&lt;t20/&gt; &lt;t21/&gt;SPDX&lt;t22/&gt; &lt;t23/&gt;license&lt;t24/&gt; &lt;t25/&gt;list&lt;t26/&gt; &lt;t27/&gt;that&lt;t28/&gt; &lt;t29/&gt;have&lt;t30/&gt; &lt;t31/&gt;emerged&lt;t32/&gt; &lt;t33/&gt;from the&lt;t34/&gt; &lt;t35/&gt;development&lt;t36/&gt; &lt;t37/&gt;community.&lt;t38/&gt; &lt;t39/&gt;See&lt;t40/&gt; &lt;t41/&gt;Appendix&lt;t42/&gt; &lt;t43/&gt;V:&lt;t44/&gt; &lt;t45/&gt;Using&lt;t46/&gt; &lt;t47/&gt;SPDX&lt;t48/&gt; &lt;t49/&gt;short&lt;t50/&gt; &lt;t51/&gt;identifiers&lt;t52/&gt; &lt;t53/&gt;in&lt;t54/&gt; &lt;t55/&gt;Source&lt;t56/&gt; &lt;t57/&gt;Files&lt;t58/&gt; &lt;t59/&gt;for&lt;t60/&gt; &lt;t61/&gt;more information.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072720Z" creationid="hfukuchi" creationdate="20180726T015631Z">
@@ -170,6 +202,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T080837Z" creationid="hfukuchi" creationdate="20180806T080837Z">
         <seg>新しいパッケージ情報セクションは、パッケージ名フィールドで示される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of these referenced Packages can have their own</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T060245Z" creationid="hfukuchi" creationdate="20180809T060202Z">
+        <seg>参照されたパッケージは、それ自体でSPDX文書を持つことができる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -214,6 +254,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>B can be documented as described in Section &lt;t1/&gt; &lt;t2/&gt;6.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T064812Z" creationid="hfukuchi" creationdate="20180809T063206Z">
+        <seg>6節で記述したように文書化される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Build or execution may transitively discover more Packages and dependencies.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T060024Z" creationid="hfukuchi" creationdate="20180809T060024Z">
+        <seg>ビルドや実行することで、副次的にもっと多くのパッケージや依存物を見つけるかもしれない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By&lt;t0/&gt; &lt;t1/&gt;using&lt;t2/&gt; &lt;t3/&gt;the&lt;t4/&gt; &lt;t5/&gt;SPDX&lt;t6/&gt; &lt;t7/&gt;specification,&lt;t8/&gt; &lt;t9/&gt;or&lt;t10/&gt; &lt;t11/&gt;any&lt;t12/&gt; &lt;t13/&gt;portion&lt;t14/&gt; &lt;t15/&gt;hereof,&lt;t16/&gt; &lt;t17/&gt;you&lt;t18/&gt; &lt;t19/&gt;hereby&lt;t20/&gt; &lt;t21/&gt;agree&lt;t22/&gt; &lt;t23/&gt;that&lt;t24/&gt; &lt;t25/&gt;any&lt;t26/&gt; &lt;t27/&gt;copyright&lt;t28/&gt; &lt;t29/&gt;rights&lt;t30/&gt; &lt;t31/&gt;(as determined by your jurisdiction) in any SPDX­Metadata, including without limitation explanatory text, shall be subject to the terms of the Creative Commons CC0 1.0 Universal license.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180730T052534Z" creationid="hfukuchi" creationdate="20180730T050633Z">
@@ -250,6 +306,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180803T080059Z" creationid="hfukuchi" creationdate="20180803T080059Z">
         <seg>基数：任意、1以上</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cardinality: &lt;t0/&gt;Optional, one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T070111Z" creationid="hfukuchi" creationdate="20180809T070111Z">
+        <seg>基数：任意、1</seg>
       </tuv>
     </tu>
     <tu>
@@ -410,6 +474,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180803T080127Z" creationid="hfukuchi" creationdate="20180803T080127Z">
         <seg>データ フォーマット：“DocumentRef­”[idstring] [SPDX Document URI] [Checksum] ここで</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data Format:&lt;t0/&gt; &lt;t1/&gt;Boolean</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T070259Z" creationid="hfukuchi" creationdate="20180809T070259Z">
+        <seg>データ フォーマット：Boolean</seg>
       </tuv>
     </tu>
     <tu>
@@ -590,6 +662,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Documents.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T060252Z" creationid="hfukuchi" creationdate="20180809T060252Z">
+        <seg> </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each&lt;t1/&gt; &lt;t2/&gt;element&lt;t3/&gt; &lt;t4/&gt;needs&lt;t5/&gt; &lt;t6/&gt;to&lt;t7/&gt; &lt;t8/&gt;be&lt;t9/&gt; &lt;t10/&gt;able&lt;t11/&gt; &lt;t12/&gt;to&lt;t13/&gt; &lt;t14/&gt;be&lt;t15/&gt; &lt;t16/&gt;referred&lt;t17/&gt; &lt;t18/&gt;to&lt;t19/&gt; &lt;t20/&gt;uniquely&lt;t21/&gt; &lt;t22/&gt;so&lt;t23/&gt; &lt;t24/&gt;that&lt;t25/&gt; &lt;t26/&gt;relationships&lt;t27/&gt; &lt;t28/&gt;between&lt;t29/&gt; &lt;t30/&gt;elements&lt;t31/&gt; &lt;t32/&gt;can be clearly&lt;t33/&gt; &lt;t34/&gt;articulated.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T064735Z" creationid="hfukuchi" creationdate="20180807T064735Z">
@@ -750,6 +830,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>File derived from external product: &lt;t0/&gt;Package A contains multiple files derived from an outside&lt;t1/&gt; &lt;t2/&gt;project.&lt;t3/&gt; &lt;t4/&gt;Rather&lt;t5/&gt; &lt;t6/&gt;than&lt;t7/&gt; &lt;t8/&gt;use&lt;t9/&gt; &lt;t10/&gt;the&lt;t11/&gt; &lt;t12/&gt;artifactOf*&lt;t13/&gt; &lt;t14/&gt;attributes&lt;t15/&gt; &lt;t16/&gt;(Sections&lt;t17/&gt; &lt;t18/&gt;4.9­4.11)&lt;t19/&gt; &lt;t20/&gt;to&lt;t21/&gt; &lt;t22/&gt;describe&lt;t23/&gt; &lt;t24/&gt;the relation of these files to their project, the outside project can be represented by another package,&lt;t25/&gt; &lt;t26/&gt;Package&lt;t27/&gt; &lt;t28/&gt;B,&lt;t29/&gt; &lt;t30/&gt;whose&lt;t31/&gt; &lt;t32/&gt;FilesAnalyzed&lt;t33/&gt; &lt;t34/&gt;attribute&lt;t35/&gt; &lt;t36/&gt;is&lt;t37/&gt; &lt;t38/&gt;set&lt;t39/&gt; &lt;t40/&gt;to&lt;t41/&gt; &lt;t42/&gt;“false”.&lt;t43/&gt; &lt;t44/&gt;Each&lt;t45/&gt; &lt;t46/&gt;of&lt;t47/&gt; &lt;t48/&gt;the&lt;t49/&gt; &lt;t50/&gt;binary&lt;t51/&gt; &lt;t52/&gt;files can&lt;t53/&gt; &lt;t54/&gt;then&lt;t55/&gt; &lt;t56/&gt;have&lt;t57/&gt; &lt;t58/&gt;a&lt;t59/&gt; &lt;t60/&gt;relationship&lt;t61/&gt; &lt;t62/&gt;to&lt;t63/&gt; &lt;t64/&gt;package&lt;t65/&gt; &lt;t66/&gt;B&lt;t67/&gt; &lt;t68/&gt;(Section&lt;t69/&gt; &lt;t70/&gt;6).&lt;t71/&gt; &lt;t72/&gt;This&lt;t73/&gt; &lt;t74/&gt;allows&lt;t75/&gt; &lt;t76/&gt;the&lt;t77/&gt; &lt;t78/&gt;outside&lt;t79/&gt; &lt;t80/&gt;project&lt;t81/&gt; &lt;t82/&gt;to&lt;t83/&gt; &lt;t84/&gt;be represented by a single SPDX identifier (the identifier of Package B).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T070018Z" creationid="hfukuchi" creationdate="20180809T064806Z">
+        <seg>外部製品から派生したファイル：Package Aは、外部製品から派生した複数のファイルを含む。これらのファイルとプロジェクトの関係を記述するのにartifactOf*属性（4.9­4.11節）を使うよりも、外部プロジェクトは他のパッケージPackage Bで表現できる。Package BのFile Analyzed属性は“false”にする。バイナリーファイルは、パッケージBと関係を持つ。（6節）これは、外部プロジェクトを1つのSPDX識別子（Package Bの識別子）で表現することを可能にする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File&lt;t0/&gt; &lt;t1/&gt;Information:&lt;t2/&gt; &lt;t3/&gt;Facts&lt;t4/&gt; &lt;t5/&gt;that&lt;t6/&gt; &lt;t7/&gt;are&lt;t8/&gt; &lt;t9/&gt;specific&lt;t10/&gt; &lt;t11/&gt;to&lt;t12/&gt; &lt;t13/&gt;each&lt;t14/&gt; &lt;t15/&gt;file&lt;t16/&gt; &lt;t17/&gt;included&lt;t18/&gt; &lt;t19/&gt;in&lt;t20/&gt; &lt;t21/&gt;the&lt;t22/&gt; &lt;t23/&gt;package.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180724T032326Z" creationid="hfukuchi" creationdate="20180724T032112Z">
@@ -886,6 +974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case, Package A may be defined with its File Analyzed attribute set to “false”.&lt;t0/&gt; &lt;t1/&gt;Package&lt;t2/&gt; &lt;t3/&gt;A&lt;t4/&gt; &lt;t5/&gt;includes&lt;t6/&gt; &lt;t7/&gt;External&lt;t8/&gt; &lt;t9/&gt;Document&lt;t10/&gt; &lt;t11/&gt;References&lt;t12/&gt; &lt;t13/&gt;to&lt;t14/&gt; &lt;t15/&gt;SPDX&lt;t16/&gt; &lt;t17/&gt;documents&lt;t18/&gt; &lt;t19/&gt;containing Packages referenced in all the available relationships.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T062458Z" creationid="hfukuchi" creationdate="20180809T060522Z">
+        <seg>このケースでは、パッケージAのFile Analyzed属性を“false”となる。パッケージAは、可能なすべての関係の中で参照されたパッケージを含むSPDX文書へのExternal Document References（外部文書参照）を含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In&lt;t0/&gt; &lt;t1/&gt;VCS&lt;t2/&gt; &lt;t3/&gt;location&lt;t4/&gt; &lt;t5/&gt;compact&lt;t6/&gt; &lt;t7/&gt;notations,&lt;t8/&gt; &lt;t9/&gt;the&lt;t10/&gt; &lt;t11/&gt;trailing&lt;t12/&gt; &lt;t13/&gt;slashes&lt;t14/&gt; &lt;t15/&gt;in&lt;t16/&gt; &lt;t17/&gt;&lt;host_name&gt;,&lt;t18/&gt; &lt;t19/&gt;&lt;path_to_repository&gt;&lt;t20/&gt; &lt;t21/&gt;are not&lt;t22/&gt; &lt;t23/&gt;significant.&lt;t24/&gt; &lt;t25/&gt;Leading&lt;t26/&gt; &lt;t27/&gt;and&lt;t28/&gt; &lt;t29/&gt;trailing&lt;t30/&gt; &lt;t31/&gt;slashes&lt;t32/&gt; &lt;t33/&gt;in&lt;t34/&gt; &lt;t35/&gt;&lt;sub_path&gt;&lt;t36/&gt; &lt;t37/&gt;are&lt;t38/&gt; &lt;t39/&gt;not&lt;t40/&gt; &lt;t41/&gt;significant.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180808T074616Z" creationid="hfukuchi" creationdate="20180808T074406Z">
@@ -974,6 +1070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intent:&lt;t0/&gt; &lt;t1/&gt;A&lt;t2/&gt; &lt;t3/&gt;package&lt;t4/&gt; &lt;t5/&gt;can&lt;t6/&gt; &lt;t7/&gt;refer&lt;t8/&gt; &lt;t9/&gt;to&lt;t10/&gt; &lt;t11/&gt;a&lt;t12/&gt; &lt;t13/&gt;project,&lt;t14/&gt; &lt;t15/&gt;product,&lt;t16/&gt; &lt;t17/&gt;artifact,&lt;t18/&gt; &lt;t19/&gt;distribution&lt;t20/&gt; &lt;t21/&gt;or&lt;t22/&gt; &lt;t23/&gt;a&lt;t24/&gt; &lt;t25/&gt;component&lt;t26/&gt; &lt;t27/&gt;that&lt;t28/&gt; &lt;t29/&gt;is external&lt;t30/&gt; &lt;t31/&gt;to&lt;t32/&gt; &lt;t33/&gt;the&lt;t34/&gt; &lt;t35/&gt;SPDX&lt;t36/&gt; &lt;t37/&gt;document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T053410Z" creationid="hfukuchi" creationdate="20180809T053130Z">
+        <seg>意図：パッケージは、SPDX文書の外部にあるプロジェクト、製品、作成物、頒布あるいはコンポーネントを参照できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Intent:&lt;t0/&gt; &lt;t1/&gt;Here,&lt;t2/&gt; &lt;t3/&gt;parties&lt;t4/&gt; &lt;t5/&gt;exchanging&lt;t6/&gt; &lt;t7/&gt;information&lt;t8/&gt; &lt;t9/&gt;in&lt;t10/&gt; &lt;t11/&gt;accordance&lt;t12/&gt; &lt;t13/&gt;with&lt;t14/&gt; &lt;t15/&gt;SPDX&lt;t16/&gt; &lt;t17/&gt;specification&lt;t18/&gt; &lt;t19/&gt;need to&lt;t20/&gt; &lt;t21/&gt;provide&lt;t22/&gt; &lt;t23/&gt;100%&lt;t24/&gt; &lt;t25/&gt;transparency&lt;t26/&gt; &lt;t27/&gt;as&lt;t28/&gt; &lt;t29/&gt;to&lt;t30/&gt; &lt;t31/&gt;which&lt;t32/&gt; &lt;t33/&gt;SPDX&lt;t34/&gt; &lt;t35/&gt;specification&lt;t36/&gt; &lt;t37/&gt;such&lt;t38/&gt; &lt;t39/&gt;information&lt;t40/&gt; &lt;t41/&gt;is&lt;t42/&gt; &lt;t43/&gt;conforming&lt;t44/&gt; &lt;t45/&gt;to.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180726T023731Z">
@@ -1054,10 +1158,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It also allows the relationship(s) between the outside project and each of the files be represented in much more&lt;t85/&gt; &lt;t86/&gt;detail.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T070101Z" creationid="hfukuchi" creationdate="20180809T070101Z">
+        <seg>それは、また、外部プロジェクトと各ファイルの関係を詳細に表現することを可能にする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is only intended to provide a unique ID.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T084549Z" creationid="hfukuchi" creationdate="20180802T084549Z">
         <seg>一意のIDを与えるためだけに使われている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It may also be a loosely organized manifest of references to Packages</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T055756Z" creationid="hfukuchi" creationdate="20180809T055629Z">
+        <seg>それは製品やプロジェクトに換券するパッケージへの参照をゆるく集めたリストでもよい。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1278,10 +1398,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Package Verification Code</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T070441Z" creationid="hfukuchi" creationdate="20180809T070441Z">
+        <seg>Package Verification Code（パッケージ検証コード）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Package Version</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T065602Z" creationid="hfukuchi" creationdate="20180807T065602Z">
         <seg>Package Version（パッケージ バージョン）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Package relation to external product&lt;t0/&gt;: Package A can have a STATIC_LINK relationship to Package B, but the binary representation of Package B is furnished by the build process and thus not contained in the file list of Package A. In this case, Package B needs to be defined with its Files Analyzed attribute set to false and all the other attributes subject to the subsequently defined constraints.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T063043Z" creationid="hfukuchi" creationdate="20180809T062453Z">
+        <seg>外部製品へのパッケージ関係：パッケージAは、パッケージBとの間でSTATIC_LINK関係を持つことができるが、パッケージBのバイナリー表現は、ビルド プロセスによって与えられるので、パッケージAのファイル リストには含まれない。このケースでは、パッケージBのFiles Analyzed属性はfalse、他のすべての属性は後で定義される制限にしなければならない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1418,6 +1554,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180808T052444Z" creationid="hfukuchi" creationdate="20180808T051741Z">
         <seg>目的：SPDXファイルで特定されるパッケージがPackage Supplier（パッケージ供給者）（3.5節参照）で記述されたのとは別の人や組織が原作者である場合、このフィールドはパッケージが誰があるいはどこで最初に作られたかを特定する。ある場合には、パッケージ供給者とは別の第3者が、パッケージを作成し最初に頒布していることがある。たとえば、SPDXファイルはglibcパッケージとそのパッケージ供給者Red Hatを特定するが、パッケージ原作者はFree Software Foundationである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose: &lt;t0/&gt;Indicates whether the file content of this package has been available for or subjected&lt;t1/&gt; &lt;t2/&gt;to&lt;t3/&gt; &lt;t4/&gt;analysis&lt;t5/&gt; &lt;t6/&gt;when&lt;t7/&gt; &lt;t8/&gt;creating&lt;t9/&gt; &lt;t10/&gt;the&lt;t11/&gt; &lt;t12/&gt;SPDX&lt;t13/&gt; &lt;t14/&gt;document.&lt;t15/&gt; &lt;t16/&gt;If&lt;t17/&gt; &lt;t18/&gt;“false”&lt;t19/&gt; &lt;t20/&gt;indicates&lt;t21/&gt; &lt;t22/&gt;packages&lt;t23/&gt; &lt;t24/&gt;that&lt;t25/&gt; &lt;t26/&gt;represent metadata&lt;t27/&gt; &lt;t28/&gt;or&lt;t29/&gt; &lt;t30/&gt;URI&lt;t31/&gt; &lt;t32/&gt;references&lt;t33/&gt; &lt;t34/&gt;to&lt;t35/&gt; &lt;t36/&gt;a&lt;t37/&gt; &lt;t38/&gt;project,&lt;t39/&gt; &lt;t40/&gt;product,&lt;t41/&gt; &lt;t42/&gt;artifact,&lt;t43/&gt; &lt;t44/&gt;distribution&lt;t45/&gt; &lt;t46/&gt;or&lt;t47/&gt; &lt;t48/&gt;a&lt;t49/&gt; &lt;t50/&gt;component.&lt;t51/&gt; &lt;t52/&gt;If&lt;t53/&gt; &lt;t54/&gt;set&lt;t55/&gt; &lt;t56/&gt;to&lt;t57/&gt; &lt;t58/&gt;“false”, the&lt;t59/&gt; &lt;t60/&gt;package&lt;t61/&gt; &lt;t62/&gt;must&lt;t63/&gt; &lt;t64/&gt;not&lt;t65/&gt; &lt;t66/&gt;contain&lt;t67/&gt; &lt;t68/&gt;any&lt;t69/&gt; &lt;t70/&gt;files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T053138Z" creationid="hfukuchi" creationdate="20180809T053055Z">
+        <seg>目的：このパッケージのファイルが入手可能であるか、またはSPDX文書作成時に解析対象になっていたかを示す。Purpose: &lt;t0/&gt;Indicates whether the file content of this package has been available for or subjected&lt;t1/&gt; &lt;t2/&gt;to&lt;t3/&gt; &lt;t4/&gt;analysis&lt;t5/&gt; &lt;t6/&gt;when&lt;t7/&gt; &lt;t8/&gt;creating&lt;t9/&gt; &lt;t10/&gt;the&lt;t11/&gt; &lt;t12/&gt;SPDX&lt;t13/&gt; &lt;t14/&gt;document.&lt;t15/&gt; &lt;t16/&gt;If&lt;t17/&gt; &lt;t18/&gt;“false”&lt;t19/&gt; &lt;t20/&gt;indicates&lt;t21/&gt; &lt;t22/&gt;packages&lt;t23/&gt; &lt;t24/&gt;that&lt;t25/&gt; &lt;t26/&gt;represent metadata&lt;t27/&gt; &lt;t28/&gt;or&lt;t29/&gt; &lt;t30/&gt;URI&lt;t31/&gt; &lt;t32/&gt;references&lt;t33/&gt; &lt;t34/&gt;to&lt;t35/&gt; &lt;t36/&gt;a&lt;t37/&gt; &lt;t38/&gt;project,&lt;t39/&gt; &lt;t40/&gt;product,&lt;t41/&gt; &lt;t42/&gt;artifact,&lt;t43/&gt; &lt;t44/&gt;distribution&lt;t45/&gt; &lt;t46/&gt;or&lt;t47/&gt; &lt;t48/&gt;a&lt;t49/&gt; &lt;t50/&gt;component.&lt;t51/&gt; “false”にセットされた場合には、パッケージは一切ファイルを含んではいけない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1718,6 +1862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some examples:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T053428Z" creationid="hfukuchi" creationdate="20180809T053428Z">
+        <seg>いくつかの例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Specification Version: 2.1</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T074631Z" creationid="hfukuchi" creationdate="20180807T074631Z">
@@ -1886,6 +2038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Relationships section then relates the SPDX documents and contained SPDX elements with appropriate semantics per&lt;t20/&gt; &lt;t21/&gt;the&lt;t22/&gt; &lt;t23/&gt;dependencies&lt;t24/&gt; &lt;t25/&gt;in&lt;t26/&gt; &lt;t27/&gt;the&lt;t28/&gt; &lt;t29/&gt;scope&lt;t30/&gt; &lt;t31/&gt;of&lt;t32/&gt; &lt;t33/&gt;Package&lt;t34/&gt; &lt;t35/&gt;A.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T061557Z" creationid="hfukuchi" creationdate="20180809T061557Z">
+        <seg>Relationships（関係性）セクションは、SPDX文書や含まれるSPDX要素をパッケージAのスコープ内の依存関係ごとに適切な構文に関係づける。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The SPDX Document URI cannot contain a URI "part" (e.g. the "#" character), since the ‘#’ is used in SPDX&lt;t27/&gt; &lt;t28/&gt;element&lt;t29/&gt; &lt;t30/&gt;URIs&lt;t31/&gt; &lt;t32/&gt;(packages,&lt;t33/&gt; &lt;t34/&gt;files,&lt;t35/&gt; &lt;t36/&gt;snippets,&lt;t37/&gt; &lt;t38/&gt;etc)&lt;t39/&gt; &lt;t40/&gt;to&lt;t41/&gt; &lt;t42/&gt;separate&lt;t43/&gt; &lt;t44/&gt;the&lt;t45/&gt; &lt;t46/&gt;document&lt;t47/&gt; &lt;t48/&gt;namespace&lt;t49/&gt; &lt;t50/&gt;from&lt;t51/&gt; &lt;t52/&gt;the element’s&lt;t53/&gt; &lt;t54/&gt;SPDX&lt;t55/&gt; &lt;t56/&gt;identifier..&lt;t57/&gt; &lt;t58/&gt;Additionally,&lt;t59/&gt; &lt;t60/&gt;a&lt;t61/&gt; &lt;t62/&gt;scheme&lt;t63/&gt; &lt;t64/&gt;(e.g.&lt;t65/&gt; &lt;t66/&gt;“https:”)&lt;t67/&gt; &lt;t68/&gt;is&lt;t69/&gt; &lt;t70/&gt;required.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180803T073840Z" creationid="hfukuchi" creationdate="20180802T071719Z">
@@ -2026,6 +2186,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T083253Z" creationid="hfukuchi" creationdate="20180807T083253Z">
         <seg>Package Supplier（パッケージ提供者）の名前は、ウェブサイトではなく、組織か認識されている著者でなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then, the relationship between Package A and Package</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T063139Z" creationid="hfukuchi" creationdate="20180809T063139Z">
+        <seg>パッケージAとパッケージBの関係は、</seg>
       </tuv>
     </tu>
     <tu>
@@ -2306,6 +2474,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T073408Z" creationid="hfukuchi" creationdate="20180807T073408Z">
         <seg>RDFでは、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>involved in a product or project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180809T055716Z" creationid="hfukuchi" creationdate="20180809T055716Z">
+        <seg> </seg>
       </tuv>
     </tu>
     <tu>
