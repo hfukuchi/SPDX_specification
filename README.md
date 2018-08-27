@@ -13,7 +13,11 @@ Japanese translation of SPDX specification
 
 
 ## 参考資料
-SDPX仕様を読む際に、参考になる資料です
+SPDX仕様を読む際に、参考になる資料です
 * URI(Uniform Resource Identifier)
   * http://ietf.org/rfc/rfc3986.txt
 
+* SPDXはLinux Foundationによって登録商標されており、ライセンスは以下に記載されています
+  * https://spdx.org/Trademark
+  
+  
