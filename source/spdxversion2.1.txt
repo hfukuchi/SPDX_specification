@@ -1164,7 +1164,7 @@ Copyright 2008-2010 John Smith
 3.18.4 Data Format: free form text that can span multiple lines.
 
 3.18.5 Tag: ÅgPackageSummary:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 
 Example:
 PackageSummary: <text> GNU C library. </text>
@@ -1188,7 +1188,7 @@ Example:
 3.19.4 Data Format: free form text than can span multiple lines.
 
 3.19.5 Tag: ÅgPackageDescription:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 
 Example: PackageDescription: <text>
 The GNU C Library defines functions that are specified by the ISO C standard, as well as additional features specific to POSIX and other derivatives of the Unix operating system, and extensions specific to GNU systems.
@@ -1215,7 +1215,7 @@ ISO C standard, as well as additional features specific to POSIX and other deriv
 3.20.4 Data Format: free form text that can span multiple lines.
 
 3.20.5 Tag: ÅgPackageComment:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 
 Example: PackageComment: <text>
 The package includes several sub-packages; see Relationship information.
@@ -1286,7 +1286,7 @@ The referenceType value for a non-listed location consists of the SPDX document 
 
 3.22.4 Data format: Free form text that can span multiple lines.
 
-In Tag:value format this is delimited by <text> .. </text>, and is expected to follow an External References so that the association can be made.
+In Tag:value format this is delimited by <text>..</text>, and is expected to follow an External References so that the association can be made.
 in RDF, it is delimited by <ExternalRefComment>.
 
 3.22.5 Tag: ExternalRefComment

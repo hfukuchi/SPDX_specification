@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(i) the SPDX document creator has made no attempt to determine this field; or</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T060615Z" creationid="hfukuchi" creationdate="20180827T060615Z">
+        <seg>(i) SPDXファイル作成者が、このフィールドを決定しようと試みなかった。；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(i) the SPDX file creator has attempted to but cannot reach a reasonable objective determination;</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T072351Z" creationid="hfukuchi" creationdate="20180823T072351Z">
@@ -82,6 +90,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T090323Z" creationid="hfukuchi" creationdate="20180824T090323Z">
         <seg>(i) SPDXファイル作成者が、このフィールドを決定しようと試みなかった。；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(ii) the SPDX document creator has intentionally provided no information (no meaning should be implied by doing so).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T060641Z" creationid="hfukuchi" creationdate="20180827T060641Z">
+        <seg>(ii) SPDXファイル作成者が、意図的に情報を提供しなかった（意味がないことを、そうすることで暗示するべきである）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -582,6 +598,70 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>4 File Information</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T072622Z" creationid="hfukuchi" creationdate="20180827T072622Z">
+        <seg>4 File Information（ファイル情報）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4.1 File Name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T080552Z" creationid="hfukuchi" creationdate="20180827T080552Z">
+        <seg>4.1 File Name（ファイル名）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4.2 File SPDX Identifier</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T080619Z" creationid="hfukuchi" creationdate="20180827T080619Z">
+        <seg>4.2 File SPDX Identifier（ファイルSPDX識別子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4.3 File Type</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T080636Z" creationid="hfukuchi" creationdate="20180827T080636Z">
+        <seg>4.3 File Type（ファイル タイプ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4.4 File Checksum</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T080647Z" creationid="hfukuchi" creationdate="20180827T080647Z">
+        <seg>4.4 File Checksum（ファイル チェックサム）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4.5 Concluded License</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T080707Z" creationid="hfukuchi" creationdate="20180827T080707Z">
+        <seg>4.5 Concluded License（結論されたライセンス）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4.6 License Information in File</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T080724Z" creationid="hfukuchi" creationdate="20180827T080724Z">
+        <seg>4.6 License Information in File（ファイル中のライセンス情報）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4.7 Comments on License</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T080822Z" creationid="hfukuchi" creationdate="20180827T080822Z">
+        <seg>4.7 Comments on License（ライセンスへのコメント）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T082958Z" creationid="hfukuchi" creationdate="20180822T082958Z">
@@ -618,6 +698,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T064702Z" creationid="hfukuchi" creationdate="20180822T064702Z">
         <seg>&lt;creator&gt; Tool: LicenseFind-1.0 &lt;/creator&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;locator&gt; is the unique string with no spaces necessary to access the package-specific information, metadata, or content within the target location.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T070408Z" creationid="hfukuchi" creationdate="20180827T070408Z">
+        <seg>&lt;locator&gt; は、パッケージ特有の情報、メタデータ、目的の場所にあるコンテンツにアクセスするためのスペースを含まない一意の文字列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -758,10 +846,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;type&gt; is an [idstring] that is defined in Appendix.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T070105Z" creationid="hfukuchi" creationdate="20180827T070105Z">
+        <seg>&lt;type&gt; はAppendix IVで定義される [idstring] である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A best practice for creating the URI for SPDX documents available on the public internet is http://[CreatorWebsite]/[pathToSpdx]/[DocumentName]-[UUID]</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T055412Z" creationid="hfukuchi" creationdate="20180823T055412Z">
         <seg>インターネットで公にアクセス可能なSPDX文書のURIを作成するベストプラクティスは以下である。http://[CreatorWebsite]/[pathToSpdx]/[DocumentName]­[UUID]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A best practice for creating the URI for SPDX documents available on the public internet is http://[CreatorWebsite]/[pathToSpdx]/[DocumentName]-[UUID] where:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T045729Z" creationid="hfukuchi" creationdate="20180827T045729Z">
+        <seg>インターネットで公にアクセス可能なSPDX文書のURIを作成するベストプラクティスは以下である。http://[CreatorWebsite]/[pathToSpdx]/[DocumentName]­[UUID]　ここで：</seg>
       </tuv>
     </tu>
     <tu>
@@ -792,8 +896,8 @@
       <tuv lang="EN-US">
         <seg>A file can be designated an SPDX document, if it is compliant with the requirements of the SPDX Trademark License (See the SPDX Trademark Page).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180823T054758Z" creationid="hfukuchi" creationdate="20180821T091414Z">
-        <seg>SPDX商標ライセンスの要求をすべて満足すれば、ファイルをSPDX文書と呼ぶことができる (SPDX Trademarkページを参照)</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T045549Z" creationid="hfukuchi" creationdate="20180821T091414Z">
+        <seg>SPDX Trademark License （SPDX商標ライセンス）の要求をすべて満足すれば、ファイルをSPDX文書と呼ぶことができる (SPDX商標ページを参照)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1006,6 +1110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any license information that does not originate from the package authors, e.g. license information from a third party repository, should not be included in this field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T050500Z" creationid="hfukuchi" creationdate="20180827T050500Z">
+        <seg>サードパーティ リポジトリから受け取ったライセンス情報など、パッケージ作者によって作成されていないライセンス情報は、このフィールドに記載すべきではない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any&lt;t0/&gt; &lt;t1/&gt;identification&lt;t2/&gt; &lt;t3/&gt;of&lt;t4/&gt; &lt;t5/&gt;any&lt;t6/&gt; &lt;t7/&gt;patent(s)&lt;t8/&gt; &lt;t9/&gt;which&lt;t10/&gt; &lt;t11/&gt;may&lt;t12/&gt; &lt;t13/&gt;or&lt;t14/&gt; &lt;t15/&gt;may&lt;t16/&gt; &lt;t17/&gt;not&lt;t18/&gt; &lt;t19/&gt;relate&lt;t20/&gt; &lt;t21/&gt;to&lt;t22/&gt; &lt;t23/&gt;the&lt;t24/&gt; &lt;t25/&gt;package.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180724T040506Z" creationid="hfukuchi" creationdate="20180724T040506Z">
@@ -1118,6 +1230,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cardinality: Conditional (Optional, one) for each External Reference.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T072338Z" creationid="hfukuchi" creationdate="20180827T072338Z">
+        <seg>基数：各外部参照に対して条件付き（任意、1）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cardinality: Mandatory, one if filesAnalyzed is true or</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T091521Z" creationid="hfukuchi" creationdate="20180822T091308Z">
@@ -1174,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cardinality: Optional (one or many)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T065555Z" creationid="hfukuchi" creationdate="20180827T065555Z">
+        <seg>基数：任意（1以上）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cardinality: Optional, one or many.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T063807Z" creationid="hfukuchi" creationdate="20180822T063807Z">
@@ -1210,6 +1338,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180719T043953Z" creationid="hfukuchi" creationdate="20180718T083252Z">
         <seg>趣意</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Comments on License</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T043536Z" creationid="hfukuchi" creationdate="20180827T043536Z">
+        <seg>Comments on License（ライセンスへのコメント）</seg>
       </tuv>
     </tu>
     <tu>
@@ -1258,6 +1394,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T051001Z" creationid="hfukuchi" creationdate="20180824T051001Z">
         <seg>Copyright © 2010-2016 Linux Foundation and its Contributors.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copyright Text</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T052531Z" creationid="hfukuchi" creationdate="20180827T052531Z">
+        <seg>Copyright Text（著作権テキスト）</seg>
       </tuv>
     </tu>
     <tu>
@@ -1334,6 +1478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Data Format: &lt;category&gt; &lt;type&gt; &lt;locator&gt; where:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T065843Z" creationid="hfukuchi" creationdate="20180827T065843Z">
+        <seg>データフォーマット：&lt;category&gt; &lt;type&gt; &lt;locator&gt; where:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Data Format: &lt;short form identifier in Appendix I&gt; |</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T094235Z" creationid="hfukuchi" creationdate="20180824T094235Z">
@@ -1390,6 +1542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Data Format: A relative filename with the root of the package archive or directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T081658Z" creationid="hfukuchi" creationdate="20180827T081658Z">
+        <seg>データフォーマット：パッケージアーカイブやディレクトリのルートを使った相対ファイル名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Data Format: Boolean</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T083248Z" creationid="hfukuchi" creationdate="20180822T083248Z">
@@ -1422,10 +1582,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Data Format: free form text than can span multiple lines.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T063620Z" creationid="hfukuchi" creationdate="20180827T063620Z">
+        <seg>データ フォーマット：自由形式文（複数行に渡ってもよい）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data Format: free form text that can span multiple lines | “NONE” | “NOASSERTION”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T060844Z" creationid="hfukuchi" creationdate="20180827T060844Z">
+        <seg>データ フォーマット：自由形式文（複数行に渡ってもよい） | “NONE” | “NOASSERTION”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Data Format: free form text that can span multiple lines.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180822T065153Z" creationid="hfukuchi" creationdate="20180822T065153Z">
-        <seg>データ フォーマット：自由形式文（複数行に渡ってもよい）。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T061911Z" creationid="hfukuchi" creationdate="20180822T065153Z">
+        <seg>データ フォーマット：自由形式文（複数行に渡ってもよい）</seg>
       </tuv>
     </tu>
     <tu>
@@ -1590,6 +1766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Data format: Free form text that can span multiple lines.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T072351Z" creationid="hfukuchi" creationdate="20180827T072351Z">
+        <seg>データ フォーマット：自由形式文（複数行に渡ってもよい）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Data&lt;t0/&gt; &lt;t1/&gt;License</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T071833Z" creationid="hfukuchi" creationdate="20180806T053322Z">
@@ -1618,6 +1802,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T071302Z" creationid="hfukuchi" creationdate="20180823T071302Z">
         <seg>データ フォーマット：“SPDXRef­[idstring]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DataFormat: “SPDXRef-[idstring]”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T082102Z" creationid="hfukuchi" creationdate="20180827T082102Z">
+        <seg>データフォーマット：“SPDXRef-[idstring]”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1830,6 +2022,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example (for a ‘listed’ location):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T070556Z" creationid="hfukuchi" creationdate="20180827T070556Z">
+        <seg>例（リストされた位置）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example (subdirectory being treated as a package):</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180808T045901Z" creationid="hfukuchi" creationdate="20180808T045901Z">
@@ -1950,6 +2150,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example: PackageComment: &lt;text&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T064527Z" creationid="hfukuchi" creationdate="20180827T064527Z">
+        <seg>例：PackageComment: &lt;text&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example: PackageCopyrightText: &lt;text&gt; Copyright 2008-2010 John Smith</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T060858Z" creationid="hfukuchi" creationdate="20180827T060858Z">
+        <seg>例： PackageCopyrightText: &lt;text&gt; Copyright 2008-2010 John Smith</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example: PackageDescription: &lt;text&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T063819Z" creationid="hfukuchi" creationdate="20180827T063819Z">
+        <seg>例：PackageDescription: &lt;text&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example: PackageLicenseComments: &lt;text&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T052448Z" creationid="hfukuchi" creationdate="20180827T052448Z">
+        <seg>例：PackageLicenseComments: &lt;text&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example: PackageLicenseInfoFromFiles: GPL-2.0</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T091913Z" creationid="hfukuchi" creationdate="20180824T091913Z">
@@ -1994,6 +2226,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180821T091844Z" creationid="hfukuchi" creationdate="20180821T091844Z">
         <seg>外部パッケージが、SPDX文書中で参照可能となった。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>External Reference</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T064551Z" creationid="hfukuchi" creationdate="20180827T064551Z">
+        <seg>External Reference（外部参照）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>External Reference Comment</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T071008Z" creationid="hfukuchi" creationdate="20180827T071008Z">
+        <seg>External Reference Comment（外部参照コメント）</seg>
       </tuv>
     </tu>
     <tu>
@@ -2058,6 +2306,30 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180821T085935Z" creationid="hfukuchi" creationdate="20180821T085935Z">
         <seg>File Information（ファイル情報）：パッケージ内の各ファイルに特有の事実</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File Name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T080506Z" creationid="hfukuchi" creationdate="20180827T080506Z">
+        <seg>File Name（ファイル名）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File SPDX Identifier</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T081823Z" creationid="hfukuchi" creationdate="20180827T081823Z">
+        <seg>File SPDX Identifier（ファイルSPDX識別子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File Type</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T082409Z" creationid="hfukuchi" creationdate="20180827T082409Z">
+        <seg>File Type（ファイル タイプ）</seg>
       </tuv>
     </tu>
     <tu>
@@ -2214,6 +2486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the Concluded License does not match the Declared License or License Information from Files, this should be explained by the SPDX file creator.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T045025Z" creationid="hfukuchi" creationdate="20180827T045025Z">
+        <seg>もし、Concluded License（結論されたライセンス）がDeclared License（宣言されたライセンス）と異なる場合、Comments on License（ライセンスへのコメント）フィールドに説明を記載すべきである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the Concluded License is not the same as the Declared License, a written explanation should be provided in the Comments on License field (section 3.15).</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T081743Z" creationid="hfukuchi" creationdate="20180824T081724Z">
@@ -2294,6 +2574,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the reference is BINARY, its relationship to PackageDownloadLocation may need to be explained.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T082334Z" creationid="hfukuchi" creationdate="20180827T071945Z">
+        <seg>参照がBINARY（バイナリー）の場合は、参照とPackageDownloadLocationとの関係が説明される必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the reference is SOURCE, its relationship to PackageDownloadLocation and SourceInformation may need to be explained.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T082356Z" creationid="hfukuchi" creationdate="20180827T072120Z">
+        <seg>参照がSOURCE（ソース）の場合は、参照とPackageDownloadLocationとSourceInformationとの関係が説明される必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If “false” indicates packages that represent metadata or URI references to a project, product, artifact, distribution or a component.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T082418Z" creationid="hfukuchi" creationdate="20180822T082418Z">
@@ -2302,10 +2598,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Tag:value format multiple lines are delimited by &lt;text&gt; ..</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T062055Z" creationid="hfukuchi" creationdate="20180827T062055Z">
+        <seg>Tag:value フォーマットでは、これは&lt;text&gt; ..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Tag:value format multiple lines are delimited by &lt;text&gt;..&lt;/text&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T062235Z" creationid="hfukuchi" creationdate="20180827T062235Z">
+        <seg>Tag:value フォーマットでは、これは&lt;text&gt;..&lt;/text&gt;で分離される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Tag:value format this is delimited by &lt;text&gt; ..</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T073128Z" creationid="hfukuchi" creationdate="20180807T073128Z">
         <seg>Tag:value フォーマットでは、これは&lt;text&gt; ..</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Tag:value format this is delimited by &lt;text&gt;..&lt;/text&gt;, and is expected to follow an External References so that the association can be made.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T072604Z" creationid="hfukuchi" creationdate="20180827T072604Z">
+        <seg>Tag:value フォーマットでは&lt;text&gt; .. &lt;/text&gt;で分離され、External References（外部参照）に後続することが期待されるので、連想できる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2338,6 +2658,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T082004Z" creationid="hfukuchi" creationdate="20180822T081845Z">
         <seg>VCS位置簡潔表記では、&lt;host_name&gt;や&lt;path_to_repository&gt;の中の最後のスラッシュは重要でない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, every filename is preceded with a “./”, see http://www.ietf.org/rfc/rfc3986.txt for syntax.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T081803Z" creationid="hfukuchi" creationdate="20180827T081803Z">
+        <seg>一般的に、すべてのファイル名は“./”が先行する。構文については、http://www.ietf.org/rfc/rfc3986.txt を参照。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2550,6 +2878,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intent: Here, the intent is to allow the SPDX file creator to provide concise information about the function or use of the package without having to parse the source code of the actual package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T061855Z" creationid="hfukuchi" creationdate="20180827T061855Z">
+        <seg>意図：SPDXファイル作成者が、実際のパッケージのソースコードをパースしなくてもパッケージの機能や用途がわかる簡潔な情報を提供できること。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Intent: Here, the intent is to provide readers/reviewers with comments by the creator of the SPDX file about the SPDX document.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T065048Z" creationid="hfukuchi" creationdate="20180822T065048Z">
@@ -2558,10 +2894,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intent: Here, the intent is to provide recipients of the SPDX file with a detailed technical explanation of the functionality, anticipated use, and anticipated implementation of the package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T063441Z" creationid="hfukuchi" creationdate="20180827T063441Z">
+        <seg>意図：SPDXファイル受領者に、パッケージの機能、予期される用途や実装についての詳細な技術説明を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Intent: Here, the intent is to provide recipients of the SPDX file with comments by the creator of the SPDX file.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T064943Z" creationid="hfukuchi" creationdate="20180822T064943Z">
         <seg>意図：SPDXファイル受領者にSPDXファイル作成者のコメントを提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: Here, the intent is to provide the recipient of the SPDX document with more information determined after careful analysis of a package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T064303Z" creationid="hfukuchi" creationdate="20180827T064303Z">
+        <seg>意図：SPDX文書の受領者に注意深いパッケージ解析の後に決定された情報を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: Here, the intent is to provide the recipient of the SPDX file with a detailed explanation of how the Concluded License was determined if it does not match the License Information from the files or the source code package, is marked NOASSERTION, or other helpful information relevant to determining the license of the package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T052435Z" creationid="hfukuchi" creationdate="20180827T045426Z">
+        <seg>意図：SPDXファイルの受領者に、Concluded License（結論されたライセンス）がファイルやソースコード パッケージからのライセンス情報と一致しない場合やNONASSERTIONが設定されている場合に、Concluded License（結論されたライセンス）はどのように決定されたかの詳細説明、または、パッケージのライセンスを決定するのに有用な情報を提供する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2622,6 +2982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intent: Provide a way for the document to refer to itself in relationship to other elements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T045651Z" creationid="hfukuchi" creationdate="20180827T045651Z">
+        <seg>意図：他の要素との関係で、文書がそれ自体を参照する方法を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Intent: Providing a unique identifier based on the files inside each package, eliminates confusion over which version or modification of a specific package the SPDX file refers to.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T091212Z" creationid="hfukuchi" creationdate="20180822T091056Z">
@@ -2634,6 +3002,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T064201Z" creationid="hfukuchi" creationdate="20180822T064201Z">
         <seg>意図：バージョン更新時にSPDXライセンス リストにライセンスが加えられることを認識した上で、SPDXファイルの受領者に使用されたSPDXライセンス ファイルのバージョンを提供することを意図している。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: Record any copyright notices for the package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T060726Z" creationid="hfukuchi" creationdate="20180827T060726Z">
+        <seg>意図：パッケージのすべての著作権表記を記録する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2662,6 +3038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intent: There may be several versions of the same file within an SPDX document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T082045Z" creationid="hfukuchi" creationdate="20180827T082045Z">
+        <seg>意図：SPDX文書内には、同じファイルの複数バージョンが存在する可能性がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Intent: There may be several versions of the same package within an SPDX document.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T080144Z" creationid="hfukuchi" creationdate="20180822T080144Z">
@@ -2686,6 +3070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intent: This is simply the license identified in text in one or more files (for example COPYING file) in the source code package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T050900Z" creationid="hfukuchi" creationdate="20180827T050900Z">
+        <seg>意図：これは、ソースコード パッケージに含まれる1つ以上のファイル（たとえば、COPYINGファイル）にテキストで記載されたライセンスである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Intent: This is to alleviate any concern that content (the data or database) in an SPDX file is subject to any form of intellectual property right that could restrict the re-use of the information or the creation of another SPDX file for the same project(s).</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T055203Z" creationid="hfukuchi" creationdate="20180823T055203Z">
@@ -2698,6 +3090,30 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T045110Z" creationid="hfukuchi" creationdate="20180822T045110Z">
         <seg>意図：SPDXに含まれる内容物（データやデータベース）が情報の再利用や同じプロジェクトに対して別のSPDXファイルを作成することを制限しうる知的財産権の影響下にあるかもしれないという懸念を軽減する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: To aid finding the correct file which corresponds to the file information.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T081519Z" creationid="hfukuchi" creationdate="20180827T081519Z">
+        <seg>意図：ファイル情報に対応する正しいファイルを見つける手助けをする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: To indicate an outside source of information, metadata enumerations, asset identifiers, or content relevant to the Package, such as a structured naming scheme identifying Packages with known security vulnerabilities.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T065816Z" creationid="hfukuchi" creationdate="20180827T065150Z">
+        <seg>意図：情報、メタデータ、要素列挙（Enumeration）、あるいは、パッケージと既知の脆弱性を関連させる構造的な命名スキームのようなパッケージに関連すると考えられるコンテンツに関する外部ソースを提示する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: To inform a human consumer why the reference exists, what kind of information, content or metadata can be extracted.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T071446Z" creationid="hfukuchi" creationdate="20180827T071446Z">
+        <seg>意図：人間の受領者に、参照が存在する理由、どういう情報、コンテンツ、メタデータが抽出可能であるかを知らせる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2846,6 +3262,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It may also be extracted from the packages itself.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T062356Z" creationid="hfukuchi" creationdate="20180827T062356Z">
+        <seg>これはパッケージ自体から取り出されたものである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It provides important meta information about a given file including licenses and copyright.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T073741Z" creationid="hfukuchi" creationdate="20180827T073741Z">
+        <seg>それは、ライセンスや著作権を含む対象ファイルの重要なメタデータを提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It provides the necessary information for forward and backward compatibility for processing tools.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180821T092430Z" creationid="hfukuchi" creationdate="20180821T092430Z">
@@ -2858,6 +3290,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180730T044230Z" creationid="hfukuchi" creationdate="20180726T022735Z">
         <seg>仕様の将来の変更と後方互換性を可能にする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Its is also preferable to include an explanation here when the Concluded License is NOASSERTION.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T045142Z" creationid="hfukuchi" creationdate="20180827T045142Z">
+        <seg>Concluded License（結論されたライセンス）がNOASSERTIONの場合にも、説明を記載することが望まれる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3070,6 +3510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One instance of the File Information is required for each file in the software package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T073555Z" creationid="hfukuchi" creationdate="20180827T073509Z">
+        <seg>ソフトウェア パッケージ内の各ファイルごとに 1つのFile Information（ファイル情報）インスタンスが必要である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One instance of the Package Information is required per package being described.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T075230Z" creationid="hfukuchi" creationdate="20180806T074346Z">
@@ -3142,6 +3590,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Package Comment</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T063849Z" creationid="hfukuchi" creationdate="20180827T063849Z">
+        <seg>Package Comment（パッケージ コメント）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Package Detailed Description</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T062257Z" creationid="hfukuchi" creationdate="20180827T062242Z">
+        <seg>Package Detailed Description（パッケージ詳細記述）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Package Download Location</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180808T064702Z" creationid="hfukuchi" creationdate="20180808T064702Z">
@@ -3202,6 +3666,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T063143Z" creationid="hfukuchi" creationdate="20180807T063143Z">
         <seg>Package SPDX Identifier（パッケージSPDX識別子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Package Summary Description</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T060941Z" creationid="hfukuchi" creationdate="20180827T060941Z">
+        <seg>Package Summary Description（パッケージ要約記述）</seg>
       </tuv>
     </tu>
     <tu>
@@ -3422,6 +3894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Purpose: An External Reference allows a Package to reference an external source of additional information, metadata, enumerations, asset identifiers, or downloadable content believed to be relevant to the Package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T065826Z" creationid="hfukuchi" creationdate="20180827T064923Z">
+        <seg>目的： External Reference（外部参照）は、パッケージが追加情報、メタデータ、要素列挙（Enumeration）、あるいは、パッケージに関連すると考えられるダウンロード可能なコンテンツについての外部ソースへ参照できるようにする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Purpose: An optional field for creators of the SPDX file content to provide comments to the consumers of the SPDX document.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T065043Z" creationid="hfukuchi" creationdate="20180822T065043Z">
@@ -3502,6 +3982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Purpose: Identify the copyright holders of the package, as well as any dates present.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T055747Z" creationid="hfukuchi" creationdate="20180827T052707Z">
+        <seg>目的：パッケージの著作権保有者と日付を特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Purpose: Identify the current SPDX document which may be referenced in relationships by other files, packages internally and documents externally.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T045220Z" creationid="hfukuchi" creationdate="20180822T045220Z">
@@ -3522,6 +4010,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T071221Z" creationid="hfukuchi" creationdate="20180823T071221Z">
         <seg>目的：Package Originator（パッケージ原作者）によって与えられたパッケージのフルネームを特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose: Identify the full path and filename that corresponds to the file information in this section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T081412Z" creationid="hfukuchi" creationdate="20180827T080540Z">
+        <seg>目的：このセクション中のファイル情報に対応するフルパスとファイル名を特定する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3614,10 +4110,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Purpose: This field is a more detailed description of the package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T062439Z" creationid="hfukuchi" creationdate="20180827T062331Z">
+        <seg>目的：このフィールドはパッケージのより詳細な記述である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose: This field is a short description of the package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T061355Z" creationid="hfukuchi" creationdate="20180827T061321Z">
+        <seg>目的：このフィールドはパッケージの簡単な記述である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Purpose: This field is to contain a list of all licenses found in the package.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T085204Z" creationid="hfukuchi" creationdate="20180824T085204Z">
         <seg>目的：このフィールドはパッケージ内で発見された全ライセンスのリストを含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose: This field lists the licenses that have been declared by the authors of the package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T050156Z" creationid="hfukuchi" creationdate="20180827T050156Z">
+        <seg>目的：このフィールドでは、パッケージの作者によって宣言されたライセンスがリストされる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3630,10 +4150,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Purpose: This field provides a place for the SPDX file creator to record any general comments about the package being described.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T064059Z" creationid="hfukuchi" creationdate="20180827T064059Z">
+        <seg>目的：このフィールドは、SPDXファイル作成者に、対象パッケージの一般的なコメントを記録する場所を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Purpose: This field provides a place for the SPDX file creator to record any relevant background information or additional comments about the origin of the package.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T072428Z" creationid="hfukuchi" creationdate="20180824T072247Z">
         <seg>目的：このフィールドは、SPDXファイル作成者に関連する背景情報やオリジナル パッケージに関する追加コメントを記録する場所を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose: This field provides a place for the SPDX file creator to record any relevant background information or analysis that went in to arriving at the Concluded License for a package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T044800Z" creationid="hfukuchi" creationdate="20180827T044530Z">
+        <seg>目的：このフィールドは、SPDXファイル作成者が関連する背景情報やパッケージに対する結論されたライセンスに至った解析について記録する場所を提供する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3654,10 +4190,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Purpose: This field provides information about the type of file identified.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T083630Z" creationid="hfukuchi" creationdate="20180827T083630Z">
+        <seg>目的：このフィールドは対象ファイルのタイプに関する情報を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Purpose: This section identifies the download Universal Resource Locator (URL), or a specific location within a version control system (VCS) for the package at the time that the SPDX file was created.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T081344Z" creationid="hfukuchi" creationdate="20180822T081344Z">
         <seg>目的：このセクションは、SPDXファイル作成時にパッケージが置かれていたダウンロードUniversal Resource Locator (URL)またはバージョン コントロール システム（VCS）内の位置を特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose: To provide human-readable information about the purpose and target of the reference.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T071214Z" creationid="hfukuchi" creationdate="20180827T071214Z">
+        <seg>目的：参照の目的と対象についての人間が可読な情報を提供する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4104,8 +4656,8 @@
       <tuv lang="EN-US">
         <seg>Software Package Data Exchange (SPDX?)</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180821T083840Z" creationid="hfukuchi" creationdate="20180821T083840Z">
-        <seg>ソフトウェア パッケージ データ交換（SPDX ® ）</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T081326Z" creationid="hfukuchi" creationdate="20180821T083840Z">
+        <seg>ソフトウェア パッケージ データ交換（SPDX ®）</seg>
       </tuv>
     </tu>
     <tu>
@@ -4274,6 +4826,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180808T081653Z" creationid="hfukuchi" creationdate="20180808T081653Z">
         <seg>サブパスとリビジョンは結合できる：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Such information can be included in Concluded License (section 3.12).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T051128Z" creationid="hfukuchi" creationdate="20180827T051128Z">
+        <seg>そういう情報は、Concluded License（結論されたライセンス、3.12参照）に記載することができる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4590,6 +5150,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The format of the locator is subject to constraints defined by the &lt;type&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T070521Z" creationid="hfukuchi" creationdate="20180827T070521Z">
+        <seg>locator の形式は&lt;type&gt;によって定義される制限である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The major field will be incremented when incompatible changes between versions are made (one or more sections are created, modified or deleted).</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180821T092453Z" creationid="hfukuchi" creationdate="20180821T092453Z">
@@ -4670,6 +5238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The referenceType value for a non-listed location consists of the SPDX document namespace (per section 2.5) followed by a “#” and the category as defined in 3.21.4.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T070953Z" creationid="hfukuchi" creationdate="20180827T070953Z">
+        <seg>リストされない位置のreferenceType値は、SPDX文書名前空間（2.5節）と後続の  “#” と3.2.1で定義されるカテゴリーから構成される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The relationship between licenses (i.e., conjunctive, disjunctive) is not specified in this field - it is simply a listing of all licenses found.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T085610Z" creationid="hfukuchi" creationdate="20180824T085610Z">
@@ -4682,6 +5258,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180808T075521Z" creationid="hfukuchi" creationdate="20180808T075521Z">
         <seg>サポートしている形式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The target’s relationship to artifactOf values of files in the package may need to be explained here.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T071817Z" creationid="hfukuchi" creationdate="20180827T071817Z">
+        <seg>パッケージ内のファイルのartifactOf値と対象との関係は、ここで説明される必要がある。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4894,6 +5478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This field is not intended to capture license information obtained from an external source, such as the package website.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T051042Z" creationid="hfukuchi" creationdate="20180827T051042Z">
+        <seg>このフィールドは、パッケージ ウェブサイトのような外部ソースからライセンス情報を取り込むことを意図していない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This field is vital for ensuring that downstream package recipients can address any ambiguity or concerns that might arise with the information in the SPDX file or the contents of the package it documents.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T080914Z" creationid="hfukuchi" creationdate="20180822T080914Z">
@@ -4914,6 +5506,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T081239Z" creationid="hfukuchi" creationdate="20180822T081239Z">
         <seg>このフィールドは、このフィールドは、ダウンストリーム パッケージ受領者がSPDXファイルの情報やパッケージの内容についての曖昧さや懸念を直接伝えるのを確実にする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This field may also include a description of improvements over prior versions of the package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T063605Z" creationid="hfukuchi" creationdate="20180827T063605Z">
+        <seg>このフィールドは前バージョンのパッケージからの改善についての記述も含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This field may have multiple Declared Licenses, if multiple licenses are declared at the package level.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T051357Z" creationid="hfukuchi" creationdate="20180827T051357Z">
+        <seg>パッケージ レベルでマルチ ライセンスが宣言されている場合は、このフィールドは、複数のDeclared Licenses（宣言されたライセンス）を含むことができる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4994,6 +5602,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180808T081128Z" creationid="hfukuchi" creationdate="20180808T080911Z">
         <seg>ｋこのサポートは、URLパスはサブパスを含むことができるので、SVNにとってはそれほど重要でない。この二つの形式は同じである：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will be a free form text field extracted from package information files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T060207Z" creationid="hfukuchi" creationdate="20180827T060207Z">
+        <seg>これは、パッケージ情報ファイルから取り出した自由形式のテキストフィールである。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5154,6 +5770,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T052029Z" creationid="hfukuchi" creationdate="20180806T052029Z">
         <seg>この仕様はどの項目をカバーしないか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When implementing file information in RDF, the spdx:hasFile property is used to associate the package with the file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T080459Z" creationid="hfukuchi" creationdate="20180827T080459Z">
+        <seg>RDFでファイル情報を実装する場合は、spdx:hasFile属性はパッケージとファイルを関係づけるために使用される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When implementing tag:value format, the positioning of File elements is syntactically significant:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T073859Z" creationid="hfukuchi" creationdate="20180827T073859Z">
+        <seg>tag:valueフォーマットを実装するときは、ファイル要素の位置は構文的に重要である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5798,6 +6430,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>● Annotations on the file and Relationships from the file may appear after the file information, before the next file or Package Information section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T080315Z" creationid="hfukuchi" creationdate="20180827T080315Z">
+        <seg>● ファイルに対するAnnotations（注釈）とファイルからのRelationships（関係）は、ファイル情報の後で、次のファイルかPackage Information（パッケージ情報）セクションの前に置かれなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● Any text related to a copyright notice, even if not complete;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T060752Z" creationid="hfukuchi" creationdate="20180827T060311Z">
+        <seg>● 不完全なものも含めて、著作権表記に関連するすべてのテキスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● File information is associated with the File Name that precedes it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T075732Z" creationid="hfukuchi" creationdate="20180827T075732Z">
+        <seg>● File information（ファイル情報）は、先行するFile Name（ファイル名）と関係づけなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● Files are assumed to be associated with the Package Information that immediately precedes it, if a package exists.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T075810Z" creationid="hfukuchi" creationdate="20180827T074219Z">
+        <seg>● パッケージが存在する場合は、ファイルは直前に置かれるPackage Information（パッケージ情報）と関係づけられることが仮定される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● If a File is not part of any package, it must precede any Package Information section reference in the SPDX document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T075414Z" creationid="hfukuchi" creationdate="20180827T075255Z">
+        <seg>● ファイルがどのパッケージにも含まれない場合は、SPDX文書のPackage Information（パッケージ情報）セクション参照より先行しなkればならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● If a package contains files, the File Information section must follow its Package Information section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T075058Z" creationid="hfukuchi" creationdate="20180827T075058Z">
+        <seg>● パッケージがファイルを含む場合は、File Information（ファイル情報）セクションはPackage Information（パッケージ情報）セクションに後続しなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>● NOASSERTION if:</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T081215Z" creationid="hfukuchi" creationdate="20180824T081215Z">
@@ -5806,10 +6486,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>● NOASSERTION, if</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T060412Z" creationid="hfukuchi" creationdate="20180827T060412Z">
+        <seg>● 以下の場合には、NOASSERTION：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>● NOASSERTION, if:</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T090237Z" creationid="hfukuchi" creationdate="20180824T090237Z">
         <seg>● 以下の場合には、NOASSERTION：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● NONE if the package contains no copyright information whatsoever; or</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T060348Z" creationid="hfukuchi" creationdate="20180827T060348Z">
+        <seg>● パッケージが著作権情報を何も含まない場合は、NONE；</seg>
       </tuv>
     </tu>
     <tu>
@@ -5826,6 +6522,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T081157Z" creationid="hfukuchi" creationdate="20180824T081107Z">
         <seg>● このパッケージに適用できるライセンスが無い場合、NONE；または</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● NONE, if the package contains no license information whatsoever; or</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T050639Z" creationid="hfukuchi" creationdate="20180827T050553Z">
+        <seg>● パッケージがライセンス情報を何も含まない場合は、NONE；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● Presence of a new Package Information signals the end of the set of files associated with the preceding package, unless an explicit Relationship is used.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T074635Z" creationid="hfukuchi" creationdate="20180827T074635Z">
+        <seg>● 明示的なRelationship（関係）が使われない限り、新しいPackage Information（パッケージ情報）の存在は、先行するパッケージと関連するファイルセットの終了を示す。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5866,6 +6578,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T062020Z" creationid="hfukuchi" creationdate="20180822T062020Z">
         <seg>● URIは、スキーム（例えば“https:”）を含まなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● The first field to start off the description of a File must be the File Name in tag:value format.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180827T075546Z" creationid="hfukuchi" creationdate="20180827T075546Z">
+        <seg>● tag:valueフォーマットでは、ファイルの記述を開始する最初のフィールドはFile Name（ファイル名）でなければならない。</seg>
       </tuv>
     </tu>
     <tu>
