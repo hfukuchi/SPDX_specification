@@ -1552,7 +1552,7 @@ Example:
 4.7.4 Data Format: free form text that can span multiple lines
 
 4.7.5 Tag: ÅgLicenseComments:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 
 Example: LicenseComments: <text>
 The concluded license was taken from the package level that the file was included in. This information was found in the COPYING.txt file in the xyz directory.
@@ -1586,7 +1586,7 @@ The options to populate this field are limited to:
 4.8.4 Data Format: free form text that can span multiple lines | "NONE" | ÅgNOASSERTIONÅh
 
 4.8.5 Tag: ÅgFileCopyrightText:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 
 Example:
 FileCopyrightText: <text> Copyright 2008-2010 John Smith </text>
@@ -1636,9 +1636,7 @@ Example:
 
 4.10.4 Data Format: uniform resource locator | ÅgUNKNOWNÅh.
 
-In Tag:value format all optional ArtifactOf fields must follow immediately below the
-
-ArtifactOfProjectName.
+In Tag:value format all optional ArtifactOf fields must follow immediately below the ArtifactOfProjectName.
 
 4.10.5 Tag: "ArtifactOfProjectHomePage:"
 
@@ -1692,7 +1690,7 @@ Example:
 4.12.4 Data Format: free form text that can span multiple lines
 
 4.12.5 Tag: ÅgFileComment:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 
 Example: FileComment: <text>
 This file appears in other packages, such as Foo and Ufoo.
@@ -1718,7 +1716,7 @@ This file appears in other packages, such as Foo and Ufoo.
 4.13.4 Data Format: free form text that can span multiple lines
 
 4.13.5 Tag: ÅgFileNotice:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 
 Example: FileNotice: <text>
 This file is licensed under GPL.
