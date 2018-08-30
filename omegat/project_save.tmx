@@ -742,6 +742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>5 Snippet Information</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180830T033455Z" creationid="hfukuchi" creationdate="20180830T033455Z">
+        <seg>5 Snippet Information（コード断片情報）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T082958Z" creationid="hfukuchi" creationdate="20180822T082958Z">
@@ -1730,6 +1738,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180828T055404Z" creationid="hfukuchi" creationdate="20180828T055404Z">
         <seg>データ フォーマット：Tag:Valueフォーマットでは、3つの要素からなる。アルゴリズム識別子（SHA1）、分離子(“:”)、およびチェックサム値である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data Format: Reference to the file within the SPDX document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180830T033323Z" creationid="hfukuchi" creationdate="20180830T033323Z">
+        <seg>データ フォーマット：SPDX文書内のファイルへの参照。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2758,6 +2774,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the RDF format, it will be a reference to the actual file node.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180830T033429Z" creationid="hfukuchi" creationdate="20180830T033429Z">
+        <seg>RDF フォーマットでは、これは実際のファイル ノードへの参照となる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For the Tag:value format, this will be the filename.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180830T033350Z" creationid="hfukuchi" creationdate="20180830T033350Z">
+        <seg>Tag:value フォーマットでは、これはファイル名となる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Format Requirements</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180724T045013Z" creationid="hfukuchi" creationdate="20180724T044508Z">
@@ -3354,6 +3386,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180828T085305Z" creationid="hfukuchi" creationdate="20180828T085305Z">
         <seg>意図：SPDXファイル受領者に1つ以上の貢献者（クレジット）を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: Here, the intent is to provide the recipient of the SPDX file with file dependency information based on the build system that created the file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180830T033107Z" creationid="hfukuchi" creationdate="20180830T033107Z">
+        <seg>意図：SPDXファイル受領者に、ファイルをビルドしたビルドシステムに関するファイル依存関係を提供する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5222,6 +5262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Snippets can optionally be used when a file is known to have some content that has been included from another original source.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180830T042845Z" creationid="hfukuchi" creationdate="20180830T042845Z">
+        <seg>Snippets（コード断片）は、あるファイルが他のオリジナル ソースから取り入れられた内容を含むとわかっている場合に任意で使用可能である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Snippets have been added to allow a portion of a file to be identified as having different properties from the file it resides in.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T054930Z" creationid="hfukuchi" creationdate="20180821T091719Z">
@@ -6002,6 +6050,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T071253Z" creationid="hfukuchi" creationdate="20180823T071253Z">
         <seg>これらは、内部から参照され、SPDX文書識別子と組み合わせて外部からも参照される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These other files may impact the licensing of the file and/or may be required to satisfy the distribution obligation of the file (e.g., source files subject to a copyleft license).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180830T033244Z" creationid="hfukuchi" creationdate="20180830T033244Z">
+        <seg>これらのファイルは、ファイルのライセンスに影響を与える可能性や、ファイルの頒布義務を満たすために必要になる可能性がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They are useful for denoting when part of a file may have been originally created under another license.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180830T092053Z" creationid="hfukuchi" creationdate="20180830T092053Z">
+        <seg>これらは、ファイルの一部分が最初は他のライセンスの下で作成されたことを示すのに役に立つ。</seg>
       </tuv>
     </tu>
     <tu>
