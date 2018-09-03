@@ -1798,8 +1798,7 @@ Example:
 5 Snippet Information
 Snippets can optionally be used when a file is known to have some content that has been included from another original source. They are useful for denoting when part of a file may have been originally created under another license.
 Each instance of Snippet Information needs to be associated with a specific File in an SPDX Document. When implementing tag:value format, the positioning of Snippet elements is syntactically significant:
-Åú If a File contains Snippets, the Snippet Information section should follow a related File Information
-section (if it exists in the document).
+Åú If a File contains Snippets, the Snippet Information section should follow a related File Information section (if it exists in the document).
 Åú Presence of a new file or package section signals the end of the set of snippets associated with the original file, unless an explicit Relationship is used.
 Åú The first field to start off the description of a Snippet must be the Snippet Identifier in tag:value format.
 Åú Annotations on the Snippet and Relationships from the Snippet may appear after the Snippet Information, before the next file or Package section.
@@ -1848,7 +1847,7 @@ Example using document URI:
 
 5.2.4 DataFormat: [ÅgDocumentRef-Åh[idstring]Åh:Åh] SPDXID
 where DocumentRef-[idstring]: is an optional reference to an external SPDX document as described in section 2.6
-where SPDXID is a string containing letters, numbers, Åg.Åh,Åg-Åh. as described in sections (2.3, 3.2, 4.2).
+where SPDXID is a string containing letters, numbers, Åg.Åh,Åg-Åh, as described in sections (2.3, 3.2, 4.2).
 
 5.2.5 Tag: ÅgSnippetFromFileSPDXID:Åh
 
