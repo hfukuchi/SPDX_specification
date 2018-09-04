@@ -2080,7 +2080,7 @@ The concluded license was taken from package xyz, from which the snippet was cop
 5.8.4 Data Format: free form text that can span multiple lines | "NONE" | ÅgNOASSERTIONÅh
 
 5.8.5 Tag: ÅgSnippetCopyrightText:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 
 Example:
 SnippetCopyrightText: <text> Copyright 2008-2010 John Smith </text>
@@ -2105,7 +2105,7 @@ Copyright 2008-2010 John Smith
 5.9.4 Data Format: free form text that can span multiple lines
 
 5.9.5 Tag: ÅgSnippetComment:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 
 Example: SnippetComment: <text>
 This snippet was identified as significant and highlighted in this Apache-2.0 file, when a commercial scanner identified it as being derived from file foo.c in package xyz which is licensed under GPL-2.0.
@@ -2190,7 +2190,7 @@ Examples:
 6.2.4 Data Format: free form text field that may span multiple lines.
 
 6.2.5 Tag: ÅgExtractedText:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 
 Example 1 (if only short reference to license present in File):
 ExtractedText: <text>This software is licensed under the Beer License.</text>
@@ -2301,38 +2301,85 @@ DESCENDANT_OFIs to be used when SPDXRef-A is a descendant of (same lineage but 
 
 VARIANT_OFIs to be used when SPDXRef-A is a variant of (same lineage but not clear which came first) SPDXRef-B.A SOURCE file Åemakefile2.mkÅf is a variant of SOURCE file Åemakefile.mkÅf if they differ by some edit, but there is no way to tell which came first (no reliable date information).
 
-DISTRIBUTION_ARTIFACTIs to be used when distributing SPDXRef-A requires that
-SPDXRef-B also be distributed.A BINARY file Åefoo.oÅf requires that the ARCHIVE file Åebar-sources.tgzÅf be made available on distribution.
-PATCH_FORIs to be used when SPDXRef-A is a patch file for (to be applied to) SPDXRef-B.A SOURCE file Åefoo.diffÅf is a patch file for SOURCE file Åefoo.cÅf.
-PATCH_APPLIEDIs to be used when SPDXRef-A is a patch file that has been applied to SPDXRef-B.A SOURCE file Åefoo.diffÅf is a patch file that has been applied to SOURCE file Åefoo-patched.cÅf.
-COPY_OFIs to be used when SPDXRef-A is an exact copy of SPDXRef-B.A BINARY file Åealib.aÅf is an exact copy of BINARY file Åea2lib.aÅf.
-FILE_ADDEDIs to be used when SPDXRef-A is a file added to SPDXRef-B.A SOURCE file Åefoo.cÅf has been added to package ARCHIVE Åebar.tgzÅf.
-FILE_DELETEDIs to be used when SPDXRef-A is a file was deleted from to SPDXRef-B.A SOURCE file Åefoo.diffÅfÅf has been deleted from package ARCHIVE Åebar.tgzÅf.
-FILE_MODIFIEDIs to be used when SPDXRef-A is a file that was modified from SPDXRef-B.A SOURCE file Åefoo.cÅfÅf has been modified from SOURCE file Åefoo.orig.cÅf.
-EXPANDED_FROM_ARCHIVEIs to be used when SPDXRef-A is expanded from the archive SPDXRef-B.A SOURCE file Åefoo.cÅf, has been expanded from the archive ARCHIVE file Åexyz.tgzÅf.
-DYNAMIC_LINKIs to be used when SPDXRef-A dynamically links to SPDXRef-B.An APPLICATION file ÅemyappÅf dynamically links to BINARY file Åezlib.soÅf.STATIC_LINKIs to be used whenAn APPLICATION file ÅemyappÅf
+DISTRIBUTION_ARTIFACTIs to be used when distributing SPDXRef-A requires that SPDXRef-B also be distributed.
 
-SPDXRef-A statically links to SPDXRef-B.statically links to BINARY Åezlib.aÅf.
-DATA_FILE_OFIs to be used when SPDXRef-A is a data file used in SPDXRef-B.An IMAGE file Åekitty.jpgÅf is a data file of an APPLICATION ÅehellokittyÅf.
+A BINARY file Åefoo.oÅf requires that the ARCHIVE file Åebar-sources.tgzÅf be made available on distribution.
 
-TEST_CASE_OFIs to be used when SPDXRef-A is a test case used in testing
-SPDXRef-B.A SOURCE file testMyCode.java is a unit test file used to test an APPLICATION MyPackage.
-BUILD_TOOL_OFIs to be used when SPDXRef-A is used to to build SPDXRef-B.A SOURCE file Åemakefile.mkÅf is used to build an APPLICATION ÅezlibÅf.
-DOCUMENTATION_OFIs to be used when SPDXRef-A provides documentation of SPDXRef-B.A DOCUMENTATION file
-Åereadme.txtÅf documents the APPLICATION ÅezlibÅf.
+PATCH_FORIs to be used when SPDXRef-A is a patch file for (to be applied to) SPDXRef-B.
 
-OPTIONAL_COMPONENT_OFIs to be used when SPDXRef-A is an optional component of
-SPDXRef-B.A SOURCE file Åefool.cÅf (which is in the contributors directory) may or may not be included in the build of APPLICATION ÅeatthebarÅf.
-METAFILE_OFIs to be used when SPDXRef-A is a metafile of SPDXRef-B.A SOURCE file Åepom.xmlÅf is a metafile of the APPLICATION ÅeApache XercesÅf.
+A SOURCE file Åefoo.diffÅf is a patch file for SOURCE file Åefoo.cÅf.
 
-PACKAGE_OFIs to be used when SPDXRef-A is used as a package as part of SPDXRef-B.A Linux distribution contains an APPLICATION package gawk as part of the distribution MyLinuxDistro.
+PATCH_APPLIEDIs to be used when SPDXRef-A is a patch file that has been applied to SPDXRef-B.
 
-AMENDSIs to be used when (current)
-SPDXRef-DOCUMENT amends the SPDX information in SPDXRef-B.(Current) SPDX document A version 2 contains a correction to a previous version of the SPDX document A version 1. Note the reserved identifier SPDXRef-DOCUMENT for the current document is required.
+A SOURCE file Åefoo.diffÅf is a patch file that has been applied to SOURCE file Åefoo-patched.cÅf.
+
+COPY_OFIs to be used when SPDXRef-A is an exact copy of SPDXRef-B.
+
+A BINARY file Åealib.aÅf is an exact copy of BINARY file Åea2lib.aÅf.
+
+FILE_ADDEDIs to be used when SPDXRef-A is a file added to SPDXRef-B.
+
+A SOURCE file Åefoo.cÅf has been added to package ARCHIVE Åebar.tgzÅf.
+
+FILE_DELETEDIs to be used when SPDXRef-A is a file was deleted from to SPDXRef-B.
+
+A SOURCE file Åefoo.diffÅfÅf has been deleted from package ARCHIVE Åebar.tgzÅf.
+
+FILE_MODIFIEDIs to be used when SPDXRef-A is a file that was modified from SPDXRef-B.
+
+A SOURCE file Åefoo.cÅfÅf has been modified from SOURCE file Åefoo.orig.cÅf.
+
+EXPANDED_FROM_ARCHIVEIs to be used when SPDXRef-A is expanded from the archive SPDXRef-B.
+
+A SOURCE file Åefoo.cÅf, has been expanded from the archive ARCHIVE file Åexyz.tgzÅf.
+
+DYNAMIC_LINKIs to be used when SPDXRef-A dynamically links to SPDXRef-B.
+
+An APPLICATION file ÅemyappÅf dynamically links to BINARY file Åezlib.soÅf.
+
+STATIC_LINKIs to be used when SPDXRef-A statically links to SPDXRef-B.
+
+An APPLICATION file ÅemyappÅf statically links to BINARY Åezlib.aÅf.
+
+DATA_FILE_OFIs to be used when SPDXRef-A is a data file used in SPDXRef-B.
+
+An IMAGE file Åekitty.jpgÅf is a data file of an APPLICATION ÅehellokittyÅf.
+
+TEST_CASE_OFIs to be used when SPDXRef-A is a test case used in testing SPDXRef-B.
+
+A SOURCE file testMyCode.java is a unit test file used to test an APPLICATION MyPackage.
+
+BUILD_TOOL_OFIs to be used when SPDXRef-A is used to to build SPDXRef-B.
+
+A SOURCE file Åemakefile.mkÅf is used to build an APPLICATION ÅezlibÅf.
+
+DOCUMENTATION_OFIs to be used when SPDXRef-A provides documentation of SPDXRef-B.
+
+A DOCUMENTATION file Åereadme.txtÅf documents the APPLICATION ÅezlibÅf.
+
+OPTIONAL_COMPONENT_OFIs to be used when SPDXRef-A is an optional component of SPDXRef-B.
+
+A SOURCE file Åefool.cÅf (which is in the contributors directory) may or may not be included in the build of APPLICATION ÅeatthebarÅf.
+
+METAFILE_OFIs to be used when SPDXRef-A is a metafile of SPDXRef-B.
+
+A SOURCE file Åepom.xmlÅf is a metafile of the APPLICATION ÅeApache XercesÅf.
+
+PACKAGE_OFIs to be used when SPDXRef-A is used as a package as part of SPDXRef-B.
+
+A Linux distribution contains an APPLICATION package gawk as part of the distribution MyLinuxDistro.
+
+AMENDSIs to be used when (current) SPDXRef-DOCUMENT amends the SPDX information in SPDXRef-B.
+
+(Current) SPDX document A version 2 contains a correction to a previous version of the SPDX document A version 1. Note the reserved identifier SPDXRef-DOCUMENT for the current document is required.
 
 PREREQUISITE_FORIs to be used when SPDXRef-A is a prerequisite for SPDXRef-BA library Åebar.dllÅf is a prerequisite or dependency for APPLICATION Åefoo.exeÅf
+
 HAS_PREREQUISITEIs to be used when SPDXRef-A has as a prerequisite SPDXRef-BAn APPLICATION Åefoo.exeÅf has prerequisite or dependency of Åebar.dllÅf
-OTHERIs to be used for a relationship which has not been defined in the formal SPDX specification. A description of the relationship should be included in the Relationship comments field.
+
+OTHERIs to be used for a relationship which has not been defined in the formal SPDX specification. 
+
+A description of the relationship should be included in the Relationship comments field.
 
 7.1.2 Intent: Here, this field is a reasonable estimation of the relation between two identified elements (i.e. files or packages, or documents), from a developer perspective.
 
@@ -2341,9 +2388,9 @@ OTHERIs to be used for a relationship which has not been defined in the formal
 * see DESCRIBES relationship for one mandatory case.
 
 7.1.4 Data Format:
-[ÅgDocumentRef-Åh[idstring]Åh:Åh]SPDXID <relationship> [ÅgDocumentRef-Åh[idstring]Åh:Åh]SPDXID where DocumentRef-[idstring]: is an optional reference to an external SPDX
-document as described in section 2.6
-where SPDXID is a string containing letters, numbers, Åg.Åh,Åg-Åh. as described in sections (2.3, 3.2, 4.2).
+[ÅgDocumentRef-Åh[idstring]Åh:Åh]SPDXID <relationship> [ÅgDocumentRef-Åh[idstring]Åh:Åh]SPDXID 
+where DocumentRef-[idstring]: is an optional reference to an external SPDX document as described in section 2.6
+where SPDXID is a string containing letters, numbers, Åg.Åh,Åg-Åh, as described in sections (2.3, 3.2, 4.2).
 where <relationship> is one of the documented relationship types in table 6.1.1.
 
 7.1.5 Tag: "Relationship:"
@@ -2380,7 +2427,7 @@ rdf:about="http://spdx.org/spdxdocs/spdx-tools-v1.2-3F2504E0-4F89-41D3-9A0C-0305
 7.2.4 Data Format: free form text that can span multiple lines, refers only to the immediately preceding relationship.
 
 7.2.5 Tag: ÅgRelationshipComment:Åh
-In Tag:value format multiple lines are delimited by <text> .. </text>.
+In Tag:value format multiple lines are delimited by <text>..</text>.
 A RelationshipComment: must be the line immediately after a ÅgRelationship:Åh
 
 Example:
