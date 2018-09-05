@@ -2430,6 +2430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Data Format: “REVIEW” | “OTHER”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180905T044233Z" creationid="hfukuchi" creationdate="20180905T044233Z">
+        <seg>データ フォーマット： “REVIEW” | “OTHER”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Data Format: “SOURCE” | “BINARY” | “ARCHIVE” | “APPLICATION” | “AUDIO” | “IMAGE” | “TEXT” | “VIDEO” | “DOCUMENTATION” | “SPDX” | “OTHER”</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180828T053902Z" creationid="hfukuchi" creationdate="20180828T053902Z">
@@ -2962,6 +2970,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180803T085039Z" creationid="hfukuchi" creationdate="20180803T085039Z">
         <seg>例：LicenseListVersion: 2.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example: AnnotationType: REVIEW</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180905T044242Z" creationid="hfukuchi" creationdate="20180905T044242Z">
+        <seg>例：AnnotationType: REVIEW</seg>
       </tuv>
     </tu>
     <tu>
@@ -3626,6 +3642,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T054852Z" creationid="hfukuchi" creationdate="20180806T054852Z">
         <seg>SPDXファイルが個人によって作成されて場合には、個人の名前を表記する。SPDXファイルが企業もしくは組織を代表して作成された場合には、組織名を表記する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the author wants to store extra information about one of the elements during creation, it is recommended to use the type of OTHER.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180905T044130Z" creationid="hfukuchi" creationdate="20180905T044130Z">
+        <seg>作成者が、作成時にある要素に対する追加情報を保存したい場合には、注釈タイプはOTHER（その他）とすることが推奨される。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4378,6 +4402,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T080144Z" creationid="hfukuchi" creationdate="20180822T080144Z">
         <seg>意図：SPDX文書内に、同一パッケージの複数バージョンがありうる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: This allows the type of annotation to be recorded.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180905T044216Z" creationid="hfukuchi" creationdate="20180905T044205Z">
+        <seg>意図：注釈タイプの記録を可能にする。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6158,6 +6190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Purpose: Uniquely identify the element in an SPDX document which is being referenced.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180905T044312Z" creationid="hfukuchi" creationdate="20180905T044312Z">
+        <seg>目的：Purpose: Uniquely identify the element in an SPDX document which is being referenced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Purpose: Uniquely identify the file in an SPDX document which this snippet is associated with.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180903T072219Z" creationid="hfukuchi" creationdate="20180903T072219Z">
@@ -6394,6 +6434,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T065344Z" creationid="hfukuchi" creationdate="20180802T053500Z">
         <seg>SPDX Identifier（SPDX識別子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SPDX Identifier Reference</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180905T044303Z" creationid="hfukuchi" creationdate="20180905T044303Z">
+        <seg>SPDX Identifier Reference（SPDX識別子参照）</seg>
       </tuv>
     </tu>
     <tu>
