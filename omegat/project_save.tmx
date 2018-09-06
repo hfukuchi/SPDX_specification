@@ -846,6 +846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>9 Review Information (deprecated)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T084907Z" creationid="hfukuchi" creationdate="20180906T084907Z">
+        <seg>9 Review Information （レビュー情報）(deprecated)（廃止予定）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;/text&gt;,</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T073400Z" creationid="hfukuchi" creationdate="20180807T073400Z">
@@ -1098,6 +1106,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T075039Z" creationid="hfukuchi" creationdate="20180904T075039Z">
         <seg>A RelationshipComment: “Relationship:”直後の文でなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Review Comments is optional.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T091433Z" creationid="hfukuchi" creationdate="20180906T091433Z">
+        <seg>Review Comments（レビューコメント）は任意である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1366,6 +1382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additional reviewers can be added after the original version of the SPDX file is created and be appended to the original file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T092425Z" creationid="hfukuchi" creationdate="20180906T092425Z">
+        <seg>追加のレビュアーは、SPDXファイルの初期バージョンが作成された後に追加でき、オリジナル ファイルに付録でつけられる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, a scheme (e.g. “https:”) is required.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T050602Z" creationid="hfukuchi" creationdate="20180822T050602Z">
@@ -1410,6 +1434,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T084810Z" creationid="hfukuchi" creationdate="20180824T084810Z">
         <seg>All Licenses Information from Files（ファイルからの全ライセンス情報）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of the licenses seen in the file, are matching what was seen during manual inspection.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T084639Z" creationid="hfukuchi" creationdate="20180906T084639Z">
+        <seg>ファイルにあるすべてのライセンスは、人手の検査で見たものと整合している。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1526,6 +1558,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Annotation Comment</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T084012Z" creationid="hfukuchi" creationdate="20180906T084012Z">
+        <seg>Annotation Comment（注釈コメント）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Annotation Date</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T081613Z" creationid="hfukuchi" creationdate="20180904T081547Z">
@@ -1610,6 +1650,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180827T050500Z" creationid="hfukuchi" creationdate="20180827T050500Z">
         <seg>サードパーティ リポジトリから受け取ったライセンス情報など、パッケージ作者によって作成されていないライセンス情報は、このフィールドに記載すべきではない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any review information should use an Annotation (as described in Section 7) with an annotation type of annotationType_review.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T085535Z" creationid="hfukuchi" creationdate="20180906T085535Z">
+        <seg>すべてのレビュー情報は、注釈タイプとしてannotationType_reviewを指定したAnnotation（注釈）（7節で説明）を使用すべきである。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1754,6 +1802,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T022410Z" creationid="hfukuchi" creationdate="20180904T022410Z">
         <seg>基数：条件付き（必須、1）　アサインされたライセンス識別子がある場合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cardinality: Conditional (Mandatory, one), if there is a Reviewer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T093057Z" creationid="hfukuchi" creationdate="20180906T093057Z">
+        <seg>基数：条件付き（必須、1）、Reviewer（レビュアー）がある場合.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2546,6 +2602,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180903T072238Z" creationid="hfukuchi" creationdate="20180903T072238Z">
         <seg>データ フォーマット：[“DocumentRef-”[idstring]”:”] SPDXID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DataFormat: [“DocumentRef-”[idstring]”:”]SPDXID where:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T083710Z" creationid="hfukuchi" creationdate="20180906T083710Z">
+        <seg>データ フォーマット： [“DocumentRef-”[idstring]”:”]SPDXID ここで：</seg>
       </tuv>
     </tu>
     <tu>
@@ -3366,6 +3430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For RDF, the annotations are a property of the SPDX element it is annotationg.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T083959Z" creationid="hfukuchi" creationdate="20180906T083959Z">
+        <seg>RDFでは、注釈は対象のSPDX要素の属性である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, Sourceforge is a host website, not a supplier, the supplier for &lt;t89/&gt;http://sourceforge.net/projects/bridge/&lt;t90/&gt; &lt;t91/&gt;is&lt;t92/&gt; &lt;t93/&gt;"The&lt;t94/&gt; &lt;t95/&gt;Linux&lt;t96/&gt; &lt;t97/&gt;Foundation."</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180807T083514Z" creationid="hfukuchi" creationdate="20180807T083514Z">
@@ -3990,6 +4062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intent: Here, as time progresses certain reviewers will begin to gain credibility as reliable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T092612Z" creationid="hfukuchi" creationdate="20180906T092612Z">
+        <seg>意図：時間経過とともに、あるレビュアーは信頼性という信用を得ることができる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Intent: Here, by providing a comment field, the SPDX file creator can provide additional information to describe any anomalies or discoveries in the determination of the origin of the package.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T073840Z" creationid="hfukuchi" creationdate="20180824T073840Z">
@@ -4034,6 +4114,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T083726Z" creationid="hfukuchi" creationdate="20180904T083726Z">
         <seg>意図：注釈日時は、実際のレビューがいつ行われたかの確認となる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: Here, the ReviewDate can serve as a verification as to when the actual review was done.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T093012Z" creationid="hfukuchi" creationdate="20180906T093012Z">
+        <seg>意図：ReviewDate（レビュー日時）は、実際のレビューがいつ行われたかの確認となる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4398,10 +4486,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intent: There may be several versions of the same package or file within an SPDX document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T083643Z" creationid="hfukuchi" creationdate="20180906T083643Z">
+        <seg>意図：SPDX文書内に、同一パッケージやファイルの複数バージョンがありうる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Intent: There may be several versions of the same package within an SPDX document.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T080144Z" creationid="hfukuchi" creationdate="20180822T080144Z">
         <seg>意図：SPDX文書内に、同一パッケージの複数バージョンがありうる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intent: This allows the annonator to provide independent assessment and note any points where there is disagreement with the analysis.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T084517Z" creationid="hfukuchi" creationdate="20180906T084517Z">
+        <seg>意図：注釈者は、独立したアセスメントを提供し、解析に合意できない点を記述できる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4910,6 +5014,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It may also be important for participants in the software supply chain to validate whether upstream providers have reviewed the SPDX file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T092832Z" creationid="hfukuchi" creationdate="20180906T092832Z">
+        <seg>ソフトウェア サプライチェーンの参加者にとっては、アップストリーム提供者がSPDXファイルをレビューしたかどうかの確認が取れるのは重要である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It provides important meta information about a given file including licenses and copyright.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180827T073741Z" creationid="hfukuchi" creationdate="20180827T073741Z">
@@ -5210,6 +5322,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T074742Z" creationid="hfukuchi" creationdate="20180806T074742Z">
         <seg> </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once a Reviewer entry is added, the Review Date associated with the review is mandatory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T090043Z" creationid="hfukuchi" creationdate="20180906T090043Z">
+        <seg>Reviewer（レビュアー）エントリーが追加されたら、 レビューに関連するReview Date（レビューデータ）は必須である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5806,6 +5926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Purpose: Identify when the review was done.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T092928Z" creationid="hfukuchi" creationdate="20180906T092928Z">
+        <seg>目的：いつレビューされたかを特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Purpose: Identify who (or what, in the case of a tool) created the SPDX file.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T064252Z" creationid="hfukuchi" creationdate="20180822T064252Z">
@@ -5974,6 +6102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Purpose: This field identifies the person, organization or tool that has reviewed the SPDX file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T091636Z" creationid="hfukuchi" creationdate="20180906T091636Z">
+        <seg>目的：このフィールドは、SPDXファイルをレビューした個人、組織、ツールを特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Purpose: This field is a more detailed description of the package.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180827T062439Z" creationid="hfukuchi" creationdate="20180827T062331Z">
@@ -6138,6 +6274,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180903T074516Z" creationid="hfukuchi" creationdate="20180903T074516Z">
         <seg>目的：この任意フィールドはコード断片情報が適用されるオリジナル ホスト ファイル（X.2）のライン範囲を定義する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Purpose: This optional free form text field permits the annotator to provide commentary on the analysis.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T084249Z" creationid="hfukuchi" creationdate="20180906T084249Z">
+        <seg>目的：この任意の自由形式テキストフィールドによって、注釈者が解析についてコメントすることが可能になる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6402,6 +6546,30 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180724T050513Z" creationid="hfukuchi" creationdate="20180724T050513Z">
         <seg>注釈付きタグ値フラット テキスト ファイル（annotated tag value flat text file）と同様に、リソース記述フレームワーク（RDF）で情報を記述できなければならない</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Review Date (deprecated)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T093019Z" creationid="hfukuchi" creationdate="20180906T092901Z">
+        <seg>Review Date（レビュー 日時） (deprecated)（廃止予定）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Review information can be added after the initial SPDX file has been created.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T085631Z" creationid="hfukuchi" creationdate="20180906T085631Z">
+        <seg>レビュー情報は、初期SPDXファイルを作成した後、追加できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reviewer (deprecated)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T091451Z" creationid="hfukuchi" creationdate="20180906T091451Z">
+        <seg>Reviewer（レビュアー） (deprecated)（廃止予定）</seg>
       </tuv>
     </tu>
     <tu>
@@ -7086,6 +7254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Created date should not be modified as a result of the addition of information regarding the conduct of a review.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T091413Z" creationid="hfukuchi" creationdate="20180906T091230Z">
+        <seg>作成されたデータは、レビュー実施の追加情報として変更するべきではない。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The ExternalDocumentRef contains two</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180803T081737Z" creationid="hfukuchi" creationdate="20180803T081737Z">
@@ -7470,6 +7646,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The review information section is included for compatibility with SPDX 1.2, and is deprecated since SPDX 2.0.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T085226Z" creationid="hfukuchi" creationdate="20180906T085226Z">
+        <seg>レビュー情報は、SPDX 1.2との整合のために含まれているが、SPDX 2.0以降は廃止予定に指定されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The set of fields are optional and multiple instances can be added.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T085926Z" creationid="hfukuchi" creationdate="20180906T085926Z">
+        <seg>フィールドのセットは任意であり、複数インスタンスを追加できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The supported forms are:</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180808T075521Z" creationid="hfukuchi" creationdate="20180808T075521Z">
@@ -7590,6 +7782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are some terms that can influence the concluded license, and some alternatives may be possible, but the concluded license is one of the options.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T084826Z" creationid="hfukuchi" creationdate="20180906T084826Z">
+        <seg>ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There can only be one URI for an SPDX document and only one SPDX document for a given URI.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T050640Z" creationid="hfukuchi" creationdate="20180822T050640Z">
@@ -7686,6 +7886,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be considered as an equivalent to “signed off” or “reviewed by.”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T092222Z" creationid="hfukuchi" creationdate="20180906T092222Z">
+        <seg>これは、“signed off” や “reviewed by.”と同一であるとみなしてよい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be considered as an equivalent to “signed off” or “reviewed by.” Additional reviewers can be added after the original version of the SPDX file is created and be appended to the original file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T092029Z" creationid="hfukuchi" creationdate="20180906T092029Z">
+        <seg>これは、“signed off” や “reviewed by.”と同一であるとみなしてよい。 Additional reviewers can be added after the original version of the SPDX file is created and be appended to the original file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document was created using SPDX 2.0 using licenses from the web site.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180803T072531Z" creationid="hfukuchi" creationdate="20180802T090453Z">
@@ -7698,6 +7914,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T075821Z" creationid="hfukuchi" creationdate="20180822T075821Z">
         <seg>この文書は、ウェブサイトからのライセンスを使い、SPDX2.0に従って作成された。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This field has been deprecated since SPDX 2.0.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T091520Z" creationid="hfukuchi" creationdate="20180906T091520Z">
+        <seg>このフィールドはSPDX 2.0以降廃止予定に指定されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This field intends to make such information transparent.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T092643Z" creationid="hfukuchi" creationdate="20180906T092643Z">
+        <seg>このフィールドは、そういう情報に透明性を与える。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7722,6 +7954,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180827T051042Z" creationid="hfukuchi" creationdate="20180827T051042Z">
         <seg>このフィールドは、パッケージ ウェブサイトのような外部ソースからライセンス情報を取り込むことを意図していない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This field is optional and thus there is no requirement for any reviewer to add a set of review information to the file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T091928Z" creationid="hfukuchi" creationdate="20180906T091928Z">
+        <seg>このフィールドは任意である。レビュアーがファイルにレビュー情報を追加することは、求められていない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8622,6 +8862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>mm is minutes with leading zero ss is seconds with leading zero Z is universal time indicator</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T093137Z" creationid="hfukuchi" creationdate="20180906T093137Z">
+        <seg>MM は月（左0詰め） DD は日（左0詰め）ss は秒（左0詰め） Z は協定世界時指示子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>number1 is greater than or equal to 1 and less than or equal to number2, AND number2 is less than or equal to the total number of lines in file.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180903T075128Z" creationid="hfukuchi" creationdate="20180903T075128Z">
@@ -9214,6 +9462,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>● SPDXID is a unique string containing letters, numbers, “.”,“-” as described in Sections 2.3, 3.2 and 4.2.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T083836Z" creationid="hfukuchi" creationdate="20180906T083836Z">
+        <seg>● SPDXID は、セクション2.3、3.2、4.2で記述された一意の文字、数字、“.”、“­”を含む文字列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>● Sub-packages should not be nested inside a Package Information section, but should be separate and should use a Relationship to clarify.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T070644Z" creationid="hfukuchi" creationdate="20180823T070644Z">
@@ -9298,6 +9554,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180824T042620Z" creationid="hfukuchi" creationdate="20180824T042620Z">
         <seg>● パッケージ ホームページが無い場合にはNONEを使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● [“DocumentRef-”[idstring]”:”] is an optional reference to an external SPDX document as described in section 2.6</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T083747Z" creationid="hfukuchi" creationdate="20180906T083747Z">
+        <seg>● [“DocumentRef-”[idstring]”:”] は、2.6節で記述される外部SPDX文書への任意の参照</seg>
       </tuv>
     </tu>
     <tu>
