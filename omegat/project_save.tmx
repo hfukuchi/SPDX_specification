@@ -1678,6 +1678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Appendix II: License Matching Guidelines and Templates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T091227Z" creationid="hfukuchi" creationdate="20180910T091227Z">
+        <seg>Appendix II: License Matching Guidelines（ライセンス整合ガイドライン）とテンプレート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Artifact of Project Homepage (deprecated)</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180828T080832Z" creationid="hfukuchi" creationdate="20180828T080832Z">
@@ -2718,6 +2726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Deprecated SPDX License Identifier</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T091142Z" creationid="hfukuchi" creationdate="20180910T091142Z">
+        <seg>Deprecated SPDX License Identifier（廃止予定SPDXライセンス識別子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Description</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T041400Z" creationid="hfukuchi" creationdate="20180904T040922Z">
@@ -3526,6 +3542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For licenses that include markup, the license text on the HTML pages here will display omitable text in blue and replaceable text in red (see Guideline #2 for more information).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T090218Z" creationid="hfukuchi" creationdate="20180910T090218Z">
+        <seg>マークアップを含むライセンスに関して、このHTMLページにあるライセンス テキストは青字で削除可能なテキストを赤字で置き換え可能なテキストを示す。（詳細はGuideline #2 を参照）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For other algorithms, an appropriate number of hexadecimal digits is expected.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180828T055736Z" creationid="hfukuchi" creationdate="20180828T055736Z">
@@ -3550,6 +3574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the full and most up-to-date version of the SPDX License List as well as other related information, please see http://spdx.org/licenses/</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T090801Z" creationid="hfukuchi" creationdate="20180910T090801Z">
+        <seg>SPDX License List（ライセンス リスト）や他情報の最新版はhttp://spdx.org/licenses/を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the most up-to-date version of the list see: http://spdx.org/licenses/.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T011041Z" creationid="hfukuchi" creationdate="20180904T011041Z">
@@ -3570,6 +3602,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T053237Z" creationid="hfukuchi" creationdate="20180806T053237Z">
         <seg>フォーマットに対する要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Full Name of Exception</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T091002Z" creationid="hfukuchi" creationdate="20180910T091002Z">
+        <seg>Full Name of Exception（例外フル ネーム）</seg>
       </tuv>
     </tu>
     <tu>
@@ -3602,6 +3642,30 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180724T040148Z" creationid="hfukuchi" creationdate="20180724T040148Z">
         <seg>SPDXファイルに保管されたデータの受け手側の利用方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I.1 Licenses with Short Identifiers</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T090826Z" creationid="hfukuchi" creationdate="20180910T090826Z">
+        <seg>I.1 Licenses with Short Identifiers（ライセンスと簡易識別子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I.2 Exceptions List</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T090949Z" creationid="hfukuchi" creationdate="20180910T090949Z">
+        <seg>I.2 Exceptions List（例外リスト）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I.3 Deprecated Licenses</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T091108Z" creationid="hfukuchi" creationdate="20180910T091108Z">
+        <seg>I.3 Deprecated Licenses（廃止予定ライセンス）</seg>
       </tuv>
     </tu>
     <tu>
@@ -6678,6 +6742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>SPDX License Exception</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T091022Z" creationid="hfukuchi" creationdate="20180910T091022Z">
+        <seg>SPDX License Exception（SPDXライセンス例外）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>SPDX Specification 2.0</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T073520Z" creationid="hfukuchi" creationdate="20180724T064119Z">
@@ -7406,6 +7478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The SPDX License List Matching Guidelines provide guidelines to be used for the purposes of matching licenses and license exceptions against those found on the SPDX License List.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T092539Z" creationid="hfukuchi" creationdate="20180910T092539Z">
+        <seg>SPDX License List Matching Guidelines（SPDXライセンス リスト整合ガイドライン）は、SPDX License List（SPDXライセンス リスト）に載っているライセンスやライセンス例外と整合を取る目的で提供される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The SPDX License List can also be found here in Appendix I.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T011945Z" creationid="hfukuchi" creationdate="20180904T011945Z">
@@ -7606,6 +7686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following table contains the full names and short identifiers for the SPDX License List, v2.5 which was released July 2016.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T090636Z" creationid="hfukuchi" creationdate="20180910T090636Z">
+        <seg>以下の表は、2016年7月にリリースされたSPDX License List（ライセンス リスト）v2.5に関する、フルネームと簡易識別子を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The format of the locator is subject to constraints defined by the &lt;type&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180827T070521Z" creationid="hfukuchi" creationdate="20180827T070521Z">
@@ -7634,6 +7722,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180726T022802Z" creationid="hfukuchi" creationdate="20180726T022802Z">
         <seg>メジャー フィールドは、バージョン間で後方非互換の変更（一つ以上の節の追加、変更、削除）がされたときに更新される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The master files include a spreadsheet listing all the licenses, deprecated licenses, and license exceptions- and the text for each license in a .txt file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T083215Z" creationid="hfukuchi" creationdate="20180910T083215Z">
+        <seg>マスター ファイルは、すべてのライセンス、廃止予定のライセンス、ライセンス例外がリストされたスプレッドシートと、各ライセンスに対するテキストが記載された.txtファイルが含まれる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7890,6 +7986,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T050640Z" creationid="hfukuchi" creationdate="20180822T050640Z">
         <seg>SPDX文書には1つのURIだけが対応し、与えられたURIには1つの文書だけが対応する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is no intent here to make a judgment or interpretation, but merely to ensure that when one SPDX creator identifies a license as “BSD 3-clause,” for example, it is indeed the same license as what someone else identifies as “BSD 3-clause” and the same license as what is listed on the SPDX License List.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T100943Z" creationid="hfukuchi" creationdate="20180910T100943Z">
+        <seg>ここでは、判断や解釈をする意図はない。There is no intent here to make a judgment or interpretation, but merely to ensure that when one SPDX creator identifies a license as “BSD 3-clause,” for example, it is indeed the same license as what someone else identifies as “BSD 3-clause” and the same license as what is listed on the SPDX License List.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These files are available in a Git repository.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T083234Z" creationid="hfukuchi" creationdate="20180910T083234Z">
+        <seg>これらのファイルはGitリポジトリで入手可能である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9288,8 +9400,40 @@
       <tuv lang="EN-US">
         <seg>■ License Exceptions: The list of commonly found exceptions to open source licenses, which can be used with the License Expression operator, "WITH" to create a license with an exception.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180907T072348Z" creationid="hfukuchi" creationdate="20180907T072348Z">
-        <seg>■ License Exceptions（ライセンス例外）： The list of commonly found exceptions to open source licenses, which can be used with the License Expression operator, "WITH" to create a license with an exception.</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T080157Z" creationid="hfukuchi" creationdate="20180907T072348Z">
+        <seg>■ License Exceptions（ライセンス例外）： 広く使われているオープン ソース ライセンス例外リストは、ライセンス例外とLicense Expression Syntax（ライセンス表現構文）オペレータ"WITH" を使用することで、例外付きライセンスを構成できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>■ Master Files: The HTML pages you see here are generated from the master files for the SPDX License List.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T082340Z" creationid="hfukuchi" creationdate="20180910T080219Z">
+        <seg>■ Master Files（マスター ファイル）：あなたがここで見ているHTMLページは、SPDX License List（ライセンス リスト）用マスター ファイルから生成されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>■ Matching Guidelines: Guidelines for what constitutes a license match to the SPDX License List.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T085738Z" creationid="hfukuchi" creationdate="20180910T085738Z">
+        <seg>■ 整合ガイドライン：何がSPDX License List（ライセンス リスト）と整合するライセンスであるかを示すガイドライン。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>■ Overview: For general information about the SPDX License List, including principles for inclusion of a license and an explanation of the fields contained on the list.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T091636Z" creationid="hfukuchi" creationdate="20180910T083245Z">
+        <seg>■ 概要：SPDX License List（ライセンス リスト）の全般的な情報は、ライセンスの組み合わせとリストに含まれるフィールドの説明に対する原理を含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>■ Request New License: For instructions on how to propose additional licenses or license exceptions be added to the SPDX License List.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180910T090423Z" creationid="hfukuchi" creationdate="20180910T090423Z">
+        <seg>■ Request New License（新ライセンス要求）：SPDX License List（ライセンス リスト）への追加ライセンスやライセンス例外を提案する手順が示される。</seg>
       </tuv>
     </tu>
     <tu>
