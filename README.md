@@ -1,7 +1,7 @@
 # SPDX_specification
 Japanese translation of SPDX specification
 
-## SPDX仕様(Version 2.1)の日本語訳を行っています
+## SPDX仕様(Version 2.1)の非公式日本語訳を行っています
 
 ### Software Package Data Exchange® (SPDX®) はソフトウェア パッケージのライセンス情報やメタデータを企業や組織間で共有するための規格です
 
@@ -20,5 +20,5 @@ SPDX仕様を読む際に、参考になる資料です
 * URI(Uniform Resource Identifier)
   * http://ietf.org/rfc/rfc3986.txt
 
-  
+
  
