@@ -2738,18 +2738,19 @@ A rule is a variable section of a license wrapped between double angle brackets 
 
 Rule fields:
 Å° type: indicates whether the text is replaceable or omitable as per Matching Guideline #2 (ÅgSubstantive TextÅh).
-Åú Indicated by <<var; . . . >> or...
-Åú Indicated by <<beginOptional; . . .>> and <<endOptional>> respectively.
+Åú Indicated by <<var; ...>> or...
+Åú Indicated by <<beginOptional; ...>> and <<endOptional>> respectively.
 Åú This field is the first field and is required.
 Å° name: name of the field in the template.
 Åú This field is unique within each license template.
 Åú This field is required.
 Å° original: the original text of the rule.
-Åú This field is required for a rule type: <<var; . . . >>
+Åú This field is required for a rule type: <<var; ...>>
 Å° match: a POSIX extended regular expession (ERE).
-Åú This field is required for a rule type: <<var; . . . >>
+Åú This field is required for a rule type: <<var; ...>>
 
-The POSIX ERE in the match field has the following restrictions and extensions: Semicolons are escaped with \;
+The POSIX ERE in the match field has the following restrictions and extensions: 
+Semicolons are escaped with \;
 POSIX Bracket Extensions are not allowed
 
 Example:
