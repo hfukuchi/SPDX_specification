@@ -11,6 +11,9 @@ Japanese translation of SPDX specification
 * SPDX仕様の英語版は以下にあります
   * https://spdx.org/specifications
 
+* SPDX仕様のGitHubサイトは以下にあります
+  * https://github.com/spdx/spdx-spec
+
 * SPDXはLinux Foundationによって登録商標されており、ライセンスは以下に記載されています
   * https://spdx.org/Trademark
 
