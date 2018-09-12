@@ -2803,7 +2803,7 @@ SPDX License Expressions provides a way for one to construct expressions that mo
 
 The exact syntax of license expressions is described below in ABNF.
 
-idstring	= 1*(ALPHA / DIGIT / "-" / "." )
+idstring	= 1*(ALPHA / DIGIT / "-" / ".")
 license-id	= <short form license identifier inAppendix I.1> license-exception-id	= <short form license exception identifier inAppendix I.2> license-ref	= ["DocumentRef-"1*(idstring)":"]"LicenseRef-"1*(idstring)
 simple-expression = license-id / license-idÅh+Åh / license-ref
 compound-expression =	1*1(simple-expression /
@@ -2816,7 +2816,10 @@ A valid <license-expression> string consists of either:
 (i) a simple license expression, such as a single license identifier; or
 (ii) a more complex expression constructed by combining smaller valid expressions using Boolean license operators.
 
-There MUST NOT be whitespace between a license-id and any following "+". This supports easy parsing and backwards compatibility. There MUST be whitespace on either side of the operator "WITH". There MUST be whitespace and/or parentheses on either side of the operators "AND" and "OR".
+There MUST NOT be whitespace between a license-id and any following "+". 
+This supports easy parsing and backwards compatibility. 
+There MUST be whitespace on either side of the operator "WITH". 
+There MUST be whitespace and/or parentheses on either side of the operators "AND" and "OR".
 
 Simple License Expressions
 A simple <license-expression> is composed one of the following:

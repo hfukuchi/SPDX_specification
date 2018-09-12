@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(i) a simple license expression, such as a single license identifier; or</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T064455Z" creationid="hfukuchi" creationdate="20180912T064455Z">
+        <seg>(i)単独のライセンス識別子のような単純なライセンス表現 ；または</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(i) the SPDX document creator has attempted to, but cannot reach a reasonable objective determination of the Concluded License;</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180903T081615Z" creationid="hfukuchi" creationdate="20180903T081615Z">
@@ -122,6 +130,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180903T225903Z" creationid="hfukuchi" creationdate="20180903T225903Z">
         <seg>(i) SPDXコード断片作成者が、このフィールドを決定しようと試みなかった。；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(ii) a more complex expression constructed by combining smaller valid expressions using Boolean license operators.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T064716Z" creationid="hfukuchi" creationdate="20180912T064716Z">
+        <seg>(ii)より小さな表現をブール ライセンス演算子で組み合わせて構成する複雑な表現</seg>
       </tuv>
     </tu>
     <tu>
@@ -1278,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A common example is when software is offered under a choice of one or more licenses (e.g., GPL-2.0 OR BSD-3-Clause).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T053557Z" creationid="hfukuchi" creationdate="20180912T051035Z">
+        <seg>共通的な例としては、2つ以上のライセンス（たとえばGPL-2.0とBSD-3-Clause）を選択できる場合である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A description of the relationship should be included in the Relationship comments field.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T073427Z" creationid="hfukuchi" creationdate="20180904T073427Z">
@@ -1306,6 +1330,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T072646Z" creationid="hfukuchi" creationdate="20180904T072646Z">
         <seg>ライブラリー‘bar.dll’はAPPLICATION（アプリケーション）‘foo.exe’の前提条件または依存関係である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A license expression could be a single license identifier found on the SPDX License List; a user defined license reference denoted by the LicenseRef-{idString}; a license identifier combined with an SPDX exception-;or some combination of license identifiers, license references and exceptions constructed using a small set of defined operators (e.g., AND, OR, WITH and +).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T061940Z" creationid="hfukuchi" creationdate="20180912T061806Z">
+        <seg>ライセンス表現は、SPDXライセンス リストに掲載された単独のライセンス識別子、LicenseRef-{idString}によって記述されるユーザー定義ライセンス参照、SPDX例外と組み合わせたライセンス識別子、演算子のセット（AND、OR、WITH、+）によって構成されたライセンス識別子とライセンス参照の組み合わせである。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1370,6 +1402,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180911T083436Z" creationid="hfukuchi" creationdate="20180911T083436Z">
         <seg>テンプレートは、0か組み込まれた規則を伴うテキストで構成される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A valid &lt;license-expression&gt; string consists of either:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T064039Z" creationid="hfukuchi" creationdate="20180912T064039Z">
+        <seg>正しい&lt;license-expression&gt;文字列は、以下で構成される：</seg>
       </tuv>
     </tu>
     <tu>
@@ -1642,6 +1682,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T075117Z" creationid="hfukuchi" creationdate="20180904T075117Z">
         <seg>Annotator（注釈者）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Another example is when a set of licenses is needed to represent a binary program constructed by compiling and linking two (or more) different source files each governed by different licenses (e.g., LGPL-2.1 AND BSD-3-Clause).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T053545Z" creationid="hfukuchi" creationdate="20180912T053545Z">
+        <seg>他の例としては、異なるライセンス（たとえばLGPL-2.1とBSD-3-Clause）が適用された2つ以上のソースコードをコンパイルとリンクすることで作成されたバイナリー ファイルを表現するのにライセンスの組が必要な場合である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4078,6 +4126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the following sections we describe in more detail &lt;license-expression&gt; construct, a licensing expression string that enables a more accurate representation of the licensing terms of modern day software.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T063831Z" creationid="hfukuchi" creationdate="20180912T063222Z">
+        <seg>以下のセクションで、現代のソフトウェアのライセンス条件をより正確に表現できるライセンス表現文字列&lt;license-expression&gt;の詳細を記述する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this case, Package A may be defined with its File Analyzed attribute set to “false”.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T082808Z" creationid="hfukuchi" creationdate="20180822T082808Z">
@@ -5518,6 +5574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Often a single license can be used to represent the licensing terms of a source code or binary file, but there are situations where a single license identifier is not sufficient.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T050851Z" creationid="hfukuchi" creationdate="20180912T050851Z">
+        <seg>ほとんどの場合に単独のライセンスがソースコードやバイナリー ファイルのライセンス条件を表現するのに使用されるが、単独のライセンス識別子では不十分な場合がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once a Reviewer entry is added, the Review Date associated with the review is mandatory.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180906T090043Z" creationid="hfukuchi" creationdate="20180906T090043Z">
@@ -5594,6 +5658,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180724T033251Z" creationid="hfukuchi" creationdate="20180724T033251Z">
         <seg>検出された他ライセンス情報：SPDXライセンス リストにないライセンスに対する検出方法や参照情報</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T004320Z" creationid="hfukuchi" creationdate="20180912T004320Z">
+        <seg>概要</seg>
       </tuv>
     </tu>
     <tu>
@@ -6870,6 +6942,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>SPDX License Expressions provides a way for one to construct expressions that more accurately represent the licensing terms typically found in open source software source code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T060924Z" creationid="hfukuchi" creationdate="20180912T060924Z">
+        <seg>SPDXライセンス表現は、オープン ソース ソフトウェアのソース コードで典型的に見られるライセンス条件をもっと正確に表現する方法を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>SPDX License List Template Access</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180911T081658Z" creationid="hfukuchi" creationdate="20180911T081658Z">
@@ -7878,6 +7958,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The exact syntax of license expressions is described below in ABNF.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T064009Z" creationid="hfukuchi" creationdate="20180912T063038Z">
+        <seg>ライセンス表現の正しい構文は、以下でABNF（オーグメンティッド バッカス ナウア記法 ）で記述される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following table contains the full names and short identifiers for the SPDX License List, v2.5 which was released July 2016.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180910T090636Z" creationid="hfukuchi" creationdate="20180910T090636Z">
@@ -8170,6 +8258,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T081557Z" creationid="hfukuchi" creationdate="20180823T081340Z">
         <seg>Package AとPackage Bの関係は、6節で説明する方法で記述できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There MUST NOT be whitespace between a license-id and any following "+".</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T064815Z" creationid="hfukuchi" creationdate="20180912T064815Z">
+        <seg>license-idと後続の"+"の間にスペースを入れてはいけない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8738,6 +8834,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180911T090949Z" creationid="hfukuchi" creationdate="20180911T090942Z">
         <seg>語彙仕様</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We provide the definition of what constitutes a valid an SPDX License Expression in this section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180912T064002Z" creationid="hfukuchi" creationdate="20180912T063024Z">
+        <seg>このセクションで正しいSPDXライセンス表現の定義を提示する。</seg>
       </tuv>
     </tu>
     <tu>
