@@ -830,6 +830,86 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>5.1 Snippet SPDX Identifier</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T064611Z" creationid="hfukuchi" creationdate="20180914T064611Z">
+        <seg>5.1 Snippet SPDX Identifier（コード断片SPDX識別子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5.10 Snippet Name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065036Z" creationid="hfukuchi" creationdate="20180914T065036Z">
+        <seg>5.10 Snippet Name（コード断片名）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5.2 Snippet from File SPDX Identifier</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T064619Z" creationid="hfukuchi" creationdate="20180914T064619Z">
+        <seg>5.2 Snippet from File SPDX Identifier（ファイル由来コード断片SPDX識別子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5.3 Snippet Byte Range</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T064627Z" creationid="hfukuchi" creationdate="20180914T064627Z">
+        <seg>5.3 Snippet Byte Range（コード断片バイト範囲）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5.4 Snippet Line Range</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T064635Z" creationid="hfukuchi" creationdate="20180914T064635Z">
+        <seg>5.4 Snippet Line Range（コード断片ライン範囲）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5.5 Snippet Concluded License</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T064642Z" creationid="hfukuchi" creationdate="20180914T064642Z">
+        <seg>5.5 Snippet Concluded License（コード断片結論されたライセンス）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5.6 License Information in Snippet</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T064649Z" creationid="hfukuchi" creationdate="20180914T064649Z">
+        <seg>5.6 License Information in Snippet（コード断片ライセンス情報）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5.7 Snippet Comments on License</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T064658Z" creationid="hfukuchi" creationdate="20180914T064658Z">
+        <seg>5.7 Snippet Comments on License（コード断片ライセンスへのコメント）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5.8 Snippet Copyright Text</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065021Z" creationid="hfukuchi" creationdate="20180914T065021Z">
+        <seg>5.8 Snippet Copyright Text（コード断片著作権テキスト）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5.9 Snippet Comment</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065028Z" creationid="hfukuchi" creationdate="20180914T065028Z">
+        <seg>5.9 Snippet Comment（コード断片コメント）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6 Other Licensing Information Detected</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T005115Z" creationid="hfukuchi" creationdate="20180904T005054Z">
@@ -846,10 +926,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>6.1 License Identifier</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065125Z" creationid="hfukuchi" creationdate="20180914T065125Z">
+        <seg>6.1 License Identifier（ライセンス識別子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>6.2 Extracted Text</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065132Z" creationid="hfukuchi" creationdate="20180914T065132Z">
+        <seg>6.2 Extracted Text（抽出したテキスト）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>6.3 License Name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065139Z" creationid="hfukuchi" creationdate="20180914T065139Z">
+        <seg>6.3 License Name（ライセンス名）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>6.4 License Cross Reference</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065146Z" creationid="hfukuchi" creationdate="20180914T065146Z">
+        <seg>6.4 License Cross Reference（ライセンス クロス参照）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>6.5 License Comment</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065154Z" creationid="hfukuchi" creationdate="20180914T065154Z">
+        <seg>6.5 License Comment（ライセンス コメント）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7 Relationships between SPDX Elements</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T035836Z" creationid="hfukuchi" creationdate="20180904T035836Z">
         <seg>7 Relationships between SPDX Elements（SPDX要素間の関係）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>7.1 Relationship</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065203Z" creationid="hfukuchi" creationdate="20180914T065203Z">
+        <seg>7.1 Relationship（関係）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>7.2 Relationship Comment</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065213Z" creationid="hfukuchi" creationdate="20180914T065213Z">
+        <seg>7.2 Relationship Comment（関係コメント）</seg>
       </tuv>
     </tu>
     <tu>
@@ -862,10 +998,74 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>8.1 Annotator</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065224Z" creationid="hfukuchi" creationdate="20180914T065224Z">
+        <seg>8.1 Annotator（注釈者）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>8.2 Annotation Date</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065230Z" creationid="hfukuchi" creationdate="20180914T065230Z">
+        <seg>8.2 Annotation Date（注釈日時）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>8.3 Annotation Type</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065236Z" creationid="hfukuchi" creationdate="20180914T065236Z">
+        <seg>8.3 Annotation Type（注釈タイプ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>8.4 SPDX Identifier Reference</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065243Z" creationid="hfukuchi" creationdate="20180914T065243Z">
+        <seg>8.4 SPDX Identifier Reference（SPDX識別子参照）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>8.5 Annotation Comment</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065248Z" creationid="hfukuchi" creationdate="20180914T065248Z">
+        <seg>8.5 Annotation Comment（注釈コメント）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>9 Review Information (deprecated)</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180906T084907Z" creationid="hfukuchi" creationdate="20180906T084907Z">
         <seg>9 Review Information （レビュー情報）(deprecated)（廃止予定）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>9.1 Reviewer (deprecated)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065320Z" creationid="hfukuchi" creationdate="20180914T065320Z">
+        <seg>9.1 Reviewer（レビュアー） (deprecated)（廃止予定）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>9.2 Review Date (deprecated)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065327Z" creationid="hfukuchi" creationdate="20180914T065327Z">
+        <seg>9.2 Review Date（レビュー 日時） (deprecated)（廃止予定）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>9.3 Review Comment (deprecated)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T065333Z" creationid="hfukuchi" creationdate="20180914T065333Z">
+        <seg>9.3 Review Comment （レビュー コメント）(deprecated)（廃止予定）</seg>
       </tuv>
     </tu>
     <tu>
@@ -1406,10 +1606,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A set of licenses must be enclosed in parentheses (this is a convention for SPDX expressions).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T060102Z" creationid="hfukuchi" creationdate="20180914T060102Z">
+        <seg>ライセンスの組は括弧で包含されなければならない。（これはSPDX表現の慣例である）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A simple &lt;license-expression&gt; is composed one of the following:</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180913T033841Z" creationid="hfukuchi" creationdate="20180913T033754Z">
         <seg>単純な&lt;license-expression&gt;は以下のどれか一つで構成される：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A single license is represented by using the short identifier from SPDX license list, optionally with a unary "+" operator following it to indicate "or later" versions may be applicable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T055639Z" creationid="hfukuchi" creationdate="20180914T055639Z">
+        <seg>単独ライセンスは、SPDXライセンス リストに掲載された簡易識別子を使って表現される。任意で単項"+" 演算子を使って後続バージョンが適用可能であることを示す。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1832,8 +2048,16 @@
       <tuv lang="EN-US">
         <seg>Appendix V: Using SPDX short identifiers in Source Files</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180913T092045Z" creationid="hfukuchi" creationdate="20180913T092045Z">
-        <seg>Appendix V: ソース ファイルでのSPDX簡易識別子の利用</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T044519Z" creationid="hfukuchi" creationdate="20180913T092045Z">
+        <seg>Appendix V: ソース ファイルへのSPDX簡易識別子の適用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Appendix VI: External Repository Identifiers</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T064031Z" creationid="hfukuchi" creationdate="20180914T064031Z">
+        <seg>Appendix VI: External Repository Identifiers（外部リポジトリ識別子）</seg>
       </tuv>
     </tu>
     <tu>
@@ -1866,6 +2090,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180821T090551Z" creationid="hfukuchi" creationdate="20180821T085103Z">
         <seg>その結果、多くのグループが、重複する努力と余分な情報を生み出す同じ作業を行っていることになる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As further described there:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T060132Z" creationid="hfukuchi" creationdate="20180914T060132Z">
+        <seg>他の構文は以下に記述される：</seg>
       </tuv>
     </tu>
     <tu>
@@ -3094,6 +3326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Even when licensing information is present, a lack of consistent notation can make automating the task of license detection very difficult, thus requiring vast amounts of human effort.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T045136Z" creationid="hfukuchi" creationdate="20180914T045123Z">
+        <seg>ライセンス情報が提供されているときでさえ、一貫した表記が無いために、ライセンス検出作業の自動化が難しく、人手による膨大な作業を必要となる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T040927Z" creationid="hfukuchi" creationdate="20180904T040927Z">
@@ -3822,6 +4062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For links to projects illustrating these scenarios, see the examples on the SPDX WIKI page about Meta_Tags.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T053104Z" creationid="hfukuchi" creationdate="20180914T053104Z">
+        <seg>これらのシナリオを図示するプロジェクトへのリンクは、SPDX WIKIページのMeta_Tagsを参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For other algorithms, an appropriate number of hexadecimal digits is expected.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180828T055736Z" creationid="hfukuchi" creationdate="20180828T055736Z">
@@ -3886,6 +4134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Format for SPDX-License-Identifier</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T053142Z" creationid="hfukuchi" creationdate="20180914T053142Z">
+        <seg>Format for SPDX-License-Identifier（SPDX-License-Identifierフォーマット）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Format&lt;t0/&gt; &lt;t1/&gt;Requirements</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T053237Z" creationid="hfukuchi" creationdate="20180806T053237Z">
@@ -3934,6 +4190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, determining the license can sometimes be difficult due to a lack of information or ambiguous information.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T045132Z" creationid="hfukuchi" creationdate="20180914T044800Z">
+        <seg>しかしながら、情報の欠落と不明瞭な情報のために、時としてライセンスの決定は困難になる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>I.1 Licenses with Short Identifiers</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180910T090826Z" creationid="hfukuchi" creationdate="20180910T090826Z">
@@ -3954,6 +4218,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180910T091108Z" creationid="hfukuchi" creationdate="20180910T091108Z">
         <seg>I.3 Deprecated Licenses（廃止予定ライセンス）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Identifying the license for open source software is critical for both reporting purposes and license compliance.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T044653Z" creationid="hfukuchi" creationdate="20180914T044653Z">
+        <seg>オープン ソース ソフトウェアに対するライセンスを特定することは、報告とライセンスコンプライアンスの両方の点で重要である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3990,6 +4262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If presented with a choice between two or more licenses, use the disjunctive binary "OR" operator to construct a new license expression.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T062231Z" creationid="hfukuchi" creationdate="20180914T062231Z">
+        <seg>2つ以上のライセンスの選択が提示される場合には、新しいライセンス表現を構成するために離接二項演算子"OR"を使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If presented with a choice between two or more licenses, use the disjunctive binary "OR" operator to construct a new lincense expression, where both the left and right operands are valid license expression values.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180913T062437Z" creationid="hfukuchi" creationdate="20180913T061446Z">
@@ -4002,6 +4282,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180913T062503Z" creationid="hfukuchi" creationdate="20180913T062059Z">
         <seg>同時に2つ以上のライセンスに従うことを要求される場合、左右両方の演算対象が妥当なライセンス表現値であるような新しいライセンス表現を構成するために、接続二項演算子"AND"を使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If required to simultaneously comply with two or more licenses, use the conjunctive binary "AND" operator to construct a new license expression.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T062604Z" creationid="hfukuchi" creationdate="20180914T062604Z">
+        <seg>2つ以上のライセンスに同時に従う必要がある場合には、新しいライセンス表現を構成するために接続二項演算子"AND"を使用する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4182,6 +4470,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If using SPDX short identifiers in individual files, it is recommended to reproduce the full license in the projects LICENSE file and indicate that SPDX short identifiers are being used to refer to it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T052729Z" creationid="hfukuchi" creationdate="20180914T052729Z">
+        <seg>個別のファイルにSPDX簡易識別子を使用する場合には、プロジェクトのLICENSEファイル中にある全ライセンスを提示し、SPDX簡易識別子がそれを参照していることを示すことが推奨される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you can’t express the license(s) as an expression using identifiers from the SPDX list, it is probably best to just put the text of your license header in the file (if there is a standard header), or refer to a neutral site URL where the text can be found.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T063858Z" creationid="hfukuchi" creationdate="20180914T063858Z">
+        <seg>SPDXライセンス リストに掲載された識別子を使ってライセンスを表現できない場合には、ファイルにライセンスヘッダーのテキストを記載する（標準ヘッダーがあるとき）か、テキストが置かれている中立的なサイトのURLを参照するのが最も良い方法だろう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If “false” indicates packages that represent metadata or URI references to a project, product, artifact, distribution or a component.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T082418Z" creationid="hfukuchi" creationdate="20180822T082418Z">
@@ -4306,6 +4610,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T081045Z" creationid="hfukuchi" creationdate="20180822T081045Z">
         <seg>ある場合には、パッケージ供給者とは別の第3者が、パッケージを作成し最初に頒布していることがある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In some cases, a set of license terms apply except under special circumstances, in this case, use the "WITH" operator followed by one of the recognized exception identifiers.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T063155Z" creationid="hfukuchi" creationdate="20180914T063155Z">
+        <seg>ある特別な状況に例外を加えて、いくつかのライセンス条件が適用されることもある。この場合には、認識されている例外識別子が後続する"WITH"演算子を使用する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5654,6 +5966,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Multiple licenses can be represented using a SPDX license expression as defined in Appendix IV.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T055807Z" creationid="hfukuchi" creationdate="20180914T055807Z">
+        <seg>複合ライセンスは、Appendix IVで定義されたSPDXライセンスを使って表現される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Must be in a human readable form.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180821T090910Z" creationid="hfukuchi" creationdate="20180821T090910Z">
@@ -5794,6 +6114,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T074742Z" creationid="hfukuchi" creationdate="20180806T074742Z">
         <seg> </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Of course, this is the ultimate decision of the copyright holders of the file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T054300Z" creationid="hfukuchi" creationdate="20180914T054300Z">
+        <seg>勿論、この点はファイルの著作権所有者が絶対的に決定権を持つ事項である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6170,6 +6498,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180806T055710Z" creationid="hfukuchi" creationdate="20180806T055710Z">
         <seg>そうする方がふさわしい場合には、個人名や組織名を“anonymous”（匿名）にしてもよい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Please see Appendix IV of SPDX 2.1 Specification for more examples and details of the license expression specific syntax.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T063408Z" creationid="hfukuchi" creationdate="20180914T063408Z">
+        <seg>ライセンス表現についてのさらに多くの例や詳細については、SPDX 2.1仕様のAppendix IVを参照。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7054,6 +7390,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Representing Multiple Licenses</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T055653Z" creationid="hfukuchi" creationdate="20180914T055653Z">
+        <seg>Representing Multiple Licenses（複合ライセンスの表現）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Representing Single License</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T055225Z" creationid="hfukuchi" creationdate="20180914T055225Z">
+        <seg>Representing Single License（単独ライセンスの表現）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Resource Description Framework (RDF) can be used to represent this information, as can an annotated tag value flat text file.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180821T091003Z" creationid="hfukuchi" creationdate="20180821T091003Z">
@@ -7382,6 +7734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Short identifiers from the SPDX License List can be used to indicate license info at the file level.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T045609Z" creationid="hfukuchi" creationdate="20180914T045609Z">
+        <seg>SPDXライセンス リストに掲載された簡易識別子は、ファイル レベルでライセンス情報を示すのに使用できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Should be easy to recognize in a file system without opening the file.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T054401Z" creationid="hfukuchi" creationdate="20180821T091026Z">
@@ -7394,6 +7754,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180803T071509Z" creationid="hfukuchi" creationdate="20180724T052216Z">
         <seg>ファイル システム上でファイルを開くことなく認識しやすくするべきである。推奨されるネーミング慣例は、*.spdx（タグ値フォーマット）と*­spdx.rdf（RDFフォーマット）である</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly when multiple licenses need to be simultaneously applied ("conjunctive license"), they should be separated with "AND".</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T062439Z" creationid="hfukuchi" creationdate="20180914T062439Z">
+        <seg>同様に、複数のライセンスを同時に適用する必要がある（"conjunctive license"（接続的ライセンス））場合には、それらは"AND"で分離すべきである。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7998,6 +8366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The SPDX License Identifier syntax may consist of a single license (represented by a short identifier from the SPDX license list) or a compound set of licenses (represented by joining together multiple licenses using the license expression syntax).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T054935Z" creationid="hfukuchi" creationdate="20180914T054935Z">
+        <seg>SPDXライセンス識別子構文は単独ライセンス（SPDXライセンス リスト掲載の簡易識別子で表現されたもの）か、ライセンスの結合（ライセンス表現構文によって複数のライセンスの結合が表現されたもの）で構成される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The SPDX License List Matching Guidelines provide guidelines to be used for the purposes of matching licenses and license exceptions against those found on the SPDX License List.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180913T033015Z" creationid="hfukuchi" creationdate="20180910T092539Z">
@@ -8078,6 +8454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The SPDX-License-Identifier tag declares the license the file is under and should be placed at or near the top of the file in a comment.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T054013Z" creationid="hfukuchi" creationdate="20180914T054013Z">
+        <seg>SPDX-License-Identifierタグは、ファイルに適用されるライセンスを宣言する。ファイル先頭やその近辺のコメントに記載すべきである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The SPDX&lt;t62/&gt; &lt;t63/&gt;working&lt;t64/&gt; &lt;t65/&gt;group&lt;t66/&gt; &lt;t67/&gt;seeks&lt;t68/&gt; &lt;t69/&gt;to&lt;t70/&gt; &lt;t71/&gt;create&lt;t72/&gt; &lt;t73/&gt;a&lt;t74/&gt; &lt;t75/&gt;data&lt;t76/&gt; &lt;t77/&gt;exchange&lt;t78/&gt; &lt;t79/&gt;format&lt;t80/&gt; &lt;t81/&gt;so&lt;t82/&gt; &lt;t83/&gt;that&lt;t84/&gt; &lt;t85/&gt;information&lt;t86/&gt; &lt;t87/&gt;about&lt;t88/&gt; &lt;t89/&gt;software&lt;t90/&gt; &lt;t91/&gt;packages and related content may be collected and shared in a common format with the goal of saving time and improving&lt;t92/&gt; &lt;t93/&gt;data&lt;t94/&gt; &lt;t95/&gt;accuracy.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180719T055912Z" creationid="hfukuchi" creationdate="20180719T055844Z">
@@ -8138,6 +8522,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T031842Z" creationid="hfukuchi" creationdate="20180904T031842Z">
         <seg>Whiskey-Ware Licenseは、複数の標準的な変種を有する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The advantages of doing this are numerous but include:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T045647Z" creationid="hfukuchi" creationdate="20180914T045647Z">
+        <seg>この利点は多数あるが、特に以下が言える：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8430,6 +8822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The tag should appear on its own line in the source file, generally as part of a comment.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T055142Z" creationid="hfukuchi" creationdate="20180914T055142Z">
+        <seg>タグは、ソース ファイル中にタグの行として、一般にはコメント中に、表示すべきである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The target’s relationship to artifactOf values of files in the package may need to be explained here.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180827T071817Z" creationid="hfukuchi" creationdate="20180827T071817Z">
@@ -8586,6 +8986,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180913T033033Z" creationid="hfukuchi" creationdate="20180910T100943Z">
         <seg>ここでは、判断や解釈をする意図はない。SPDX作成者がライセンスを、たとえば、“BSD 3-clause”と特定した場合に、他者が“BSD 3-clause”と特定するものと同じライセンスであり、SPDXライセンス リストに掲載されたものと同じライセンスであることを確実にしたいだけである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is no need for variation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T050825Z" creationid="hfukuchi" creationdate="20180914T050816Z">
+        <seg>亜種を準備する必要がない</seg>
       </tuv>
     </tu>
     <tu>
@@ -9062,6 +9470,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To request a license be added to the SPDX License List, please follow the process described here: http://spdx.org/spdx-license-list/request-new-license-or-exception.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T064013Z" creationid="hfukuchi" creationdate="20180914T064013Z">
+        <seg>SPDXライセンス リストに新しいライセンスの追加を要求するには、ここで説明されるプロセスに従う：http://spdx.org/spdx-license-list/request-new-license-or-exception.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To specify a sub-path to a file or directory inside a repository use the "#" delimiter:</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T080403Z" creationid="hfukuchi" creationdate="20180823T080403Z">
@@ -9090,6 +9506,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180808T075307Z" creationid="hfukuchi" creationdate="20180808T075307Z">
         <seg>ブランチ名、コミット ハッシュおよびタグ名を指定するために、"@"デリミターを使用する：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To the extent that a source file contains existing copyright and license information, it is the SPDX project’s recommendation that SPDX short identifiers be used to supplement, not replace that information.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T051940Z" creationid="hfukuchi" creationdate="20180914T051940Z">
+        <seg>既存の著作権やライセンス情報を含むソース ファイルに関していえば、SPDX簡易識別子は補強として使い、既存の情報は置き換えないことがSPDXプロジェクトの推奨である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To the extent that the file contains existing license information, it is our recommendation that the tag be used to supplement not replace that information.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T054215Z" creationid="hfukuchi" creationdate="20180914T054215Z">
+        <seg>既存のライセンス情報を含むファイルに関していえば、タグは補強として使い、情報を置き換えないことが推奨される。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9250,6 +9682,22 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180913T085856Z" creationid="hfukuchi" creationdate="20180913T085637Z">
         <seg>デフォルトの優先順位とは異なる優先度を表現する必要がある場合には、括弧の中の演算子は括弧の外の演算子よりも大きい優先順位を持つことを示すために、&lt;license-expression&gt;を括弧：()で包含することができる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When there is a choice between licenses ("disjunctive license"), they should be separated with "OR".</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T062103Z" creationid="hfukuchi" creationdate="20180914T062103Z">
+        <seg>ライセンスの選択がある（"disjunctive license" （離接的ライセンス））場合には、それらは"OR"で分離されるべきである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When there is a standard header provided by the license author, it is recommended to use such standard header (alone or in combination with the SPDX short identifier).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T052228Z" creationid="hfukuchi" creationdate="20180914T052228Z">
+        <seg>ライセンスの著作者から標準ヘッダーが提供されている場合には、標準ヘッダーを使用する（単独、またはSPDX簡易識別子と共用）ことを推奨する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10238,6 +10686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>● An SPDX short identifier is immutable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T050922Z" creationid="hfukuchi" creationdate="20180914T050922Z">
+        <seg>● SPDX簡易識別子は不変である</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>● Annotations and Relationships for the package may appear after the Package Information before any file information.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T080018Z" creationid="hfukuchi" creationdate="20180822T080018Z">
@@ -10282,6 +10738,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180913T091522Z" creationid="hfukuchi" creationdate="20180913T091522Z">
         <seg>● Comment - 例外の性質を記述するrdfs:comment要素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● Easy lookups and cross-references to the SPDX License List website.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T051335Z" creationid="hfukuchi" creationdate="20180914T051335Z">
+        <seg>● SPDXライセンス リスト ウェブサイトで検索や参照がしやすい</seg>
       </tuv>
     </tu>
     <tu>
@@ -10354,6 +10818,54 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180911T085730Z" creationid="hfukuchi" creationdate="20180911T085730Z">
         <seg>● &lt;&lt;var; ...&gt;&gt; か...によって示される</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● It is a standard and can be universal.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T050434Z" creationid="hfukuchi" creationdate="20180914T050434Z">
+        <seg>● 標準であり、国際化できる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● It is concise.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T045747Z" creationid="hfukuchi" creationdate="20180914T045747Z">
+        <seg>● 簡潔である</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● It is easy and more reliable to machine process.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T050018Z" creationid="hfukuchi" creationdate="20180914T050018Z">
+        <seg>● 自動化プロセスが容易で信頼性が高い。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● It is language neutral.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T045809Z" creationid="hfukuchi" creationdate="20180914T045809Z">
+        <seg>● 原語的に中立である</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● It is precise.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T045655Z" creationid="hfukuchi" creationdate="20180914T045655Z">
+        <seg>● 正確である</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● Leads to code that is easier to read.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T050108Z" creationid="hfukuchi" creationdate="20180914T050047Z">
+        <seg>● コードを読みやすくする</seg>
       </tuv>
     </tu>
     <tu>
@@ -10586,6 +11098,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180903T065535Z" creationid="hfukuchi" creationdate="20180903T065535Z">
         <seg>● tag:valueフォーマットでは、Snippet（コード断片）の記述を開始する最初のフィールドは、Snippet Identifier（コード断片識別子）でなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>● The license information travels with the file (as sometimes not entire projects are used or license files are removed).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180914T050406Z" creationid="hfukuchi" creationdate="20180914T050406Z">
+        <seg>● ライセンス情報がファイルと共に伝わる。（というのも、時としてプロジェクト全体が使われるわけでなく、ライセンス ファイルが削除されるためである）</seg>
       </tuv>
     </tu>
     <tu>
