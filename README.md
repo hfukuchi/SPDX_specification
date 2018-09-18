@@ -23,6 +23,9 @@ Japanese translation of SPDX specification
 * SPDXはLinux Foundationによって登録商標されており、ライセンスは以下に記載されています
   * https://spdx.org/Trademark
 
+## スタイルガイド
+* 本翻訳は、JTF日本語標準スタイルガイド（翻訳用）に従っています
+  * https://www.jtf.jp/jp/style_guide/pdf/jtf_style_guide.pdf
 
 ## 参考資料
 SPDX仕様を読む際に、参考になる資料です
