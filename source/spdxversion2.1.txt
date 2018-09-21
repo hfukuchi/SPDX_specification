@@ -1563,8 +1563,7 @@ The concluded license was taken from the package level that the file was include
 Example:
 <File rdf:about="...">
 <licenseComments>
-The concluded license was taken from the package level that the file was included in. This information was found in the COPYING.txt file
-in the xyz directory. This package has been shipped in source and binary form.
+The concluded license was taken from the package level that the file was included in. This information was found in the COPYING.txt file in the xyz directory. This package has been shipped in source and binary form.
 </licenseComments>
 </File>
 
