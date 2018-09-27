@@ -1,7 +1,8 @@
 # CONTRIBUTORS
 
-## translator
+## translation
 * Hiroyuki Fukuchi
 
-## reviewer
+## review
 * Tomo Dote
+* Yuki Machida
