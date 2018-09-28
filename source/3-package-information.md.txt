@@ -816,8 +816,7 @@ Example:
         ...
         <licenseComments>
             This package has been shipped in source and binary form.
-            The binaries were created with gcc 4.5.1 and expect to link to
-            compatible system run time libraries.
+            The binaries were created with gcc 4.5.1 and expect to link to compatible system run time libraries.
         </licenseComments>
         ...
     </Package>
