@@ -260,13 +260,9 @@ If license information for more than one license is contained in the file or if 
 
 where:
 
-`<SPDX License Expression>` is a valid SPDX License Expression
+`<SPDX License Expression>` is a valid SPDX License Expression as defined in [Appendix IV](appendix-IV-SPDX-license-expressions.md).
 
-as defined in [Appendix IV](appendix-IV-SPDX-license-expressions.md).
-
-"DocumentRef-"`[idstring]`: is an optional reference to an external SPDX
-
-document as described in [section 2.6](2-document-creation-information.md#2.6)
+"DocumentRef-"`[idstring]`: is an optional reference to an external SPDX document as described in [section 2.6](2-document-creation-information.md#2.6)
 
 `[idstring]` is a unique string containing letters, numbers, `.` and/or `-`
 
@@ -298,7 +294,7 @@ Example:
 
 **4.7.5** Tag: `LicenseComments:`
 
-In `tag:value` format multiple lines are delimited by `<text> .. </text>`.
+In `tag:value` format multiple lines are delimited by `<text>..</text>`.
 
 Example:
 
@@ -311,9 +307,7 @@ Example:
 
     <File rdf:about="...">
         <licenseComments>
-            The concluded license was taken from the package level that the file
-            was included in. This information was found in the COPYING.txt file
-            in the xyz directory. This package has been shipped in source and binary form.
+            The concluded license was taken from the package level that the file was included in. This information was found in the COPYING.txt file in the xyz directory. This package has been shipped in source and binary form.
         </licenseComments>
     </File>
 
@@ -341,7 +335,7 @@ Any text relating to a copyright notice, even if not complete;
 
 **4.8.5** Tag: `FileCopyrightText:`
 
-In `tag:value` format multiple lines are delimited by `<text> .. </text>`.
+In `tag:value` format multiple lines are delimited by `<text>..</text>`.
 
 Example:
 
@@ -458,7 +452,7 @@ Example:
 
 **4.12.5** Tag: `FileComment:`
 
-In `tag:value` format multiple lines are delimited by `<text> .. </text>`.
+In `tag:value` format multiple lines are delimited by `<text>..</text>`.
 
 Example:
 
@@ -488,7 +482,7 @@ Example:
 
 **4.13.5** Tag: `FileNotice:`
 
-In `tag:value` format multiple lines are delimited by `<text> .. </text>`.
+In `tag:value` format multiple lines are delimited by `<text>..</text>`.
 
 Example:
 
