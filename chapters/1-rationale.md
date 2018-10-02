@@ -4,9 +4,9 @@
 
 ライセンスや他のポリシー コンプライアンスを容易にできるように、ソフトウェアや関連物に対するライセンスやコンポーネント情報（メタデータ）を、企業や組織が共有するためのデータ交換規格を作成すること
 
-## 1.2 1.2 定義 <a name="1.2"></a>
+## 1.2 定義 <a name="1.2"></a>
 
-The Software Package Data Exchange (SPDXR) specification is a standard format for communicating the components, licenses, and copyrights associated with software packages. SPDXファイルは、特定のソフトウェア パッケージやパッケージ セットに関連付けられており、SPDXフォーマットの情報を保持している。
+Software Package Data Exchange（ソフトウェア パッケージ データ交換）（SPDX ®）仕様は、ソフトウェア パッケージに関連するコンポーネント、ライセンスや著作権 を伝えるためのフォーマットである。SPDXファイルは、特定のソフトウェア パッケージやパッケージ セットに関連付けられており、SPDXフォーマットの情報を保持している。
 
 ## 1.3 データ交換用の共通フォーマットはなぜ必要なのか？<a name="1.3"></a>
 
@@ -30,7 +30,7 @@ The Software Package Data Exchange (SPDXR) specification is a standard format fo
 
 ![SPDX文書コンテンツの概要](img/spdx-2.1-document.png)
 
-## 1.5 1.5 この仕様はどの項目をカバーしないか？<a name="1.5"></a>
+## 1.5 この仕様はどの項目をカバーしないか？<a name="1.5"></a>
 
 **1.5.1** 解析対象パッケージの検査（手動、自動を問わず）からは得られない情報
 
