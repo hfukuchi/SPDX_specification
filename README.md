@@ -5,9 +5,14 @@ Japanese translation of SPDX specification
 
 ### Software Package Data Exchange® (SPDX®) はソフトウェア パッケージのライセンス情報やメタデータを企業や組織間で共有するための規格です
 
-### 日本語訳（レビュー版）は以下にあります
+### 日本語訳は以下にあります
 
-* https://github.com/hfukuchi/SPDX_specification/tree/master/review
+* WORD版（レビュー版）
+  * https://github.com/hfukuchi/SPDX_specification/tree/master/review
+
+* MarkDown版（レビュー版）
+  * https://github.com/hfukuchi/SPDX_specification/tree/master/chapters
+
 
 ### SPDXに関して
 
