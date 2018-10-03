@@ -78,17 +78,17 @@
  <extractedText>""THE WHISKEY-WARE LICENSE": whiskeyfan@example.com wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a bottle of whiskey in return.</extractedText>
  </ExtractedLicensingInfo>
 
-# 6.3 License Name <a name="6.3"></a>
+# 6.3 License Name（ライセンス名） <a name="6.3"></a>
 
-**6.3.1** Purpose: Provide a common name of the license that is not on the SPDX list.
+**6.3.1** 目的：SPDXリストに掲載されていないライセンスの共通名を提供する。
 
-Use `NOASSERTION` If there is no common name or it is not known.
+共通名が無い場合、または知られていない場合には、`NOASSERTION` を使用する。
 
-**6.3.2** Intent: Provides a human readable name suitable for use as a title or label of the license when showing compact lists of licenses from the SPDX data to humans.
+**6.3.2** 意図：SPDXデータから取り出したコンパクトなライセンスリストを人に提示する際に、ライセンスのタイトルやラベルとして使用するのに適した人間が可読な名前を提供する。
 
-**6.3.3** Cardinality: Conditional (mandatory, one) if license is not on SPDX License List.
+**6.3.3**  基数：条件付き（必須、1）　ライセンスがSPDXライセンスリストに掲載されていない場合
 
-**6.3.4** Data Format: Single line of text | `NOASSERTION`.
+**6.3.4** データ フォーマット：1行の文 | `NOASSERTION`.
 
 **6.3.5** Tag: `LicenseName:`
 
@@ -105,7 +105,7 @@ Use `NOASSERTION` If there is no common name or it is not known.
  </ExtractedLicensingInfo>
 
 
-# 6.4 License Cross Reference <a name="6.4"></a>
+# 6.4 License Cross Reference（ライセンス相互参照） <a name="6.4"></a>
 
 **6.4.1** Purpose: Provide a pointer to the official source of a license that is not included in the SPDX License List, that is referenced by the License Identifier.
 
