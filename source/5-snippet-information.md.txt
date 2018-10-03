@@ -55,13 +55,9 @@ Example using document URI:
 
 **5.2.4** DataFormat: ["DocumentRef-"[idstring]":"] SPDXID
 
-where `DocumentRef-[idstring]`: is an optional reference to an external
+where `DocumentRef-[idstring]`: is an optional reference to an external SPDX document as described in [section 2.6](2-document-creation-information.md#2.6)
 
-SPDX document as described in [section 2.6](2-document-creation-information.md#2.6)
-
-where `SPDXID` is a string containing letters, numbers, `.` and/or `-`. as
-
-described in sections (2.3, 3.2, 4.2).
+where `SPDXID` is a string containing letters, numbers, `.` and/or `-`. as described in sections (2.3, 3.2, 4.2).
 
 **5.2.5** Tag: `SnippetFromFileSPDXID:`
 
@@ -215,7 +211,7 @@ A valid SPDX License Expression as defined in Appendix IV.
 
 If the Concluded License is not the same as the License Information in File, a written explanation should be provided in the Comments on License field ([section 5.7](#5.7)). With respect to `NOASSERTION`, a written explanation in the Comments on License field ([section 5.7](#5.7)) is preferred.
 
-**5.5.2** Intent: Here, the intent is for the SPDX document creator to reconcile the license information known about the snippet,  what license information is in the file itself and other objective information for a package, along with the results from any scanning tools, to arrive at a reasonably objective conclusion as to what license governs the snippet.
+**5.5.2** Intent: Here, the intent is for the SPDX document creator to reconcile the license information known about the snippet, what license information is in the file itself and other objective information for a package, along with the results from any scanning tools, to arrive at a reasonably objective conclusion as to what license governs the snippet.
 
 **5.5.3** Cardinality: Mandatory, one.
 
@@ -287,13 +283,9 @@ If license information for more than one license is contained in the snippet or 
 
 where:
 
-`<SPDX License Expression>` is a valid SPDX License Expression
+`<SPDX License Expression>` is a valid SPDX License Expression as defined in [Appendix IV](appendix-IV-SPDX-license-expressions.md).
 
-as defined in [Appendix IV](appendix-IV-SPDX-license-expressions.md).
-
-"DocumentRef-"`[idstring]`: is an optional reference to an external SPDX
-
-document as described in [section 2.6](2-document-creation-information.md#2.6)
+"DocumentRef-"`[idstring]`: is an optional reference to an external SPDX document as described in [section 2.6](2-document-creation-information.md#2.6)
 
 `[idstring]` is a unique string containing letters, numbers, `.` and/or `-`.
 
@@ -318,7 +310,7 @@ Example:
 
 **5.7.1** Purpose: This field provides a place for the SPDX document creator to record any relevant background references or analysis that went in to arriving at the Concluded License for a snippet.
 
-**5.7.2** Intent: Here, the intent is to provide the recipient of the SPDX document with a detailed explanation of how the Concluded License was determined for a Snippet  if it does not match the License Information in File, is marked `NOASSERTION`, or other helpful information relevant to determining the license of the snippet in a file.
+**5.7.2** Intent: Here, the intent is to provide the recipient of the SPDX document with a detailed explanation of how the Concluded License was determined for a Snippet if it does not match the License Information in File, is marked `NOASSERTION`, or other helpful information relevant to determining the license of the snippet in a file.
 
 **5.7.3** Cardinality: Optional, one.
 
@@ -326,7 +318,7 @@ Example:
 
 **5.7.5** Tag: `SnippetLicenseComments:`
 
-In `tag:value` format multiple lines are delimited by `<text> .. </text>`.
+In `tag:value` format multiple lines are delimited by `<text>..</text>`.
 
 Example:
 
@@ -340,9 +332,7 @@ Example:
     <Snippet rdf:about="...h>
         ...
         <licenseComments>
-            The concluded license was taken from package xyz, from which the snippet
-            was copied into the current file. The concluded license information was found
-            in the COPYING.txt file in package xyz.
+            The concluded license was taken from package xyz, from which the snippet was copied into the current file. The concluded license information was found in the COPYING.txt file in package xyz.
         </licenseComments>
         ...
     </Snippet>
@@ -365,7 +355,7 @@ any text relating to a copyright notice, even if not complete;
 
 **5.8.5** Tag: `SnippetCopyrightText:`
 
-In `tag:value` format multiple lines are delimited by `<text> .. </text>`.
+In `tag:value` format multiple lines are delimited by `<text>..</text>`.
 
 Example:
 
@@ -395,12 +385,11 @@ Example:
 
 **5.9.5** Tag: `SnippetComment:`
 
-In `tag:value` format multiple lines are delimited by `<text> .. </text>`.
+In `tag:value` format multiple lines are delimited by `<text>..</text>`.
 
 Example:
 
-    SnippetComment: <text>This snippet was identified as significant and highlighted in this Apache-2.0 file,
-    when a commercial scanner identified it as being derived from file foo.c in package xyz which is licensed under GPL-2.0.</text>
+    SnippetComment: <text>This snippet was identified as significant and highlighted in this Apache-2.0 file, when a commercial scanner identified it as being derived from file foo.c in package xyz which is licensed under GPL-2.0.</text>
 
 **5.9.6** RDF: Property `rdfs:comment` in class `spdx:Snippet`
 
@@ -409,9 +398,7 @@ Example:
     <Snippet rdf:about="...">
         ...
         <rdfs:comment>
-            This snippet was identified as significant and highlighted in this Apache-2.0
-            file, when a commercial scanner identified it as being derived from file foo.c
-            in package xyz which is licensed under GPL-2.0.
+            This snippet was identified as significant and highlighted in this Apache-2.0 file, when a commercial scanner identified it as being derived from file foo.c in package xyz which is licensed under GPL-2.0.
         </rdfs:comment>
         ...
     </Snippet>

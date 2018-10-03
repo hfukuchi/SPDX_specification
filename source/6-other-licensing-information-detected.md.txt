@@ -52,7 +52,7 @@ Examples:
 
 **6.2.5** Tag: `ExtractedText:`
 
-In `tag:value` format multiple lines are delimited by `<text> .. </text>`.
+In `tag:value` format multiple lines are delimited by `<text>..</text>`.
 
 Example 1 (if only short reference to license present in File):
 
@@ -141,7 +141,7 @@ Example:
 
 **6.5.5** Tag: `LicenseComment:`
 
-In `tag:value` format multiple lines are delimited by `<text> .. </text>`.
+In `tag:value` format multiple lines are delimited by `<text>..</text>`.
 
 Example:
 

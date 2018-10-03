@@ -76,7 +76,7 @@ Software Package Data Exchange（ソフトウェア パッケージ データ交
 
 "This is not an official SPDX Specification. Portions herein have been reproduced from SPDXR Specification 2.1.1 found at spdx.org. These portions are Copyright c 2010-2018 Linux Foundation and its Contributors, and are licensed under the Creative Commons Attribution License 3.0 Unported by the Linux Foundation and its Contributors. All other rights are expressly reserved by Linux Foundation and its Contributors."
 
-## 1.8 1.8 SPDX仕様2.0からの差分 <a name="1.8"></a>
+## 1.8 SPDX仕様2.0からの差分 <a name="1.8"></a>
 
 **1.8.1** ファイルの一部分がファイル全体と異なる属性を持てるように、コード断片（Snippets）が追加された。コード断片の仕様は、完全に任意であり、コード断片を識別する必要はない。コード断片を記述するフィールドの詳細については、[セクション5 コード断片情報](./5-snippet-information.md) を参照。
 
