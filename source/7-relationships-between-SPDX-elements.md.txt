@@ -96,7 +96,7 @@ Examples:
 
 **7.2.5** Tag: `RelationshipComment:`
 
-In `tag:value` format multiple lines are delimited by `<text> .. </text>`.
+In `tag:value` format multiple lines are delimited by `<text>..</text>`.
 
 A `RelationshipComment:` must be the line immediately after a ÅgRelationship:Åh
 

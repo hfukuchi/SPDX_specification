@@ -62,10 +62,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>"Tool: tool identifier - version”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063140Z" creationid="hfukuchi" creationdate="20181005T063140Z">
+        <seg>"Tool: ツール識別子 - バージョン”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># 1 Rationale</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180927T064423Z" creationid="hfukuchi" creationdate="20180927T064423Z">
-        <seg># 1 理論的根拠</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061826Z" creationid="hfukuchi" creationdate="20180927T064423Z">
+        <seg># 1 Rationale（理論的根拠）</seg>
       </tuv>
     </tu>
     <tu>
@@ -118,6 +126,78 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># 6.3 License Name &lt;a name="6.3"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T053917Z" creationid="hfukuchi" creationdate="20181003T053917Z">
+        <seg># 6.3 License Name（ライセンス名） &lt;a name="6.3"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># 6.4 License Cross Reference &lt;a name="6.4"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T054148Z" creationid="hfukuchi" creationdate="20181003T054148Z">
+        <seg># 6.4 License Cross Reference（ライセンス相互参照） &lt;a name="6.4"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># 7 Relationships between SPDX Elements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T030620Z" creationid="hfukuchi" creationdate="20181005T030620Z">
+        <seg># 7 Relationships between SPDX Elements（SPDX要素間の関係）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># 8 Annotations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061739Z" creationid="hfukuchi" creationdate="20181005T061739Z">
+        <seg># 8 Annotations（注釈）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># 9 Review Information (deprecated)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064614Z" creationid="hfukuchi" creationdate="20181005T064614Z">
+        <seg># 9 Review Information (deprecated)（レビュー情報）(deprecated)（廃止予定）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># 9.2 Review Date (deprecated) &lt;a name="9.2"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065016Z" creationid="hfukuchi" creationdate="20181005T065016Z">
+        <seg># 9.2 Review Date（レビュー 日時） (deprecated)（廃止予定） &lt;a name="9.2"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Appendix II: License Matching Guidelines and Templates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T070029Z" creationid="hfukuchi" creationdate="20181005T070029Z">
+        <seg># Appendix II: License Matching Guidelines and Templates（ライセンス整合ガイドラインとテンプレート）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># Appendix III: RDF Data Model Implementation and Identifier Syntax</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075715Z" creationid="hfukuchi" creationdate="20181005T075715Z">
+        <seg># Appendix III: RDF Data Model Implementation and Identifier Syntax（RDFデータ モデル実装と識別子構文）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg># SPDX License Expressions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T080307Z" creationid="hfukuchi" creationdate="20181005T080307Z">
+        <seg># SPDX License Expressions（SPDXライセンス表現）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg># The Software Package Data Exchange (SPDXR) Specification Version 2.1.1</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20181003T040556Z" creationid="hfukuchi" creationdate="20181003T040556Z">
@@ -128,16 +208,16 @@
       <tuv lang="EN-US">
         <seg>## 1.1 Charter &lt;a name="1.1"&gt;&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180927T064516Z" creationid="hfukuchi" creationdate="20180927T064516Z">
-        <seg>## 1.1 趣意 &lt;a name="1.1"&gt;&lt;/a&gt;</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061832Z" creationid="hfukuchi" creationdate="20180927T064516Z">
+        <seg>## 1.1Charter（ 趣意） &lt;a name="1.1"&gt;&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>## 1.2 Definition &lt;a name="1.2"&gt;&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20181002T093832Z" creationid="hfukuchi" creationdate="20180927T064533Z">
-        <seg>## 1.2 定義 &lt;a name="1.2"&gt;&lt;/a&gt;</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061850Z" creationid="hfukuchi" creationdate="20180927T064533Z">
+        <seg>## 1.2 Definition （定義） &lt;a name="1.2"&gt;&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -152,32 +232,32 @@
       <tuv lang="EN-US">
         <seg>## 1.4 What does this specification cover?</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180927T064707Z" creationid="hfukuchi" creationdate="20180927T064707Z">
-        <seg>## 1.4 この仕様はどの項目をカバーしているか？</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063014Z" creationid="hfukuchi" creationdate="20180927T064707Z">
+        <seg>## 1.4 What does this specification cover?（この仕様はどの項目をカバーしているか？）</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>## 1.5 What is not covered in the specification?</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20181002T093951Z" creationid="hfukuchi" creationdate="20180927T065112Z">
-        <seg>## 1.5 この仕様はどの項目をカバーしないか？</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063033Z" creationid="hfukuchi" creationdate="20180927T065112Z">
+        <seg>## 1.5 What is not covered in the specification?（この仕様はどの項目をカバーしないか？）</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>## 1.6 Format Requirements &lt;a name="1.6"&gt;&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180927T065227Z" creationid="hfukuchi" creationdate="20180927T065227Z">
-        <seg>## 1.6 フォーマットに対する要求 &lt;a name="1.6"&gt;&lt;/a&gt;</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061926Z" creationid="hfukuchi" creationdate="20180927T065227Z">
+        <seg>## 1.6 Format Requirements （フォーマットに対する要求） &lt;a name="1.6"&gt;&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>## 1.7 Conformance &lt;a name="1.7"&gt;&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180927T065608Z" creationid="hfukuchi" creationdate="20180927T065608Z">
-        <seg>## 1.7 適合 &lt;a name="1.7"&gt;&lt;/a&gt;</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061952Z" creationid="hfukuchi" creationdate="20180927T065608Z">
+        <seg>## 1.7 Conformance（適合） &lt;a name="1.7"&gt;&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -646,6 +726,118 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>## 7.1 Relationship &lt;a name="7.1"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T030630Z" creationid="hfukuchi" creationdate="20181005T030630Z">
+        <seg>## 7.1 Relationship（生成時期） &lt;a name="7.1"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## 7.2 Relationship Comment &lt;a name="7.2"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061120Z" creationid="hfukuchi" creationdate="20181005T061120Z">
+        <seg>## 7.2 Relationship Comment（関係コメント） &lt;a name="7.2"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## 8.1 Annotator &lt;a name="8.1"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T062434Z" creationid="hfukuchi" creationdate="20181005T062434Z">
+        <seg>## 8.1 Annotator（注釈者） &lt;a name="8.1"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## 8.2 Annotation Date &lt;a name="8.2"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063203Z" creationid="hfukuchi" creationdate="20181005T063203Z">
+        <seg>## 8.2 Annotation Date（注釈日時） &lt;a name="8.2"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## 8.3 Annotation Type &lt;a name="8.3"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063330Z" creationid="hfukuchi" creationdate="20181005T063330Z">
+        <seg>## 8.3 Annotation Type（注釈タイプ） &lt;a name="8.3"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## 8.4 SPDX Identifier Reference &lt;a name="8.4"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063611Z" creationid="hfukuchi" creationdate="20181005T063611Z">
+        <seg>## 8.4 SPDX Identifier Reference（SPDX識別子参照） &lt;a name="8.4"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## 8.5 Annotation Comment &lt;a name="8.5"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064004Z" creationid="hfukuchi" creationdate="20181005T064004Z">
+        <seg>## 8.5 Annotation Comment（注釈コメント） &lt;a name="8.5"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## 9.1 Reviewer (deprecated) &lt;a name="9.1"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064812Z" creationid="hfukuchi" creationdate="20181005T064812Z">
+        <seg>## 9.1 Reviewer（レビュアー） (deprecated)（廃止予定） &lt;a name="9.1"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## 9.3 Review Comment (deprecated) &lt;a name="9.3"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065221Z" creationid="hfukuchi" creationdate="20181005T065221Z">
+        <seg>## 9.3 Review Comment（レビュー コメント） (deprecated) （廃止予定）&lt;a name="9.3"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## Agent and Tool Identifiers</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075400Z" creationid="hfukuchi" creationdate="20181005T075400Z">
+        <seg>## Agent and Tool Identifiers（エージェントとツール識別子）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## I.1 Licenses with Short Identifiers &lt;a name="I.1"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T060115Z" creationid="hfukuchi" creationdate="20181003T060115Z">
+        <seg>## I.1 Licenses with Short Identifiers（ライセンスと簡易識別子） &lt;a name="I.1"&gt;&lt;/a&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## Overview</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T080334Z" creationid="hfukuchi" creationdate="20181005T080334Z">
+        <seg>## Overview（概要）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## SPDX License List Template Access</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T071440Z" creationid="hfukuchi" creationdate="20181005T071440Z">
+        <seg>## SPDX License List Template Access（SPDXライセンス リスト テンプレート アクセス）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## Template Format</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T071859Z" creationid="hfukuchi" creationdate="20181005T071859Z">
+        <seg>## テンプレート フォーマット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>##4.9 Artifact of Project Name (deprecated) &lt;a name="4.9"&gt;&lt;/a&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20181001T090902Z" creationid="hfukuchi" creationdate="20181001T090902Z">
@@ -886,10 +1078,98 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Indicated by &lt;&lt;beginOptional;...&gt;&gt; and &lt;&lt;endOptional&gt;&gt; respectively.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T074951Z" creationid="hfukuchi" creationdate="20181005T074951Z">
+        <seg>*  &lt;&lt;beginOptional; ...&gt;&gt; と &lt;&lt;endOptional&gt;&gt; で示される</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Indicated by &lt;&lt;var;...&gt;&gt; or...</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T074939Z" creationid="hfukuchi" creationdate="20181005T074939Z">
+        <seg>* &lt;&lt;var; ...&gt;&gt; か...によって示される</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Overview: For general information about the SPDX License List, including principles for inclusion of a license and an explanation of the fields contained on the list.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T054653Z" creationid="hfukuchi" creationdate="20181003T054653Z">
+        <seg>* 概要：SPDXライセンス リストの全般的な情報は、ライセンスの組み合わせとリストに含まれるフィールドの説明に対する原理を含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* The SPDX License List short form identifier, if a detected license is on the SPDX License List;</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180928T033036Z" creationid="hfukuchi" creationdate="20180928T033036Z">
         <seg>* 検出されたライセンスがSPDXライセンス リストにある場合には、SPDXライセンス リスト簡易形式識別子；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* This field is required for a rule type: &lt;&lt;var;...&gt;&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075056Z" creationid="hfukuchi" creationdate="20181005T075047Z">
+        <seg>* このフィールドは規則タイプ&lt;&lt;var; ...&gt;&gt;に対して必須である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* This field is required.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075025Z" creationid="hfukuchi" creationdate="20181005T075025Z">
+        <seg>* このフィールドは必須である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* This field is the first field and is required.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075000Z" creationid="hfukuchi" creationdate="20181005T075000Z">
+        <seg>* このフィールドは、先頭フィールドで必須である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* This field is unique within each license template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075016Z" creationid="hfukuchi" creationdate="20181005T075016Z">
+        <seg>* このフィールドは、各ライセンス テンプレート中で一意である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [License Exceptions][exceptions]: The list of commonly found exceptions to open source licenses, which can be used with the License Expression operator, "WITH" to create a license with an exception.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T054542Z" creationid="hfukuchi" creationdate="20181003T054542Z">
+        <seg>* [License Exceptions][exceptions]: 広く使われているオープン ソース ライセンス例外リストは、ライセンス例外とライセンス表現構文オペレータ"WITH" を使用することで、例外付きライセンスを構成できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Master Files][master-files]: The HTML pages you see here are generated from the master files for the SPDX License List.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T054601Z" creationid="hfukuchi" creationdate="20181003T054601Z">
+        <seg>* [Master Files][master-files]: ここで見ているHTMLページは、SPDXライセンス リスト用マスター ファイルから生成されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Matching Guidelines][matching]: Guidelines for what constitutes a license match to the SPDX License List.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T054708Z" creationid="hfukuchi" creationdate="20181003T054708Z">
+        <seg>* [Matching Guidelines][matching]: 何がSPDXライセンス リストと整合するライセンスであるかを示すガイドライン。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* [Request New License][new-license]: For instructions on how to propose additional licenses or license exceptions be added to the SPDX License List.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T055630Z" creationid="hfukuchi" creationdate="20181003T055630Z">
+        <seg>* [Request New License][new-license]: SPDXライセンス リストへの追加ライセンスやライセンス例外を提案する手順が示される。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1198,6 +1478,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* match: a [POSIX extended regular expession (ERE)](http://pubs.opengroup.org/onlinepubs/9699919799/).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075153Z" creationid="hfukuchi" creationdate="20181005T075153Z">
+        <seg>* 整合： [POSIX拡張正規表現(ERE)](http://pubs.opengroup.org/onlinepubs/9699919799/).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* name: name of the field in the template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075008Z" creationid="hfukuchi" creationdate="20181005T075008Z">
+        <seg>* 名前：テンプレート中のフィールド名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* original: the original text of the rule.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075033Z" creationid="hfukuchi" creationdate="20181005T075033Z">
+        <seg>* オリジナル：規則のオリジナル テキスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* see DESCRIBES relationship for one mandatory case.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T073828Z" creationid="hfukuchi" creationdate="20180904T073828Z">
@@ -1210,6 +1514,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180927T081928Z" creationid="hfukuchi" creationdate="20180927T081928Z">
         <seg>* spdxDocument - 参照されるSPDX文書</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* type: indicates whether the text is replaceable or omitable as per [Matching Guideline #2](http://spdx.org/spdx-license-list/matching-guidelines) (“Substantive Text”).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T072028Z" creationid="hfukuchi" creationdate="20181005T072028Z">
+        <seg>* タイプ： [整合ガイドライン#2](http://spdx.org/spdx-license-list/matching-guidelines) (“Substantive Text”)にあるように、テキストが置換可能か省略可能であるかを示す。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3438,6 +3750,350 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>**6.3.1** Purpose: Provide a common name of the license that is not on the SPDX list.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T053933Z" creationid="hfukuchi" creationdate="20181003T053933Z">
+        <seg>**6.3.1** 目的：SPDXリストに掲載されていないライセンスの共通名を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**6.3.2** Intent: Provides a human readable name suitable for use as a title or label of the license when showing compact lists of licenses from the SPDX data to humans.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T054022Z" creationid="hfukuchi" creationdate="20181003T054022Z">
+        <seg>**6.3.2** 意図：SPDXデータから取り出したコンパクトなライセンスリストを人に提示する際に、ライセンスのタイトルやラベルとして使用するのに適した人間が可読な名前を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**6.3.3** Cardinality: Conditional (mandatory, one) if license is not on SPDX License List.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T054112Z" creationid="hfukuchi" creationdate="20181003T054112Z">
+        <seg>**6.3.3**  基数：条件付き（必須、1）　ライセンスがSPDXライセンスリストに掲載されていない場合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**6.3.4** Data Format: Single line of text | `NOASSERTION`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T054127Z" creationid="hfukuchi" creationdate="20181003T054127Z">
+        <seg>**6.3.4** データ フォーマット：1行の文 | `NOASSERTION`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**7.1.1** Purpose: This field provides information about the relationship between two SPDX elements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T030703Z" creationid="hfukuchi" creationdate="20181005T030703Z">
+        <seg>**7.1.1** 目的：このフィールドは2つのSPDX要素間の関係に対する情報を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**7.1.2** Intent: Here, this field is a reasonable estimation of the relation between two identified elements (i.e. files or packages, or documents), from a developer perspective.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060641Z" creationid="hfukuchi" creationdate="20181005T060641Z">
+        <seg>**7.1.2** 意図：このフィールドは、開発者視点からの、2つの識別された要素（すなわち、ファイル、パッケージ、文書）間の関係の合理的な推定である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**7.1.3** Cardinality: Optional*, multiple.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060655Z" creationid="hfukuchi" creationdate="20181005T060655Z">
+        <seg>**7.1.3** 基数：任意、複数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**7.1.4** Data Format:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060753Z" creationid="hfukuchi" creationdate="20181005T060753Z">
+        <seg>**7.1.4** データ フォーマット：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**7.2.1** Purpose: This field provides a place for the SPDX file creator to record any general comments about the relationship.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061134Z" creationid="hfukuchi" creationdate="20181005T061134Z">
+        <seg>**7.2.1** 目的：このフィールドは、SPDXファイル作成者に、関係に対する一般的なコメントを記録する場所を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**7.2.2** Intent: Here, the intent is to provide the recipient of the SPDX file with more information determined after careful analysis of the relationship between two elements in an SPDX file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061146Z" creationid="hfukuchi" creationdate="20181005T061146Z">
+        <seg>**7.2.2** 意図：SPDX文書の受領者に、SPDXファイル中の2つの要素間の関係に対する注意深い解析の後に決定された情報を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**7.2.3** Cardinality: Optional, one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061158Z" creationid="hfukuchi" creationdate="20181005T061158Z">
+        <seg>**7.2.3** 基数：任意、1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**7.2.4** Data Format: Free form text that can span multiple lines, refers only to the immediately preceding relationship.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061211Z" creationid="hfukuchi" creationdate="20181005T061211Z">
+        <seg>**7.2.4** データ フォーマット：直前に先行する関係についてのみ言及する自由形式文（複数行に渡ってもよい）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.1.1** Purpose: This field identifies the person, organization or tool that has commented on a file, package, or the entire document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T062449Z" creationid="hfukuchi" creationdate="20181005T062449Z">
+        <seg>**8.1.1** 目的：このフィールドは、ファイル、パッケージ、文書全体に対してコメントした個人、組織、ツールを特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.1.2** Intent: It may also be important for participants in the software supply chain to validate and add information on ambiguous files, and packages.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T062501Z" creationid="hfukuchi" creationdate="20181005T062501Z">
+        <seg>**8.1.2** 意図：ソフトウェア サプライチェーンの一員にとって、不明瞭なファイルやパッケージを検証して情報を追加することは重要である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.1.3** Cardinality: Conditional (Mandatory, one), if there is an Annotation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T062514Z" creationid="hfukuchi" creationdate="20181005T062514Z">
+        <seg>**8.1.3** 基数：条件付き（必須、1）、Annotation（注釈）がある場合.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.1.4** Data Format: Single line of text with the following keywords.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T062529Z" creationid="hfukuchi" creationdate="20181005T062529Z">
+        <seg>**8.1.4** データ フォーマット：以下のキーワードを含む1行の文。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.2.1** Purpose: Identify when the comment was made.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063217Z" creationid="hfukuchi" creationdate="20181005T063217Z">
+        <seg>**8.2.1** 目的：いつコメントされたかを特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.2.2** Intent: Here, the Annotation Date can serve as a verification as to when the actual review was done.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063233Z" creationid="hfukuchi" creationdate="20181005T063233Z">
+        <seg>**8.2.2** 意図：注釈日時は、実際のレビューがいつ行われたかの確認となる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.2.3** Cardinality: Conditional (Mandatory, one), if there is an Annotation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063245Z" creationid="hfukuchi" creationdate="20181005T063245Z">
+        <seg>**8.2.3** 基数：条件付き（必須、1）、Annotation（注釈）がある場合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.2.4** Data Format: `YYYY-MM-DDThh:mm:ssZ`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063259Z" creationid="hfukuchi" creationdate="20181005T063259Z">
+        <seg>**8.2.4** データ フォーマット： `YYYY-MM-DDThh:mm:ssZ`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.3.1** Purpose: This field describes the type of annotation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063342Z" creationid="hfukuchi" creationdate="20181005T063342Z">
+        <seg>**8.3.1** 目的：このフィールドは注釈タイプを記述する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.3.2** Intent: This allows the type of annotation to be recorded.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063521Z" creationid="hfukuchi" creationdate="20181005T063521Z">
+        <seg>**8.3.2** 意図：注釈タイプの記録を可能にする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.3.3** Cardinality: Conditional (Mandatory, one), if there is an Annotation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063534Z" creationid="hfukuchi" creationdate="20181005T063534Z">
+        <seg>**8.3.3** 基数：条件付き（必須、1）、Annotation（注釈）がある場合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.3.4** Data Format: `REVIEW` | `OTHER`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063548Z" creationid="hfukuchi" creationdate="20181005T063548Z">
+        <seg>**8.3.4** データ フォーマット： `REVIEW` | `OTHER`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.4.1** Purpose: Uniquely identify the element in an SPDX document which is being referenced.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063724Z" creationid="hfukuchi" creationdate="20181005T063724Z">
+        <seg>**8.4.1** 目的：参照されているSPDX文書中の要素を一意に特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.4.2** Intent: There may be several versions of the same package or file within an SPDX document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063736Z" creationid="hfukuchi" creationdate="20181005T063736Z">
+        <seg>**8.4.2** 意図：SPDX文書内に、同一パッケージやファイルの複数バージョンがありうる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.4.3** Cardinality: Conditional (Mandatory, one), if there is an Annotation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063747Z" creationid="hfukuchi" creationdate="20181005T063747Z">
+        <seg>**8.4.3** 基数：条件付き（必須、1）、Annotation（注釈）がある場合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.4.4** DataFormat: `[DocumentRef-[idstring]:]SPDXID`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063759Z" creationid="hfukuchi" creationdate="20181005T063759Z">
+        <seg>**8.4.4** データ フォーマット： `[DocumentRef-[idstring]:]SPDXID`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.5.1** Purpose: This optional free form text field permits the annotator to provide commentary on the analysis.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064018Z" creationid="hfukuchi" creationdate="20181005T064018Z">
+        <seg>**8.5.1** 目的：この任意の自由形式テキストフィールドによって、注釈者が解析についてコメントすることが可能になる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.5.2** Intent: This allows the annonator to provide independent assessment and note any points where there is disagreement with the analysis.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064028Z" creationid="hfukuchi" creationdate="20181005T064028Z">
+        <seg>**8.5.2** 意図：注釈者は、独立したアセスメントを提供し、解析に合意できない点を記述できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.5.3** Cardinality: Conditional (Mandatory, one), if there is an Annotation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064040Z" creationid="hfukuchi" creationdate="20181005T064040Z">
+        <seg>**8.5.3** 基数：条件付き（必須、1）、Annotation（注釈）がある場合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**8.5.4** Data Format: Free form text that can span multiple lines.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064051Z" creationid="hfukuchi" creationdate="20181005T064051Z">
+        <seg>**8.5.4** データ フォーマット：自由形式文（複数行に渡ってもよい）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.1.1** Purpose: This field identifies the person, organization or tool that has reviewed the SPDX file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064829Z" creationid="hfukuchi" creationdate="20181005T064829Z">
+        <seg>**9.1.1** 目的：このフィールドは、SPDXファイルをレビューした個人、組織、ツールを特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.1.2** Intent: Here, as time progresses certain reviewers will begin to gain credibility as reliable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064923Z" creationid="hfukuchi" creationdate="20181005T064923Z">
+        <seg>**9.1.2** 意図：時間経過とともに、あるレビュアーは信頼性という信用を得ることができる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.1.3** Cardinality: Optional, one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064936Z" creationid="hfukuchi" creationdate="20181005T064936Z">
+        <seg>**9.1.3** 基数：任意、1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.1.4** Data Format: Single line of text with the following keywords.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064945Z" creationid="hfukuchi" creationdate="20181005T064945Z">
+        <seg>**9.1.4** データ フォーマット：以下のキーワードを含む1行の文。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.2.1** Purpose: Identify when the review was done.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065031Z" creationid="hfukuchi" creationdate="20181005T065031Z">
+        <seg>**9.2.1** 目的：いつレビューされたかを特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.2.2** Intent: Here, the `ReviewDate` can serve as a verification as to when the actual review was done.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065111Z" creationid="hfukuchi" creationdate="20181005T065111Z">
+        <seg>**9.2.2** 意図： `ReviewDate` （レビュー日時）は、実際のレビューがいつ行われたかの確認となる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.2.4** Data Format: `YYYY-MM-DDThh:mm:ssZ`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065136Z" creationid="hfukuchi" creationdate="20181005T065136Z">
+        <seg>**9.2.4** データ フォーマット： `YYYY-MM-DDThh:mm:ssZ`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.3.1** Purpose: This optional free form text field permits the reviewer to provide commentary on the analysis.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065232Z" creationid="hfukuchi" creationdate="20181005T065232Z">
+        <seg>**9.3.1** 目的：この任意の自由形式テキストフィールドによって、レビュアーが解析についてコメントすることが可能になる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.3.2** Intent: This allows the reviewer to provide independent assessment and note any points where there is disagreement with the analysis.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065241Z" creationid="hfukuchi" creationdate="20181005T065241Z">
+        <seg>**9.3.2** 意図：レビュアーは、独立したアセスメントを提供し、解析に合意できない点を記述できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.3.3** Cardinality: Optional, one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065251Z" creationid="hfukuchi" creationdate="20181005T065251Z">
+        <seg>**9.3.3** 基数：任意、1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>**9.3.4** Data Format: Free form text that can span multiple lines.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065303Z" creationid="hfukuchi" creationdate="20181005T065303Z">
+        <seg>**9.3.4** データ フォーマット：自由形式文（複数行に渡ってもよい）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- CreatorWebsite is a website hosted by the creator of the document.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T050835Z" creationid="hfukuchi" creationdate="20180822T050835Z">
@@ -4342,6 +4998,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;rdfs:comment&gt;All of the licenses seen in the file, are matching what was seen during manual inspection.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064446Z" creationid="hfukuchi" creationdate="20181005T064446Z">
+        <seg>&lt;rdfs:comment&gt;ファイルにあるすべてのライセンスは、人手の検査で見たものと整合している。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;spdx:SpdxDocument rdf:about="http://spdx.org/spdxdocs/spdx?example?444504E0?4F89?41D3?9A0C?0305E82C 3301#SPDXRef?DOCUMENT"&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T050319Z" creationid="hfukuchi" creationdate="20180822T050319Z">
@@ -4466,6 +5130,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180827T070105Z" creationid="hfukuchi" creationdate="20180827T070105Z">
         <seg>&lt;type&gt; はAppendix IVで定義される [idstring] である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A BINARY file `foolib.a` is generated from a SOURCE file `bar.c`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051620Z" creationid="hfukuchi" creationdate="20181005T051620Z">
+        <seg>BINARY（バイナリー）ファイル‘foolib.a’ はSOURCE（ソース）ファイル‘bar.c’から生成された。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4658,6 +5330,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T070739Z" creationid="hfukuchi" creationdate="20180904T070739Z">
         <seg>SOURCE（ソース）ファイル‘pom.xml’はAPPLICATION（アプリケーション ‘Apache Xerces’のメタファイルである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A `RelationshipComment:` must be the line immediately after a “Relationship:”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061454Z" creationid="hfukuchi" creationdate="20181005T061454Z">
+        <seg>A `RelationshipComment:` “Relationship:”直後の文でなければならない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5206,6 +5886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>AnnotationComment: &lt;text&gt;All of the licenses seen in the file, are matching what was seen during manual inspection.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064114Z" creationid="hfukuchi" creationdate="20181005T064114Z">
+        <seg>AnnotationComment: &lt;text&gt;ファイルにあるすべてのライセンスは、人手の検査で見たものと整合している。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Annotations and Relationships for the package may appear after the Package Information before any file information.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180927T085610Z" creationid="hfukuchi" creationdate="20180927T085610Z">
@@ -5218,6 +5906,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T084134Z" creationid="hfukuchi" creationdate="20180904T084134Z">
         <seg>注釈は通常誰かがファイルをレビューした際に作成される。このケースでは、注釈タイプはREVIEW（レビュー）とするべきである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Annotations are usually created when someone reviews the file, and if this is the case the annotation type should be `REVIEW`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063416Z" creationid="hfukuchi" creationdate="20181005T063416Z">
+        <seg>注釈は通常誰かがファイルをレビューした際に作成される。このケースでは、注釈タイプは`REVIEW`（レビュー）とするべきである。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5314,6 +6010,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180921T044610Z" creationid="hfukuchi" creationdate="20180906T085535Z">
         <seg>すべてのレビュー情報は、注釈タイプとしてannotationType_reviewを指定したAnnotation（注釈）（セクション7で説明）を使用すべきである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any review information should use an Annotation (as described in [section 8](./8-annotations.md)) with an annotation type of `annotationType_review`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064739Z" creationid="hfukuchi" creationdate="20181005T064739Z">
+        <seg>すべてのレビュー情報は、注釈タイプとして`annotationType_review`を指定したAnnotation（注釈）（[セクション 8](./8-annotations.md)) で説明）を使用すべきである。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7566,6 +8270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the full and most up-to-date version of the SPDX License List as well as other related information, please see [http://spdx.org/licenses/](http://spdx.org/licenses/)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T055733Z" creationid="hfukuchi" creationdate="20181003T055723Z">
+        <seg>SPDXライセンス リストや他情報の最新版は[http://spdx.org/licenses/](http://spdx.org/licenses/)を参照</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the full and most up-to-date version of the SPDX License List as well as other related information, please see http://spdx.org/licenses/</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180913T032916Z" creationid="hfukuchi" creationdate="20180910T090801Z">
@@ -7962,6 +8674,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180905T044130Z" creationid="hfukuchi" creationdate="20180905T044130Z">
         <seg>作成者が、作成時にある要素に対する追加情報を保存したい場合には、注釈タイプはOTHER（その他）とすることが推奨される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the author wants to store extra information about one of the elements during creation, it is recommended to use the type of `OTHER`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063441Z" creationid="hfukuchi" creationdate="20181005T063441Z">
+        <seg>作成者が、作成時にある要素に対する追加情報を保存したい場合には、注釈タイプは`OTHER`（その他）とすることが推奨される。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11118,6 +11838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>RelationshipComment: &lt;text&gt;The package foo.tgz is a pre-requisite for building executable bar.&lt;/text&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061712Z" creationid="hfukuchi" creationdate="20181005T061712Z">
+        <seg>RelationshipComment: &lt;text&gt;パッケージ foo.tgz は実行形式barをビルドするための前提条件である。&lt;/text&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Relationships Between SPDX Elements: Information on how Documents, Packages &amp; Files relate to each other.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180921T025136Z" creationid="hfukuchi" creationdate="20180821T090211Z">
@@ -11186,6 +11914,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180906T085631Z" creationid="hfukuchi" creationdate="20180906T085631Z">
         <seg>レビュー情報は、初期SPDXファイルを作成した後、追加できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ReviewComment: &lt;text&gt;All of the licenses seen in the file, are matching what was seen during manual inspection.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065603Z" creationid="hfukuchi" creationdate="20181005T065603Z">
+        <seg>ReviewComment: &lt;text&gt;ファイルにあるすべてのライセンスは、人手の検査で見たものと整合している。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11282,6 +12018,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180911T081658Z" creationid="hfukuchi" creationdate="20180911T081658Z">
         <seg>SPDX License List Template Access（SPDXライセンス リスト テンプレート アクセス）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>SPDX R Vocabulary Specification</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075725Z" creationid="hfukuchi" creationdate="20181005T075725Z">
+        <seg>SPDX R Vocabulary Specification（語彙仕様）</seg>
       </tuv>
     </tu>
     <tu>
@@ -11514,6 +12258,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180802T054255Z" creationid="hfukuchi" creationdate="20180802T054255Z">
         <seg>「SPDX要素間の関係」を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See: [http://spdx.org/rdf/ontology/spdx-2-1](http://spdx.org/rdf/ontology/spdx-2-1)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075735Z" creationid="hfukuchi" creationdate="20181005T075735Z">
+        <seg>参照：[http://spdx.org/rdf/ontology/spdx-2-1](http://spdx.org/rdf/ontology/spdx-2-1)</seg>
       </tuv>
     </tu>
     <tu>
@@ -12486,10 +13238,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The [POSIX ERE]( http://pubs.opengroup.org/onlinepubs/9699919799/) in the match field has the following restrictions and extensions:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T075251Z" creationid="hfukuchi" creationdate="20181005T075251Z">
+        <seg>整合ファイル中の[POSIX ERE]( http://pubs.opengroup.org/onlinepubs/9699919799/) は、以下の制限と拡張を有する：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The [SHA-1][] algorithm will be used to provide the checksum by default.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180928T023508Z" creationid="hfukuchi" creationdate="20180928T023508Z">
         <seg>[SHA-1][] アルゴリズムが、チェックサム計算にデフォルトで使用される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The [SPDX License List Matching Guidelines](http://spdx.org/spdx-license-list/matching-guidelines) provide guidelines to be used for the purposes of matching licenses and license exceptions against those found on the SPDX License List.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T071417Z" creationid="hfukuchi" creationdate="20181005T071417Z">
+        <seg>[SPDX License List Matching Guidelines（SPDXライセンス リスト整合ガイドライン）](http://spdx.org/spdx-license-list/matching-guidelines) は、SPDXライセンス リストに載っているライセンスやライセンス例外と整合を取る目的で提供される。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12614,6 +13382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The exact syntax of agent and tool identifications is described below in [ABNF](http://tools.ietf.org/html/rfc5234).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T080212Z" creationid="hfukuchi" creationdate="20181005T080154Z">
+        <seg>エージェントとツールを識別する正確な構文は、以下のように[ABNF（オーグメンティッド バッカス ナウア記法 ）](http://tools.ietf.org/html/rfc5234)で記述される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The exact syntax of license expressions is described below in ABNF.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180921T090102Z" creationid="hfukuchi" creationdate="20180912T063038Z">
@@ -12702,6 +13478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The master files include a spreadsheet listing all the licenses, deprecated licenses, and license exceptions; and the text for each license in a .txt file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T054636Z" creationid="hfukuchi" creationdate="20181003T054636Z">
+        <seg>マスター ファイルは、すべてのライセンス、廃止予定のライセンス、ライセンス例外がリストされたスプレッドシートと、各ライセンスに対するテキストが記載された.txtファイルが含まれる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The minor field will be incremented when backwards compatible changes are made.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180821T092500Z" creationid="hfukuchi" creationdate="20180821T092500Z">
@@ -12770,6 +13554,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180913T083848Z" creationid="hfukuchi" creationdate="20180913T083848Z">
         <seg>表現中の演算子の適用順序は重要である。（算術演算子と似ている）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The package foo.tgz is a pre-requisite for building executable bar.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T061655Z" creationid="hfukuchi" creationdate="20181005T061552Z">
+        <seg>パッケージ foo.tgz は実行形式barをビルドするための前提条件である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13022,6 +13814,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are some terms that can influence the concluded license, and some alternatives may be possible, but the concluded license is one of the options.&lt;/rdfs:comment&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T065635Z" creationid="hfukuchi" creationdate="20181005T065635Z">
+        <seg>ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。&lt;/rdfs:comment&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are some terms that can influence the concluded license, and some alternatives may be possible, but the concluded license is one of the options.&lt;/text&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064428Z" creationid="hfukuchi" creationdate="20181005T064428Z">
+        <seg>ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。&lt;/text&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There can only be one URI for an SPDX document and only one SPDX document for a given URI.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180822T050640Z" creationid="hfukuchi" creationdate="20180822T050640Z">
@@ -13050,6 +13858,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180910T083234Z" creationid="hfukuchi" creationdate="20180910T083234Z">
         <seg>これらのファイルはGitリポジトリで入手可能である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These files are available in a [Git repository](https://github.com/spdx/license-list-XML).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T071841Z" creationid="hfukuchi" creationdate="20181005T071841Z">
+        <seg>これらのファイルは[Gitリポジトリ](https://github.com/spdx/license-list-XML)で入手可能である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13160,8 +13976,8 @@
       <tuv lang="EN-US">
         <seg>This can be considered as an equivalent to “signed off” or “reviewed by.” Additional reviewers can be added after the original version of the SPDX file is created and be appended to the original file.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180906T092029Z" creationid="hfukuchi" creationdate="20180906T092029Z">
-        <seg>これは、“signed off” や “reviewed by.”と同一であるとみなしてよい。 Additional reviewers can be added after the original version of the SPDX file is created and be appended to the original file.</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T064914Z" creationid="hfukuchi" creationdate="20180906T092029Z">
+        <seg>これは、“signed off” や “reviewed by.”と同一であるとみなしてよい。 追加のレビュアーは、SPDXファイルの初期バージョンが作成された後に追加でき、オリジナル ファイルに付録でつけられる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13718,6 +14534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use `NOASSERTION` If there is no common name or it is not known.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181003T054005Z" creationid="hfukuchi" creationdate="20181003T054005Z">
+        <seg>共通名が無い場合、または知られていない場合には、`NOASSERTION` を使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use `NOASSERTION` if:</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180928T012000Z" creationid="hfukuchi" creationdate="20180928T012000Z">
@@ -14102,6 +14926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>["DocumentRef-"[idstring]":"] is an optional reference to an external SPDX document as described in section 2.6</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063823Z" creationid="hfukuchi" creationdate="20181005T063823Z">
+        <seg>["DocumentRef-"[idstring]":"] は、セクション2.6で記述される外部SPDX文書への任意の参照</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[(see section 2.4)](#2.4).</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180927T080051Z" creationid="hfukuchi" creationdate="20180927T080051Z">
@@ -14194,6 +15026,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180803T080425Z" creationid="hfukuchi" creationdate="20180803T080425Z">
         <seg>[idstring]は、文字、数字、“.”、“­”または“+”を含む一意の文字列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>\* see `DESCRIBES` relationship for one mandatory case.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060738Z" creationid="hfukuchi" creationdate="20181005T060738Z">
+        <seg>\* 1つの必須ケースについては`DESCRIBES` 関係を参照</seg>
       </tuv>
     </tu>
     <tu>
@@ -14314,6 +15154,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180927T082400Z" creationid="hfukuchi" creationdate="20180927T074548Z">
         <seg>`N`はマイナー バージョン番号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`SPDXID` is a unique string containing letters, numbers, `.` and/or `-` as described in Sections 2.3, 3.2 and 4.2.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T063929Z" creationid="hfukuchi" creationdate="20181005T063929Z">
+        <seg>`SPDXID` は、セクション2.3、3.2、4.2で記述された一意の文字、数字、`.` かつ／または `-`を含む文字列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14902,6 +15750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>where "DocumentRef-"`[idstring]`":" is an optional reference to an external SPDX document as described in [section 2.6](2-document-creation-information.md#2.6)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060826Z" creationid="hfukuchi" creationdate="20181005T060826Z">
+        <seg>ここで `DocumentRef-[idstring]`：[セクション 2.6](2-document-creation-information.md#2.6)で記述される外部SPDX文書への任意の参照</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>where &lt;relationship&gt; is one of the documented relationship types in table 6.1.1.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180904T074359Z" creationid="hfukuchi" creationdate="20180904T074359Z">
@@ -14954,6 +15810,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180823T071923Z" creationid="hfukuchi" creationdate="20180823T071923Z">
         <seg>ここで、[idstring] は一意の文字、数字、“.”、“­”を含む文字列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>where `&lt;relationship&gt;` is one of the documented relationship types in table 7.1.1.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060904Z" creationid="hfukuchi" creationdate="20181005T060904Z">
+        <seg>ここで`&lt;relationship&gt;`は、表7.1.1で記述された関係のうちの1つである。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15026,6 +15890,478 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180903T073928Z" creationid="hfukuchi" creationdate="20180903T073928Z">
         <seg>ここでnumber1は1以上でnumber2未満、かつnumber2はファイルの全バイト数以下である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| (Current) SPDX document A version 2 contains a correction to a previous version of the SPDX document A version 1.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060410Z" creationid="hfukuchi" creationdate="20181005T060410Z">
+        <seg>| （最新の）SPDX文書Aのバージョン2がSPDX文書Aバージョン1の訂正を含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A BINARY file `a.out` has been generated from a SOURCE file `makefile.mk`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051605Z" creationid="hfukuchi" creationdate="20181005T051605Z">
+        <seg>| BINARY（バイナリー）ファイル‘a.out’はSOURCE（ソース）ファイル‘makefile.mk’から生成された。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A BINARY file `alib.a` is an exact copy of BINARY file `a2lib.a`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055853Z" creationid="hfukuchi" creationdate="20181005T055853Z">
+        <seg>| BINARY（バイナリー）ファイル‘alib.a’はBINARY（バイナリー）ファイル‘a2lib.a’の厳密なコピーである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A BINARY file `foo.o` requires that the ARCHIVE file `bar-sources.tgz` be made available on distribution.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055748Z" creationid="hfukuchi" creationdate="20181005T055748Z">
+        <seg>| BINARY（バイナリー）ファイル‘foo.o’はARCHIVE（アーカイブ）ファイル‘bar-sources.tgz’も頒布されることを必要とする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A DOCUMENTATION file `readme.txt` documents the APPLICATION ‘zlib’.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060230Z" creationid="hfukuchi" creationdate="20181005T060230Z">
+        <seg>| DOCUMENTATIONファイル‘readme.txt’はAPPLICATION（アプリケーション）‘zlib’の説明を提供する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A Linux distribution contains an APPLICATION package gawk as part of the distribution MyLinuxDistro.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060349Z" creationid="hfukuchi" creationdate="20181005T060349Z">
+        <seg>| LinuxディストリビューションはAPPLICATION（アプリケーション）パッケージgawkをディストリビューションMyLinuxDistroの一部として含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `foo.c` has been added to package ARCHIVE `bar.tgz`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055913Z" creationid="hfukuchi" creationdate="20181005T055913Z">
+        <seg>| SOURCE（ソース）ファイル‘foo.c’はARCHIVE（アーカイブ）ファイル‘bar.tgz’に追加された。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `foo.c` has been modified from SOURCE file `foo.orig.c`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060005Z" creationid="hfukuchi" creationdate="20181005T060005Z">
+        <seg>| SOURCE（ソース）ファイル‘foo.c’’はSOURCE（ソース）ファイル‘foo.orig.c’を変更して作成された。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `foo.c` is contained by ARCHIVE file `bar.tgz` |</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051507Z" creationid="hfukuchi" creationdate="20181005T051507Z">
+        <seg>| SOURCE（ソース）ファイル`foo.c`はARCHIVE（アーカイブ）ファイル‘bar.tgz’に含まれる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `foo.c`, has been expanded from the archive ARCHIVE file `xyz.tgz`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060031Z" creationid="hfukuchi" creationdate="20181005T060031Z">
+        <seg>| SOURCE（ソース）ファイル‘foo.c’は、ARCHIVE（アーカイブ）ファイル‘xyz.tgz’を拡張して作成された。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `foo.diff` has been deleted from package ARCHIVE `bar.tgz`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055932Z" creationid="hfukuchi" creationdate="20181005T055932Z">
+        <seg>| SOURCE（ソース）ファイル‘foo.diff’’はパッケージARCHIVE（アーカイブ）‘bar.tgz’から削除された。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `foo.diff` is a patch file for SOURCE file `foo.c`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055815Z" creationid="hfukuchi" creationdate="20181005T055815Z">
+        <seg>| SOURCE（ソース）ファイル‘foo.diff’はSOURCE（ソース）ファイル‘foo.c’のパッチファイルである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `foo.diff` is a patch file that has been applied to SOURCE file ‘foo-patched.c’.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055835Z" creationid="hfukuchi" creationdate="20181005T055835Z">
+        <seg>| SOURCE（ソース）ファイル‘foo.diff’はSOURCE（ソース）ファイル‘foo-patched.c’に適用済みのパッチ ファイルである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `fool.c` (which is in the contributors directory) may or may not be included in the build of APPLICATION ‘atthebar’.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060256Z" creationid="hfukuchi" creationdate="20181005T060256Z">
+        <seg>| SOURCE（ソース）ファイル‘fool.c’（貢献者のディレクトリーにある）はAPPLICATION（アプリケーション）‘atthebar’のビルドに含めても含めなくてもよい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `makefile.mk` generates a BINARY file `a.out` |</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051536Z" creationid="hfukuchi" creationdate="20181005T051536Z">
+        <seg>| SOURCE（ソース）ファイル‘makefile.mk’はBINARY（バイナリー）ファイル‘a.out’を生成する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `makefile.mk` is a version of the original ancestor SOURCE file ‘makefile2.mk’ |</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T052254Z" creationid="hfukuchi" creationdate="20181005T052254Z">
+        <seg>| SOURCE（ソース）ファイル‘makefile.mk’はSOURCE（ソース）ファイル‘makefile2.mk’のオリジナル先祖のバージョンである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `makefile.mk` is used to build an APPLICATION ‘zlib’.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060213Z" creationid="hfukuchi" creationdate="20181005T060213Z">
+        <seg>| SOURCE（ソース）ファイル‘makefile.mk’はAPPLICATION（アプリケーション）‘zlib’をビルドするのに使用される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `makefile2.mk` is a descendant of the original SOURCE file ‘makefile.mk’ |</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T052331Z" creationid="hfukuchi" creationdate="20181005T052331Z">
+        <seg>| SOURCE（ソース）ファイル‘makefile2.mk’はオリジナルSOURCE（ソース）ファイル‘makefile.mk’の子孫である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `makefile2.mk` is a variant of SOURCE file `makefile.mk` if they differ by some edit, but there is no way to tell which came first (no reliable date information).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T052358Z" creationid="hfukuchi" creationdate="20181005T052358Z">
+        <seg>|2つが少しの編集によってしか異ならないが、どちらが先であるかを決められない（信頼できる日時情報がない）場合は、SOURCE（ソース）ファイル‘makefile2.mk’はSOURCE（ソース）ファイル‘makefile.mk’の変形である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `pom.xml` is a metafile of the APPLICATION ‘Apache Xerces’.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060312Z" creationid="hfukuchi" creationdate="20181005T060312Z">
+        <seg>| SOURCE（ソース）ファイル‘pom.xml’はAPPLICATION（アプリケーション ‘Apache Xerces’のメタファイルである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| A SOURCE file `testMyCode.java` is a unit test file used to test an APPLICATION MyPackage.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060156Z" creationid="hfukuchi" creationdate="20181005T060156Z">
+        <seg>| SOURCE（ソース）ファイルtestMyCode.javaはAPPLICATION（アプリケーション） MyPackageのテストで使用するユニット テスト ファイルである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| An APPLICATION file ‘myapp’ dynamically links to BINARY file `zlib.so`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060048Z" creationid="hfukuchi" creationdate="20181005T060048Z">
+        <seg>| APPLICATION（アプリケーション）ファイル‘myapp’はBINARY（バイナリー）ファイル‘zlib.so’に動的にリンクする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| An APPLICATION file ‘myapp’ statically links to BINARY `zlib.a`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060119Z" creationid="hfukuchi" creationdate="20181005T060119Z">
+        <seg>| APPLICATION（アプリケーション）ファイル‘myapp’はBINARY（バイナリー）ファイル‘zlib.a’に静的にリンクする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| An ARCHIVE file `bar.tgz` contains a SOURCE file `foo.c`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051413Z" creationid="hfukuchi" creationdate="20181005T051413Z">
+        <seg>| ARCHIVE（アーカイブ）ファイル‘bar.tgz’はSOURCE（ソース）ファイル‘foo.c’を含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| An IMAGE file ‘kitty.jpg’ is a data file of an APPLICATION ‘hellokitty’.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060136Z" creationid="hfukuchi" creationdate="20181005T060136Z">
+        <seg>| IMAGE（イメージ）ファイル‘kitty.jpg’はAPPLICATION（アプリケーション）‘hellokitty’のデータファイルである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| An SPDX document `WildFly.spdx` describes package ‘WildFly’.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T050701Z" creationid="hfukuchi" creationdate="20181005T050701Z">
+        <seg>| SPDX文書‘WildFly.spdx’がパッケージ‘WildFly’を記述する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Description | Example |</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T050523Z" creationid="hfukuchi" creationdate="20181005T050523Z">
+        <seg>| Description（説明） | Example（例） |</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| EXPANDED\_FROM_ARCHIVE | Is to be used when SPDXRef-A is expanded from the archive SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060020Z" creationid="hfukuchi" creationdate="20181005T060020Z">
+        <seg>| EXPANDED\_FROM_ARCHIVE | SPDXRef-AがアーカイブSPDXRef-Bを拡張して作成されたときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used for a relationship which has not been defined in the formal SPDX specification.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060609Z" creationid="hfukuchi" creationdate="20181005T060609Z">
+        <seg>| 公式なSPDX仕様で定義されていない関係を記述するときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when (current) SPDXRef-DOCUMENT amends the SPDX information in SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060400Z" creationid="hfukuchi" creationdate="20181005T060400Z">
+        <seg>| （最新の）SPDXRef-DOCUMENTがSPDXRef-Bに含まれるSPDX情報を修正するときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A contains SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051355Z" creationid="hfukuchi" creationdate="20181005T051355Z">
+        <seg>| SPDXRef-AがSPDXRef-Bを含むときに使用される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A dynamically links to SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060040Z" creationid="hfukuchi" creationdate="20181005T060040Z">
+        <seg>| SPDXRef-AがSPDXRef-Bに動的にリンクするときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A generates the SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051523Z" creationid="hfukuchi" creationdate="20181005T051523Z">
+        <seg>| SPDXRef-AがSPDXRef-Bを生成するときに使用される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A has as a prerequisite SPDXRef-B | An APPLICATION `foo.exe` has prerequisite or dependency of `bar.dll` |</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060558Z" creationid="hfukuchi" creationdate="20181005T060558Z">
+        <seg>| SPDXRef-Aが前提条件SPDXRef-Bを有するときに使用する。 | APPLICATION（アプリケーション）‘foo.exe’ は‘bar.dll’を前提条件または依存関係として持つ。 |</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a data file used in SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060129Z" creationid="hfukuchi" creationdate="20181005T060129Z">
+        <seg>| SPDXRef-AがSPDXRef-Bで使われるデータファイルであるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a descendant of (same lineage but postdates) SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T052317Z" creationid="hfukuchi" creationdate="20181005T052317Z">
+        <seg>| SPDXRef-AがSPDXRef-Bの子孫（同じ系統であるが新しい日時のもの）であるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a file added to SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055904Z" creationid="hfukuchi" creationdate="20181005T055904Z">
+        <seg>| SPDXRef-AがSPDXRef-Bに追加されたファイルであるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a file that was modified from SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055949Z" creationid="hfukuchi" creationdate="20181005T055949Z">
+        <seg>| SPDXRef-AがSPDXRef-Bを基に変更したファイルであるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a file was deleted from to SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055923Z" creationid="hfukuchi" creationdate="20181005T055923Z">
+        <seg>| SPDXRef-AがSPDXRef-Bから削除されたファイルであるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a metafile of SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060305Z" creationid="hfukuchi" creationdate="20181005T060305Z">
+        <seg>| SPDXRef-AがSPDXRef-Bのメタファイルであるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a patch file for (to be applied to) SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055759Z" creationid="hfukuchi" creationdate="20181005T055759Z">
+        <seg>| SPDXRef-AがSPDXRef-Bに適用すべきパッチ ファイルであるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a patch file that has been applied to SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055825Z" creationid="hfukuchi" creationdate="20181005T055825Z">
+        <seg>| SPDXRef-AがSPDXRef-Bに適用済みのパッチ ファイルであるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a prerequisite for SPDXRef-B | A library `bar.dll` is aprerequisite or dependency for APPLICATION `foo.exe`|</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060421Z" creationid="hfukuchi" creationdate="20181005T060421Z">
+        <seg>| SPDXRef-AがSPDXRef-Bの前提条件であるときに使用する。|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a test case used in testing SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060146Z" creationid="hfukuchi" creationdate="20181005T060146Z">
+        <seg>| SPDXRef-AがテストSPDXRef-Bで使われれるテスト ケースであるとき使用される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is a variant of (same lineage but not clear which came first) SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T052339Z" creationid="hfukuchi" creationdate="20181005T052339Z">
+        <seg>| SPDXRef-AがSPDXRef-Bの変形（同じ系統であるが、前後関係が不明のもの）であるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is an ancestor (same lineage but pre-dates) SPDXRef-B</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051635Z" creationid="hfukuchi" creationdate="20181005T051635Z">
+        <seg>| SPDXRef-AがSPDXRef-Bの先祖（同じ系統であるが古い日時のもの）であるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is an exact copy of SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055846Z" creationid="hfukuchi" creationdate="20181005T055846Z">
+        <seg>| SPDXRef-AがSPDXRef-Bの厳密なコピーであるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is contained by SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051425Z" creationid="hfukuchi" creationdate="20181005T051425Z">
+        <seg>| SPDXRef-AがSPDXRef-Bによって含まれるときに使用される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is described by SPDXREF-Document</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T050717Z" creationid="hfukuchi" creationdate="20181005T050717Z">
+        <seg>| SPDXRef-AがSPDXREF-Documentによって記述されるときに使用される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is used as a package as part of SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060337Z" creationid="hfukuchi" creationdate="20181005T060337Z">
+        <seg>| SPDXRef-AがSPDXRef-Bの一部としてパッケージとして使われるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A is used to to build SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060205Z" creationid="hfukuchi" creationdate="20181005T060205Z">
+        <seg>| SPDXRef-AがSPDXRef-Bをビルドするのに使われるときに使用される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A provides documentation of SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060222Z" creationid="hfukuchi" creationdate="20181005T060222Z">
+        <seg>| SPDXRef-AがSPDXRef-Bのドキュメンテーションを提供するときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A statically links to SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060058Z" creationid="hfukuchi" creationdate="20181005T060058Z">
+        <seg>| SPDXRef-AがSPDXRef-Bに静的にリンクするときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-A was generated from SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051548Z" creationid="hfukuchi" creationdate="20181005T051548Z">
+        <seg>| SPDXRef-AがSPDXRef-Bから生成されたときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when SPDXRef-DOCUMENT describes SPDXRef-A</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T050642Z" creationid="hfukuchi" creationdate="20181005T050631Z">
+        <seg>| SPDXRef-DOCUMENTがSPDXRef-Aを記述するときに使用される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Is to be used when distributing SPDXRef-A requires that SPDXRef-B also be distributed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T055736Z" creationid="hfukuchi" creationdate="20181005T055736Z">
+        <seg>| SPDXRef-Aの頒布にSPDXRef-Bの頒布も必要であるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| OPTIONAL\_COMPONENT_OF | Is to be used when SPDXRef-A is an optional component of SPDXRef-B.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T060245Z" creationid="hfukuchi" creationdate="20181005T060245Z">
+        <seg>| OPTIONAL\_COMPONENT_OF | SPDXRef-AがSPDXRef-Bの任意のコンポーネントであるときに使用する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| Relationship</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T050502Z" creationid="hfukuchi" creationdate="20181005T050502Z">
+        <seg>| Relationship（関係）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| The package ‘WildFly’ is described by SPDX document `Wildfly.spdx`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20181005T051341Z" creationid="hfukuchi" creationdate="20181005T051341Z">
+        <seg>| パッケージ‘WildFly’はSPDX文書‘Wildfly.spdx’によって記述される。</seg>
       </tuv>
     </tu>
     <tu>
