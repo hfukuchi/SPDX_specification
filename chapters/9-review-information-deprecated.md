@@ -36,7 +36,7 @@
  <reviewer> Person: Jane Doe () </reviewer>
  </Review>
 
-# 9.2 Review Date（レビュー 日時） (deprecated)（廃止予定） <a name="9.2"></a>
+## 9.2 Review Date（レビュー 日時） (deprecated)（廃止予定） <a name="9.2"></a>
 
 このフィールドはSPDX 2.0以降廃止予定に指定されている。
 
