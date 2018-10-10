@@ -1,6 +1,6 @@
-# 7 Relationships between SPDX Elements（SPDX要素間の関係）
+﻿# 7 Relationships between SPDX Elements（SPDX要素間の関係）
 
-## 7.1 Relationship（生成時期） <a name="7.1"></a>
+## 7.1 Relationship（関係） <a name="7.1"></a>
 
 **7.1.1** 目的：このフィールドは2つのSPDX要素間の関係に対する情報を提供する。たとえば、2つの異なるファイル間、パッケージとファイル間、2つのパッケージ間、SPDX文書と他のSPDX文書間の関係を表現できる。サポートされる、2つの要素間の関係は以下である：
 
@@ -70,18 +70,15 @@
 例：
 
     <SpdxElement rdf:about=”#SPDXRef-45”>
- <relationship>
- <Relationship>
- <spdx:relatedSpdxElement>
- <spdx:SpdxElement rdf:about="http://spdx.org/spdxdocs/spdx-tools-v1.2-3F2504E0-4F89-41D3-9A0C-0305E82...
- </spdx:relatedSpdxElement>
-
-                    <relationshipType>http://spdx.org/rdf/terms#relationshipType_contains</relationshipType>
- </Relationship>
- </relationship>
-
-        ...
-
+      <relationship>
+        <Relationship>
+          <spdx:relatedSpdxElement>
+          <spdx:SpdxElement rdf:about="http://spdx.org/spdxdocs/spdx-tools-v1.2-3F2504E0-4F89-41D3-9A0C-0305E82...
+          </spdx:relatedSpdxElement>
+          <relationshipType>http://spdx.org/rdf/terms#relationshipType_contains</relationshipType>
+        </Relationship>
+      </relationship>
+      ...
     </SpdxElement>
 
 ## 7.2 Relationship Comment（関係コメント） <a name="7.2"></a>
@@ -98,7 +95,7 @@
 
 `tag:value`フォーマットでは、これは `<text>...</text>`.で分離される。
 
-A `RelationshipComment:` “Relationship:”直後の文でなければならない。
+    A `RelationshipComment:` “Relationship:”直後の文でなければならない。
 
 例：
 
@@ -109,10 +106,8 @@ A `RelationshipComment:` “Relationship:”直後の文でなければならな
 例：
 
     <Relationship rdf:about="...">
- <rdfs:comment>
- パッケージ foo.tgz は実行形式barをビルドするための前提条件である。
- </rdfs:comment>
-
-        ...
-
+      <rdfs:comment>
+        パッケージ foo.tgz は実行形式barをビルドするための前提条件である。
+      </rdfs:comment>
+      ...
     </Relationship>
