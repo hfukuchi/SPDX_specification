@@ -1,4 +1,4 @@
-# 4 File Information（ファイル情報）
+﻿# 4 File Information（ファイル情報）
 
 ソフトウェア パッケージ内の各ファイルごとに 1つのFile Information（ファイル情報）インスタンスが必要である。それは、ライセンスや著作権を含む対象ファイルの重要なメタデータを提供する。SPDX 2.0を使う場合には、ファイル セットを包含するパッケージは必ずしも必要ではない。
 
@@ -8,6 +8,7 @@
 明示的なRelationship（関係）が使われない限り、新しいPackage Information（パッケージ情報）の存在は、先行するパッケージと関連するファイルセットの終了を示す。
 パッケージがファイルを含む場合は、File Information（ファイル情報）セクションはPackage Information（パッケージ情報）セクションに後続しなければならない。
 ファイルがどのパッケージにも含まれない場合は、SPDX文書のPackage Information（パッケージ情報）セクション参照より先行しなkればならない。
+
 `tag:value` フォーマットでは、ファイルの記述を開始する最初のフィールドはFile Name（ファイル名）でなければならない。
 File information（ファイル情報）は、先行するFile Name（ファイル名）と関係づけなければならない。
 ファイルに対するAnnotations（注釈）とファイルからのRelationships（関係）は、ファイル情報の後で、次のファイルかPackage Information（パッケージ情報）セクションの前に置かれなければならない。
@@ -37,9 +38,9 @@ RDFでファイル情報を実装する場合は、`spdx:hasFile`属性はパッ
 例：
 
     <File rdf:about="...">
- <fileName>./package/foo.c</fileName>
- ...
- </File>
+      <fileName>./package/foo.c</fileName>
+      ...
+    </File>
 
 ## 4.2 File SPDX Identifier（ファイルSPDX識別子） <a name="4.2"></a>
 
@@ -64,16 +65,16 @@ RDFでファイル情報を実装する場合は、`spdx:hasFile`属性はパッ
 `xml:base`を使用した例：
 
     <rdf:RDF xml:base="http://acme.com/spdxdocs/acmeproj/v1.2/1BE2A4FF-5F1A-48D3-8483-28A9B0349A1B"
- ...
- <File rdf:ID=”SPDXRef-1”>
- ...
- </File>
+    ...
+    <File rdf:ID=”SPDXRef-1”>
+      ...
+    </File>
 
 URIを使用した例：
 
     <File rdf:about="http://acme.com/spdxdocs/acmeproj/v1.2/1BE2A4FF-5F1A-48D3-8483-28A9B0349A1B#SPDXRef-1">
- ...
- </File>
+      ...
+    </File>
 
 ## 4.3 File Type（ファイル タイプ） <a name="4.3"></a>
 
@@ -106,27 +107,27 @@ URIを使用した例：
 例：(`README.TXT`)
 
     FileType: TEXT
- FileType: DOCUMENTATION
+    FileType: DOCUMENTATION
 
 例 (foo.exe)
 
     FileType: BINARY
- FileType: APPLICATION
+    FileType: APPLICATION
 
 **4.3.6** RDF: Property `spdx:fileType` in class `spdx:File`
 
 例：
 
     <File rdf:about="file1">
- <fileType rdf:resource="fileType_binary" />
- </File>
+      <fileType rdf:resource="fileType_binary" />
+    </File>
 
 例：( ここで file2 は `README.TXT`)
 
     <File rdf:about="file2">
- <fileType rdf:resource="http://spdx.org/rdf/terms#fileType_text" />
- <fileType rdf:resource="http://spdx.org/rdf/terms#fileType_documentation" />
- </File>
+      <fileType rdf:resource="http://spdx.org/rdf/terms#fileType_text" />
+      <fileType rdf:resource="http://spdx.org/rdf/terms#fileType_documentation" />
+    </File>
 
 ## 4.4 File Checksum（ファイル チェックサム） <a name="4.4"></a>
 
@@ -154,21 +155,21 @@ URIを使用した例：
 例：
 
     <File rdf:about="...">
- <checksum>
- <Checksum>
- <algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
- <checksumValue>d6a770ba38583ed4bb4525bd96e50461655d2758
- </checksumValue>
- </Checksum>
- </checksum>
- <checksum>
- <Checksum>
- <algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
- <checksumValue> 624c1abb3664f4b35547e7c73864ad24
- </checksumValue>
- </Checksum>
- </checksum>
- </File>
+      <checksum>
+        <Checksum>
+          <algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+          <checksumValue>d6a770ba38583ed4bb4525bd96e50461655d2758
+          </checksumValue>
+        </Checksum>
+      </checksum>
+      <checksum>
+        <Checksum>
+          <algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+          <checksumValue> 624c1abb3664f4b35547e7c73864ad24
+          </checksumValue>
+        </Checksum>
+      </checksum>
+    </File>
 
 ## 4.5 Concluded License（結論されたライセンス） <a name="4.5"></a>
 
@@ -215,19 +216,19 @@ URIを使用した例：
 例：
 
     <File rdf:about="file">
- <licenseConcluded>LGPL-2.0</licenseConcluded>
- </File>
+      <licenseConcluded>LGPL-2.0</licenseConcluded>
+    </File>
 
 例：
 
     <File rdf:about="...">
- <licenseConcluded>
- <DisjunctiveLicenseSet>
- <member rdf:resource="http://spdx.org/licenses/LGPL-2.0"/>
- <member rdf:resource="#LicenseRef-2"/>
- </DisjunctiveLicenseSet>
- </licenseConcluded>
- </File>
+      <licenseConcluded>
+        <DisjunctiveLicenseSet>
+          <member rdf:resource="http://spdx.org/licenses/LGPL-2.0"/>
+          <member rdf:resource="#LicenseRef-2"/>
+        </DisjunctiveLicenseSet>
+      </licenseConcluded>
+    </File>
 
 ## 4.6 License Information in File（ファイル中のライセンス情報） <a name="4.6"></a>
 
@@ -271,16 +272,16 @@ URIを使用した例：
 例：
 
     LicenseInfoInFile: GPL-2.0
- LicenseInfoInFile: LicenseRef-2
+    LicenseInfoInFile: LicenseRef-2
 
 **4.6.6** RDF: Property `spdx:licenseInfoInFile` in class `spdx:File`
 
 例：
 
     <File rdf:about="file1">
- <licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0" />
- <licenseInfoInFile rdf:resource="#LicenseRef-2" />
- </File>
+      <licenseInfoInFile rdf:resource="http://spdx.org/licenses/GPL-2.0" />
+      <licenseInfoInFile rdf:resource="#LicenseRef-2" />
+    </File>
 
 ## 4.7 Comments on License（ライセンスへのコメント） <a name="4.7"></a>
 
@@ -299,17 +300,17 @@ URIを使用した例：
 例：
 
     LicenseComments: <text>結論されたライセンスは、ファイルが含まれているパッケージから得られた。
- この情報は、xyzディレクトリーのCOPYING.txtファイルで見つかる。</text>
+    この情報は、xyzディレクトリーのCOPYING.txtファイルで見つかる。</text>
 
 **4.7.6** RDF: Property `spdx:licenseComments` in class `spdx:File`
 
 例：
 
     <File rdf:about="...">
- <licenseComments>
- 結論されたライセンスは、ファイルが含まれているパッケージから得られた。この情報は、xyzディレクトリーのCOPYING.txtファイルで見つかる。このパッケージは、ソースとバイナリー形式で出荷された。
- </licenseComments>
- </File>
+      <licenseComments>
+        結論されたライセンスは、ファイルが含まれているパッケージから得られた。この情報は、xyzディレクトリーのCOPYING.txtファイルで見つかる。このパッケージは、ソースとバイナリー形式で出荷された。
+      </licenseComments>
+    </File>
 
 ## 4.8 Copyright Text（著作権テキスト） <a name="4.8"></a>
 
@@ -346,10 +347,10 @@ URIを使用した例：
 例：
 
     <File rdf:about="...">
- <copyrightText>
- Copyright 2008-2010 John Smith
- </copyrightText>
- </File>
+      <copyrightText>
+        Copyright 2008-2010 John Smith
+      </copyrightText>
+    </File>
 
 ##4.9 Artifact of Project Name (deprecated)（派生元プロジェクト名）（廃止予定） <a name="4.9"></a>
 
@@ -374,12 +375,12 @@ URIを使用した例：
 例：
 
     <File>
- <artifactOf>
- <doap:Project>
- <doap:name>Jena</doap:name>
- </doap:Project>
- </artifactOf>
- </File>
+      <artifactOf>
+        <doap:Project>
+          <doap:name>Jena</doap:name>
+        </doap:Project>
+      </artifactOf>
+    </File>
 
 ## 4.10 Artifact of Project Homepage (deprecated) （派生元プロジェクト名）（廃止予定）<a name="4.10"></a>
 
@@ -404,12 +405,12 @@ URIを使用した例：
 例：
 
     <File>
- <artifactOf>
- <doap:Project>
- <doap:homepage >rttp://www.openjena.org/</doap:homepage>
- </doap:Project>
- </artifactOf>
- </File>
+      <artifactOf>
+        <doap:Project>
+          <doap:homepage >rttp://www.openjena.org/</doap:homepage>
+        </doap:Project>
+      </artifactOf>
+    </File>
 
 ## 4.11 Artifact of Project Uniform Resource Identifier (deprecated) （派生元プロジェクト統一資源識別子）（廃止予定）<a name="4.11"></a>
 
@@ -434,11 +435,11 @@ URIを使用した例：
 例：
 
     <File>
- <artifactOf rdf:resource="http://subversion.apache.org/" />
- </File>
- <!-- Note: within the DOAP file at http://subversion.apache.org/doap.rdf
- the value "http://subversion.apache.org/" is the URI of the describes
- resource of type doap:Project -->
+      <artifactOf rdf:resource="http://subversion.apache.org/" />
+    </File>
+    <!-- Note: within the DOAP file at http://subversion.apache.org/doap.rdf
+      the value "http://subversion.apache.org/" is the URI of the describes
+      resource of type doap:Project -->
 
 ## 4.12 File Comment（ファイル コメント）<a name="4.12"></a>
 
@@ -457,18 +458,18 @@ URIを使用した例：
 例：
 
     FileComment: <text>
- このファイルは、FooやUfooなど他パッケージにもある。
- </text>
+     このファイルは、FooやUfooなど他パッケージにもある。
+    </text>
 
 **4.12.6** RDF: Property `rdfs:comments` in class `spdx:File`
 
 例：
 
     <File rdf:about="...">
- <rdfs:comment>
- このファイルは、FooやUfooなど他パッケージにもある。
- </rdfs:comment>
- </File>
+      <rdfs:comment>
+        このファイルは、FooやUfooなど他パッケージにもある。
+      </rdfs:comment>
+    </File>
 
 ## 4.13 File Notice（ファイル表記） <a name="4.13"></a>
 
@@ -493,10 +494,10 @@ URIを使用した例：
 例：
 
     <File rdf:about="...">
- <noticeText>
- このファイルはGPLでライセンスされている。
- </noticeText>
- </File>
+      <noticeText>
+        このファイルはGPLでライセンスされている。
+      </noticeText>
+    </File>
 
 ## 4.14 File Contributor（ファイル貢献者） <a name="4.14"></a>
 
@@ -515,18 +516,18 @@ URIを使用した例：
 例：
 
     FileContributor: Modified by Paul Mundt lethal@linux-sh.org
- FileContributor: The Regents of the University of California
- FileContributor: IBM Corporation
+    FileContributor: The Regents of the University of California
+    FileContributor: IBM Corporation
 
 **4.14.6** RDF: Property `fileContributor` in class `spdx:File`
 
 例：
 
     <File rdf:about="...">
- <fileContributor> Modified by Paul Mundt lethal@linux-sh.org </fileContributor>
- <fileContributor> The Regents of the University of California </fileContributor>
- <fileContributor> IBM Corporation </fileContributor>
- </File>
+      <fileContributor> Modified by Paul Mundt lethal@linux-sh.org </fileContributor>
+      <fileContributor> The Regents of the University of California </fileContributor>
+      <fileContributor> IBM Corporation </fileContributor>
+    </File>
 
 ## 4.15 File Dependencies (deprecated) （ファイル依存関係）（廃止予定）<a name="4.15"></a>
 
@@ -545,28 +546,28 @@ SPDX 2.0から、関係についてより細かい粒度を提供するセクシ
 例：
 
     FileDependency:./busybox-1.20.2/shell/match.h
- FileDependency:./busybox-1.20.2/shell/match.c
- FileDependency:./busybox-1.20.2/shell/ash.c
+    FileDependency:./busybox-1.20.2/shell/match.c
+    FileDependency:./busybox-1.20.2/shell/ash.c
 
 **4.15.6** RDF: Property `spdx:fileDependency` in class `spdx:File`
 
 例：
 
     <File rdf:nodeID="A0">
- <fileName>./package/source1.java</fileName>
- </File>
+      <fileName>./package/source1.java</fileName>
+    </File>
 
     <File rdf:nodeID="A1">
- <fileName>./package/source2.java</fileName>
- </File>
+      <fileName>./package/source2.java</fileName>
+    </File>
 
     <File rdf:nodeID="A3">
- <fileName>./package/source3.java</fileName>
- </File>
+      <fileName>./package/source3.java</fileName>
+    </File>
 
     <File rdf:about="...">
- <fileName>./package/mylibrary.jar</fileName>
- <fileDependency rdf:nodeID="A0"/>
- <fileDependency rdf:nodeID="A1"/>
- <fileDependency rdf:nodeID="A2"/>
- </File>
+      <fileName>./package/mylibrary.jar</fileName>
+      <fileDependency rdf:nodeID="A0"/>
+      <fileDependency rdf:nodeID="A1"/>
+      <fileDependency rdf:nodeID="A2"/>
+    </File>
