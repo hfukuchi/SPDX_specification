@@ -1,4 +1,4 @@
-# 9 Review Information (deprecated)（レビュー情報）(deprecated)（廃止予定）
+﻿# 9 Review Information （レビュー情報）(deprecated)（廃止予定）
 
 レビュー情報は、SPDX 1.2との整合のために含まれているが、SPDX 2.0以降は廃止予定に指定されている。すべてのレビュー情報は、注釈タイプとして`annotationType_review`を指定したAnnotation（注釈）（[セクション 8](./8-annotations.md)) で説明）を使用すべきである。
 
@@ -19,8 +19,8 @@
 **9.1.4** データ フォーマット：以下のキーワードを含む1行の文。
 
     "Person:" 人名および任意で "(email)"を付加
- "Organization:" 組織名および任意で"(email)"を付加
- "Tool: ツール識別子 - バージョン”
+    "Organization:" 組織名および任意で"(email)"を付加
+    "Tool: ツール識別子 - バージョン”
 
 **9.1.5** Tag: `Reviewer:`
 
@@ -33,8 +33,8 @@
 例：
 
     <Review>
- <reviewer> Person: Jane Doe () </reviewer>
- </Review>
+      <reviewer> Person: Jane Doe () </reviewer>
+    </Review>
 
 ## 9.2 Review Date（レビュー 日時） (deprecated)（廃止予定） <a name="9.2"></a>
 
@@ -70,8 +70,8 @@
 例：
 
     <Review>
- <reviewDate> 2010-01-29T18:30:22Z </reviewDate>
- </Review>
+      <reviewDate> 2010-01-29T18:30:22Z </reviewDate>
+    </Review>
 
 ## 9.3 Review Comment（レビュー コメント） (deprecated) （廃止予定）<a name="9.3"></a>
 
@@ -92,13 +92,13 @@
 例：
 
     ReviewComment: <text>ファイルにあるすべてのライセンスは、人手の検査で見たものと整合している。
- ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。</text>
+    ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。</text>
 
 **9.3.6** RDF: Property `rdfs:comment` in class `spdx:Review`
 
 例：
 
     <Review>
- <rdfs:comment>ファイルにあるすべてのライセンスは、人手の検査で見たものと整合している。
- ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。</rdfs:comment>
- </Review>
+      <rdfs:comment>ファイルにあるすべてのライセンスは、人手の検査で見たものと整合している。
+        ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。</rdfs:comment>
+    </Review>
