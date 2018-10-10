@@ -1,4 +1,4 @@
-# Appendix V: ソース ファイルへのSPDX簡易識別子の適用
+﻿# Appendix V: Using SPDX short identifiers in Source Files（ソース ファイルへのSPDX簡易識別子の適用）
 
 オープン ソース ソフトウェアに対するライセンスを特定することは、報告とライセンスコンプライアンスの両方の点で重要である。しかしながら、情報の欠落と不明瞭な情報のために、時としてライセンスの決定は困難になる。ライセンス情報が提供されているときでさえ、一貫した表記が無いために、ライセンス検出作業の自動化が難しく、人手による膨大な作業を必要となる。
 
@@ -24,7 +24,7 @@ SPDXライセンス識別子構文は単独ライセンス（ [SPDXライセン�
 
 タグは、ソース ファイル中にタグの行として、一般にはコメント中に、表示すべきである。
 
-SPDX-License-Identifier: <SPDX License Expression>
+    SPDX-License-Identifier: <SPDX License Expression>
 
 ## Representing Single License（単独ライセンスの表現）
 
@@ -33,7 +33,7 @@ SPDX-License-Identifier: <SPDX License Expression>
 例：
 
     SPDX-License-Identifier: GPL-2.0+
- SPDX-License-Identifier: MIT
+    SPDX-License-Identifier: MIT
 
 ## Representing Multiple Licenses（複合ライセンスの表現）
 
@@ -47,8 +47,8 @@ SPDX-License-Identifier: <SPDX License Expression>
 例：
 
     SPDX-License-Identifier: (GPL-2.0 OR MIT)
- SPDX-License-Identifier: (LGPL-2.1 AND BSD-2-CLAUSE)
- SPDX-License-Identifier: (GPL-2.0+ WITH Bison-exception-2.2)
+    SPDX-License-Identifier: (LGPL-2.1 AND BSD-2-CLAUSE)
+    SPDX-License-Identifier: (GPL-2.0+ WITH Bison-exception-2.2)
 
 ライセンス表現についてのさらに多くの例や詳細については、[SPDX 2.1仕様のAppendix IV](./appendix-IV-SPDX-license-expressions.md) を参照。
 
