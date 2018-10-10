@@ -1,4 +1,4 @@
-# Appendix VI: External Repository Identifiers（外部リポジトリ識別子）
+﻿# Appendix VI: External Repository Identifiers（外部リポジトリ識別子）
 
 ***
 When `<category>` = `SECURITY`:
@@ -28,14 +28,14 @@ Documentation: [https://cpe.mitre.org/files/cpe-specification_2.2.pdf](https://c
 Locator Format:
 
     "cpe:2\.3:[aho\*\-]
- (:(((\?*|\*?)([a-zA-Z0-9\-\._]|(\\[\\\*\?!
- "#$$%&'\(\)\+,/:;<=>@\[\]\^`\{\|}~])
- )+(\?*|\*?))|[\*\-])){5}
- (:(([a-zA-Z]{2,3}(-([a-zA-Z]{2}|[0-9]{3
- }))?)|[\*\-]))
- (:(((\?*|\*?)([a-zA-Z0-9\-\._]|(\\[\\\*\?!
- "#$$%&'\(\)\+,/:;<=>@\[\]\^`\{\|}~])
- )+(\?*|\*?))|[\*\-])){4}"
+     (:(((\?*|\*?)([a-zA-Z0-9\-\._]|(\\[\\\*\?!
+     "#$$%&'\(\)\+,/:;<=>@\[\]\^`\{\|}~])
+     )+(\?*|\*?))|[\*\-])){5}
+     (:(([a-zA-Z]{2,3}(-([a-zA-Z]{2}|[0-9]{3
+     }))?)|[\*\-]))
+     (:(((\?*|\*?)([a-zA-Z0-9\-\._]|(\\[\\\*\?!
+     "#$$%&'\(\)\+,/:;<=>@\[\]\^`\{\|}~])
+     )+(\?*|\*?))|[\*\-])){4}"
 
 Contextual Example:
 
@@ -56,7 +56,7 @@ When <category> = `PACKAGE-MANAGER`:
 Locator Format:
 
     group:artifact[:version]
- ^[^:]+:[^:]+(:[^:]+)?$
+    ^[^:]+:[^:]+(:[^:]+)?$
 
 Contextual Example:
 
@@ -73,7 +73,7 @@ Documentation: [https://maven.apache.org](https://maven.apache.org)
 Locator Format:
 
     package@version
- ^[^@]+@[^@]+$
+    ^[^@]+@[^@]+$
 
 Contextual Example:
 
@@ -90,7 +90,7 @@ Documentation: [https://docs.npmjs.com/files/package.json](https://docs.npmjs.co
 Locator Format:
 
     package/version
- ^[^\/]+\/[^\/]+$
+    ^[^\/]+\/[^\/]+$
 
 Contextual Example:
 
@@ -107,7 +107,7 @@ Documentation: [https://docs.nuget.org/](https://docs.nuget.org/)
 Locator Format:
 
         package#version
- ^[^#]+#[^#]+$
+        ^[^#]+#[^#]+$
 
 Contextual Example:
 
