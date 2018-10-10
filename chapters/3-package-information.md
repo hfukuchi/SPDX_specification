@@ -1,4 +1,4 @@
-# 3 Package Information（パッケージ情報）
+﻿# 3 Package Information（パッケージ情報）
 
 記述されるパッケージごとに1つのパッケージ情報インスタンスが必要である。パッケージは、サブ パッケージを含むことができるが、このセクションの情報はリストされたパッケージのコンテンツ全体への参照について説明する。SPDX 2.0を使う場合には、ファイル セットを包含するパッケージは必ずしも必要ではない。
 
@@ -36,8 +36,8 @@
 例：
 
     <Package rdf:about="...">
- <name>glibc</name>
- </Package>
+      <name>glibc</name>
+    </Package>
 
 ## 3.2 Package SPDX Identifier（パッケージSPDX識別子） <a name="3.2"></a>
 
@@ -49,7 +49,7 @@
 
 **3.2.4** データ フォーマット： "SPDXRef-"`[idstring]`
 
-ここで `[idstring]` は一意の文字、数字、`.` かつ／または`-`.を含む文字列。
+ここで `[idstring]` は一意の文字、数字、`.` かつ／または`-`を含む文字列。
 
 **3.2.5** Tag: `SPDXID:`
 
@@ -61,22 +61,22 @@
 
     [SPDX DocumentNamespace]#[SPDX Identifier]
 
-SPDX Document Namespace（SPDX文書名前空間）の定義については[セクション 2.5](2-document-creation-information.md#2.5) を参照。SPDX Identifier（SPDX識別子）の定義については[セクション 2.3](2-document-creation-information.md#2.3)を参照。
+      SPDX Document Namespace（SPDX文書名前空間）の定義については[セクション 2.5](2-document-creation-information.md#2.5) を参照。SPDX Identifier（SPDX識別子）の定義については[セクション 2.3](2-document-creation-information.md#2.3)を参照。
 
-`xml:base`を利用した例：
+    `xml:base`を利用した例：
 
-    <rdf:RDF xml:base="http://acme.com/spdxdocs/acmeproj/v1.2/1BE2A4FF-5F1A-48D3-8483-28A9B0349A1B">
- ...
- <Package rdf:ID="SPDXRef-1">
- ...
- </Package>
- </rdf:RDF>
+      <rdf:RDF xml:base="http://acme.com/spdxdocs/acmeproj/v1.2/1BE2A4FF-5F1A-48D3-8483-28A9B0349A1B">
+        ...
+        <Package rdf:ID="SPDXRef-1">
+          ...
+        </Package>
+      </rdf:RDF>
 
 URIを使用した例：
 
     <Package rdf:about="http://acme.com/spdxdocs/acmeproj/v1.2/1BE2A4FF-5F1A-48D3-8483-28A9B0349A1B">
- ...
- </Package>
+      ...
+    </Package>
 
 ## 3.3 Package Version（パッケージ名） <a name="3.3"></a>
 
@@ -99,10 +99,10 @@ URIを使用した例：
 例：
 
     <Package rdf:about="...">
- ...
- <versionInfo>2.11.1</versionInfo>
- ...
- </Package>
+      ...
+      <versionInfo>2.11.1</versionInfo>
+      ...
+    </Package>
 
 ## 3.4 Package File Name（パッケージ ファイル名） <a name="3.4"></a>
 
@@ -129,18 +129,18 @@ URIを使用した例：
 例：
 
     <Package rdf:about="...">
- ...
- <packageFileName>glibc 2.11.1.tar.gz</packageFileName>
- ...
- </Package>
+      ...
+      <packageFileName>glibc 2.11.1.tar.gz</packageFileName>
+      ...
+    </Package>
 
 例（サブディレクトリをパッケージとして扱う）：
 
     <Package rdf:about="...">
- ...
- <packageFileName>./myrootdir/mysubdir1</packageFileName>
- ...
- </Package>
+      ...
+      <packageFileName>./myrootdir/mysubdir1</packageFileName>
+      ...
+    </Package>
 
 ## 3.5 Package Supplier（パッケージ提供者） <a name="3.5"></a>
 
@@ -174,10 +174,10 @@ URIを使用した例：
 例：
 
     <Package rdf:about="...">
- ...
- <supplier>Person: Jane Doe (jane.doe@example.com)</supplier>
- ...
- </Package>
+      ...
+      <supplier>Person: Jane Doe (jane.doe@example.com)</supplier>
+      ...
+    </Package>
 
 ## 3.6 Package Originator （パッケージ原作者）<a name="3.6"></a>
 
@@ -211,8 +211,8 @@ URIを使用した例：
 例：
 
     <Package rdf:about="...">
- <originator>Organization: ExampleCodeInspect (contact@example.com)</originator>
- </Package>
+      <originator>Organization: ExampleCodeInspect (contact@example.com)</originator>
+    </Package>
 
 ## 3.7 Package Download Location （パッケージ ダウンロード位置）<a name="3.7"></a>
 
@@ -406,22 +406,22 @@ SPDXがサポートするスキーム：`bzr+http`, `bzr+https`, `bzr+ssh`, `bzr
 例：
 
     <Package rdf:about="...">
- <downloadLocation>http://ftp.gnu.org/gnu/glibc/glibc-ports-2.15.tar.gz</downloadLocation>
- </Package>
+      <downloadLocation>http://ftp.gnu.org/gnu/glibc/glibc-ports-2.15.tar.gz</downloadLocation>
+    </Package>
 
     <Package rdf:about="...">
- <downloadLocation>
- git+https://git.myproject.org/MyProject.git@v10.0#src/lib.c
- </downloadLocation>
- </Package>
+      <downloadLocation>
+        git+https://git.myproject.org/MyProject.git@v10.0#src/lib.c
+      </downloadLocation>
+    </Package>
 
     <Package rdf:about="...">
- <downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
- </Package>
+      <downloadLocation rdf:resource="http://spdx.org/rdf/terms#noassertion"/>
+    </Package>
 
     <Package rdf:about="...">
- <downloadLocation rdf:resource="http://spdx.org/rdf/terms#none"/>
- </Package>
+      <downloadLocation rdf:resource="http://spdx.org/rdf/terms#none"/>
+    </Package>
 
 ## 3.8 Files Analyzed（解析したファイル） <a name="3.8"></a>
 
@@ -431,9 +431,9 @@ SPDXがサポートするスキーム：`bzr+http`, `bzr+https`, `bzr+ssh`, `bzr
 
 いくつかの例：
 
-外部製品のバンドル：パッケージAは、パッケージとその依存物に関するメタデータであってもよい。それは製品やプロジェクトに換券するパッケージへの参照をゆるく集めたリストでもよい。ビルドや実行することで、副次的にもっと多くのパッケージや依存物を見つけるかもしれない。参照されたパッケージは、それ自体でSPDX文書を持つことができる。このケースでは、パッケージAのFile Analyzed属性は`false`となる。パッケージAは、可能なすべての関係の中で参照されたパッケージを含むSPDX文書へのExternal Document References（外部文書参照）を含む。Relationships（関係）セクションは、SPDX文書や含まれるSPDX要素をパッケージAのスコープ内の依存関係ごとに適切な構文で関係づける。
-外部製品へのパッケージ関係：Package Aは、Package Bとの間でSTATIC_LINK関係を持つことができるが、Package Bのバイナリー表現は、ビルド プロセスによって与えられるので、Package Aのファイル リストには含まれない。このケースでは、Package BのFilesAnalyzed属性はfalse、他のすべての属性は後で定義される制限にしなければならない。Package AとPackage Bの関係は、[セクション 7](7-relationships-between-SPDX-elements.md).で説明する方法で記述できる。
-外部製品から派生したファイル：Package Aは、外部製品から派生した複数のファイルを含む。これらのファイルとプロジェクトの関係を記述するのに`artifactOf*`属性（セクション4.9­4.11）を使うより、外部プロジェクトは他のパッケージPackage Bで表現する。Package Bの[`FilesAnalyzed`](#3.8) 属性は`false`にする。バイナリーファイルは、Package Bと関係を持つ。（セクション6）これは、外部プロジェクトを1つのSPDX識別子（Package Bの識別子）で表現することを可能にする。それは、また、外部プロジェクトと各ファイルの関係を詳細に表現することを可能にする。
+    外部製品のバンドル：パッケージAは、パッケージとその依存物に関するメタデータであってもよい。それは製品やプロジェクトに換券するパッケージへの参照をゆるく集めたリストでもよい。ビルドや実行することで、副次的にもっと多くのパッケージや依存物を見つけるかもしれない。参照されたパッケージは、それ自体でSPDX文書を持つことができる。このケースでは、パッケージAのFile Analyzed属性は`false`となる。パッケージAは、可能なすべての関係の中で参照されたパッケージを含むSPDX文書へのExternal Document References（外部文書参照）を含む。Relationships（関係）セクションは、SPDX文書や含まれるSPDX要素をパッケージAのスコープ内の依存関係ごとに適切な構文で関係づける。
+    外部製品へのパッケージ関係：Package Aは、Package Bとの間でSTATIC_LINK関係を持つことができるが、Package Bのバイナリー表現は、ビルド プロセスによって与えられるので、Package Aのファイル リストには含まれない。このケースでは、Package BのFilesAnalyzed属性はfalse、他のすべての属性は後で定義される制限にしなければならない。Package AとPackage Bの関係は、[セクション 7](7-relationships-between-SPDX-elements.md).で説明する方法で記述できる。
+    外部製品から派生したファイル：Package Aは、外部製品から派生した複数のファイルを含む。これらのファイルとプロジェクトの関係を記述するのに`artifactOf*`属性（セクション4.9­4.11）を使うより、外部プロジェクトは他のパッケージPackage Bで表現する。Package Bの[`FilesAnalyzed`](#3.8) 属性は`false`にする。バイナリーファイルは、Package Bと関係を持つ。（セクション6）これは、外部プロジェクトを1つのSPDX識別子（Package Bの識別子）で表現することを可能にする。それは、また、外部プロジェクトと各ファイルの関係を詳細に表現することを可能にする。
 
 **3.8.3** 基数：任意、1（省略した場合、デフォルト値`true`が想定される）
 
@@ -450,10 +450,10 @@ SPDXがサポートするスキーム：`bzr+http`, `bzr+https`, `bzr+ssh`, `bzr
 例：
 
     <Package rdf:about="...">
- ...
- <filesAnalyzed>false</filesAnalyzed>
- ...
- </Package>
+      ...
+      <filesAnalyzed>false</filesAnalyzed>
+      ...
+    </Package>
 
 ## 3.9 Package Verification Code （パッケージ検証コード）<a name="3.9"></a>
 
@@ -466,19 +466,18 @@ SPDXがサポートするスキーム：`bzr+http`, `bzr+https`, `bzr+ssh`, `bzr
 **3.9.4** アルゴリズム：
 
     verificationcode = 0
- filelist = templist = “”
- for all files in the package {
- if file is an “excludes” file, skip it /* exclude SPDX analysis file(s) */
-
+    filelist = templist = “”
+    for all files in the package {
+      if file is an “excludes” file, skip it /* exclude SPDX analysis file(s) */
             append templist with “SHA1(file)/n”
- }
- sort templist in ascending order by SHA1 value
- filelist = templist with "/n"s removed. /* ordered sequence of SHA1 values with no separators */
- verificationcode = SHA1(filelist)
+    }
+    sort templist in ascending order by SHA1 value
+    filelist = templist with "/n"s removed. /* ordered sequence of SHA1 values with no separators */
+    verificationcode = SHA1(filelist)
 
-Where SHA1(file) applies a SHA1 algorithm on the contents of file and returns the result in lowercase hexadecimal digits.
+    Where SHA1(file) applies a SHA1 algorithm on the contents of file and returns the result in lowercase hexadecimal digits.
 
-Required sort order: '0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f' (ASCII order)
+    Required sort order: '0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f' (ASCII order)
 
 **3.9.5** データ フォーマット：小文字16進数40桁で表現された160ビットバイナリの1行文。
 
@@ -495,17 +494,17 @@ Required sort order: '0','1','2','3','4','5','6','7','8','9','a','b','c','d','e'
 例：
 
     <Package rdf:about="...">
- <packageVerificationCode>
- <PackageVerificationCode>
- <packageVerificationCodeValue>
- d6a770ba38583ed4bb4525bd96e50461655d2758
- </packageVerificationCodeValue>
- <packageVerificationCodeExcludedFile>
- ./package.spdx
- </packageVerificationCodeExcludedFile>
- </PackageVerificationCode>
- </packageVerificationCode>
- </Package>
+      <packageVerificationCode>
+        <PackageVerificationCode>
+          <packageVerificationCodeValue>
+             d6a770ba38583ed4bb4525bd96e50461655d2758
+          </packageVerificationCodeValue>
+          <packageVerificationCodeExcludedFile>
+            ./package.spdx
+          </packageVerificationCodeExcludedFile>
+       </PackageVerificationCode>
+     </packageVerificationCode>
+   </Package>
 
 ## 3.10 Package Checksum（パッケージ チェックサム） <a name="3.10"></a>
 
@@ -534,27 +533,27 @@ Required sort order: '0','1','2','3','4','5','6','7','8','9','a','b','c','d','e'
 例：
 
     <Package rdf:about="...">
- <checksum>
- <Checksum>
- <algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
- <checksumValue>85ed0817af83a24ad8da68c2b5094de69833983c</checksumValue>
- </Checksum>
- </checksum>
- <checksum>
- <Checksum>
- <algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
- <checksumValue>
- 11b6d3ee554eedf79299905a98f9b9a04e498210b59f15094c916c91d150efcd
- </checksumValue>
- </Checksum>
- </checksum>
- <checksum>
- <Checksum>
- <algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
- <checksumValue>624c1abb3664f4b35547e7c73864ad24</checksumValue>
- </Checksum>
- </checksum>
- </Package>
+      <checksum>
+        <Checksum>
+          <algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha1"/>
+          <checksumValue>85ed0817af83a24ad8da68c2b5094de69833983c</checksumValue>
+        </Checksum>
+      </checksum>
+      <checksum>
+        <Checksum>
+          <algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_sha256"/>
+          <checksumValue>
+            11b6d3ee554eedf79299905a98f9b9a04e498210b59f15094c916c91d150efcd
+          </checksumValue>
+        </Checksum>
+      </checksum>
+      <checksum>
+        <Checksum>
+          <algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+          <checksumValue>624c1abb3664f4b35547e7c73864ad24</checksumValue>
+        </Checksum>
+      </checksum>
+    </Package>
 
 ## 3.11 Package Home Page（パッケージ ホーム ページ） <a name="3.11"></a>
 
@@ -588,7 +587,7 @@ Required sort order: '0','1','2','3','4','5','6','7','8','9','a','b','c','d','e'
 例：
 
     <Package rdf:about="...">
- <doap:homepage >http://ftp.gnu.org/gnu/glibc/</doap:homepage></Package>
+      <doap:homepage >http://ftp.gnu.org/gnu/glibc/</doap:homepage></Package>
 
 ## 3.12 Source Information（ソース情報） <a name="3.12"></a>
 
@@ -613,10 +612,10 @@ Required sort order: '0','1','2','3','4','5','6','7','8','9','a','b','c','d','e'
 例：
 
     <Package rdf:about="...">
- ...
- <sourceInfo>uses glibc-2_11-branch from git://sourceware.org/git/glibc.git.</sourceInfo>
- ...
- </Package>
+      ...
+      <sourceInfo>uses glibc-2_11-branch from git://sourceware.org/git/glibc.git.</sourceInfo>
+      ...
+    </Package>
 
 ## 3.13 Concluded License （結論されたライセンス）<a name="3.13"></a>
 
@@ -661,23 +660,23 @@ Required sort order: '0','1','2','3','4','5','6','7','8','9','a','b','c','d','e'
 例：
 
     <Package rdf:about="...">
- ...
- <licenseConcluded rdf:resource="http://spdx.org/licenses/LGPL-2.0" />
- ...
- </Package>
+      ...
+      <licenseConcluded rdf:resource="http://spdx.org/licenses/LGPL-2.0" />
+      ...
+    </Package>
 
 例：
 
     <Package rdf:about="...">
- ...
- <licenseConcluded>
- <DisjunctiveLicenseSet>
- <member rdf:resource="http://spdx.org/licenses/LGPL-2.0" />
- <member rdf:resource="LicenseRef-3" />
- </DisjunctiveLicenseSet>
- </licenseConcluded>
- ...
- </Package>
+      ...
+      <licenseConcluded>
+        <DisjunctiveLicenseSet>
+          <member rdf:resource="http://spdx.org/licenses/LGPL-2.0" />
+          <member rdf:resource="LicenseRef-3" />
+        </DisjunctiveLicenseSet>
+      </licenseConcluded>
+      ...
+    </Package>
 
 ## 3.14 All Licenses Information from Files （ファイルからの全ライセンス情報）<a name="3.14"></a>
 
@@ -722,12 +721,12 @@ Required sort order: '0','1','2','3','4','5','6','7','8','9','a','b','c','d','e'
 例：
 
     <Package rdf:about="...">
- ...
- <licenseInfoFromFiles rdf:resource="https://spdx.org/licenses/GPL-2.0" />
- <licenseInfoFromFiles rdf:resource="#LicenseRef-1" />
- <licenseInfoFromFiles rdf:resource="#LicenseRef-2" />
- ...
- </Package>
+      ...
+      <licenseInfoFromFiles rdf:resource="https://spdx.org/licenses/GPL-2.0" />
+      <licenseInfoFromFiles rdf:resource="#LicenseRef-1" />
+      <licenseInfoFromFiles rdf:resource="#LicenseRef-2" />
+      ...
+    </Package>
 
 ## 3.15 Declared License（宣言されたライセンス） <a name="3.15"></a>
 
@@ -768,24 +767,24 @@ Required sort order: '0','1','2','3','4','5','6','7','8','9','a','b','c','d','e'
 例：
 
     <Package rdf:about="...">
- ...
- <licenseDeclared rdf:resource="http://spdx.org/licenses/LGPL-2.0" />
- ...
- </Package>
+      ...
+      <licenseDeclared rdf:resource="http://spdx.org/licenses/LGPL-2.0" />
+      ...
+    </Package>
 
 
 例：
 
     <Package rdf:about="...">
- ...
- <licenseDeclared>
- <ConjunctiveLicenseSet>
- <member rdf:resource="http://spdx.org/licenses/LGPL-2.0" />
- <member rdf:resource="#LicenseRef-3" />
- </ConjunctiveLicenseSet>
- </licenseDeclared>
- ...
- </Package>
+      ...
+      <licenseDeclared>
+        <ConjunctiveLicenseSet>
+          <member rdf:resource="http://spdx.org/licenses/LGPL-2.0" />
+          <member rdf:resource="#LicenseRef-3" />
+        </ConjunctiveLicenseSet>
+      </licenseDeclared>
+      ...
+    </Package>
 
 ## 3.16 Comments on License ライセンスへのコメント）<a name="3.16"></a>
 
@@ -806,20 +805,20 @@ RDFでは、`<licenseComment>`で分離される。
 例：
 
     PackageLicenseComments: <text>The license for this project changed with the release of version 1.4.
- The version of the project included here post-dates the license change.</text>
+      The version of the project included here post-dates the license change.</text>
 
 **3.16.6** RDF: property `spdx:licenseComments` in class `spdx:Package`
 
 例：
 
     <Package rdf:about="...">
- ...
- <licenseComments>
- このパッケージは、ソースとバイナリー形式で出荷された。
- バイナリーは、gcc 4.5.1 で生成され、互換性のあるランタイム ライブラリー システムとリンクすることが期待される。
- </licenseComments>
- ...
- </Package>
+      ...
+      <licenseComments>
+        このパッケージは、ソースとバイナリー形式で出荷された。
+        バイナリーは、gcc 4.5.1 で生成され、互換性のあるランタイム ライブラリー システムとリンクすることが期待される。
+      </licenseComments>
+      ...
+    </Package>
 
 ## 3.17 Copyright Text （著作権テキスト）<a name="3.17"></a>
 
@@ -852,10 +851,10 @@ RDFでは、`<licenseComment>`で分離される。
 例：
 
     <Package rdf:about="...">
- ...
- <copyrightText>Copyright 2008-2010 John Smith</copyrightText>
- ...
- </Package>
+      ...
+      <copyrightText>Copyright 2008-2010 John Smith</copyrightText>
+      ...
+    </Package>
 
 ## 3.18 Package Summary Description（パッケージ要約記述） <a name="3.18"></a>
 
@@ -880,10 +879,10 @@ RDFでは、`<licenseComment>`で分離される。
 例：
 
     <Package rdf:about="...">
- ...
- <summary>GNU C library.</summary>
- ...
- </Package>
+      ...
+      <summary>GNU C library.</summary>
+      ...
+    </Package>
 
 ## 3.19 Package Detailed Description（パッケージ要約記述） <a name="3.19"></a>
 
@@ -902,22 +901,22 @@ RDFでは、`<licenseComment>`で分離される。
 例：
 
     PackageDescription: <text>The GNU C Library defines functions that are specified by the ISO C standard,
- as well as additional features specific to POSIX and other derivatives of the Unix operating system,
- and extensions specific to GNU systems.</text>
+    as well as additional features specific to POSIX and other derivatives of the Unix operating system,
+    and extensions specific to GNU systems.</text>
 
 3.19.6  RDF:  property `spdx:description` in class `spdx:Package`
 
 例：
 
     <Package rdf:about="...">
- ...
- <description>
- The GNU C Library defines functions that are specified by the
- ISO C standard, as well as additional features specific to POSIX and other
- derivatives of the Unix operating system, and extensions specific to GNU systems.
- </description>
- ...
- </Package>
+      ...
+      <description>
+        The GNU C Library defines functions that are specified by the
+        ISO C standard, as well as additional features specific to POSIX and other
+        derivatives of the Unix operating system, and extensions specific to GNU systems.
+      </description>
+      ...
+    </Package>
 
 ## 3.20 Package Comment（パッケージ コメント） <a name="3.20"></a>
 
@@ -942,12 +941,12 @@ RDFでは、`<licenseComment>`で分離される。
 例：
 
     <Package rdf:about="...">
- ...
- <rdfs:comment>
- The package includes several sub-packages; see Relationship information.
- </rdfs:comment>
- ...
- </Package>
+      ...
+      <rdfs:comment>
+        The package includes several sub-packages; see Relationship information.
+      </rdfs:comment>
+      ...
+    </Package>
 
 ## 3.21 External Reference（外部参照） <a name="3.21"></a>
 
@@ -979,30 +978,30 @@ RDFでは、`<licenseComment>`で分離される。
 例（リストされた位置）：
 
     <spdx:Packagerdf:about="...">
- ...
- <spdx:externalRef>
- <spdx:ExternalRef>
- <spdx:referenceCategory rdf:resouce="http://spdx.org/rdf/terms#referenceCategory_packageManager" />
- <spdx:referenceType rdf:resource="http://spdx.org/rdf/refeferences/maven-central" />
- <spdx:referenceLocator>org.apache.commons:commons-lang:3.2.1</spdx:referenceLocator>
- </spdx:ExternalRef>
- </spdx:externalRef>
- ...
- </spdx:package>
+      ...
+      <spdx:externalRef>
+        <spdx:ExternalRef>
+          <spdx:referenceCategory rdf:resouce="http://spdx.org/rdf/terms#referenceCategory_packageManager" />
+          <spdx:referenceType rdf:resource="http://spdx.org/rdf/refeferences/maven-central" />
+          <spdx:referenceLocator>org.apache.commons:commons-lang:3.2.1</spdx:referenceLocator>
+        </spdx:ExternalRef>
+      </spdx:externalRef>
+      ...
+    </spdx:package>
 
 例（リストされない位置）：
 
     <spdx:Package rdf:about="...">
- ...
- <spdx:externalRef>
- <spdx:ExternalRef>
- <spdx:referenceCategory rdf:resource="http://spdx.org/rdf/terms#referenceCategory_other" />
- <spdx:referenceType rdf:resource="http://spdx.org/spdxdocs/spdx-tools-v1.2-3F2504E0-4F89-41D3-9A0C-0305E82...LocationRef-acmeforge" />
- <spdx:referenceLocator>acmecorp/acmenator/4.1.3-alpha</spdx:referenceLocator>
- </spdx:ExternalRef>
- </spdx:externalRef>
- ...
- </spdx:package>
+      ...
+      <spdx:externalRef>
+        <spdx:ExternalRef>
+          <spdx:referenceCategory rdf:resource="http://spdx.org/rdf/terms#referenceCategory_other" />
+          <spdx:referenceType rdf:resource="http://spdx.org/spdxdocs/spdx-tools-v1.2-3F2504E0-4F89-41D3-9A0C-0305E82...LocationRef-acmeforge" />
+          <spdx:referenceLocator>acmecorp/acmenator/4.1.3-alpha</spdx:referenceLocator>
+        </spdx:ExternalRef>
+      </spdx:externalRef>
+      ...
+    </spdx:package>
 
 リストされない位置のreferenceType値は、SPDX文書名前空間（[セクション 2.5](2-document-creation-information.md#2.5)）と後続の  `#`  と[3.21.4](#3.21).で定義されるカテゴリーから構成される。
 
@@ -1025,27 +1024,27 @@ RDFでは、`<ExternalRefComment>`で分離される。
 例：
 
     ExternalRefComment: <text>NIST National Vulnerability Database (NVD) describes
- security vulnerabilities (CVEs) which affect Vendor Product Version
- acmecorp:acmenator:6.6.6.</text>
+    security vulnerabilities (CVEs) which affect Vendor Product Version
+    acmecorp:acmenator:6.6.6.</text>
 
 **3.22.6** RDF: Property `rdfs:comment` in class `spdx:ExternalRef` in class `spdx:Package`
 
     <spdx:Package rdf:about="...">
- ...
- <spdx:externalRef>
- <spdx:ExternalRef>
- <spdx:referenceCategory rdf:resouce="http://spdx.org/rdf/terms#referenceCategory_packageManager" />
- <spdx:referenceType rdf:resource="http://spdx.org/rdf/refeferences/maven-central" />
- <spdx:referenceLocator>org.apache.commons:commons-lang:3.2.1</spdx:referenceLocator>
- <rdfs:comment>
- NIST National Vulnerability Database (NVD) describes
- security vulnerabilities (CVEs) which affect Vendor Product Version
- acmecorp:acmenator:6.6.6
- </rdfs:comment>
- </spdx:ExternalRef>
- </spdx:externalRef>
- ...
- </spdx:package>
+      ...
+      <spdx:externalRef>
+        <spdx:ExternalRef>
+          <spdx:referenceCategory rdf:resouce="http://spdx.org/rdf/terms#referenceCategory_packageManager" />
+          <spdx:referenceType rdf:resource="http://spdx.org/rdf/refeferences/maven-central" />
+          <spdx:referenceLocator>org.apache.commons:commons-lang:3.2.1</spdx:referenceLocator>
+          <rdfs:comment>
+            NIST National Vulnerability Database (NVD) describes
+            security vulnerabilities (CVEs) which affect Vendor Product Version
+            acmecorp:acmenator:6.6.6
+          </rdfs:comment>
+        </spdx:ExternalRef>
+      </spdx:externalRef>
+      ...
+    </spdx:package>
 
 
 [Bazaar]: http://bazaar.canonical.com/
