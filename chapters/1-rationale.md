@@ -1,6 +1,6 @@
 # 1 Rationale（理論的根拠）
 
-## 1.1Charter（ 趣意） <a name="1.1"></a>
+## 1.1 Charter（ 趣意） <a name="1.1"></a>
 
 ライセンスや他のポリシー コンプライアンスを容易にできるように、ソフトウェアや関連物に対するライセンスやコンポーネント情報（メタデータ）を、企業や組織が共有するためのデータ交換規格を作成すること
 
@@ -8,7 +8,7 @@
 
 Software Package Data Exchange（ソフトウェア パッケージ データ交換）（SPDX ®）仕様は、ソフトウェア パッケージに関連するコンポーネント、ライセンスや著作権 を伝えるためのフォーマットである。SPDXファイルは、特定のソフトウェア パッケージやパッケージ セットに関連付けられており、SPDXフォーマットの情報を保持している。
 
-## 1.3 データ交換用の共通フォーマットはなぜ必要なのか？<a name="1.3"></a>
+## 1.3 Why is a common format for data exchange needed?（データ交換用の共通フォーマットはなぜ必要なのか？）<a name="1.3"></a>
 
 企業や組織（合わせて「組織」）は、オープン ソースや他のソフトウェア パッケージを広く利用や再利用している。関連するライセンス コンプライアンスを達成するには、各「組織」で独立して実施される解析活動や精査（due diligence）が必要となる。それらの活動には、人手または自動で実施されるソフトウェア スキャンと関連ライセンスの特定、および人手によるそれらの結果確認が含まれる。世界中のソフトウェア開発チームが同一のオープン ソース パッケージを利用するが、解析の共同作業や解析結果の共有を促進するインフラはほとんどない。その結果、多くのグループが、重複する努力と余分な情報を生み出す同じ作業を行っていることになる。SPDX作業グループは、データ交換フォーマットの作成を試みている。その結果、時間の節約とデータの正確さ向上を目指して、ソフトウェア パッケージと関連物の情報が共通フォーマットで収集、共有されることが期待できる。
 
@@ -76,7 +76,7 @@ Software Package Data Exchange（ソフトウェア パッケージ データ交
 
 "This is not an official SPDX Specification. Portions herein have been reproduced from SPDXR Specification 2.1.1 found at spdx.org. These portions are Copyright c 2010-2018 Linux Foundation and its Contributors, and are licensed under the Creative Commons Attribution License 3.0 Unported by the Linux Foundation and its Contributors. All other rights are expressly reserved by Linux Foundation and its Contributors."
 
-## 1.8 SPDX仕様2.0からの差分 <a name="1.8"></a>
+## 1.8 Differences from SPDX Specification 2.0（SPDX仕様2.0からの差分） <a name="1.8"></a>
 
 **1.8.1** ファイルの一部分がファイル全体と異なる属性を持てるように、コード断片（Snippets）が追加された。コード断片の仕様は、完全に任意であり、コード断片を識別する必要はない。コード断片を記述するフィールドの詳細については、[セクション5 コード断片情報](./5-snippet-information.md) を参照。
 

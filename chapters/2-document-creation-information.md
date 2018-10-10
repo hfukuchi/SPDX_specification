@@ -1,4 +1,4 @@
-# 2 文書作成情報
+﻿# 2 Document Creation Information（文書作成情報）
 
 SPDXファイルごとに一つのインスタンスが必要である。ツールの前方後方互換性のために必要な情報を提供する。
 
@@ -31,8 +31,8 @@ SPDXファイルごとに一つのインスタンスが必要である。ツー�
 例：
 
     <SpdxDocument rdf:about="...">
- <specVersion>SPDX-2.1</specVersion>
- </SpdxDocument>
+      <specVersion>SPDX-2.1</specVersion>
+    </SpdxDocument>
 
 ## 2.2 Data License（データ ライセンス<a name="2.2"></a>
 
@@ -57,10 +57,10 @@ SPDX仕様あるいはその一部を利用することで、あなたは、説�
 例：
 
     <SpdxDocument rdf:about="...">
- <dataLicense rdf:resource="http://spdx.org/licenses/CC0-1.0" />
- </SpdxDocument>
+      <dataLicense rdf:resource="http://spdx.org/licenses/CC0-1.0" />
+    </SpdxDocument>
 
-## 2.3 SPDX Identifier <a name="2.3"></a>
+## 2.3 SPDX Identifier（SPDX識別子） <a name="2.3"></a>
 
 **2.3.1** 目的：内部の他のファイルやパッケージや外部の文書との関係で参照される現行のSPDX文書を特定する。全体として他の文書を参照するため、この識別子は外部文書識別子といっしょに使われるべきである。“Relationships between SPDX Elements”（「SPDX要素間の関係」）を参照。
 
@@ -81,8 +81,8 @@ SPDX仕様あるいはその一部を利用することで、あなたは、説�
 `#SPDXRef-DOCUMENT`
 
     <spdx:SpdxDocument rdf:about="http://spdx.org/spdxdocs/spdx-example-444504E0-4F89-41D3-9A0C-0305E82C33...">
- ...
- </spdx:SpdxDocument>
+      ...
+    </spdx:SpdxDocument>
 
 ## 2.4 Document Name（文書名）<a name="2.4"></a>
 
@@ -107,12 +107,12 @@ SPDX仕様あるいはその一部を利用することで、あなたは、説�
 例：
 
     <SpdxDocument rdf:about="...">
- <name>glibc-v2.3</name>
- </SpdxDocument>
+      <name>glibc-v2.3</name>
+    </SpdxDocument>
 
     <SpdxDocument rdf:about="...">
- <name>ubuntu-14.04</name>
- </SpdxDocument>
+      <name>ubuntu-14.04</name>
+    </SpdxDocument>
 
 ## 2.5 SPDX Document Namespace（SPDX文書名前空間） <a name="2.5"></a>
 
@@ -154,8 +154,8 @@ URIは、SPDX文書の特定バージョンを含むSPDX文書に一意の値で
 例：
 
     <SpdxDocument rdf:about="http://spdx.org/spdxdocs/spdx-tools-v1.2-3F2504E0-4F89-41D3-9A0C-0305E82...">
- <rdfs:comment>This document was created using SPDX 2.0 using licenses from the web site.</rdfs:comment>
- </SpdxDocument>
+      <rdfs:comment>This document was created using SPDX 2.0 using licenses from the web site.</rdfs:comment>
+    </SpdxDocument>
 
 ## 2.6 External Document References（外部文書参照） <a name="2.6"></a>
 
@@ -190,18 +190,18 @@ ExternalDocumentRefは2つの属性を持つ。
 例：
 
     <externalDocumentRef>
- <ExternalDocumentRef>
- <spdx:externalDocumentId>DocumentRef-spdx-tool-1.2</spdx:externalDocumentId>
- <spdxDocument rdf:about=”http://spdx.org/spdxdocs/spdx-tools-v1.2-3F2504E0-4F89-41D3-9A0C-0305E82...” />
- <checksum>
- <Checksum>
- <algorithm rdf:resource="checksumAlgorithm_sha1"/>
- <checksumValue>d6a770ba38583ed4bb4525bd96e50461655d2758
- </checksumValue>
- </Checksum>
- </checksum>
- </ExternalDocumentRef>
- </externalDocumentRef>
+     <ExternalDocumentRef>
+       <spdx:externalDocumentId>DocumentRef-spdx-tool-1.2</spdx:externalDocumentId>
+       <spdxDocument rdf:about=”http://spdx.org/spdxdocs/spdx-tools-v1.2-3F2504E0-4F89-41D3-9A0C-0305E82...” />
+       <checksum>
+         <Checksum>
+           <algorithm rdf:resource="checksumAlgorithm_sha1"/>
+           <checksumValue>d6a770ba38583ed4bb4525bd96e50461655d2758
+           </checksumValue>
+         </Checksum>
+       </checksum>
+     </ExternalDocumentRef>
+    </externalDocumentRef>
 
 注：RDFでは、外部参照に簡易形式の名前が必要な場合は、外部文書参照のために名前空間を作成できる。
 
@@ -231,8 +231,8 @@ ExternalDocumentRefは2つの属性を持つ。
 例：
 
     <CreationInfo>
- <licenseListVersion>2.0</licenseListVersion>
- </CreationInfo>
+      <licenseListVersion>2.0</licenseListVersion>
+    </CreationInfo>
 
 ## 2.8 Creator（作成者） <a name="2.8"></a>
 
@@ -253,20 +253,20 @@ ExternalDocumentRefは2つの属性を持つ。
 例：
 
     Creator: Person: Jane Doe ()
- Creator: Organization: ExampleCodeInspect ()
- Creator: Tool: LicenseFind-1.0
+    Creator: Organization: ExampleCodeInspect ()
+    Creator: Tool: LicenseFind-1.0
 
 **2.8.6** RDF: Property `spdx:creator` in class `spdx:CreationInfo`
 
 例：
 
     <CreationInfo>
- <creator> Person: Jane Doe () </creator>
- <creator> Organization: ExampleCodeInspect () </creator>
- <creator> Tool: LicenseFind-1.0 </creator>
- </CreationInfo>
+      <creator> Person: Jane Doe () </creator>
+      <creator> Organization: ExampleCodeInspect () </creator>
+      <creator> Tool: LicenseFind-1.0 </creator>
+    </CreationInfo>
 
-## 2.9 Created（生成時期） <a name="2.9"></a>
+## 2.9 Created（作成日時） <a name="2.9"></a>
 
 **2.9.1** 目的：SPDXファイルがいつ作成されたかを特定する。作成日は、ISO8601標準のUTCフォーマットで記述された結合日時に従って特定される。このフィールドは、後続のレビューにおいて情報を追加できる、[セクション 8](8-annotations.md)で定義するフィールドとは区別される。
 
@@ -298,8 +298,8 @@ ExternalDocumentRefは2つの属性を持つ。
 例：
 
     <CreationInfo>
- <created> 2010-01-29T18:30:22Z </created>
- </CreationInfo>
+      <created> 2010-01-29T18:30:22Z </created>
+    </CreationInfo>
 
 ## 2.10 Creator Comment（作成者コメント）<a name="2.10"></a>
 
@@ -325,9 +325,8 @@ ExternalDocumentRefは2つの属性を持つ。
 例：
 
     <CreationInfo>
- <rdfs:comment>This SPDX file was created by a combination of using a free tool, as indicated above,
- and manual analysis by several authors of the code.</rdfs:comment>
- </CreationInfo>
+      <rdfs:comment>This SPDX file was created by a combination of using a free tool, as indicated above, and manual analysis by several authors of the code.</rdfs:comment>
+    </CreationInfo>
 
 ## 2.11 Document Comment（文書コメント） <a name="2.11"></a>
 
@@ -343,15 +342,14 @@ ExternalDocumentRefは2つの属性を持つ。
 
 例：
 
-    DocumentComment: <text>This document was created using SPDX 2.0,
- version 2.3 of the SPDX License List and refering to licenses in file MyCompany.Approved.Licenses.spdx.</text>
+    DocumentComment: <text>This document was created using SPDX 2.0, version 2.3 of the SPDX License List and refering to licenses in file MyCompany.Approved.Licenses.spdx.</text>
 
 **2.11.6**  RDF: Property `rdfs:comment` in class `SpdxDocument`
 
 例：
 
     <SpdxDocument rdf:about="...">
- <rdfs:comment>
- この文書は、ウェブサイトからのライセンスを使い、SPDX2.0に従って作成された。
- </rdfs:comment>
- </SpdxDocument>
+      <rdfs:comment>
+        この文書は、ウェブサイトからのライセンスを使い、SPDX2.0に従って作成された。
+      </rdfs:comment>
+    </SpdxDocument>
