@@ -1,4 +1,4 @@
-# 6 Other Licensing Information Detected（検出された他ライセンス情報）
+﻿# 6 Other Licensing Information Detected（検出された他ライセンス情報）
 
 このセクションは、検出、宣言あるいは結論されたライセンスがSPDXライセンスリストに掲載されていない場合に使用する。リストの最新バージョンは以下を参照：http://spdx.org/licenses/. SPDXライセンスリスト[Appendix I](appendix-I-SPDX-license-list.md)でも参照できる。
 
@@ -33,14 +33,14 @@
 例：
 
     <ExtractedLicensingInfo rdf:about="licenseRef-1">
- <licenseId>LicenseRef-1</licenseId>
- </ExtractedLicensingInfo>
+      <licenseId>LicenseRef-1</licenseId>
+    </ExtractedLicensingInfo>
 
     <ExtractedLicensingInfo rdf:about="licenseRef-Beerware-4.2">
- <licenseId>LicenseRef-Beerware-4.2</licenseId>
- </ExtractedLicensingInfo>
+      <licenseId>LicenseRef-Beerware-4.2</licenseId>
+    </ExtractedLicensingInfo>
 
-# 6.2 Extracted Text（抽出されたテキスト） <a name="6.2"></a>
+## 6.2 Extracted Text（抽出されたテキスト） <a name="6.2"></a>
 
 **6.2.1** 目的：パッケージから抽出されたライセンス参照の実際のテキストや、ライセンス識別子に関連するファイルを将来の解析のために提供する。
 
@@ -67,18 +67,18 @@
 例1（ライセンスに対する簡易参照だけがファイルにある場合）：
 
     <ExtractedLicensingInfo rdf:about="licenseRef-Whiskeyware">
- <licenseId>LicenseRef-Whiskeyware</licenseId>
- <extractedText>This software is licensed under the WHISKEY-WARE LICENSE.</extractedText>
- </ExtractedLicensingInfo>
+      <licenseId>LicenseRef-Whiskeyware</licenseId>
+      <extractedText>This software is licensed under the WHISKEY-WARE LICENSE.</extractedText>
+    </ExtractedLicensingInfo>
 
 例2（ファイルにライセンス全文がある場合）
 
     <ExtractedLicensingInfo rdf:about="licenseRef-Whiskeyware">
- <licenseId>LicenseRef-Whiskeyware</licenseId>
- <extractedText>""THE WHISKEY-WARE LICENSE": whiskeyfan@example.com wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a bottle of whiskey in return.</extractedText>
- </ExtractedLicensingInfo>
+      <licenseId>LicenseRef-Whiskeyware</licenseId>
+      <extractedText>""THE WHISKEY-WARE LICENSE": whiskeyfan@example.com wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a bottle of whiskey in return.</extractedText>
+    </ExtractedLicensingInfo>
 
-# 6.3 License Name（ライセンス名） <a name="6.3"></a>
+## 6.3 License Name（ライセンス名） <a name="6.3"></a>
 
 **6.3.1** 目的：SPDXリストに掲載されていないライセンスの共通名を提供する。
 
@@ -101,19 +101,19 @@
 例：
 
     <ExtractedLicensingInfo rdf:about="licenseRef-Whiskey-Ware">
- <name>Whiskey-Ware License </name>
- </ExtractedLicensingInfo>
+      <name>Whiskey-Ware License </name>
+    </ExtractedLicensingInfo>
 
 
-# 6.4 License Cross Reference（ライセンス相互参照） <a name="6.4"></a>
+## 6.4 License Cross Reference（ライセンス相互参照） <a name="6.4"></a>
 
-**6.4.1** Purpose: Provide a pointer to the official source of a license that is not included in the SPDX License List, that is referenced by the License Identifier.
+**6.4.1** 目的：ライセンス識別子によって参照されているが、SPDXライセンスリストに掲載されていないライセンスについて、公式ソースへの参照を提供する。
 
-**6.4.2** Intent: Canonical source for a license currently not on the SPDX License List.
+**6.4.2** 意図：ライセンスに関するCanonicalソースは、現在SPDXライセンスリストに掲載されていない。
 
-**6.4.3** Cardinality: Conditional (optional, one or more) if license is not on SPDX License List.
+**6.4.3** 基数：条件付き（任意、1）　ライセンスがSPDXライセンスリストに掲載されていない場合
 
-**6.4.4** Data Format: Uniform Resource Locator
+**6.4.4** データ フォーマット：uniform resource locator（URL）
 
 **6.4.5** Tag: `LicenseCrossReference:`
 
@@ -126,18 +126,18 @@
 例：
 
     <ExtractedLicensingInfo rdf:about="licenseRef-1">
- <rdfs:seeAlso>http://people.freebsd.org/~phk/</rdfs:seeAlso>
- </ExtractedLicensingInfo>
+      <rdfs:seeAlso>http://people.freebsd.org/~phk/</rdfs:seeAlso>
+    </ExtractedLicensingInfo>
 
-# 6.5 License Comment <a name="6.5"></a>
+## 6.5 License Comment（ライセンス コメント）  <a name="6.5"></a>
 
-**6.5.1** Purpose: This field provides a place for the SPDX file creator to record any general comments about the license.
+**6.5.1** 目的：このフィールドは、SPDXファイル作成者に、ライセンスに対する一般的なコメントを記録する場所を提供する。
 
-**6.5.2** Intent: Here, the intent is to provide the recipient of the SPDX file with more information determined after careful analysis of a license, or addition cross references.
+**6.5.2** 意図：SPDX文書の受領者に注意深いライセンス解析の後に決定された情報や追加の相互参照を提供する。
 
-**6.5.3** Cardinality: Optional, one.
+**6.5.3** 基数：任意、1
 
-**6.5.4** Data Format: Free form text that can span multiple lines
+**6.5.4** データ フォーマット：自由形式文（複数行に渡ってもよい）
 
 **6.5.5** Tag: `LicenseComment:`
 
@@ -152,5 +152,5 @@
 例：
 
     <ExtractedLicensingInfo rdf:about="licenseRef-1">
- <rdfs:comment> The Whiskey-Ware License has a couple of other standard variants.</rdfs:comment>
- </ExtractedLicensingInfo>
+      <rdfs:comment> The Whiskey-Ware License has a couple of other standard variants.</rdfs:comment>
+    </ExtractedLicensingInfo>
