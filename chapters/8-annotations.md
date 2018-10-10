@@ -1,4 +1,4 @@
-# 8 Annotations（注釈）
+﻿# 8 Annotations（注釈）
 
 ## 8.1 Annotator（注釈者） <a name="8.1"></a>
 
@@ -25,8 +25,8 @@
 例：
 
     <Annotation>
- <annotator> Person: Jane Doe () </annotator>
- </Annotations>
+      <annotator> Person: Jane Doe () </annotator>
+    </Annotations>
 
 ## 8.2 Annotation Date（注釈日時） <a name="8.2"></a>
 
@@ -59,9 +59,9 @@
 
 例：
 
+    <Annotation>
+      <annotationDate> 2010-01-29T18:30:22Z </annotation Date>
     </Annotation>
- <annotationDate> 2010-01-29T18:30:22Z </annotation Date>
- </Annotation>
 
 ## 8.3 Annotation Type（注釈タイプ） <a name="8.3"></a>
 
@@ -84,8 +84,8 @@
 例：
 
     <Annotation>
- <spdx:annotationType rdf:resource="http://spdx.org/rdf/terms#annotationType_other"/>
- </Annotation>
+      <spdx:annotationType rdf:resource="http://spdx.org/rdf/terms#annotationType_other"/>
+    </Annotation>
 
 ## 8.4 SPDX Identifier Reference（SPDX識別子参照） <a name="8.4"></a>
 
@@ -117,12 +117,12 @@
 RDFでは、注釈は対象のSPDX要素の属性である。
 
     <SpdxElement rdf:about=”#SPDXRef-45”>
- <annotation>
- <Annotation>
- ...
- </Annotation>
- </annotation>
- </SpdxElement rdf:about=”#SPDXRef-45”>
+      <annotation>
+        <Annotation>
+          ...
+        </Annotation>
+      </annotation>
+    </SpdxElement rdf:about=”#SPDXRef-45”>
 
 ## 8.5 Annotation Comment（注釈コメント） <a name="8.5"></a>
 
@@ -141,14 +141,14 @@ RDFでは、注釈は対象のSPDX要素の属性である。
 例：
 
     AnnotationComment: <text>ファイルにあるすべてのライセンスは、人手の検査で見たものと整合している。
- ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。</text>
+    ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。</text>
 
 **8.5.6** RDF: Property `rdfs:comment` in class `spdx:Annotation`
 
 例：
 
     <Annotation>
- <rdfs:comment>ファイルにあるすべてのライセンスは、人手の検査で見たものと整合している。
- ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。
- </rdfs:comment>
- </Annotation>
+      <rdfs:comment>ファイルにあるすべてのライセンスは、人手の検査で見たものと整合している。
+        ある条項は結論されたライセンスに影響を与える可能性がある。他の選択肢が可能である。しかし、結論されたライセンスは任意選択の一つである。
+      </rdfs:comment>
+    </Annotation>
