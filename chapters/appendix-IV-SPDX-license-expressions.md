@@ -1,4 +1,4 @@
-# SPDX License Expressions（SPDXライセンス表現）
+﻿# SPDX License Expressions（SPDXライセンス表現）
 
 ## Overview（概要）
 
@@ -100,9 +100,9 @@ license-idと後続の`+`の間にスペースを入れてはいけない。こ�
 表現中の演算子の適用順序は重要である。（算術演算子と似ている） `<license-expression>` の演算子のデフォルトの優先順位は以下となる：
 
     +
- WITH
- AND
- OR
+    WITH
+    AND
+    OR
 
 ここで、小さい順位の演算子は大きい順位の演算子より前に適用される。
 
@@ -125,51 +125,51 @@ license-idと後続の`+`の間にスペースを入れてはいけない。こ�
 接続的なライセンスは、接続的なライセンスに含まれる各要素に対するspdx:member属性を伴う`<spdx:ConjunctiveLicenseSet>` 要素を使ってRDFで表現可能である。2つ以上のメンバーが必要である。
 
     <spdx:ConjunctiveLicenseSet>
- <spdx:member rdf:resource="http://spdx.org/licenses/GPL-2.0"/>
- <spdx:ExtractedLicensingInfo rdf:about="http://example.org#LicenseRef-EternalSurrender">
- <spdx:extractedText>
- In exchange for using this software, you agree to give its author all your worldly possessions.
- You will not hold the author liable for all the damage this software will inevitably cause not only
- to your person and property, but to the entire fabric of the cosmos.
- </spdx:extractedText>
- <spdx:licenseId>LicenseRef-EternalSurrender</spdx:licenseId>
- </spdx:ExtractedLicensingInfo>
- </spdx:ConjunctiveLicenseSet>
+    <spdx:member rdf:resource="http://spdx.org/licenses/GPL-2.0"/>
+    <spdx:ExtractedLicensingInfo rdf:about="http://example.org#LicenseRef-EternalSurrender">
+      <spdx:extractedText>
+        In exchange for using this software, you agree to give its author all your worldly possessions.
+        You will not hold the author liable for all the damage this software will inevitably cause not only
+        to your person and property, but to the entire fabric of the cosmos.
+      </spdx:extractedText>
+      <spdx:licenseId>LicenseRef-EternalSurrender</spdx:licenseId>
+      </spdx:ExtractedLicensingInfo>
+    </spdx:ConjunctiveLicenseSet>
 
 離接的なライセンスは、離接的なライセンスに含まれる各要素に対するspdx:member属性を伴う`<spdx:DisjunctiveLicenseSet>`要素を使ってRDFで表現可能である。2つ以上のメンバーが必要である。
 
     <spdx:DisjunctiveLicenseSet>
- <spdx:member rdf:resource="http://spdx.org/licenses/GPL-2.0"/>
- <spdx:member>
- <spdx:ExtractedLicensingInfo rdf:about="http://example.org#LicenseRef-EternalSurrender">
- <spdx:extractedText>
- In exchange for using this software, you agree to give its author all your worldly possessions.
- You will not hold the author liable for all the damage this software will inevitably cause
- not only to your person and property, but to the entire fabric of the cosmos.
- </spdx:extractedText>
- <spdx:licenseId>LicenseRef-EternalSurrender</spdx:licenseId>
- </spdx:ExtractedLicensingInfo>
- </spdx:member>
- </spdx:DisjunctiveLicenseSet>
+      <spdx:member rdf:resource="http://spdx.org/licenses/GPL-2.0"/>
+      <spdx:member>
+      <spdx:ExtractedLicensingInfo rdf:about="http://example.org#LicenseRef-EternalSurrender">
+        <spdx:extractedText>
+          In exchange for using this software, you agree to give its author all your worldly possessions.
+          You will not hold the author liable for all the damage this software will inevitably cause
+          not only to your person and property, but to the entire fabric of the cosmos.
+        </spdx:extractedText>
+        <spdx:licenseId>LicenseRef-EternalSurrender</spdx:licenseId>
+        </spdx:ExtractedLicensingInfo>
+      </spdx:member>
+    </spdx:DisjunctiveLicenseSet>
 
 ライセンス例外は、`<spdx:LicenseException>` 要素を使ってRDFで表現可能である。この要素は以下の属性を有する。
 
 *  Comment - 例外の性質を記述するrdfs:comment要素
 * See Also （任意）-  例外に関する情報の外部ソースを参照するrdfs:seeAlso要素
 * Example - 例外の例を記述するテキスト
-* Name - 項目の人間によって可読な名前
+* Name - 人間によって可読な項目名
 * License Exception ID: 該当するSPDXライセンス リスト中の例外を示す識別子
 * License Exception Text: ライセンス例外の全文
 
-        <rdf:Description rdf:about="http://example.org#SPDXRef-ButIdDontWantToException">
- <rdfs:comment>This exception may be invalid in some jurisdictions.</rdfs:comment>
- <rdfs:seeAlso>http://dilbert.com/strip/1997-01-15</rdfs:seeAlso>
- <spdx:example>So this one time, I had a license exception�c</spdx:example>
- <spdx:licenseExceptionText>
- A user of this software may decline to follow any subset of the terms of this license upon
- finding any or all such terms unfavorable.
- </spdx:licenseExceptionText>
- <spdx:name>&quot;But I Don&apos;t Want To&quot; Exception</spdx:name>
- <spdx:licenseExceptionId>SPDXRef-ButIdDontWantToException</spdx:licenseExceptionId>
- <rdf:type rdf:resource="http://spdx.org/rdf/terms#LicenseException"/>
- </rdf:Description>
+      <rdf:Description rdf:about="http://example.org#SPDXRef-ButIdDontWantToException">
+        <rdfs:comment>This exception may be invalid in some jurisdictions.</rdfs:comment>
+        <rdfs:seeAlso>http://dilbert.com/strip/1997-01-15</rdfs:seeAlso>
+        <spdx:example>So this one time, I had a license exception�c</spdx:example>
+        <spdx:licenseExceptionText>
+          A user of this software may decline to follow any subset of the terms of this license upon
+          finding any or all such terms unfavorable.
+        </spdx:licenseExceptionText>
+        <spdx:name>&quot;But I Don&apos;t Want To&quot; Exception</spdx:name>
+        <spdx:licenseExceptionId>SPDXRef-ButIdDontWantToException</spdx:licenseExceptionId>
+        <rdf:type rdf:resource="http://spdx.org/rdf/terms#LicenseException"/>
+      </rdf:Description>
