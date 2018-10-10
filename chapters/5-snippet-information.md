@@ -1,4 +1,4 @@
-# 5 Snippet Information（コード断片情報）
+﻿# 5 Snippet Information（コード断片情報）
 
 Snippets（コード断片）は、あるファイルが他のオリジナル ソースから取り入れられた内容を含むとわかっている場合に任意で使用可能である。これらは、ファイルの一部分が最初は他のライセンスの下で作成されたことを示すのに役に立つ。
 
@@ -34,16 +34,16 @@ Snippet（コード断片）に対するAnnotations（注釈）とSnippet（コ�
 xml:baseを使用した例：
 
     <rdf:RDF xml:base="http://acme.com/spdxdocs/acmeproj/v1.2/1BE2A4FF-5F1A-48D3-8483-28A9B0349A1B"
- ...
- <Snippet rdf:ID=”SPDXRef-1”>
- ...
- </Snippet>
+    ...
+    <Snippet rdf:ID=”SPDXRef-1”>
+      ...
+    </Snippet>
 
 URIを使用した例：
 
     <Snippet rdf:about="http://acme.com/spdxdocs/acmeproj/v1.2/1BE2A4FF-5F1A-48D3-8483-28A9B0349...">
- ...
- </Snippet>
+      ...
+    </Snippet>
 
 ## 5.2 Snippet from File SPDX Identifier（ファイル由来コード断片SPDX識別子） <a name="5.2"></a>
 
@@ -74,16 +74,16 @@ URIを使用した例：
 例（ローカルSPDX文書中のファイル由来のコード断片）
 
     <Snippet “rdf:ID=”SPDXRef-1”>
- <snippetFromFile rdf:about=”#SPDXRef-filecontainingsnippet”>
- ...
- </Snippet>
+    <snippetFromFile rdf:about=”#SPDXRef-filecontainingsnippet”>
+      ...
+    </Snippet>
 
 例（外部SPDX文書中のファイル由来のコード断片）
 
     <Snippet “rdf:ID=”SPDXRef-1”>
- <snippetFromFile rdf:about=”http://foo.org/ExternalDocument1#SPDXRef-filecontainingsnippet”>
- ...
- </Snippet>
+    <snippetFromFile rdf:about=”http://foo.org/ExternalDocument1#SPDXRef-filecontainingsnippet”>
+      ...
+    </Snippet>
 
 ## 5.3 Snippet Byte Range（コード断片バイト範囲） <a name="5.3"></a>
 
@@ -121,23 +121,23 @@ URIを使用した例：
     xmlns:ptr=http://www.w3.org/2009/pointers#
 
     <Snippet rdf:about="...">
- <range>
- <ptr:StartEndPointer>
- <ptr:startPointer>
- <ptr:ByteOffsetPointer>
- <ptr:reference rdf:resource="#SPDXRef-fileReference/>
- <ptr:offset>310</ptr:offset>
- </ptr:ByteOffsetPointer>
- </ptr:startPointer>
- <ptr:endPointer>
- <ptr:ByteOffsetPointer>
- <ptr:referencerdf:resource="#SPDXRef-fileReference/>
- <ptr:offset>420</ptr:offset>
- </ptr:ByteOffsetPointer>
- </ptr:endPointer>
- </ptr: StartEndPointer>
- </range>
- </Snippet>
+      <range>
+        <ptr:StartEndPointer>
+          <ptr:startPointer>
+            <ptr:ByteOffsetPointer>
+              <ptr:reference rdf:resource="#SPDXRef-fileReference/>
+              <ptr:offset>310</ptr:offset>
+            </ptr:ByteOffsetPointer>
+          </ptr:startPointer>
+          <ptr:endPointer>
+            <ptr:ByteOffsetPointer>
+              <ptr:referencerdf:resource="#SPDXRef-fileReference/>
+              <ptr:offset>420</ptr:offset>
+            </ptr:ByteOffsetPointer>
+          </ptr:endPointer>
+        </ptr: StartEndPointer>
+      </range>
+    </Snippet>
 
 ## 5.4 Snippet Line Range（コード断片ライン範囲） <a name="5.4"></a>
 
@@ -174,24 +174,24 @@ URIを使用した例：
 `xmlns:ptr=http://www.w3.org/2009/pointers#`
 
     <Snippet rdf:about="...">
- <range>
- <ptr:StartEndPointer>
- <ptr:startPointer>
- <ptr:LineCharPointer>
- <ptr:reference rdf:resource="#SPDXRef-fileReference"/>
- <ptr:lineNumber>5</ptr:lineNumber>
- </ptr:LineCharPointer>
- </ptr:startPointer>
- <ptr:endPointer>
- <ptr:LineCharPointer>
- <ptr:reference rdf:resource="#SPDXRef-fileReference"/>
- <ptr:lineNumber>23</ptr:lineNumber>
- </ptr:LineCharPointer>
- </ptr: StartEndPointer>
- </range>
- </Snippet>
+      <range>
+        <ptr:StartEndPointer>
+          <ptr:startPointer>
+            <ptr:LineCharPointer>
+            <ptr:reference rdf:resource="#SPDXRef-fileReference"/>
+            <ptr:lineNumber>5</ptr:lineNumber>
+          </ptr:LineCharPointer>
+        </ptr:startPointer>
+        <ptr:endPointer>
+          <ptr:LineCharPointer>
+            <ptr:reference rdf:resource="#SPDXRef-fileReference"/>
+            <ptr:lineNumber>23</ptr:lineNumber>
+          </ptr:LineCharPointer>
+        </ptr: StartEndPointer>
+      </range>
+    </Snippet>
 
-## 5.5 Snippet Concluded License コード断片結論されたライセンス）<a name="5.5"></a>
+## 5.5 Snippet Concluded License （コード断片結論されたライセンス）<a name="5.5"></a>
 
 **5.5.1** 目的：このフィールドは、SPDXファイル作成者がコード断片に適用されると結論したライセンスを与える。ライセンスを決定できない場合には代替値を与える。このフィールドへの記入は以下に限られる：
 
@@ -236,21 +236,21 @@ Appendix IVで定義された有効なSPDX License Expression（SPDXライセン
 例：
 
     <Snippet rdf:about="...">
- ...
- <licenseConcluded>GPL-2.0</licenseConcluded>
- ...
- </Snippet>
+      ...
+      <licenseConcluded>GPL-2.0</licenseConcluded>
+      ...
+    </Snippet>
 
 例：
 
     <Snippet rdf:about="...">
- <licenseConcluded>
- <DisjunctiveLicenseSet>
- <member rdf:resource="http://spdx.org/licenses/LGPL-2.0"/>
- <member rdf:resource="#LicenseRef-2"/>
- </DisjunctiveLicenseSet>
- </licenseConcluded>
- </Snippet>
+      <licenseConcluded>
+        <DisjunctiveLicenseSet>
+          <member rdf:resource="http://spdx.org/licenses/LGPL-2.0"/>
+          <member rdf:resource="#LicenseRef-2"/>
+        </DisjunctiveLicenseSet>
+      </licenseConcluded>
+    </Snippet>
 
 ## 5.6 License Information in Snippet（コード断片中のライセンス情報） <a name="5.6"></a>
 
@@ -302,9 +302,9 @@ Appendix IVで定義された有効なSPDX License Expression（SPDXライセン
 例：
 
     <Snippet rdf:about="...">
- <licenseInfoInSnippet rdf:resource="http://spdx.org/licenses/GPL-2.0" />
- <licenseInfoInSnippet rdf:resource="#LicenseRef-2" />
- </Snippet>
+      <licenseInfoInSnippet rdf:resource="http://spdx.org/licenses/GPL-2.0" />
+      <licenseInfoInSnippet rdf:resource="#LicenseRef-2" />
+    </Snippet>
 
 ## 5.7 Snippet Comments on License （コード断片結論されたライセンス）<a name="5.7"></a>
 
@@ -323,19 +323,19 @@ Appendix IVで定義された有効なSPDX License Expression（SPDXライセン
 例：
 
     SnippetLicenseComments: <text>結論されたライセンスはパッケージxyzから得られた。コード断片はそこからコピーされて現在のファイルに取り込まれた。
- 結論されたライセンス情報は、パッケージxyz中のCOPYING.txt file in package xyzファイルで検出された。</text>
+      結論されたライセンス情報は、パッケージxyz中のCOPYING.txt file in package xyzファイルで検出された。</text>
 
 **5.7.6 ** RDF: Property `spdx:licenseComments` in class `spdx:Snippet`
 
 例：
 
     <Snippet rdf:about="...”>
- ...
- <licenseComments>
- 結論されたライセンスはパッケージxyzから得られた。コード断片はそこからコピーされて現在のファイルに取り込まれた。結論されたライセンス情報は、パッケージxyz中のCOPYING.txt file in package xyzファイルで検出された。
- </licenseComments>
- ...
- </Snippet>
+      ...
+      <licenseComments>
+        結論されたライセンスはパッケージxyzから得られた。コード断片はそこからコピーされて現在のファイルに取り込まれた。結論されたライセンス情報は、パッケージxyz中のCOPYING.txt file in package xyzファイルで検出された。
+      </licenseComments>
+      ...
+    </Snippet>
 
 ## 5.8 Snippet Copyright Text（コード断片著作権テキスト） <a name="5.8"></a>
 
@@ -366,12 +366,12 @@ Appendix IVで定義された有効なSPDX License Expression（SPDXライセン
 例：
 
     <Snippet rdf:about="...">
- ...
- <copyrightText>
- Copyright 2008-2010 John Smith
- </copyrightText>
- ...
- </Snippet>
+      ...
+      <copyrightText>
+        Copyright 2008-2010 John Smith
+      </copyrightText>
+      ...
+    </Snippet>
 
 ## 5.9 Snippet Comment （コード断片コメント）<a name="5.9"></a>
 
@@ -396,12 +396,12 @@ Appendix IVで定義された有効なSPDX License Expression（SPDXライセン
 例：
 
     <Snippet rdf:about="...">
- ...
- <rdfs:comment>
- このコード断片は、商用スキャンツールがGPL-2.0でライセンスされたパッケージxyz中のファイルfoo.cから派生したと検出しており、重要項目としてこのApache-2.0ファイル中でハイライトされた。
- </rdfs:comment>
- ...
- </Snippet>
+      ...
+      <rdfs:comment>
+        このコード断片は、商用スキャンツールがGPL-2.0でライセンスされたパッケージxyz中のファイルfoo.cから派生したと検出しており、重要項目としてこのApache-2.0ファイル中でハイライトされた。
+      </rdfs:comment>
+      ...
+    </Snippet>
 
 ## 5.10 Snippet Name （コード断片名）<a name="5.10"></a>
 
@@ -424,5 +424,5 @@ Appendix IVで定義された有効なSPDX License Expression（SPDXライセン
 例：
 
     <Snippet rdf:about="...">
- <name>from linux kernel</name>
- </Snippet>
+      <name>from linux kernel</name>
+    </Snippet>
