@@ -1,4 +1,4 @@
-# Appendix III: RDF Data Model Implementation and Identifier Syntax（RDFデータ モデル実装と識別子構文）
+﻿# Appendix III: RDF Data Model Implementation and Identifier Syntax（RDFデータ モデル実装と識別子構文）
 
 SPDX R Vocabulary Specification（語彙仕様）
 
@@ -31,31 +31,31 @@ SPDXファイルとの関係で活動したエンティティを特定するフ�
     version= 1*VCHAR-SANS-QUOTE
 
     local-name-atom= 1*( ALPHA / DIGIT /; Printable US-ASCII
- "!" / "#" /;characters not including
- "$" / "%" /;specials.
- "&" / "'" /
- "*" / "+" /
- "-" / "/" /
- "=" / "?" /
- "^" / "_" /
- "`" / "{" /
- "|" / "}" /
- "~" )
+                             "!" / "#" /;characters not including
+                             "$" / "%" /;specials.
+                             "&" / "'" /
+                             "*" / "+" /
+                             "-" / "/" /
+                             "=" / "?" /
+                             "^" / "_" /
+                             "`" / "{" /
+                             "|" / "}" /
+                             "~" )
 
     domain-name-atom = 1*( ALPHA / DIGIT / "-" )
 
     DASH= U+2010 / U+2212 /; hyphen, minus, em dash and
- U+2013 / U+2014;en dash
+          U+2013 / U+2014;en dash
 
 
     UNRESERVED= U+0020-U+0027 /; visible unicode characters
- U+0029-U+0080 /;except '(' and dashes
- U+00A0-U+200F /
- U+2011-U+2027 /
- U+202A-U+2211 /
- U+2213-U+E01EF
+                U+0029-U+0080 /;except '(' and dashes
+                U+00A0-U+200F /
+                U+2011-U+2027 /
+                U+202A-U+2211 /
+                U+2213-U+E01EF
 
 
     VCHAR-SANS-QUOTE = U+0020-U+0021 /; visible unicode characters
- U+0023-U+0080 /;except quotation mark
- U+00a0-U+E01EF
+                       U+0023-U+0080 /;except quotation mark
+                       U+00a0-U+E01EF
