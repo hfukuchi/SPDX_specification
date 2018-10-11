@@ -1,5 +1,5 @@
 # SPDX_specification
-UnoffiJapanese translation of SPDX specification
+Unofficial Japanese translation of SPDX specification
 
 ## SPDX仕様(Version 2.1)の非公式日本語訳を行っています
 
