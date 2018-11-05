@@ -6,7 +6,7 @@
 
 ## 1.2 Definition （定義） <a name="1.2"></a>
 
-Software Package Data Exchange（ソフトウェア パッケージ データ交換）（SPDX ®）仕様は、ソフトウェア パッケージに関連するコンポーネント、ライセンスや著作権 を伝えるためのフォーマットである。SPDXファイルは、特定のソフトウェア パッケージやパッケージ セットに関連付けられており、SPDXフォーマットの情報を保持している。
+Software Package Data Exchange（ソフトウェア パッケージ データ交換）（SPDX &reg;）仕様は、ソフトウェア パッケージに関連するコンポーネント、ライセンスや著作権 を伝えるためのフォーマットである。SPDXファイルは、特定のソフトウェア パッケージやパッケージ セットに関連付けられており、SPDXフォーマットの情報を保持している。
 
 ## 1.3 Why is a common format for data exchange needed?（データ交換用の共通フォーマットはなぜ必要なのか？）<a name="1.3"></a>
 
@@ -62,25 +62,25 @@ Software Package Data Exchange（ソフトウェア パッケージ データ交
 
 **1.6.9** ファイル システム上でファイルを開かなくても認識しやすくするべきである推奨されるネーミング慣例は、*.spdx（タグ値フォーマット）と*­spdx.rdf（RDFフォーマット）である
 
-**1.6.10** この仕様での慣例として、RDFの例　rdf:about="..."　は、適切な統一資源指示子（URI）が提示されるべきことを示す
+**1.6.10** この仕様での慣例として、RDFの例　`rdf:about="..."`　は、適切な統一資源指示子（URI）が提示されるべきことを示す
 
 ## 1.7 Conformance（適合） <a name="1.7"></a>
 
 **1.7.1** SPDX Trademark License （SPDX商標ライセンス）の要求をすべて満足すれば、ファイルをSPDX文書と呼ぶことができる (SPDX商標ページを参照)
 
-**1.7.2** このSPDX仕様2.1の逐語的な複製または頒布に使う公式な著作権表記は以下である：
+**1.7.2** このSPDX &reg; 仕様2.1の逐語的な複製または頒布に使う公式な著作権表記は以下である：
 
-"Official SPDXR Specification 2.1.1 Copyright c 2010-2018 Linux Foundation and its Contributors. Licensed under the Creative Commons Attribution License 3.0 Unported. All other rights are expressly reserved."
+"Official SPDX &reg; Specification 2.1.1 Copyright &copy; 2010-2018 Linux Foundation and its Contributors. Licensed under the Creative Commons Attribution License 3.0 Unported. All other rights are expressly reserved."
 
 **1.7.3** このSPDX仕様の非逐語的な複製または頒布に使う公式な著作権表記は以下である。制限なしの部分的な利用やこのSPDX仕様を他の作品と結合する場合を含む：
 
-"This is not an official SPDX Specification. Portions herein have been reproduced from SPDXR Specification 2.1.1 found at spdx.org. These portions are Copyright c 2010-2018 Linux Foundation and its Contributors, and are licensed under the Creative Commons Attribution License 3.0 Unported by the Linux Foundation and its Contributors. All other rights are expressly reserved by Linux Foundation and its Contributors."
+"This is not an official SPDX Specification. Portions herein have been reproduced from SPDX &reg; Specification 2.1.1 found at spdx.org. These portions are Copyright &copy; 2010-2018 Linux Foundation and its Contributors, and are licensed under the Creative Commons Attribution License 3.0 Unported by the Linux Foundation and its Contributors. All other rights are expressly reserved by Linux Foundation and its Contributors."
 
 ## 1.8 Differences from SPDX Specification 2.0（SPDX仕様2.0からの差分） <a name="1.8"></a>
 
 **1.8.1** ファイルの一部分がファイル全体と異なる属性を持てるように、コード断片（Snippets）が追加された。コード断片の仕様は、完全に任意であり、コード断片を識別する必要はない。コード断片を記述するフィールドの詳細については、[セクション5 コード断片情報](./5-snippet-information.md) を参照。
 
-**1.8.2** 外部パッケージが、SPDX文書中で参照可能となった。これらの外部パッケージを示すSPDXファイル情報が無い場合には、パッケージのfilesAnnalyzed属性はFalseにするべきである。詳細は、[section 3.8](3-package-information.md#3.8)  Files Analyzed（解析したファイル）を参照。
+**1.8.2** 外部パッケージが、SPDX文書中で参照可能となった。これらの外部パッケージを示すSPDXファイル情報が無い場合には、パッケージの`filesAnnalyzed `属性はFalseにするべきである。詳細は、[section 3.8](3-package-information.md#3.8)  Files Analyzed（解析したファイル）を参照。
 
 **1.8.3** 追加情報、メタデータ、要素列挙（Enumeration）やパッケージに関連すると考えられるダウンロード可能なコンテンツについての外部ソースへの参照を許す「外部参照」をパッケージに関連付けることができる。参照：[3.21 外部参照](3-package-information.md#3.21), [3.22 外部参照コメント](3-package-information.md#3.22) 、詳細は [Appendix VI: 外部リポジトリ識別子](./appendix-VI-external-repository-identifiers.md) 
 
