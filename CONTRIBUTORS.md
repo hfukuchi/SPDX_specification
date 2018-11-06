@@ -5,4 +5,5 @@
 
 ## review
 * Tomo Dote
+* Norio Kobota
 * Yuki Machida
