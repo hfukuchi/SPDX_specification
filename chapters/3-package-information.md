@@ -78,7 +78,7 @@
         ...
     </Package>
 
-## 3.3 Package Version（パッケージ名） <a name="3.3"></a>
+## 3.3 Package Version（パッケージ バージョン） <a name="3.3"></a>
 
 **3.3.1** 目的：パッケージのバージョンを特定する。
 
