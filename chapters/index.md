@@ -188,8 +188,11 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 ### 9.3 Review Comment （レビュー コメント）(deprecated)（廃止予定）
 
 ## Appendix I: SPDX License List（SPDXライセンス リスト）
+
 ###　I.1 Licenses with Short Identifiers（ライセンスと簡易識別子）
+
 ###　I.2 Exceptions List（例外リスト）
+
 ###　I.3 Deprecated Licenses（廃止予定ライセンス）
 
 ## Appendix II: License Matching Guidelines and Templates（ライセンス整合ガイドラインとテンプレート）
