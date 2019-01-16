@@ -7,10 +7,10 @@ Unofficial Japanese translation of SPDX specification
 
 ## 非公式日本語訳は以下にあります
 
-* WORD版（レビュー版）
-  * https://github.com/hfukuchi/SPDX_specification/tree/master/review
-
-* MarkDown版（レビュー版）
+* PDF版（リリース版）
+  * https://github.com/hfukuchi/SPDX_specification/blob/master/release/spdxversion2.1_J_Release_20190116.pdf
+  
+* MarkDown版（リリース版）
   * https://github.com/hfukuchi/SPDX_specification/tree/master/chapters
 
 
