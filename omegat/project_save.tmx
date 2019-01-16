@@ -504,8 +504,8 @@
       <tuv lang="EN-US">
         <seg>## 3.3 Package Version &lt;a name="3.3"&gt;&lt;/a&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180928T010136Z" creationid="hfukuchi" creationdate="20180928T010136Z">
-        <seg>## 3.3 Package Version（パッケージ名） &lt;a name="3.3"&gt;&lt;/a&gt;</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20190116T021158Z" creationid="hfukuchi" creationdate="20180928T010136Z">
+        <seg>## 3.3 Package Version（パッケージ バージョン） &lt;a name="3.3"&gt;&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
