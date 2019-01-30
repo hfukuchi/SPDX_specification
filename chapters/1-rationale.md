@@ -68,7 +68,7 @@ Software Package Data Exchange（ソフトウェア パッケージ データ交
 
 **1.7.1** SPDX Trademark License （SPDX商標ライセンス）の要求をすべて満足すれば、ファイルをSPDX文書と呼ぶことができる (SPDX商標ページを参照)
 
-**1.7.2** このSPDX &reg; 仕様2.1の逐語的な複製または頒布に使う公式な著作権表記は以下である：
+**1.7.2** このSPDX &reg; 仕様2.1.1の逐語的な複製または頒布に使う公式な著作権表記は以下である：
 
 "Official SPDX &reg; Specification 2.1.1 Copyright &copy; 2010-2018 Linux Foundation and its Contributors. Licensed under the Creative Commons Attribution License 3.0 Unported. All other rights are expressly reserved."
 
