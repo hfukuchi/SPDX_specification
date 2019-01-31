@@ -7,3 +7,5 @@
 * Tomo Dote
 * Norio Kobota
 * Yuki Machida
+* Satoru Koizumi
+
