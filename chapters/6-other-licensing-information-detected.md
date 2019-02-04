@@ -52,7 +52,7 @@
 
 **6.2.5** Tag: `ExtractedText:`
 
-`tag:value`フォーマットでは、これは `<text>...</text>`.で分離される。
+`tag:value`フォーマットでは、これは `<text>...</text>` で分離される。
 
 例1（ライセンスに対する簡易参照だけがファイルにある場合）：
 
@@ -141,7 +141,7 @@
 
 **6.5.5** Tag: `LicenseComment:`
 
-`tag:value`フォーマットでは、これは `<text>...</text>`.で分離される。
+`tag:value`フォーマットでは、これは `<text>...</text>` で分離される。
 
 例：
 
