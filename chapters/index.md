@@ -25,7 +25,7 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 
 ### 1.8 SPDX仕様2.0からの差分
 
-## 2 文書作成情報
+## 2 [文書作成情報](./2-document-creation-information.md)
 
 ### 2.1 SPDX Version（SPDXバージョン）
 
@@ -49,7 +49,7 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 
 ### 2.11 Document Comment（文書コメント）
 
-## 3 Package Information（パッケージ情報）
+## 3 [Package Information（パッケージ情報）](./3-package-information.md)
 
 ### 3.1 Package Name（パッケージ名）
 
@@ -95,7 +95,7 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 
 ### 3.22 External Reference Comment（外部参照コメント）
 
-## 4 File Information（ファイル情報）
+## 4 [File Information（ファイル情報）](./4-file-information.md)
 
 ### 4.1 File Name（ファイル名）
 
@@ -127,7 +127,7 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 
 ### 4.15 File Dependencies (deprecated)（ファイル依存関係）（廃止予定）
 
-## 5 Snippet Information（コード断片情報）
+## 5 [Snippet Information（コード断片情報）](./5-snippet-information.md)
 
 ### 5.1 Snippet SPDX Identifier（コード断片SPDX識別子）
 
@@ -149,7 +149,7 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 
 ### 5.10 Snippet Name（コード断片名）
 
-## 6 Other Licensing Information Detected（検出された他ライセンス情報）
+## 6 [Other Licensing Information Detected（検出された他ライセンス情報）](./6-other-licensing-information-detected.md)
 
 ### 6.1 License Identifier（ライセンス識別子）
 
@@ -161,13 +161,13 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 
 ### 6.5 License Comment（ライセンス コメント）
 
-## 7 Relationships between SPDX Elements（SPDX要素間の関係）
+## 7 [Relationships between SPDX Elements（SPDX要素間の関係）](./7-relationships-between-SPDX-elements.md)
 
 ### 7.1 Relationship（関係）
 
 ### 7.2 Relationship Comment（関係コメント）
 
-## 8 Annotations（注釈）
+## 8 [Annotations（注釈）](./8-annotations.md)
 
 ### 8.1 Annotator（注釈者）
 
@@ -179,7 +179,7 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 
 ### 8.5 Annotation Comment（注釈コメント）
 
-## 9 Review Information （レビュー情報）(deprecated)（廃止予定）
+## 9 [Review Information （レビュー情報）(deprecated)（廃止予定）](./9-review-information-deprecated.md)
 
 ### 9.1 Reviewer（レビュアー） (deprecated)（廃止予定）
 
@@ -187,7 +187,7 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 
 ### 9.3 Review Comment （レビュー コメント）(deprecated)（廃止予定）
 
-## Appendix I: SPDX License List（SPDXライセンス リスト）
+## Appendix I: [SPDX License List（SPDXライセンス リスト）](./appendix-I-SPDX-license-list.md)
 
 ### I.1 Licenses with Short Identifiers（ライセンスと簡易識別子）
 
@@ -195,15 +195,15 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 
 ### I.3 Deprecated Licenses（廃止予定ライセンス）
 
-## Appendix II: License Matching Guidelines and Templates（ライセンス整合ガイドラインとテンプレート）
+## Appendix II: [License Matching Guidelines and Templates（ライセンス整合ガイドラインとテンプレート）](./appendix-II-license-matching-guidelines-and-templates.md)
 
-## Appendix III: RDFデータ モデル実装と識別子構文
+## Appendix III: [RDFデータ モデル実装と識別子構文](./appendix-III-RDF-data-model-implementation-and-identifier-syntax.md)
 
-## Appendix IV: SPDX License Expressions（SPDXライセンス表現）
+## Appendix IV: [SPDX License Expressions（SPDXライセンス表現）](./appendix-IV-SPDX-license-expressions.md)
 
-## Appendix V: ソース ファイルへのSPDX簡易識別子の適用
+## Appendix V: [ソース ファイルへのSPDX簡易識別子の適用](./appendix-V-using-SPDX-short-identifiers-in-source-files.md)
 
-## Appendix VI: External Repository Identifiers（外部リポジトリ識別子）
+## Appendix VI: [External Repository Identifiers（外部リポジトリ識別子）](./appendix-VI-external-repository-identifiers.md)
 
-## Appendix VII: Creative Commons Attribution License 3.0 Unported
+## Appendix VII: [Creative Commons Attribution License 3.0 Unported](./appendix-VII-creative-commons-attribution-license-3.0-unported.md)
 
