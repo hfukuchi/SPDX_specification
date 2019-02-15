@@ -7,7 +7,7 @@ Copyright c 2010-2018 Linux Foundation and its Contributors. This work is licens
 
 # 目次
 
-## 1 理論的根拠
+## 1 [理論的根拠](./1-rationale.md)
 
 ### 1.1 趣意
 
